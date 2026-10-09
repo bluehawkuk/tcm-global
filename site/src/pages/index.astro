@@ -1,0 +1,161 @@
+---
+import herbs from '../data/herbs.json';
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>国际公认中药科研文献图谱</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --primary: #0f766e;
+      --primary-light: #ccfbf1;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 2.5rem 1rem;
+    }
+    .container { max-width: 1100px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 2.5rem; }
+    h1 { font-size: 2.2rem; color: #134e4a; margin-bottom: 0.5rem; }
+    p.subtitle { color: var(--muted); font-size: 1.05rem; margin-top: 0; }
+    
+    .search-box {
+      max-width: 500px;
+      margin: 1.5rem auto 0 auto;
+    }
+    .search-input {
+      width: 100%;
+      padding: 0.8rem 1.2rem;
+      border-radius: 9999px;
+      border: 1px solid var(--border);
+      font-size: 1rem;
+      outline: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+      transition: border-color 0.2s;
+    }
+    .search-input:focus { border-color: var(--primary); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.06);
+      border-color: #cbd5e1;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      align-self: flex-start;
+    }
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin: 0 0 0.4rem 0;
+      color: #0f172a;
+    }
+    .card-latin {
+      font-style: italic;
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 400;
+      display: block;
+      margin-bottom: 0.75rem;
+    }
+    .card-desc {
+      font-size: 0.9rem;
+      color: #475569;
+      line-height: 1.55;
+      margin-bottom: 1.25rem;
+      flex-grow: 1;
+    }
+    .card-footer {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid #f1f5f9;
+      padding-top: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌿 国际公认中药科研文献图谱</h1>
+      <p class="subtitle">收录 WHO、USP 等国际标准权威品种 · 直连 PubMed / DOI 实时文献库</p>
+      <div class="search-box">
+        <input type="text" id="searchInput" class="search-input" placeholder="输入中药名、拉丁名或功效搜索..." />
+      </div>
+    </header>
+
+    <div class="grid" id="herbGrid">
+      {herbs.map((h) => (
+        <a href={`/herbs/${h.id}`} class="card" data-keywords={`${h.cn} ${h.latin} ${h.en} ${h.overview} ${h.active_compounds.join(' ')}`}>
+          <div>
+            <span class="badge">{h.international_status}</span>
+            <div class="card-title">{h.cn}</div>
+            <span class="card-latin">{h.latin} ({h.en})</span>
+            <div class="card-desc">{h.overview.slice(0, 85)}...</div>
+          </div>
+          <div class="card-footer">
+            <span>收录 {h.papers.length} 篇前沿科研文献</span>
+            <span>查看报告 →</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <script>
+    const searchInput = document.getElementById('searchInput');
+    const cards = document.querySelectorAll('.card');
+
+    searchInput?.addEventListener('input', (e) => {
+      const term = (e.target as HTMLInputElement).value.toLowerCase();
+      cards.forEach((card) => {
+        const keywords = card.getAttribute('data-keywords')?.toLowerCase() || '';
+        if (keywords.includes(term)) {
+          (card as HTMLElement).style.display = 'flex';
+        } else {
+          (card as HTMLElement).style.display = 'none';
+        }
+      });
+    });
+  </script>
+</body>
+</html>

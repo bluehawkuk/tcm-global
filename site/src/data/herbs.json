@@ -1,0 +1,295 @@
+[
+  {
+    "id": "artemisia-annua",
+    "cn": "青蒿",
+    "latin": "Artemisia annua",
+    "en": "Sweet Wormwood",
+    "overview": "青蒿（Artemisia annua L.）为菊科蒿属植物，传统中药中用于清热解暑、除蒸截疟。现代药理学研究的里程碑是从中分离出高效抗疟成分青蒿素，彻底改变了全球抗疟疾治疗格局，具有极高的国际认可度。",
+    "active_compounds": [
+      "青蒿素 (Artemisinin)",
+      "青蒿素A (Artemisinin A)",
+      "双氢青蒿素 (Dihydroartemisinin)",
+      "青蒿酸 (Arteannuin B)",
+      "东莨菪素 (Scopoletin)"
+    ],
+    "pharmacology": [
+      "抗疟机制：青蒿素中的过氧桥键被疟原虫体内亚铁血红素激活，产生自由基，攻击疟原虫的膜结构并烷基化关键蛋白，导致其死亡。",
+      "抗炎与免疫调节：通过抑制NF-kappa B信号通路，减少炎症因子（如TNF-alpha、IL-6）的释放，表现出显著的抗炎作用。",
+      "抗肿瘤活性：诱导肿瘤细胞凋亡，抑制血管生成，对多种恶性肿瘤细胞株具有细胞毒作用。",
+      "抗菌与抗病毒：对多种革兰氏阳性菌、阴性菌以及部分病毒具有抑制作用。"
+    ],
+    "international_status": "青蒿及青蒿素类抗疟药已被世界卫生组织（WHO）列入基本药物清单，作为全球抗击疟疾的一线核心药物。青蒿及相关提取物标准已被美国药典（USP）、欧洲药典（EP）及中国药典（ChP）等国际权威药典收录。",
+    "papers": [
+      {
+        "title": "Artemisinin alleviates hippocampal neuronal apoptosis and cognitive impairment in rats after cardiac arrest resuscitation: Association with the PI3K/Akt pathway.",
+        "source": "Pak J Pharm Sci",
+        "year": "2026",
+        "pmid": "42708788",
+        "url": "https://doi.org/10.36721/PJPS.2026.39.12.334.1"
+      },
+      {
+        "title": "Artesunate potentiates poly (ADP-ribose) polymerase inhibitor efficacy in ovarian cancer through RAD51-mediated homologous recombination repair impairment.",
+        "source": "Phytomedicine",
+        "year": "2026",
+        "pmid": "42721822",
+        "url": "https://doi.org/10.1016/j.phymed.2026.158420"
+      },
+      {
+        "title": "Efficacy and safety of Artemisia annua pollen sublingual immunotherapy in patients with seasonal allergic rhinoconjunctivitis with or without comorbid asthma: A real-world study.",
+        "source": "J Int Med Res",
+        "year": "2026",
+        "pmid": "42698296",
+        "url": "https://doi.org/10.1177/03000605261484860"
+      },
+      {
+        "title": "Isobonducellin phytocompound from Artemisia annua L. plant exhibits anti-colorectal cancer activity via AKT1 regulation: an in-silico study.",
+        "source": "Comput Biol Med",
+        "year": "2026",
+        "pmid": "42431013",
+        "url": "https://doi.org/10.1016/j.compbiomed.2026.111854"
+      },
+      {
+        "title": "Phytochemical synergy in artemisia annua herbal tea against malaria: a systematic review of its efficacy and safety in the context of emerging Pfkelch13 resistance.",
+        "source": "Infect Dis Poverty",
+        "year": "2026",
+        "pmid": "42596018",
+        "url": "https://doi.org/10.1186/s40249-026-01486-x"
+      }
+    ]
+  },
+  {
+    "id": "panax-ginseng",
+    "cn": "人参",
+    "latin": "Panax ginseng",
+    "en": "Asian Ginseng",
+    "overview": "人参（Panax ginseng C.A. Meyer）为五加科人参属植物，具有极高的药用价值，在传统医学中被誉为补气圣药，现代广泛应用于调节机体免疫、抗疲劳、改善心血管功能及神经保护等方面。",
+    "active_compounds": [
+      "人参皂苷Rb1",
+      "人参皂苷Rg1",
+      "人参皂苷Re",
+      "人参皂苷Rd",
+      "人参皂苷Rg3",
+      "人参多糖",
+      "人参挥发油"
+    ],
+    "pharmacology": [
+      "调节下丘脑-垂体-肾上腺轴（HPA轴），增强机体抗应激与抗疲劳能力",
+      "双向调节中枢神经系统，改善认知功能并具有神经保护作用",
+      "通过促进一氧化氮（NO）释放和改善微循环发挥心血管保护作用",
+      "增强巨噬细胞吞噬功能及调节T/B淋巴细胞活性，发挥免疫调节作用",
+      "改善胰岛素抵抗，调节糖脂代谢"
+    ],
+    "international_status": "人参已被收录于世界卫生组织（WHO）专论、美国药典（USP）、欧洲药典（EP）以及英国草药药典（BHP）中，其提取物和标准化制剂在欧美及亚洲多个国家作为膳食补充剂或植物药广泛流 A通。",
+    "papers": [
+      {
+        "title": "Integrating multi-omics and network pharmacology in a systems approach: a mechanism study of ginseng-derived panaxadiol saponins against immune-mediated aplastic anemia.",
+        "source": "J Ethnopharmacol",
+        "year": "2027",
+        "pmid": "42497599",
+        "url": "https://doi.org/10.1016/j.jep.2026.122216"
+      },
+      {
+        "title": "Detection and cross-organ characterization of physiological response to microplastic stress in Panax ginseng based on hyperspectral imaging assisted with machine learning.",
+        "source": "Talanta",
+        "year": "2027",
+        "pmid": "42407160",
+        "url": "https://doi.org/10.1016/j.talanta.2026.130239"
+      },
+      {
+        "title": "Ginsenoside Rb1 alleviates isoproterenol- and transverse aortic constriction-induced cardiac fibrosis by suppressing monocyte recruitment via targeting Raf1.",
+        "source": "Phytomedicine",
+        "year": "2026",
+        "pmid": "42641550",
+        "url": "https://doi.org/10.1016/j.phymed.2026.158738"
+      },
+      {
+        "title": "Decoding Ginsenosides: The Structural and Therapeutic Core of Ginseng.",
+        "source": "Am J Chin Med",
+        "year": "2026",
+        "pmid": "42841877",
+        "url": "https://doi.org/10.1142/S0192415X26500746"
+      },
+      {
+        "title": "Ginsenosides Rb1 and Rg1 Suppress Lipopolysaccharide-Induced Inflammatory Gene Expression in Microglia and Astrocytes, Unlike Rb2.",
+        "source": "Pharmacol Res Perspect",
+        "year": "2026",
+        "pmid": "42762468",
+        "url": "https://doi.org/10.1002/prp2.70324"
+      }
+    ]
+  },
+  {
+    "id": "coptis-chinensis",
+    "cn": "黄连",
+    "latin": "Coptis chinensis",
+    "en": "Chinese Goldthread",
+    "overview": "黄连为毛茛科植物黄连Coptis chinensis Franch.、三角叶黄连Coptis deltoidea C. Y. Cheng et Hsiao或云连Coptis teeta Wall.的干燥根茎。其性寒，味苦，具有清热燥湿、泻火解毒之功效，在中医临床及现代植物药研究中均占有重要地位。",
+    "active_compounds": [
+      "小檗碱 (Berberine)",
+      "巴马亭 (Palmatine)",
+      "黄连碱 (Coptisine)",
+      "药根碱 (Jatrorrhizine)",
+      "表小檗碱 (Epiberberine)"
+    ],
+    "pharmacology": [
+      "广谱抗菌与抗病毒作用：对多种革兰氏阳性及阴性菌具有强效抑制作用，尤其对痢疾杆菌、大肠杆菌等肠道致病菌效果显著。",
+      "抗炎与免疫调节作用：通过抑制炎症因子（如TNF-alpha、IL-6）的释放，下调NF-kappaB信号通路的表达，发挥显著抗炎效应。",
+      "降血糖与改善胰岛素抵抗：主要活性成分小檗碱能激活AMPK途径，促进葡萄糖摄取，改善糖脂代谢紊乱。",
+      "心血管保护作用：具有抗心律失常、抗血小板聚集、舒张血管及改善心肌重塑的作用。"
+    ],
+    "international_status": "黄连及其主要提取物小檗碱已在全球范围内获得广泛认可。小檗碱已被收录于美国药典(USP)和欧洲药典(EP)中，作为质量控制标准；同时，世界卫生组织(WHO)在其传统医药和植物药研究资料中对黄连属植物的药理活性及其在胃肠道感染治疗中的应用给予了高度关注。",
+    "papers": [
+      {
+        "title": "Integrated serum pharmacochemistry-guided evaluation of Diyu Huanglian San against ethanol-induced gastric injury: involvement of kaempferol and PI3K/AKT signaling.",
+        "source": "J Ethnopharmacol",
+        "year": "2027",
+        "pmid": "42431284",
+        "url": "https://doi.org/10.1016/j.jep.2026.122179"
+      },
+      {
+        "title": "Osteogenic peptide-engineered Coptis chinensis-derived extracellular vesicles promote immuno-osteogenic repair of diabetic bone defects.",
+        "source": "Colloids Surf B Biointerfaces",
+        "year": "2026",
+        "pmid": "42485834",
+        "url": "https://doi.org/10.1016/j.colsurfb.2026.116003"
+      },
+      {
+        "title": "Oxypalmatine alleviates ulcerative colitis through RAB8A-mediated inhibition of STAT1-driven pro-inflammatory macrophage polarization.",
+        "source": "Phytomedicine",
+        "year": "2026",
+        "pmid": "42691593",
+        "url": "https://doi.org/10.1016/j.phymed.2026.158766"
+      },
+      {
+        "title": "Traditional Chinese medicine reverses immune checkpoint resistance through lactate metabolic reprogramming in hepatocellular carcinoma: Mechanisms and therapeutic implications.",
+        "source": "J Ethnopharmacol",
+        "year": "2026",
+        "pmid": "42178078",
+        "url": "https://doi.org/10.1016/j.jep.2026.121885"
+      },
+      {
+        "title": "Berberine as a multi-hallmark modulator of aging: From AMPK and mitophagy to inflammaging and the SASP.",
+        "source": "Fitoterapia",
+        "year": "2026",
+        "pmid": "42805510",
+        "url": "https://doi.org/10.1016/j.fitote.2026.107497"
+      }
+    ]
+  },
+  {
+    "id": "salvia-miltiorrhiza",
+    "cn": "丹参",
+    "latin": "Salvia miltiorrhiza",
+    "en": "Red Sage",
+    "overview": "丹参（Salvia miltiorrhiza Bunge）为唇形科鼠尾草属植物，其干燥根及根茎在中医药中广泛用于治疗心脑血管疾病。现代药理学研究表明，丹参具有显著的活血化瘀、改善微循环、保护心肌和抗动脉粥样硬化等作用。",
+    "active_compounds": [
+      "丹参酮I (Cryptotanshinone)",
+      "丹参酮IIA (Tanshinone IIA)",
+      "隐丹参酮 (Cryptotanshinone)",
+      "丹参素 (Salvianolic acid A)",
+      "丹参酸B (Salvianolic acid B)"
+    ],
+    "pharmacology": [
+      "抗血小板聚集与抗血栓形成：抑制血小板膜受体及花生四烯酸代谢，降低血液黏度。",
+      "保护心肌与抗缺血再灌注损伤：清除自由基，减轻钙超载，抑制细胞凋亡。",
+      "改善微循环与舒张血管：通过内皮依赖性和非依赖性机制松弛血管平滑肌，增加组织血流量。",
+      "抗动脉粥样硬化与抗炎：抑制巨噬细胞源性泡沫细胞形成，下调炎性细胞因子表达，抑制血管平滑肌细胞增殖。",
+      "器官纤维化保护：调节TGF-beta/Smad信号通路，抑制肝、肾及心脏纤维化进程。"
+    ],
+    "international_status": "丹参已被收录于《美国药典》(USP)、《欧洲药典》(EP)以及《中华人民共和国药典》(ChP)。其提取物及相关复方已在多个西方国家开展现代随机对照临床试验(RCT)，部分产品通过了美国FDA的临床试验审批，并在欧盟依传统草药注册程序获得上市许可。",
+    "papers": [
+      {
+        "title": "Pathogenesis and therapeutic potential of traditional Chinese medicine intervention in hypertension combined with insomnia.",
+        "source": "J Ethnopharmacol",
+        "year": "2027",
+        "pmid": "42456906",
+        "url": "https://doi.org/10.1016/j.jep.2026.122186"
+      },
+      {
+        "title": "Danshen-Chuanxiong alleviates cerebral ischemia by regulating carnitine metabolism and angiogenesis via activating CPT1/HIF-1α signaling axis.",
+        "source": "J Ethnopharmacol",
+        "year": "2027",
+        "pmid": "42431282",
+        "url": "https://doi.org/10.1016/j.jep.2026.122181"
+      },
+      {
+        "title": "Salvia miltiorrhiza Bunge alleviates pulmonary fibrosis by promoting fibroblast mitophagy.",
+        "source": "J Ethnopharmacol",
+        "year": "2026",
+        "pmid": "42361931",
+        "url": "https://doi.org/10.1016/j.jep.2026.122095"
+      },
+      {
+        "title": "Salvianolic acid B enhances adipose-derived stem cells (ADSCs)-mediated perforator flap survival through antioxidative and anti-apoptotic mechanisms.",
+        "source": "Biochim Biophys Acta Mol Cell Res",
+        "year": "2026",
+        "pmid": "42648648",
+        "url": "https://doi.org/10.1016/j.bbamcr.2026.120214"
+      },
+      {
+        "title": "Protective effect of Salvia Miltiorrhiza Injection on myocardial injury in rats with haemorrhagic shock resuscitated by HBOC-CHP01.",
+        "source": "Artif Cells Nanomed Biotechnol",
+        "year": "2026",
+        "pmid": "41758521",
+        "url": "https://doi.org/10.1080/21691401.2026.2632551"
+      }
+    ]
+  },
+  {
+    "id": "ginkgo-biloba",
+    "cn": "银杏叶",
+    "latin": "Ginkgo biloba",
+    "en": "Ginkgo",
+    "overview": "银杏叶（Ginkgo biloba）为银杏科植物银杏的干燥叶，在现代植物药中具有极高的地位。其标准化提取物（如EGb 761）被广泛应用于治疗心脑血管及神经系统疾病，具有确切的临床疗效和深厚的现代药理学研究基础。",
+    "active_compounds": [
+      "黄酮类化合物（如槲皮素、山奈酚、异鼠李素）",
+      "萜类内酯（包括银杏内酯A、B、C、J及白果内酯）",
+      "有机酸",
+      "长链酚酸（白果酸，需在提取中严格控制其含量以降低毒性）"
+    ],
+    "pharmacology": [
+      "抗血小板聚集与抗血栓形成：银杏内酯B是强效的血小板活化因子（PAF）受体拮抗剂，能抑制PAF诱导的血小板聚集。",
+      "改善微循环与调节血管张力：促进血管内皮细胞释放一氧化氮（NO），舒张血管，降低血液粘稠度，增加组织血流量。",
+      "抗氧化与清除自由基：黄酮类成分具有强抗氧化活性，可清除活性氧自由基，减轻脂质过氧化反应。",
+      "神经保护作用：抑制细胞凋亡，改善线粒体功能，减轻缺血/再灌注损伤及β-淀粉样蛋白诱导的神经毒性，改善认知功能。"
+    ],
+    "international_status": "银杏叶及其标准化提取物已被世界卫生组织（WHO）收录；同时被美国药典（USP）、欧洲药典（EP）、英国药典（BP）以及中国药典（ChP）等多个国家和地区的官方药典正式收录。在欧盟，银杏叶提取物作为植物药（Herbal Medicinal Product）获得广泛注册与应用；在美国，它作为长期畅销的膳食补充剂和草药提取物存在。",
+    "papers": [
+      {
+        "title": "Ginkgo biloba extract 50 alleviates memory and synaptic plasticity deficits by inhibiting neuroinflammation via the blockage of ATP-P2X7R axis in presenilin 1/2 conditional double knockout mice.",
+        "source": "J Ethnopharmacol",
+        "year": "2027",
+        "pmid": "42471071",
+        "url": "https://doi.org/10.1016/j.jep.2026.122199"
+      },
+      {
+        "title": "Mechanistic insights into Ginkgo biloba leaves against cisplatin-induced ototoxicity: An approach combining network pharmacology and computer simulation.",
+        "source": "Comput Biol Chem",
+        "year": "2026",
+        "pmid": "42667755",
+        "url": "https://doi.org/10.1016/j.compbiolchem.2026.109346"
+      },
+      {
+        "title": "Ginkgolic acid targets HSPA8 to trigger ferroptosis in hepatocellular carcinoma via chaperone-mediated autophagy-dependent GPX4 degradation.",
+        "source": "Pharm Biol",
+        "year": "2026",
+        "pmid": "41877645",
+        "url": "https://doi.org/10.1080/13880209.2026.2646350"
+      },
+      {
+        "title": "Ginkgo biloba sarcotesta extract suppresses Alternaria alternata via membrane disruption and oxidative damage: a dual-mode antifungal mechanism.",
+        "source": "Microb Pathog",
+        "year": "2026",
+        "pmid": "42722139",
+        "url": "https://doi.org/10.1016/j.micpath.2026.108753"
+      },
+      {
+        "title": "Ginkgolide A alleviated liver fibrosis by modulating PI3K/AKT/NF-κB signaling to inhibit M1 macrophage polarization and macrophage-HSC crosstalk.",
+        "source": "Int Immunopharmacol",
+        "year": "2026",
+        "pmid": "42659933",
+        "url": "https://doi.org/10.1016/j.intimp.2026.117326"
+      }
+    ]
+  }
+]

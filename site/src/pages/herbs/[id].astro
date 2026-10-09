@@ -1,0 +1,169 @@
+---
+import herbs from '../../data/herbs.json';
+
+export async function getStaticPaths() {
+  return herbs.map((herb) => ({
+    params: { id: herb.id },
+    props: { herb },
+  }));
+}
+
+const { herb } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>{herb.cn} ({herb.latin}) - 现代科研全景</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --primary: #0f766e;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 2.5rem 1rem;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      padding: 2.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.02);
+    }
+    .back-nav {
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .back-nav:hover { text-decoration: underline; }
+    h1 { font-size: 2.4rem; margin: 0 0 0.5rem 0; color: #134e4a; }
+    .subtitle { color: var(--muted); font-size: 1.05rem; margin-top: 0; margin-bottom: 2rem; }
+    .status-badge {
+      display: inline-block;
+      background: #ccfbf1;
+      color: #0f766e;
+      padding: 0.35rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      font-size: 1.35rem;
+      color: #1e293b;
+      border-bottom: 2px solid #f1f5f9;
+      padding-bottom: 0.5rem;
+      margin-top: 2rem;
+    }
+    .overview-text {
+      line-height: 1.8;
+      color: #334155;
+      font-size: 1.05rem;
+    }
+    .pill-group { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+    .pill {
+      background: #f1f5f9;
+      color: #334155;
+      padding: 0.35rem 0.85rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      border: 1px solid #e2e8f0;
+    }
+    .pill.pharma { background: #e0f2fe; color: #0369a1; border-color: #bae6fd; }
+
+    .paper-list { margin-top: 1.25rem; display: flex; flex-direction: column; gap: 1rem; }
+    .paper-card {
+      padding: 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #fafafa;
+      transition: all 0.2s;
+    }
+    .paper-card:hover {
+      background: #ffffff;
+      border-color: #94a3b8;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+    }
+    .paper-link {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #0f172a;
+      text-decoration: none;
+      line-height: 1.45;
+      display: block;
+    }
+    .paper-link:hover { color: var(--primary); text-decoration: underline; }
+    .paper-meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      align-items: center;
+    }
+    .pmid-badge {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      color: #475569;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="/" class="back-nav">← 返回中药名录</a>
+    <span class="status-badge">{herb.international_status}</span>
+    <h1>{herb.cn}</h1>
+    <div class="subtitle">学名：<em>{herb.latin}</em> | 英文常称：{herb.en}</div>
+
+    <h2>药理机制与国际应用概述</h2>
+    <p class="overview-text">{herb.overview}</p>
+
+    <h2>主要化学单体 / 活性成分</h2>
+    <div class="pill-group">
+      {herb.active_compounds.map((c: string) => <span class="pill">{c}</span>)}
+    </div>
+
+    <h2>核心药理作用</h2>
+    <div class="pill-group">
+      {herb.pharmacology.map((p: string) => <span class="pill pharma">{p}</span>)}
+    </div>
+
+    <h2>国内外权威科研文献（直连 PubMed / DOI 原文）</h2>
+    <div class="paper-list">
+      {herb.papers.map((paper: any) => (
+        <div class="paper-card">
+          <a href={paper.url} target="_blank" rel="noopener noreferrer" class="paper-link">
+            {paper.title} ↗
+          </a>
+          <div class="paper-meta">
+            <span><strong>期刊：</strong>{paper.source}</span>
+            <span><strong>年份：</strong>{paper.year}</span>
+            <span class="pmid-badge">PMID: {paper.pmid}</span>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</body>
+</html>

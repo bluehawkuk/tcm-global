@@ -1,0 +1,8 @@
+node_modules/
+.astro/
+dist/
+.env
+site/node_modules/
+site/.astro/
+site/dist/
+generate_data.py
