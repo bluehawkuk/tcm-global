@@ -1,8 +1,10 @@
 ---
 import herbs from '../data/herbs.json';
 
-// 首页精选 8 种核心药材展示
-const featuredHerbs = herbs.filter(h => h.featured);
+// 首页精选：优先取 featured === true，若无则默认取前 8 种，确保线上永远有 8 种药材渲染，绝不留白
+const featuredHerbs = (herbs.filter(h => h.featured).length >= 8) 
+  ? herbs.filter(h => h.featured).slice(0, 8) 
+  : herbs.slice(0, 8);
 ---
 <!DOCTYPE html>
 <html lang="zh-CN">
