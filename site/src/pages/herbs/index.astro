@@ -90,8 +90,8 @@ const allHerbs = Array.isArray(herbs) ? herbs : [];
     .herb-thumb, :global(.herb-thumb), :global(.herb-item img) { 
       width: 140px !important; 
       height: 140px !important; 
-      min-width: 140px !important;
-      min-height: 140px !important;
+      min-width: 140px !important; 
+      min-height: 140px !important; 
       max-width: 140px !important; 
       max-height: 140px !important; 
       border-radius: 50% !important; 
@@ -251,15 +251,12 @@ const allHerbs = Array.isArray(herbs) ? herbs : [];
       document.querySelectorAll('.enter-btn').forEach(el => {
         el.innerText = dict.enter_atlas;
       });
-
-      const count = herbGrid.querySelectorAll('.herb-item').length;
-      gridCount.innerText = `${dict.count_prefix} ${count} ${dict.count_unit}`;
-
-     // 切换所有药材卡片标签
       document.querySelectorAll('.tag-sm').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
+      const count = herbGrid.querySelectorAll('.herb-item').length;
+      gridCount.innerText = `${dict.count_prefix} ${count} ${dict.count_unit}`;
     }
 
     btnZh.addEventListener('click', () => applyLang('zh'));
@@ -304,7 +301,7 @@ const allHerbs = Array.isArray(herbs) ? herbs : [];
             <div class="herb-name" data-cn="${h.cn}" data-en="${h.en_common || h.latin}">${displayName}</div>
             <div class="herb-en">${h.latin}</div>
             <div class="herb-tags">
-              ${(h.tags || []).slice(0, 2).map(t => `<span class="tag-sm">${t}</span>`).join('')}
+              ${(h.tags || []).slice(0, 2).map((t, idx) => `<span class="tag-sm" data-cn="${t}" data-en="${(h.tags_en && h.tags_en[idx]) \vert{}\vert{} t}">${currentLang === 'en' ? ((h.tags_en && h.tags_en[idx]) || t) : t}</span>`).join('')}
             </div>
             <span class="enter-btn" style="color:var(--primary);font-size:0.8rem;font-weight:600;">${dict.enter_atlas}</span>
           </a>

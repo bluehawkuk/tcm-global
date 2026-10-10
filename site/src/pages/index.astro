@@ -24,14 +24,12 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
     html, body { width: 100%; overflow-x: hidden; }
     body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif; background: var(--bg); color: var(--text-main); }
     
-    /* 顶部导航 */
     .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 3rem; background: #fff; border-bottom: 1px solid var(--border); }
     .logo { font-size: 1.35rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 0.5rem; text-decoration: none; }
     .nav-right-wrap { display: flex; align-items: center; gap: 1.8rem; }
     .nav-links { display: flex; gap: 1.5rem; list-style: none; font-size: 0.95rem; }
     .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; }
 
-    /* 语言切换胶囊按钮 */
     .lang-switch {
       display: inline-flex;
       align-items: center;
@@ -55,7 +53,6 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
       font-weight: 600;
     }
     
-    /* 桌面端 Hero 默认布局 */
     .hero { display: grid; grid-template-columns: 1.15fr 1fr; padding: 4rem 3rem; max-width: 1300px; margin: 0 auto; align-items: center; gap: 3.5rem; width: 100%; }
     .hero-title { font-size: 3.2rem; color: #1e3a29; margin-bottom: 0.5rem; letter-spacing: 2px; line-height: 1.2; }
     .hero-subtitle { font-family: "Georgia", serif; font-style: italic; color: #7d827a; font-size: 1.3rem; margin-bottom: 1.5rem; }
@@ -105,8 +102,8 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
     :global(.herb-item img) { 
       width: 140px !important; 
       height: 140px !important; 
-      min-width: 140px !important;
-      min-height: 140px !important;
+      min-width: 140px !important; 
+      min-height: 140px !important; 
       max-width: 140px !important; 
       max-height: 140px !important; 
       border-radius: 50% !important; 
@@ -122,7 +119,6 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
     .herb-tags, :global(.herb-tags) { display: flex !important; justify-content: center !important; gap: 0.4rem !important; flex-wrap: wrap !important; margin-bottom: 1rem !important; }
     .tag-sm, :global(.tag-sm) { background: #f2eee5 !important; color: #5a574f !important; font-size: 0.75rem !important; padding: 0.2rem 0.5rem !important; border-radius: 4px !important; white-space: nowrap !important; }
 
-    /* 移动端专属响应式适配 */
     @media (max-width: 768px) {
       .top-nav { padding: 0.8rem 1rem; }
       .nav-links { display: none; }
@@ -178,7 +174,6 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
         <li><a href="/herbs" data-i18n="nav_all">全部中药 (50味)</a></li>
       </ul>
       
-      <!-- 双语切换器 -->
       <div class="lang-switch" id="langSwitch">
         <span class="lang-btn active" id="btnZh">中</span>
         <span class="lang-btn" id="btnEn">EN</span>
@@ -218,7 +213,6 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
       <a href="/herbs" style="color:var(--primary);font-weight:600;font-size:0.92rem;text-decoration:none;" data-i18n="link_view_all">查看全部 50 味中药 →</a>
     </div>
 
-    <!-- 药材网格 -->
     <div class="herb-grid" id="herbGrid">
       {featuredHerbs.map((h) => (
         <a href={`/herbs/${h.id}`} class="herb-item" data-id={h.id}>
@@ -302,27 +296,22 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
 
       if (searchInput) searchInput.placeholder = dict.search_ph;
 
-      // 更新卡片上的标题显示（中文名 / 英文常用名）
       document.querySelectorAll('.herb-name').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
       document.querySelectorAll('.enter-btn').forEach(el => {
         el.innerText = dict.enter_atlas;
       });
-     // 切换所有标签文本
       document.querySelectorAll('.tag-sm').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
-
     }
 
     btnZh.addEventListener('click', () => applyLang('zh'));
     btnEn.addEventListener('click', () => applyLang('en'));
 
-    // 初始化加载
     applyLang(currentLang);
 
-    // 搜索过滤与实时语言适配
     const defaultHTML = herbGrid.innerHTML;
 
     searchInput.addEventListener('input', (e) => {
@@ -360,14 +349,9 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
             <img src="${h.hero_img}" class="herb-thumb" alt="${h.cn}" loading="lazy" />
             <div class="herb-name" data-cn="${h.cn}" data-en="${h.en_common || h.latin}">${displayName}</div>
             <div class="herb-en">${h.latin}</div>
-   //         <div class="herb-tags">
-      //        ${(h.tags || []).slice(0, 2).map(t => `<span class="tag-sm">${t}</span>`).join('')}
-       //     </div>
-           <div class="herb-tags">
-            {(h.tags || []).slice(0, 2).map((t: string, idx: number) => (
-              <span class="tag-sm" data-cn={t} data-en={(h.tags_en && h.tags_en[idx]) || t}>{t}</span>
-            ))}
-          </div>
+            <div class="herb-tags">
+              ${(h.tags || []).slice(0, 2).map((t, idx) => `<span class="tag-sm" data-cn="${t}" data-en="${(h.tags_en && h.tags_en[idx]) \vert{}\vert{} t}">${currentLang === 'en' ? ((h.tags_en && h.tags_en[idx]) || t) : t}</span>`).join('')}
+            </div>
             <span class="enter-btn" style="color:var(--primary);font-size:0.8rem;font-weight:600;">${dict.enter_atlas}</span>
           </a>
         `;

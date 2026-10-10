@@ -377,7 +377,7 @@
       "Greatly Tonify Primordial Qi",
       "Restore Pulse & Relieve Collapse",
       "Tonify Spleen & Lung",
-      "生津安神"
+      "TCM Efficacy"
     ],
     "dosage_en": "3~9g, 煎汤宜另煎；或入丸、散, 每次1~2g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -566,10 +566,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "清热解蒿",
-      "凉血退蒸",
-      "截疟",
-      "解暑"
+      "TCM Efficacy",
+      "Cool Blood & Clear Steaming Bone",
+      "Check Malaria & Detoxify",
+      "Clear Heat & Relieve Summerheat"
     ],
     "dosage_en": "In decoction, 6-12g, added near the end. do not prolonged boiling, fresh herb: 30-60g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -760,8 +760,8 @@
     "tags_en": [
       "Nourish & Move Blood",
       "Regulate Menses & Relieve Pain",
-      "Moisten Intestines & Free Stool",
-      "活血散寒"
+      "Moisten Intestines & Free Bowels",
+      "TCM Efficacy"
     ],
     "dosage_en": "In decoction, 6～12g. 或入丸、散.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -952,8 +952,8 @@
     "tags_en": [
       "Nourish Liver & Kidney",
       "Boost Essence & Brighten Eyes",
-      "润肺止咳",
-      "抗衰延年"
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "6-12g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -1142,10 +1142,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "补脾胃",
-      "缓急止痛",
-      "润肺止咳",
-      "调和诸药"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "2~10g, 生用清热解毒, 炙用补脾和胃.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -1334,10 +1334,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "活血化瘀",
-      "通脉止痛",
-      "敛肺平喘",
-      "降脂降压"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "每日9-12克, In decoction或制成制剂.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -1526,10 +1526,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "补气清肺",
-      "益智养心",
-      "抗疲劳",
-      "适应原"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "3～9g, In decoction或浸酒",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -1718,10 +1718,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "活血化瘀",
-      "心神不安",
-      "通经止痛",
-      "清心除烦"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "Dredge Meridians & Ease Pain",
+      "Clear Heart & Relieve Restlessness"
     ],
     "dosage_en": "In decoction, 10g至15g；或入丸、散",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -1910,10 +1910,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "健脾益气",
-      "燥湿利水",
-      "止汗",
-      "安胎"
+      "Fortify Spleen & Boost Qi",
+      "Dry Dampness & Promote Diuresis",
+      "Solidify Exterior & Stop Sweat",
+      "Halt Bleeding & Prevent Miscarriage"
     ],
     "dosage_en": "6~12g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -2102,10 +2102,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "利水渗湿",
-      "健脾宁心",
-      "宁心安神",
-      "培土制水"
+      "Promote Urination & Drain Dampness",
+      "Strengthen Spleen & Calm Spirit",
+      "Pacify Heart & Calm Spirit",
+      "TCM Efficacy"
     ],
     "dosage_en": "10-15g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -2294,10 +2294,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "收敛固涩",
-      "益气生津",
-      "补肾宁心",
-      "久咳虚喘"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "3~9g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -2486,10 +2486,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "温里药",
-      "补火助阳",
-      "散寒止痛",
-      "引火归源"
+      "TCM Efficacy",
+      "Reinforce Fire & Support Yang",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "1.5-5g, added near the end或taken with warm water",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -2678,10 +2678,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "解表散寒",
-      "温中止呕",
-      "温肺止咳",
-      "解毒"
+      "TCM Efficacy",
+      "Warm Center & Relieve Vomiting",
+      "Warm Lung & Relieve Cough",
+      "Clear Heat & Detoxify"
     ],
     "dosage_en": "3~10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -2870,10 +2870,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "破血行气",
-      "通经止痛",
-      "温经散寒",
-      "活血祛瘀"
+      "TCM Efficacy",
+      "Dredge Meridians & Ease Pain",
+      "TCM Efficacy",
+      "Activate Blood & Dispel Stasis"
     ],
     "dosage_en": "3~10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -2992,10 +2992,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "健脾",
-      "补气",
-      "活血",
-      "清热"
+      "Fortify Spleen & Boost Qi",
+      "Tonify Qi & Ascend Yang",
+      "Nourish & Move Blood",
+      "Nourish Yin & Clear Heat"
     ],
     "dosage_en": "6-15 克",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -3184,10 +3184,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "解表退热",
-      "疏肝解郁",
-      "升举阳气",
-      "条达肝气"
+      "TCM Efficacy",
+      "Soothe Liver & Relieve Depression",
+      "Ascend & Elevate Spleen Yang",
+      "TCM Efficacy"
     ],
     "dosage_en": "3-10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -3376,10 +3376,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "清热燥湿",
-      "泻火解毒",
-      "止血",
-      "安胎"
+      "Clear Heat & Dry Dampness",
+      "Purge Fire & Eliminate Toxins",
+      "Transform Stasis & Stop Bleeding",
+      "Halt Bleeding & Prevent Miscarriage"
     ],
     "dosage_en": "3~10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -3568,10 +3568,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "宣肺",
-      "利咽",
-      "祛痰",
-      "排脓"
+      "Disperse Lung Qi & Clear Pharynx",
+      "Soothe Throat & Vent Rashes",
+      "Expel Phlegm & Expel Pus",
+      "Expel Phlegm & Expel Pus"
     ],
     "dosage_en": "3~10克",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -3761,9 +3761,9 @@
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
       "Disperse Wind-Heat",
-      "平肝明目",
+      "TCM Efficacy",
       "Clear Heat & Detoxify",
-      "清肺润燥"
+      "TCM Efficacy"
     ],
     "dosage_en": "5~10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -3953,9 +3953,9 @@
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
       "Clear Heat & Detoxify",
-      "凉血止痢",
+      "TCM Efficacy",
       "Disperse Wind-Heat",
-      "消痈散结"
+      "TCM Efficacy"
     ],
     "dosage_en": "In decoction, 10～30g. 外用适量, 捣敷或煎水洗.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -4144,10 +4144,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "清热凉血",
-      "滋阴补肾",
-      "生津润燥",
-      "养血补虚"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "10～30g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -4336,10 +4336,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "补肾阳",
-      "强筋骨",
-      "祛风湿",
-      "抗疲劳"
+      "Tonify Kidney Yang",
+      "Strengthen Bones & Sinews",
+      "Disperse Wind-Dampness",
+      "TCM Efficacy"
     ],
     "dosage_en": "3~15g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -4528,10 +4528,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "补肾益肺",
-      "止血化痰",
-      "秘精益气",
-      "滋补强壮"
+      "Tonify Kidney & Nourish Lung",
+      "Stop Bleeding & Transform Phlegm",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "3～10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -4720,10 +4720,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "补气安神",
-      "止咳平喘",
-      "健脾和胃",
-      "延年益寿"
+      "Tonify Qi & Calm Spirit",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "6~12g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -4912,10 +4912,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "化瘀止血",
-      "活血定痛",
-      "补血生新",
-      "强心抗疲"
+      "Transform Stasis & Stop Bleeding",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "In decoction, 3至10g；研末吞服, 每次1至1.5g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -5104,10 +5104,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "平肝息风",
-      "祛风止痉",
-      "定惊安神",
-      "通络止痛"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "3~10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -5296,10 +5296,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "益胃生津",
-      "滋阴清热",
-      "强筋健骨",
-      "明目"
+      "Nourish Stomach & Engender Fluids",
+      "Nourish Yin & Clear Heat",
+      "TCM Efficacy",
+      "Boost Essence & Brighten Eyes"
     ],
     "dosage_en": "6-15g, fresh herb: 15-30g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -5488,10 +5488,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "补肝肾",
-      "益精血",
-      "乌须发",
-      "强筋骨"
+      "Nourish Liver & Kidney",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "Strengthen Bones & Sinews"
     ],
     "dosage_en": "In decoction, 10～30g. 制首乌用于补肝肾、益精血、乌须发；生首乌用于解毒、润肠通便.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -5680,10 +5680,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "燥湿化痰",
-      "降逆止呕",
-      "消痞散结",
-      "温化寒痰"
+      "Dry Dampness & Transform Phlegm",
+      "Direct Rebellious Qi Downward & Check Vomiting",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "In decoction, 3至9克. 生用多外用, 制半夏多内服.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -5872,10 +5872,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "利水渗湿",
-      "泄热",
-      "化浊降脂",
-      "通淋"
+      "Promote Urination & Drain Dampness",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "In decoction, 6至12克.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -6064,10 +6064,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "舒筋活络",
-      "化湿和胃",
-      "除湿",
-      "消肿"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "Halt Bleeding & Reduce Swelling"
     ],
     "dosage_en": "In decoction, 6～15g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -6256,10 +6256,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "消食健胃",
-      "行气散瘀",
-      "化浊降脂",
-      "活血止痛"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "Move Blood & Relieve Pain"
     ],
     "dosage_en": "9~12g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -6448,10 +6448,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "补肝肾",
-      "强筋骨",
-      "安胎",
-      "降血压"
+      "Nourish Liver & Kidney",
+      "Strengthen Bones & Sinews",
+      "Halt Bleeding & Prevent Miscarriage",
+      "TCM Efficacy"
     ],
     "dosage_en": "10-15g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -6640,10 +6640,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "补益肝肾",
-      "固精缩尿",
-      "收敛固脱",
-      "温补下元"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "6-12g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -6832,10 +6832,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "活血通经",
-      "祛瘀止痛",
-      "产后恶露",
-      "跌打损伤"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "3~10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -7010,10 +7010,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "养心补肝",
-      "宁心安神",
-      "敛汗生津",
-      "滋阴补血"
+      "TCM Efficacy",
+      "Pacify Heart & Calm Spirit",
+      "TCM Efficacy",
+      "Nourish Yin & Tonify Blood"
     ],
     "dosage_en": "10-15g, 研末吞服效果更好, 单用或入煎剂",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -7202,10 +7202,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "理气健脾",
-      "燥湿化痰",
-      "降逆止呕",
-      "和中开胃"
+      "TCM Efficacy",
+      "Dry Dampness & Transform Phlegm",
+      "Direct Rebellious Qi Downward & Check Vomiting",
+      "TCM Efficacy"
     ],
     "dosage_en": "3~10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -7380,10 +7380,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "养阴清肺",
-      "益胃生津",
-      "化痰止咳",
-      "润燥"
+      "TCM Efficacy",
+      "Nourish Stomach & Engender Fluids",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "In decoction, 9~15g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -7572,10 +7572,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "清热泻火",
-      "滋阴润燥",
-      "生津止渴",
-      "骨蒸潮热"
+      "Clear Heat & Drain Fire",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "6-12g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -7764,10 +7764,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "清热燥湿",
-      "泻火解毒",
-      "退虚热",
-      "疗疮疡"
+      "Clear Heat & Dry Dampness",
+      "Purge Fire & Eliminate Toxins",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "3-10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -7956,10 +7956,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "泻火除烦",
-      "清热利湿",
-      "凉血解毒",
-      "消肿止痛"
+      "Drain Fire & Relieve Irritability",
+      "Clear Heat & Drain Dampness",
+      "Cool Blood & Eliminate Toxins",
+      "TCM Efficacy"
     ],
     "dosage_en": "6-10g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -8149,9 +8149,9 @@
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
       "Clear Heat & Detoxify",
-      "消肿散结",
+      "TCM Efficacy",
       "Disperse Wind-Heat",
-      "透热转气"
+      "TCM Efficacy"
     ],
     "dosage_en": "6~15g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -8341,9 +8341,9 @@
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
       "Clear Heat & Detoxify",
-      "消肿散结",
-      "利尿通淋",
-      "凉血清肝"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "In decoction, 10～30g；鲜品加倍.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -8534,7 +8534,7 @@
     "tags_en": [
       "Disperse Wind-Heat",
       "Clear & Benefit Head/Eyes",
-      "Benefit Throat & Vent Rashes",
+      "Soothe Throat & Vent Rashes",
       "Soothe Liver & Move Qi"
     ],
     "dosage_en": "3~6克, added near the end.",
@@ -8724,10 +8724,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "活血行气",
-      "祛风止痛",
-      "血中气药",
-      "头痛要药"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "In decoction, 3至10克.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -8916,10 +8916,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "补肝肾",
-      "强筋骨",
-      "活血通经",
-      "引火下行"
+      "Nourish Liver & Kidney",
+      "Strengthen Bones & Sinews",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "10-15g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -9108,10 +9108,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "活血",
-      "行气",
-      "止痛",
-      "理气"
+      "Nourish & Move Blood",
+      "Soothe Liver & Move Qi",
+      "Dredge Meridians & Ease Pain",
+      "TCM Efficacy"
     ],
     "dosage_en": "3~10g, 研末吞服效果更好, 每次1.5~2g",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -9300,10 +9300,10 @@
     "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
-      "活血调经",
-      "利尿消肿",
+      "TCM Efficacy",
+      "TCM Efficacy",
       "Clear Heat & Detoxify",
-      "产后瘀阻"
+      "TCM Efficacy"
     ],
     "dosage_en": "In decoction, 9到30克；或鲜品捣汁用.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
@@ -9493,9 +9493,9 @@
     "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia.",
     "tags_en": [
       "Disperse Wind-Heat",
-      "清肺润燥",
-      "清肝明目",
-      "凉血止血"
+      "TCM Efficacy",
+      "TCM Efficacy",
+      "TCM Efficacy"
     ],
     "dosage_en": "In decoction, 5-15g；或入丸、散. 外用适量, 煎水洗或捣敷.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
