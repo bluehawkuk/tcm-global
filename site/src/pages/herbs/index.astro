@@ -68,6 +68,7 @@ const allHerbs = Array.isArray(rawHerbs) ? rawHerbs : [];
 
     .herb-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; width: 100%; }
 
+    .herb-item * { pointer-events: none; }
     .herb-item, :global(.herb-item) {
       background: #fff !important;
       border-radius: 12px !important;
@@ -81,6 +82,7 @@ const allHerbs = Array.isArray(rawHerbs) ? rawHerbs : [];
       flex-direction: column !important;
       align-items: center !important;
       min-width: 0 !important;
+      cursor: pointer !important;
     }
     .herb-item:hover, :global(.herb-item:hover) {
       transform: translateY(-4px) !important;
@@ -176,8 +178,9 @@ const allHerbs = Array.isArray(rawHerbs) ? rawHerbs : [];
       {allHerbs.map((h) => {
         const cnTags = Array.isArray(h.tags) ? h.tags : [];
         const enTags = Array.isArray(h.tags_en) ? h.tags_en : cnTags;
+        const targetHref = `/herbs/${h.id}/`;
         return (
-          <a href={/herbs/} class="herb-item" data-id={h.id}>
+          <a href={targetHref} class="herb-item" data-id={h.id}>
             <img src={h.hero_img} class="herb-thumb" alt={h.cn} loading="lazy" />
             <div class="herb-name" data-cn={h.cn} data-en={h.en_common || h.latin}>{h.cn}</div>
             <div class="herb-en">{h.latin}</div>
@@ -320,8 +323,9 @@ const allHerbs = Array.isArray(rawHerbs) ? rawHerbs : [];
           }
 
           const btnText = dict ? dict.enter_atlas : 'Explore →';
+          const link = '/herbs/' + h.id + '/';
 
-          return '<a href="/herbs/' + h.id + '/" class="herb-item" data-id="' + h.id + '">' +
+          return '<a href="' + link + '" class="herb-item" data-id="' + h.id + '">' +
             '<img src="' + h.hero_img + '" class="herb-thumb" alt="' + h.cn + '" loading="lazy" />' +
             '<div class="herb-name" data-cn="' + h.cn + '" data-en="' + (h.en_common || h.latin) + '">' + displayName + '</div>' +
             '<div class="herb-en">' + h.latin + '</div>' +

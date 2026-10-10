@@ -77,6 +77,7 @@ const featuredHerbs = herbs.slice(0, 8);
 
     .herb-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; width: 100%; }
 
+    .herb-item * { pointer-events: none; }
     .herb-item,
     :global(.herb-item) {
       background: #fff !important;
@@ -91,6 +92,7 @@ const featuredHerbs = herbs.slice(0, 8);
       flex-direction: column !important;
       align-items: center !important;
       min-width: 0 !important;
+      cursor: pointer !important;
     }
     .herb-item:hover,
     :global(.herb-item:hover) {
@@ -218,8 +220,9 @@ const featuredHerbs = herbs.slice(0, 8);
       {featuredHerbs.map((h) => {
         const cnTags = Array.isArray(h.tags) ? h.tags : [];
         const enTags = Array.isArray(h.tags_en) ? h.tags_en : cnTags;
+        const targetHref = `/herbs/${h.id}/`;
         return (
-          <a href={/herbs/} class="herb-item" data-id={h.id}>
+          <a href={targetHref} class="herb-item" data-id={h.id}>
             <img src={h.hero_img} class="herb-thumb" alt={h.cn} loading="lazy" />
             <div class="herb-name" data-cn={h.cn} data-en={h.en_common || h.latin}>{h.cn}</div>
             <div class="herb-en">{h.latin}</div>
@@ -368,8 +371,9 @@ const featuredHerbs = herbs.slice(0, 8);
           }
 
           const btnText = dict ? dict.enter_atlas : 'Explore →';
+          const link = '/herbs/' + h.id + '/';
 
-          return '<a href="/herbs/' + h.id + '/" class="herb-item" data-id="' + h.id + '">' +
+          return '<a href="' + link + '" class="herb-item" data-id="' + h.id + '">' +
             '<img src="' + h.hero_img + '" class="herb-thumb" alt="' + h.cn + '" loading="lazy" />' +
             '<div class="herb-name" data-cn="' + h.cn + '" data-en="' + (h.en_common || h.latin) + '">' + displayName + '</div>' +
             '<div class="herb-en">' + h.latin + '</div>' +

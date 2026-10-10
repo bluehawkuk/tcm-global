@@ -228,7 +228,7 @@ const papers = herb.papers || [];
         
         <div class="meta-grid">
           <div><strong data-i18n="lbl_nature">性味归经</strong>：<span class="meta-val" data-cn={herb.nature_flavor || '暂缺'} data-en={herb.nature_flavor_en || 'Characteristic traditional properties'}>{herb.nature_flavor || '暂缺'}</span></div>
-          <div><strong data-i18n="lbl_dosage">常用剂量</strong>：<span id="dosageText" data-cn={herb.dosage || '遵医嘱'} data-en={herb.dosage_en || herb.dosage || 'Follow physician advice'}>{herb.dosage || '遵医嘱'}</span></div>
+          <div><strong data-i18n="lbl_dosage">常用剂量</strong>：<span id="dosageText" data-cn={herb.dosage || '遵医嘱'} data-en={herb.dosage_en || 'Follow physician advice'}>{herb.dosage || '遵医嘱'}</span></div>
           <div><strong data-i18n="lbl_target">适用人群</strong>：<span class="meta-val" data-cn={herb.target_crowd || '脏腑偏颇者'} data-en="Holistic health & constitution support">{herb.target_crowd || '脏腑偏颇者'}</span></div>
           <div><strong data-i18n="lbl_caution">使用注意</strong>：<span class="meta-val" data-cn={herb.caution || '遵医嘱'} data-en="Follow medical advice">{herb.caution || '遵医嘱'}</span></div>
         </div>
@@ -265,7 +265,7 @@ const papers = herb.papers || [];
       </div>
     </div>
 
-    {activeCompounds.length > 0 && (
+{activeCompounds.length > 0 && (
       <div class="card" id="compounds">
         <h2 class="card-title">⚗️ <span data-i18n="sec_compounds">主要化学单体与有效成分</span></h2>
         <div class="compound-wrap">
@@ -276,7 +276,7 @@ const papers = herb.papers || [];
       </div>
     )}
 
-    {modernResearch.length > 0 && (
+{modernResearch.length > 0 && (
       <div class="card" id="pharmacology">
         <h2 class="card-title">🔬 <span data-i18n="sec_pharma">核心药理机制与现代研究</span></h2>
         <div class="research-grid">
@@ -290,7 +290,7 @@ const papers = herb.papers || [];
       </div>
     )}
 
-    {(pairs.length > 0 || formulas.length > 0) && (
+   {(pairs.length > 0 || formulas.length > 0) && (
       <div class="card" id="formulas">
         <h2 class="card-title">📜 <span data-i18n="sec_formulas">经典配伍与古方精选</span></h2>
         <div class="pair-grid">
@@ -431,7 +431,7 @@ const papers = herb.papers || [];
       if (plantDesc) plantDesc.innerText = lang === 'en' ? (plantDesc.getAttribute('data-en') || plantDesc.getAttribute('data-cn')) : plantDesc.getAttribute('data-cn');
       if (sliceDesc) sliceDesc.innerText = lang === 'en' ? (sliceDesc.getAttribute('data-en') || sliceDesc.getAttribute('data-cn')) : sliceDesc.getAttribute('data-cn');
       if (quickEfficacy) quickEfficacy.innerText = lang === 'en' ? (quickEfficacy.getAttribute('data-en') || quickEfficacy.getAttribute('data-cn')) : quickEfficacy.getAttribute('data-cn');
-      if (dosageText) dosageText.innerText = lang === 'en' ? (dosageText.getAttribute('data-en') || dosageText.getAttribute('data-cn')) : dosageText.getAttribute('data-cn');
+     if (dosageText) {       dosageText.innerText = lang === 'en' ? (dosageText.getAttribute('data-en') || dosageText.getAttribute('data-cn')) : dosageText.getAttribute('data-cn');}
       if (quoteText) quoteText.innerText = lang === 'en' ? (quoteText.getAttribute('data-en') || quoteText.getAttribute('data-cn')) : quoteText.getAttribute('data-cn');
       if (quoteSource) quoteSource.innerText = lang === 'en' ? (quoteSource.getAttribute('data-en') || quoteSource.getAttribute('data-cn')) : quoteSource.getAttribute('data-cn');
 
@@ -443,24 +443,23 @@ const papers = herb.papers || [];
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
-      document.querySelectorAll('.compound-pill').forEach(el => {
+     document.querySelectorAll('.compound-pill').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
-      document.querySelectorAll('.res-title').forEach(el => {
+     document.querySelectorAll('.res-title').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
       document.querySelectorAll('.res-desc').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
-      document.querySelectorAll('.pair-name').forEach(el => {
+     document.querySelectorAll('.pair-name').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
       document.querySelectorAll('.formula-name').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
-
       document.querySelectorAll('.f-comp').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
