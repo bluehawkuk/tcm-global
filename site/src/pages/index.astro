@@ -1,7 +1,6 @@
 ---
 import herbs from '../data/herbs.json';
 
-// 直接截取前 8 种核心药材展示
 const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
 ---
 <!DOCTYPE html>
@@ -25,12 +24,38 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
     html, body { width: 100%; overflow-x: hidden; }
     body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif; background: var(--bg); color: var(--text-main); }
     
-    .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.2rem 3rem; background: #fff; border-bottom: 1px solid var(--border); }
-    .logo { font-size: 1.4rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 0.5rem; text-decoration: none; }
-    .nav-links { display: flex; gap: 2rem; list-style: none; font-size: 0.95rem; }
+    /* 顶部导航 */
+    .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 3rem; background: #fff; border-bottom: 1px solid var(--border); }
+    .logo { font-size: 1.35rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 0.5rem; text-decoration: none; }
+    .nav-right-wrap { display: flex; align-items: center; gap: 1.8rem; }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; font-size: 0.95rem; }
     .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; }
+
+    /* 语言切换胶囊按钮 */
+    .lang-switch {
+      display: inline-flex;
+      align-items: center;
+      background: #f2eee5;
+      border: 1px solid #dfd9cb;
+      border-radius: 20px;
+      padding: 2px 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      user-select: none;
+    }
+    .lang-btn {
+      padding: 0.25rem 0.65rem;
+      border-radius: 14px;
+      color: #666;
+      transition: 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 600;
+    }
     
-    /* 桌面端 Hero 默认布局：保持 1.15fr 1fr */
+    /* 桌面端 Hero 默认布局 */
     .hero { display: grid; grid-template-columns: 1.15fr 1fr; padding: 4rem 3rem; max-width: 1300px; margin: 0 auto; align-items: center; gap: 3.5rem; width: 100%; }
     .hero-title { font-size: 3.2rem; color: #1e3a29; margin-bottom: 0.5rem; letter-spacing: 2px; line-height: 1.2; }
     .hero-subtitle { font-family: "Georgia", serif; font-style: italic; color: #7d827a; font-size: 1.3rem; margin-bottom: 1.5rem; }
@@ -52,10 +77,8 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
     .section-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem; }
     .section-title { font-size: 1.8rem; color: #1e3a29; letter-spacing: 1px; }
 
-    /* 桌面端 4 列网格 */
     .herb-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; width: 100%; }
 
-    /* 药材卡片基础样式 */
     .herb-item,
     :global(.herb-item) {
       background: #fff !important;
@@ -99,99 +122,36 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
     .herb-tags, :global(.herb-tags) { display: flex !important; justify-content: center !important; gap: 0.4rem !important; flex-wrap: wrap !important; margin-bottom: 1rem !important; }
     .tag-sm, :global(.tag-sm) { background: #f2eee5 !important; color: #5a574f !important; font-size: 0.75rem !important; padding: 0.2rem 0.5rem !important; border-radius: 4px !important; white-space: nowrap !important; }
 
-    /* ================= 针对手机端（包含 1256*2808 等各种高分屏视口）专属响应式 ================= */
+    /* 移动端专属响应式适配 */
     @media (max-width: 768px) {
-      .top-nav {
-        padding: 0.9rem 1rem;
-      }
-      .nav-links {
-        display: none;
-      }
+      .top-nav { padding: 0.8rem 1rem; }
+      .nav-links { display: none; }
       
-      /* 单列垂直流，消除一切侧边挤压 */
-      .hero {
-        grid-template-columns: 1fr;
-        padding: 2rem 1rem;
-        gap: 1.5rem;
-      }
-      .hero-title {
-        font-size: 2.3rem;
-        letter-spacing: 1px;
-      }
-      .hero-subtitle {
-        font-size: 1.1rem;
-        margin-bottom: 1rem;
-      }
-      .hero-desc {
-        font-size: 0.95rem;
-        margin-bottom: 1.5rem;
-        line-height: 1.7;
-      }
+      .hero { grid-template-columns: 1fr; padding: 2rem 1rem; gap: 1.5rem; }
+      .hero-title { font-size: 2.3rem; letter-spacing: 1px; }
+      .hero-subtitle { font-size: 1.1rem; margin-bottom: 1rem; }
+      .hero-desc { font-size: 0.95rem; margin-bottom: 1.5rem; line-height: 1.7; }
       
-      .search-box {
-        max-width: 100%;
-        margin-bottom: 1.5rem;
-      }
-      .search-input {
-        padding: 0.85rem 1rem;
-        font-size: 0.95rem;
-      }
+      .search-box { max-width: 100%; margin-bottom: 1.5rem; }
+      .search-input { padding: 0.85rem 1rem; font-size: 0.95rem; }
+      .hero-img-box { display: none !important; }
 
-      /* 手机端彻底隐藏大图容器，避免任何机型裁切挤压 */
-      .hero-img-box {
-        display: none !important;
-      }
+      .stats { gap: 0; justify-content: space-around; padding-top: 1.2rem; }
+      .stat-featured { display: none !important; }
+      .stat-num { font-size: 1.5rem; }
+      .stat-label { font-size: 0.75rem; }
 
-      /* 统计区域：隐藏中间的“8 首页精选”，仅展示收录总数与 PubMed 实证 */
-      .stats {
-        gap: 0;
-        justify-content: space-around;
-        padding-top: 1.2rem;
-      }
-      .stat-featured {
-        display: none !important;
-      }
-      .stat-num {
-        font-size: 1.5rem;
-      }
-      .stat-label {
-        font-size: 0.75rem;
-      }
+      .section-wrap { padding: 0 0.8rem; margin-bottom: 3rem; }
+      .section-header { flex-direction: column; align-items: flex-start; gap: 0.4rem; margin-bottom: 1.2rem; }
+      .section-title { font-size: 1.4rem; }
 
-      .section-wrap {
-        padding: 0 0.8rem;
-        margin-bottom: 3rem;
-      }
-      .section-header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.3rem;
-        margin-bottom: 1.2rem;
-      }
-      .section-title {
-        font-size: 1.4rem;
-      }
-      #gridSub {
-        font-size: 0.8rem !important;
-      }
-
-      /* 核心适配：双列严格平分，minmax(0, 1fr) 严禁溢出撑开屏幕，杜绝左右横拉 */
       .herb-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
         gap: 0.6rem !important;
         width: 100% !important;
       }
-
-      .herb-item,
-      :global(.herb-item) {
-        padding: 1.2rem 0.5rem !important;
-        border-radius: 10px !important;
-      }
-
-      /* 圆形头像收拢到 95px，完美适应窄屏双列 */
-      .herb-thumb,
-      :global(.herb-thumb),
-      :global(.herb-item img) {
+      .herb-item, :global(.herb-item) { padding: 1.2rem 0.5rem !important; border-radius: 10px !important; }
+      .herb-thumb, :global(.herb-thumb), :global(.herb-item img) {
         width: 95px !important;
         height: 95px !important;
         min-width: 95px !important;
@@ -201,126 +161,217 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
         margin-bottom: 0.6rem !important;
         border-width: 2px !important;
       }
-
-      .herb-name, :global(.herb-name) {
-        font-size: 1.15rem !important;
-      }
-      .herb-en, :global(.herb-en) {
-        font-size: 0.72rem !important;
-        margin-bottom: 0.5rem !important;
-      }
-      .herb-tags, :global(.herb-tags) {
-        gap: 0.25rem !important;
-        margin-bottom: 0.6rem !important;
-      }
-      .tag-sm, :global(.tag-sm) {
-        font-size: 0.68rem !important;
-        padding: 0.15rem 0.35rem !important;
-      }
+      .herb-name, :global(.herb-name) { font-size: 1.15rem !important; }
+      .herb-en, :global(.herb-en) { font-size: 0.72rem !important; margin-bottom: 0.5rem !important; }
+      .herb-tags, :global(.herb-tags) { gap: 0.25rem !important; margin-bottom: 0.6rem !important; }
+      .tag-sm, :global(.tag-sm) { font-size: 0.68rem !important; padding: 0.15rem 0.35rem !important; }
     }
   </style>
 </head>
 <body>
   <nav class="top-nav">
-    <a href="/" class="logo">🌿 本草图谱 <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;margin-left:0.5rem;">HerbAtlas</span></a>
-    <ul class="nav-links">
-      <li><a href="/" style="color:var(--primary);font-weight:700;">首页</a></li>
-      <li><a href="/herbs">中药总库 </a></li>
-    </ul>
+    <a href="/" class="logo">🌿 <span data-i18n="brand">本草图谱</span> <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;margin-left:0.3rem;">HerbAtlas</span></a>
+    
+    <div class="nav-right-wrap">
+      <ul class="nav-links">
+        <li><a href="/" style="color:var(--primary);font-weight:700;" data-i18n="nav_home">首页</a></li>
+        <li><a href="/herbs" data-i18n="nav_all">全部中药 (50味)</a></li>
+      </ul>
+      
+      <!-- 双语切换器 -->
+      <div class="lang-switch" id="langSwitch">
+        <span class="lang-btn active" id="btnZh">中</span>
+        <span class="lang-btn" id="btnEn">EN</span>
+      </div>
+    </div>
   </nav>
 
   <section class="hero">
     <div>
-      <h1 class="hero-title">重新认识<br />中草药</h1>
+      <h1 class="hero-title" data-i18n="hero_title">重新认识<br />中草药</h1>
       <div class="hero-subtitle">Ancient Knowledge. Modern Evidence.</div>
-      <p class="hero-desc">从传统智慧、植物科学到现代研究，用更清晰、可信的方式理解中草药，连接东方传统与现代健康生活。</p>
+      <p class="hero-desc" data-i18n="hero_desc">从传统智慧、植物科学到现代研究，用更清晰、可信的方式理解中草药，连接东方传统与现代健康生活。</p>
       
       <div class="search-box">
         <input type="text" id="searchInput" class="search-input" placeholder="在 50 种药材中即时检索（如：丹参、连翘、薄荷、枸杞）..." />
       </div>
 
       <div class="stats">
-        <div><div class="stat-num">50+</div><div class="stat-label">收录药材总数</div></div>
-        <div class="stat-featured"><div class="stat-num">8</div><div class="stat-label">首页精选中药</div></div>
-        <div><div class="stat-num">500+</div><div class="stat-label">PubMed 实证研究</div></div>
+        <div><div class="stat-num">50+</div><div class="stat-label" data-i18n="stat_total">收录药材总数</div></div>
+        <div class="stat-featured"><div class="stat-num">8</div><div class="stat-label" data-i18n="stat_featured">首页精选中药</div></div>
+        <div><div class="stat-num">500+</div><div class="stat-label" data-i18n="stat_evidence">PubMed 实证研究</div></div>
       </div>
     </div>
 
-    <!-- 电脑端保留大图展示，手机端隐藏 -->
     <div class="hero-img-box">
       <img src="/images/hero_index.jpg" class="hero-img" alt="道地药材陈列" />
-      <div class="seal-text">道地药材 · 自然之力</div>
+      <div class="seal-text" data-i18n="seal_text">道地药材 · 自然之力</div>
     </div>
   </section>
 
   <section class="section-wrap" id="herbs">
-<div class="section-header">
+    <div class="section-header">
       <div>
-        <h2 class="section-title" id="gridTitle">精选中草药</h2>
-        <span style="color:var(--text-sub);font-size:0.85rem;" id="gridSub">展示 8 种高匹配经典中药，支持上方搜索</span>
+        <h2 class="section-title" id="gridTitle" data-i18n="grid_featured">精选中草药</h2>
+        <span style="color:var(--text-sub);font-size:0.85rem;" id="gridSub" data-i18n="grid_sub">展示 8 种高匹配经典中药，支持上方快速搜索</span>
       </div>
-      <a href="/herbs" style="color:var(--primary);font-weight:600;font-size:0.92rem;text-decoration:none;display:inline-flex;align-items:center;gap:0.2rem;">查看全部中药 →</a>
+      <a href="/herbs" style="color:var(--primary);font-weight:600;font-size:0.92rem;text-decoration:none;" data-i18n="link_view_all">查看全部 50 味中药 →</a>
     </div>
 
-    <!-- 药材网格：手机端双列规整自适应，彻底杜绝横向滚动 -->
+    <!-- 药材网格 -->
     <div class="herb-grid" id="herbGrid">
       {featuredHerbs.map((h) => (
-        <a href={`/herbs/${h.id}`} class="herb-item">
+        <a href={`/herbs/${h.id}`} class="herb-item" data-id={h.id}>
           <img src={h.hero_img} class="herb-thumb" alt={h.cn} loading="lazy" />
-          <div class="herb-name">{h.cn}</div>
+          <div class="herb-name" data-cn={h.cn} data-en={h.en_common || h.latin}>{h.cn}</div>
           <div class="herb-en">{h.latin}</div>
           <div class="herb-tags">
-            {(h.tags || []).slice(0, 2).map((t: string) => <span class="tag-sm">{t}</span>)}
+            {(h.tags || []).slice(0, 2).map((t: string, idx: number) => (
+              <span class="tag-sm" data-cn={t} data-en={(h.tags_en && h.tags_en[idx]) || t}>{t}</span>
+            ))}
           </div>
-          <span style="color:var(--primary);font-size:0.8rem;font-weight:600;">进入全景图谱 →</span>
+          <span class="enter-btn" style="color:var(--primary);font-size:0.8rem;font-weight:600;" data-i18n="enter_atlas">进入全景图谱 →</span>
         </a>
       ))}
     </div>
   </section>
 
   <script define:vars={{ herbs }}>
+    const I18N_DICT = {
+      zh: {
+        brand: '本草图谱',
+        nav_home: '首页',
+        nav_all: '全部中药 (50味)',
+        hero_title: '重新认识<br />中草药',
+        hero_desc: '从传统智慧、植物科学到现代研究，用更清晰、可信的方式理解中草药，连接东方传统与现代健康生活。',
+        search_ph: '在 50 种药材中即时检索（如：丹参、连翘、薄荷、枸杞）...',
+        stat_total: '收录药材总数',
+        stat_featured: '首页精选中药',
+        stat_evidence: 'PubMed 实证研究',
+        seal_text: '道地药材 · 自然之力',
+        grid_featured: '精选中草药',
+        grid_sub: '展示 8 种高匹配经典中药，支持上方快速搜索',
+        link_view_all: '查看全部 50 味中药 →',
+        enter_atlas: '进入全景图谱 →',
+        search_res: '搜索结果',
+        matched: '在 50 种中草药中匹配到',
+        no_res: '未检索到匹配的中药，请尝试搜索其他药名或拉丁学名。'
+      },
+      en: {
+        brand: 'HerbAtlas',
+        nav_home: 'Home',
+        nav_all: 'All Herbs (50)',
+        hero_title: 'Rediscover<br />Herbal Medicine',
+        hero_desc: 'Bridging ancient wisdom, botanical science, and modern evidence to understand herbal medicine with clarity and credibility.',
+        search_ph: 'Search 50 herbs by name, Latin, or efficacy (e.g., Ginseng, Mint)...',
+        stat_total: 'Herbs Catalogued',
+        stat_featured: 'Featured Herbs',
+        stat_evidence: 'PubMed Studies',
+        seal_text: 'Authentic Herbs · Natural Power',
+        grid_featured: 'Featured Herbs',
+        grid_sub: 'Displaying 8 classic herbs, quick search above for all 50',
+        link_view_all: 'Explore All 50 Herbs →',
+        enter_atlas: 'Explore Atlas →',
+        search_res: 'Search Results',
+        matched: 'Matched across 50 herbs for',
+        no_res: 'No herbs found. Please try searching with another name or Latin term.'
+      }
+    };
+
+    let currentLang = localStorage.getItem('site_lang') || 'zh';
+
+    const btnZh = document.getElementById('btnZh');
+    const btnEn = document.getElementById('btnEn');
     const searchInput = document.getElementById('searchInput');
     const herbGrid = document.getElementById('herbGrid');
     const gridTitle = document.getElementById('gridTitle');
     const gridSub = document.getElementById('gridSub');
 
+    function applyLang(lang) {
+      currentLang = lang;
+      localStorage.setItem('site_lang', lang);
+
+      btnZh.classList.toggle('active', lang === 'zh');
+      btnEn.classList.toggle('active', lang === 'en');
+
+      const dict = I18N_DICT[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) el.innerHTML = dict[key];
+      });
+
+      if (searchInput) searchInput.placeholder = dict.search_ph;
+
+      // 更新卡片上的标题显示（中文名 / 英文常用名）
+      document.querySelectorAll('.herb-name').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+      document.querySelectorAll('.enter-btn').forEach(el => {
+        el.innerText = dict.enter_atlas;
+      });
+     // 切换所有标签文本
+      document.querySelectorAll('.tag-sm').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+
+    }
+
+    btnZh.addEventListener('click', () => applyLang('zh'));
+    btnEn.addEventListener('click', () => applyLang('en'));
+
+    // 初始化加载
+    applyLang(currentLang);
+
+    // 搜索过滤与实时语言适配
     const defaultHTML = herbGrid.innerHTML;
 
     searchInput.addEventListener('input', (e) => {
       const q = e.target.value.trim().toLowerCase();
+      const dict = I18N_DICT[currentLang];
+
       if (!q) {
         herbGrid.innerHTML = defaultHTML;
-        gridTitle.innerText = "精选中草药";
-        gridSub.innerText = "展示 8 种高匹配经典中药，其余 42 种支持上方快速搜索";
+        gridTitle.innerText = dict.grid_featured;
+        gridSub.innerText = dict.grid_sub;
+        applyLang(currentLang);
         return;
       }
 
       const results = herbs.filter(h => 
-        (h.cn && h.cn.includes(q)) || 
+        (h.cn && h.cn.toLowerCase().includes(q)) || 
         (h.latin && h.latin.toLowerCase().includes(q)) || 
-        (h.tags && h.tags.some(t => t.includes(q))) ||
-        (h.quick_efficacy && h.quick_efficacy.includes(q))
+        (h.en_common && h.en_common.toLowerCase().includes(q)) || 
+        (h.tags && h.tags.some(t => t.toLowerCase().includes(q))) ||
+        (h.quick_efficacy && h.quick_efficacy.toLowerCase().includes(q))
       );
 
-      gridTitle.innerText = `搜索结果 (${results.length})`;
-      gridSub.innerText = `在 50 种中草药中匹配到 "${q}"`;
+      gridTitle.innerText = `${dict.search_res} (${results.length})`;
+      gridSub.innerText = `${dict.matched} "${q}"`;
 
       if (results.length === 0) {
-        herbGrid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #888;">未检索到与 "${q}" 匹配的中药，请尝试搜索其他药名。</div>`;
+        herbGrid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #888;">${dict.no_res}</div>`;
         return;
       }
 
-      herbGrid.innerHTML = results.map(h => `
-        <a href="/herbs/${h.id}" class="herb-item">
-          <img src="${h.hero_img}" class="herb-thumb" alt="${h.cn}" loading="lazy" />
-          <div class="herb-name">${h.cn}</div>
-          <div class="herb-en">${h.latin}</div>
-          <div class="herb-tags">
-            ${(h.tags || []).slice(0, 2).map(t => `<span class="tag-sm">${t}</span>`).join('')}
+      herbGrid.innerHTML = results.map(h => {
+        const displayName = currentLang === 'en' ? (h.en_common || h.latin) : h.cn;
+        return `
+          <a href="/herbs/${h.id}" class="herb-item" data-id="${h.id}">
+            <img src="${h.hero_img}" class="herb-thumb" alt="${h.cn}" loading="lazy" />
+            <div class="herb-name" data-cn="${h.cn}" data-en="${h.en_common || h.latin}">${displayName}</div>
+            <div class="herb-en">${h.latin}</div>
+   //         <div class="herb-tags">
+      //        ${(h.tags || []).slice(0, 2).map(t => `<span class="tag-sm">${t}</span>`).join('')}
+       //     </div>
+           <div class="herb-tags">
+            {(h.tags || []).slice(0, 2).map((t: string, idx: number) => (
+              <span class="tag-sm" data-cn={t} data-en={(h.tags_en && h.tags_en[idx]) || t}>{t}</span>
+            ))}
           </div>
-          <span style="color:var(--primary);font-size:0.8rem;font-weight:600;">进入全景图谱 →</span>
-        </a>
-      `).join('');
+            <span class="enter-btn" style="color:var(--primary);font-size:0.8rem;font-weight:600;">${dict.enter_atlas}</span>
+          </a>
+        `;
+      }).join('');
     });
   </script>
 </body>
