@@ -114,6 +114,7 @@ const papers = herb.papers || [];
     .pair-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
     .pair-card { background: #faf9f6; padding: 1.2rem; border-radius: 8px; border: 1px solid var(--border); }
     .pair-name { font-size: 1.05rem; font-weight: 700; color: var(--accent); margin-bottom: 0.4rem; }
+    .formula-name { font-size: 1.05rem; font-weight: 700; color: var(--primary); margin-bottom: 0.4rem; }
 
     .paper-list { display: flex; flex-direction: column; gap: 0.8rem; }
     .paper-card { padding: 0.8rem 0; border-bottom: 1px dashed var(--border); font-size: 0.92rem; line-height: 1.6; }
@@ -217,7 +218,6 @@ const papers = herb.papers || [];
           </div>
         )}
         
-        <!-- 功效标签绑定双语属性 -->
         <div class="hero-tags">
           {tags.map((t: string, idx: number) => (
             <span class="tag" data-cn={t} data-en={tagsEn[idx] || t}>{t}</span>
@@ -303,7 +303,7 @@ const papers = herb.papers || [];
           ))}
           {formulas.map((f: any) => (
             <div class="pair-card" style="border-left:3px solid var(--accent);">
-              <div class="formula-name" style="color:var(--primary);font-size:1.05rem;font-weight:700;margin-bottom:0.4rem;" data-cn={f.name} data-en={f.name_en || f.name}>{f.name}</div>
+              <div class="formula-name" data-cn={f.name} data-en={f.name_en || f.name}>{f.name}</div>
               <div style="font-size:0.9rem;color:#444;line-height:1.6;"><strong data-i18n="lbl_composition">组成</strong>：<span class="f-comp" data-cn={f.composition} data-en={f.composition_en || f.composition}>{f.composition}</span></div>
               <div style="font-size:0.9rem;color:#666;margin-top:0.2rem;"><strong data-i18n="lbl_indication">主治</strong>：<span class="f-ind" data-cn={f.indication} data-en={f.indication_en || f.indication}>{f.indication}</span></div>
             </div>
@@ -435,22 +435,18 @@ const papers = herb.papers || [];
       if (quoteText) quoteText.innerText = lang === 'en' ? (quoteText.getAttribute('data-en') || quoteText.getAttribute('data-cn')) : quoteText.getAttribute('data-cn');
       if (quoteSource) quoteSource.innerText = lang === 'en' ? (quoteSource.getAttribute('data-en') || quoteSource.getAttribute('data-cn')) : quoteSource.getAttribute('data-cn');
 
-      // 切换所有顶部功效标签 (Tags)
       document.querySelectorAll('.tag').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
-      // 切换元数据（性味归经、适用人群、禁忌等）
       document.querySelectorAll('.meta-val').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
-      // 切换化学单体胶囊
       document.querySelectorAll('.compound-pill').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
-      // 切换现代药理标题与正文
       document.querySelectorAll('.res-title').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
@@ -458,7 +454,6 @@ const papers = herb.papers || [];
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
-      // 切换配伍药对名称与方剂名称
       document.querySelectorAll('.pair-name').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
@@ -466,7 +461,6 @@ const papers = herb.papers || [];
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
-      // 切换配伍古方与组成
       document.querySelectorAll('.f-comp').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
@@ -480,7 +474,6 @@ const papers = herb.papers || [];
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
-      // 切换历代本草记载
       document.querySelectorAll('.rec-quote').forEach(el => {
         el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });

@@ -46,7 +46,7 @@
       {
         "title": "对免疫系统的调节作用",
         "desc": "黄芪多糖能显著提高机体非特异性免疫功能，促进T细胞增殖与抗体生成。",
-        "title_en": "Immunomodulatory Effects",
+        "title_en": "Immunomodulatory Mechanisms",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -70,13 +70,13 @@
       {
         "title": "抗肿瘤作用",
         "desc": "通过诱导肿瘤细胞凋亡及增强机体抗肿瘤免疫反应发挥抑瘤效应。",
-        "title_en": "抗肿瘤作用",
+        "title_en": "Antitumor Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节血糖代谢",
         "desc": "具有改善胰岛素抵抗、调节糖脂代谢紊乱的作用。",
-        "title_en": "调节血糖代谢",
+        "title_en": "Blood Glucose & Metabolic Regulation",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
@@ -87,7 +87,7 @@
         "indication": "气血两虚之面色萎黄、头晕目眩，以及气虚血瘀之中风偏瘫",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄芪与当归"
+        "pair_name_en": "Astragalus with Angelica"
       },
       {
         "pair_name": "黄芪与防风",
@@ -95,7 +95,7 @@
         "indication": "表虚自汗、易感风寒及卫外不固之证",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄芪与防风"
+        "pair_name_en": "Astragalus with Saposhnikovia"
       },
       {
         "pair_name": "黄芪与茯苓",
@@ -103,7 +103,7 @@
         "indication": "脾虚气弱之水肿、小便不利、面目四肢浮肿",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄芪与茯苓"
+        "pair_name_en": "Astragalus with Poria"
       },
       {
         "pair_name": "黄芪与党参",
@@ -111,7 +111,7 @@
         "indication": "元气虚损、肺脾气虚之神疲乏力、气短懒言",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄芪与党参"
+        "pair_name_en": "Astragalus with Codonopsis"
       }
     ],
     "formulas": [
@@ -120,7 +120,7 @@
         "composition": "黄芪、人参、白术、炙甘草、当归、陈皮、升麻、柴胡",
         "indication": "脾胃虚弱、中气下陷所致的发热、内脏下垂、久泻脱肛等",
         "composition_en": "Astragali Radix, Ginseng Radix, Atractylodis Macrocephalae Rhizoma, Glycyrrhizae Radix Praeparata, Angelicae Sinensis Radix, Citri Reticulatae Pericarpium, Cimicifugae Rhizoma, Bupleuri Radix",
-        "name_en": "补中益气汤",
+        "name_en": "Buzhong Yiqi Decoction",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       },
       {
@@ -128,7 +128,7 @@
         "composition": "黄芪、白术、防风",
         "indication": "表虚自汗、易感风寒之卫表不固证",
         "composition_en": "Astragali Radix, Atractylodis Macrocephalae Rhizoma, Saposhnikoviae Radix",
-        "name_en": "玉屏风散",
+        "name_en": "Yupingfeng Powder",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       },
       {
@@ -136,7 +136,7 @@
         "composition": "黄芪、当归",
         "indication": "血虚发热证，肌肤燥热、面色萎黄、脉大而虚",
         "composition_en": "Astragali Radix, Angelicae Sinensis Radix",
-        "name_en": "当归补血汤",
+        "name_en": "Danggui Buxue Decoction",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       }
     ],
@@ -250,7 +250,7 @@
       {
         "title": "调节免疫功能",
         "desc": "人参多糖和皂苷能显著增强机体非特异性免疫和特异性免疫功能，提高抗病能力。",
-        "title_en": "调节免疫功能",
+        "title_en": "Immunomodulatory Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -262,7 +262,7 @@
       {
         "title": "抗肿瘤作用",
         "desc": "多种人参提取物能抑制肿瘤细胞增殖，诱导其凋亡，并减轻放化疗的毒副作用。",
-        "title_en": "抗肿瘤作用",
+        "title_en": "Antitumor Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -279,7 +279,7 @@
         "indication": "用于大汗淋漓、气微欲绝之虚脱证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "人参 with 附子"
+        "pair_name_en": "Ginseng with 附子"
       },
       {
         "pair_name": "人参配麦冬、五味子",
@@ -287,7 +287,7 @@
         "indication": "用于气阴两伤之肺虚喘咳、热病伤津口渴。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "人参 with 麦冬、五味子"
+        "pair_name_en": "Ginseng with 麦冬、五味子"
       },
       {
         "pair_name": "人参配白术",
@@ -295,7 +295,7 @@
         "indication": "用于脾胃气虚、饮食减少、大便溏薄。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "人参 with 白术"
+        "pair_name_en": "Ginseng with Atractylodes"
       },
       {
         "pair_name": "人参配黄芪",
@@ -303,7 +303,7 @@
         "indication": "用于气虚欲脱及气虚发热、自汗等证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "人参 with 黄芪"
+        "pair_name_en": "Ginseng with Astragalus"
       }
     ],
     "formulas": [
@@ -320,7 +320,7 @@
         "composition": "人参、白术、茯苓、甘草",
         "indication": "脾胃气虚证。面色萎黄，语声低微，气短乏力，舌淡苔白。",
         "composition_en": "Ginseng Radix, Atractylodis Macrocephalae Rhizoma, Poria, Glycyrrhizae Radix",
-        "name_en": "四君子汤",
+        "name_en": "Sijunzi Decoction",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       },
       {
@@ -460,7 +460,7 @@
       {
         "title": "抗菌与抗病毒",
         "desc": "体外实验显示其对金黄色葡萄球菌、绿脓杆菌及某些呼吸道病毒有抑制作用。",
-        "title_en": "Antibacterial & Antiviral Activities",
+        "title_en": "Antibacterial & Antiviral Activity",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
@@ -471,7 +471,7 @@
         "indication": "温病后期，邪伏阴分，夜热早凉，热退无汗。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "青蒿 with 鳖甲"
+        "pair_name_en": "Artemisia Annua with Turtle Shell"
       },
       {
         "pair_name": "青蒿配黄芩",
@@ -479,7 +479,7 @@
         "indication": "用于湿温发热、暑湿胸闷及少阳疟疾。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "青蒿 with 黄芩"
+        "pair_name_en": "Artemisia Annua with Scutellaria"
       },
       {
         "pair_name": "青蒿配知母",
@@ -487,7 +487,7 @@
         "indication": "用于阴虚发热、骨蒸劳热、潮热盗汗。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "青蒿 with 知母"
+        "pair_name_en": "Artemisia Annua with 知母"
       },
       {
         "pair_name": "青蒿配柴胡",
@@ -495,7 +495,7 @@
         "indication": "用于寒热往来、少阳证及疟疾初起。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "青蒿 with 柴胡"
+        "pair_name_en": "Artemisia Annua with Bupleurum"
       }
     ],
     "formulas": [
@@ -504,7 +504,7 @@
         "composition": "青蒿、鳖甲、知母、生地黄、丹皮",
         "indication": "夜热早凉，热退无汗，舌红苔少，脉细数者。",
         "composition_en": "青蒿, 鳖甲, 知母, 生地黄, 丹皮",
-        "name_en": "青蒿鳖甲汤",
+        "name_en": "Qinghao Biejia Decoction",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       },
       {
@@ -520,7 +520,7 @@
         "composition": "青蒿、黄芩、竹茹、半夏、茯苓、橘红、枳壳、碧玉散",
         "indication": "胆热痰浊证，寒热如疟，烦渴胸闷，苔腻微黄者。",
         "composition_en": "青蒿, 黄芩, 竹茹, Pinelliae Rhizoma, Poria, 橘红, 枳壳, 碧玉散",
-        "name_en": "蒿芩清胆汤",
+        "name_en": "Haoqin Qingdan Decoction",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       }
     ],
@@ -640,7 +640,7 @@
       {
         "title": "调节免疫功能",
         "desc": "当归多糖能显著增强巨噬细胞的吞噬功能，促进淋巴细胞转化，提高机体的细胞免疫和体液免疫水平。",
-        "title_en": "调节免疫功能",
+        "title_en": "Immunomodulatory Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -663,7 +663,7 @@
         "indication": "气血两虚所致的虚劳发热、肌热面赤、脉大而虚，或气血不足之疮疡溃后久不愈合。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "当归与黄芪"
+        "pair_name_en": "Angelica with Astragalus"
       },
       {
         "pair_name": "当归与川芎",
@@ -671,7 +671,7 @@
         "indication": "血虚血瘀所致的月经不调、经闭痛经、产后腹痛及头痛眩晕等证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "当归与川芎"
+        "pair_name_en": "Angelica with Chuanxiong"
       },
       {
         "pair_name": "当归与肉桂",
@@ -679,7 +679,7 @@
         "indication": "阳气不足、寒凝血脉所致的肢冷麻木、少腹冷痛或阴疽疮疡。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "当归与肉桂"
+        "pair_name_en": "Angelica with Cinnamon"
       },
       {
         "pair_name": "当归与生地黄",
@@ -687,7 +687,7 @@
         "indication": "血虚阴亏所致的面色萎黄、心悸失眠、潮热盗汗或肠燥便秘。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "当归与生地黄"
+        "pair_name_en": "Angelica with 生地黄"
       }
     ],
     "formulas": [
@@ -704,7 +704,7 @@
         "composition": "黄芪、当归",
         "indication": "血虚发热证。肌热面赤，烦渴欲饮，脉洪大而虚，重按无力。亦治妇人产后血虚发热，或疮疡久溃不敛。",
         "composition_en": "Astragali Radix, Angelicae Sinensis Radix",
-        "name_en": "当归补血汤",
+        "name_en": "Danggui Buxue Decoction",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       },
       {
@@ -1030,7 +1030,7 @@
       {
         "title": "调节免疫功能",
         "desc": "甘草多糖可增强机体非特异性免疫功能，促进淋巴细胞增殖与抗体生成。",
-        "title_en": "调节免疫功能",
+        "title_en": "Immunomodulatory Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -1047,7 +1047,7 @@
         "indication": "用于胃脘疼痛、腹痛及腓肠肌痉挛拘急疼痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "甘草 with 白芍"
+        "pair_name_en": "Licorice with White Peony"
       },
       {
         "pair_name": "甘草配干姜",
@@ -1055,7 +1055,7 @@
         "indication": "用于脾胃虚寒、四肢不温及寒饮咳嗽。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "甘草 with 干姜"
+        "pair_name_en": "Licorice with 干姜"
       },
       {
         "pair_name": "甘草配桔梗",
@@ -1063,7 +1063,7 @@
         "indication": "用于咽喉肿痛、声音嘶哑及肺痈咳嗽吐脓。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "甘草 with 桔梗"
+        "pair_name_en": "Licorice with 桔梗"
       },
       {
         "pair_name": "甘草配半夏",
@@ -1071,7 +1071,7 @@
         "indication": "用于痰湿内阻、咳嗽呕恶及梅核气。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "甘草 with 半夏"
+        "pair_name_en": "Licorice with 半夏"
       }
     ],
     "formulas": [
@@ -1239,7 +1239,7 @@
         "indication": "用于气滞血瘀所致的胸痹心痛、冠心病心绞痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "银杏叶 with 丹参"
+        "pair_name_en": "银杏叶 with Salvia"
       },
       {
         "pair_name": "银杏叶配葛根",
@@ -1431,7 +1431,7 @@
         "indication": "用于气虚乏力，神疲倦怠，肺气虚弱。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "红景天 with 黄芪"
+        "pair_name_en": "红景天 with Astragalus"
       },
       {
         "pair_name": "红景天配当归",
@@ -1439,7 +1439,7 @@
         "indication": "用于面色萎黄，心悸气短，气血不足兼血瘀者。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "红景天 with 当归"
+        "pair_name_en": "红景天 with Angelica"
       },
       {
         "pair_name": "红景天配沙棘",
@@ -1455,7 +1455,7 @@
         "indication": "用于气虚血瘀型胸痹心痛，冠心病心绞痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "红景天 with 丹参"
+        "pair_name_en": "红景天 with Salvia"
       }
     ],
     "formulas": [
@@ -1623,7 +1623,7 @@
         "indication": "气滞血瘀所致的胸痹心痛、头痛等症",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "丹参 with 川芎"
+        "pair_name_en": "Salvia with Chuanxiong"
       },
       {
         "pair_name": "丹参配郁金",
@@ -1631,7 +1631,7 @@
         "indication": "胸痹心痛、胁肋疼痛及情志抑郁之证",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "丹参 with 郁金"
+        "pair_name_en": "Salvia with 郁金"
       },
       {
         "pair_name": "丹参配酸枣仁",
@@ -1639,7 +1639,7 @@
         "indication": "心血不足、虚烦不眠、心悸怔忡",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "丹参 with 酸枣仁"
+        "pair_name_en": "Salvia with 酸枣仁"
       },
       {
         "pair_name": "丹参配当归",
@@ -1647,7 +1647,7 @@
         "indication": "血虚血瘀之月经不调、痛经、闭经",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "丹参 with 当归"
+        "pair_name_en": "Salvia with Angelica"
       }
     ],
     "formulas": [
@@ -1815,7 +1815,7 @@
         "indication": "脾虚湿盛、水肿泄泻。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "白术与茯苓"
+        "pair_name_en": "Atractylodes with Poria"
       },
       {
         "pair_name": "白术与黄芪",
@@ -1823,7 +1823,7 @@
         "indication": "气虚自汗、体虚感冒。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "白术与黄芪"
+        "pair_name_en": "Atractylodes with Astragalus"
       },
       {
         "pair_name": "白术与陈皮",
@@ -1831,7 +1831,7 @@
         "indication": "脾虚气滞、消化不良、脘腹胀满。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "白术与陈皮"
+        "pair_name_en": "Atractylodes with 陈皮"
       },
       {
         "pair_name": "白术与防风",
@@ -1839,7 +1839,7 @@
         "indication": "表虚自汗、易感风寒。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "白术与防风"
+        "pair_name_en": "Atractylodes with Saposhnikovia"
       }
     ],
     "formulas": [
@@ -1848,7 +1848,7 @@
         "composition": "人参、白术、茯苓、甘草",
         "indication": "益气健脾。主治脾胃气虚证。",
         "composition_en": "Ginseng Radix, Atractylodis Macrocephalae Rhizoma, Poria, Glycyrrhizae Radix",
-        "name_en": "四君子汤",
+        "name_en": "Sijunzi Decoction",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       },
       {
@@ -1864,7 +1864,7 @@
         "composition": "黄芪、白术、防风",
         "indication": "益气固表止汗。主治表虚自汗及易感风邪者。",
         "composition_en": "Astragali Radix, Atractylodis Macrocephalae Rhizoma, Saposhnikoviae Radix",
-        "name_en": "玉屏风散",
+        "name_en": "Yupingfeng Powder",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       }
     ],
@@ -1984,7 +1984,7 @@
       {
         "title": "抗肿瘤作用",
         "desc": "所含有效成分可抑制多种肿瘤细胞的生长，诱导其细胞凋亡。",
-        "title_en": "抗肿瘤作用",
+        "title_en": "Antitumor Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -2007,7 +2007,7 @@
         "indication": "用于心阳不足、水气凌心之蓄水证及水肿。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "茯苓与桂枝"
+        "pair_name_en": "Poria with 桂枝"
       },
       {
         "pair_name": "茯苓与白术",
@@ -2015,7 +2015,7 @@
         "indication": "用于脾虚湿盛、水肿泄泻及痰饮眩悸。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "茯苓与白术"
+        "pair_name_en": "Poria with Atractylodes"
       },
       {
         "pair_name": "茯苓与酸枣仁",
@@ -2023,7 +2023,7 @@
         "indication": "用于心阴不足、虚烦不眠、心悸多梦。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "茯苓与酸枣仁"
+        "pair_name_en": "Poria with 酸枣仁"
       },
       {
         "pair_name": "茯苓与半夏",
@@ -2031,7 +2031,7 @@
         "indication": "用于痰饮眩晕、呕恶不食、咳嗽痰多。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "茯苓与半夏"
+        "pair_name_en": "Poria with 半夏"
       }
     ],
     "formulas": [
@@ -2040,7 +2040,7 @@
         "composition": "人参、白术、茯苓、甘草",
         "indication": "益气健脾。主治脾胃气虚证。",
         "composition_en": "Ginseng Radix, Atractylodis Macrocephalae Rhizoma, Poria, Glycyrrhizae Radix",
-        "name_en": "四君子汤",
+        "name_en": "Sijunzi Decoction",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       },
       {
@@ -2170,7 +2170,7 @@
       {
         "title": "调节免疫功能",
         "desc": "能促进细胞免疫和体液免疫，增强机体非特异性抵抗力。",
-        "title_en": "调节免疫功能",
+        "title_en": "Immunomodulatory Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -2223,7 +2223,7 @@
         "indication": "用于气阴两虚之虚汗不止、脉微欲绝",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "五味子 with 人参"
+        "pair_name_en": "五味子 with Ginseng"
       }
     ],
     "formulas": [
@@ -2391,7 +2391,7 @@
         "indication": "用于肾阳虚衰、阴寒内盛所致的畏寒肢冷、阳痿滑精、脉微欲绝。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "肉桂 with 附子"
+        "pair_name_en": "Cinnamon with 附子"
       },
       {
         "pair_name": "肉桂配熟地黄",
@@ -2399,7 +2399,7 @@
         "indication": "用于肝肾阴虚、虚阳上越所致的面赤如妆、虚火牙痛、下焦虚寒。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "肉桂 with 熟地黄"
+        "pair_name_en": "Cinnamon with 熟地黄"
       },
       {
         "pair_name": "肉桂配干姜",
@@ -2407,7 +2407,7 @@
         "indication": "用于脾胃虚寒、脘腹冷痛、呕吐泄泻、四肢不温。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "肉桂 with 干姜"
+        "pair_name_en": "Cinnamon with 干姜"
       },
       {
         "pair_name": "肉桂配党参",
@@ -2415,7 +2415,7 @@
         "indication": "用于气血不足、阳气虚弱引起的精神倦怠、面色萎黄、心悸气短。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "肉桂 with 党参"
+        "pair_name_en": "Cinnamon with Codonopsis"
       }
     ],
     "formulas": [
@@ -2572,7 +2572,7 @@
       {
         "title": "抗菌与抗病毒",
         "desc": "对多种常见致病菌及上呼吸道病毒有不同程度的抑制和杀灭作用。",
-        "title_en": "Antibacterial & Antiviral Activities",
+        "title_en": "Antibacterial & Antiviral Activity",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
@@ -2583,7 +2583,7 @@
         "indication": "用于胃气上逆之呕吐、恶心。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "生姜与半夏"
+        "pair_name_en": "Fresh Ginger with 半夏"
       },
       {
         "pair_name": "生姜与大枣",
@@ -2591,7 +2591,7 @@
         "indication": "用于表虚感冒及脾胃虚弱之证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "生姜与大枣"
+        "pair_name_en": "Fresh Ginger with 大枣"
       },
       {
         "pair_name": "生姜与麻黄",
@@ -2599,7 +2599,7 @@
         "indication": "用于外感风寒表实证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "生姜与麻黄"
+        "pair_name_en": "Fresh Ginger with 麻黄"
       },
       {
         "pair_name": "生姜与黄连",
@@ -2607,7 +2607,7 @@
         "indication": "用于寒热错杂之胃脘痞满、呕吐。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "生姜与黄连"
+        "pair_name_en": "Fresh Ginger with 黄连"
       }
     ],
     "formulas": [
@@ -2740,7 +2740,7 @@
       {
         "title": "抗肿瘤作用",
         "desc": "多项研究表明姜黄素能诱导肿瘤细胞凋亡，抑制肿瘤生长与转移。",
-        "title_en": "抗肿瘤作用",
+        "title_en": "Antitumor Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -2783,7 +2783,7 @@
         "indication": "用于妇女血瘀经闭、产后瘀阻腹痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "姜黄 with 当归"
+        "pair_name_en": "姜黄 with Angelica"
       },
       {
         "pair_name": "姜黄配黄芪",
@@ -2791,7 +2791,7 @@
         "indication": "用于气虚血瘀之中风半身不遂、气虚水肿。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "姜黄 with 黄芪"
+        "pair_name_en": "姜黄 with Astragalus"
       },
       {
         "pair_name": "姜黄配乳香",
@@ -3089,7 +3089,7 @@
         "indication": "少阳证，寒热往来，胸胁苦满，口苦咽干",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "柴胡与黄芩"
+        "pair_name_en": "Bupleurum with Scutellaria"
       },
       {
         "pair_name": "柴胡与白芍",
@@ -3097,7 +3097,7 @@
         "indication": "肝郁脾虚，胸胁胀痛，腹痛泄泻，月经不调",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "柴胡与白芍"
+        "pair_name_en": "Bupleurum with White Peony"
       },
       {
         "pair_name": "柴胡与升麻",
@@ -3105,7 +3105,7 @@
         "indication": "中气下陷，久泻脱肛，子宫脱垂，胃下垂",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "柴胡与升麻"
+        "pair_name_en": "Bupleurum with 升麻"
       },
       {
         "pair_name": "柴胡与枳壳",
@@ -3113,7 +3113,7 @@
         "indication": "肝郁气滞，胸胁痞闷，脘腹胀痛",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "柴胡与枳壳"
+        "pair_name_en": "Bupleurum with 枳壳"
       }
     ],
     "formulas": [
@@ -3138,7 +3138,7 @@
         "composition": "黄芪、人参、白术、当归、陈皮、升麻、柴胡、甘草",
         "indication": "脾胃虚弱，中气下陷，发热恶寒，肢体倦怠，久泻脱肛，脏器脱垂",
         "composition_en": "Astragali Radix, Ginseng Radix, Atractylodis Macrocephalae Rhizoma, Angelicae Sinensis Radix, Citri Reticulatae Pericarpium, Cimicifugae Rhizoma, Bupleuri Radix, Glycyrrhizae Radix",
-        "name_en": "补中益气汤",
+        "name_en": "Buzhong Yiqi Decoction",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       }
     ],
@@ -3252,7 +3252,7 @@
       {
         "title": "抗肿瘤作用",
         "desc": "能够诱导多种肿瘤细胞凋亡，抑制肿瘤细胞增殖。",
-        "title_en": "抗肿瘤作用",
+        "title_en": "Antitumor Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -3281,7 +3281,7 @@
         "indication": "用于湿热蕴结所致的泄泻、痢疾及高热烦渴。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄芩 with 黄连"
+        "pair_name_en": "Scutellaria with 黄连"
       },
       {
         "pair_name": "黄芩配白术",
@@ -3289,7 +3289,7 @@
         "indication": "用于湿热夹阻、胎动不安。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄芩 with 白术"
+        "pair_name_en": "Scutellaria with Atractylodes"
       },
       {
         "pair_name": "黄芩配半夏",
@@ -3297,7 +3297,7 @@
         "indication": "用于胆热痰郁、呕吐恶心或失眠。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄芩 with 半夏"
+        "pair_name_en": "Scutellaria with 半夏"
       },
       {
         "pair_name": "黄芩配柴胡",
@@ -3305,7 +3305,7 @@
         "indication": "用于少阳证、寒热往来、口苦咽干。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄芩 with 柴胡"
+        "pair_name_en": "Scutellaria with Bupleurum"
       }
     ],
     "formulas": [
@@ -3473,7 +3473,7 @@
         "indication": "咽喉肿痛、声音嘶哑、肺痈吐脓",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "桔梗 with 甘草"
+        "pair_name_en": "桔梗 with Licorice"
       },
       {
         "pair_name": "桔梗配枳壳",
@@ -3636,7 +3636,7 @@
       {
         "title": "抗菌与抗病毒",
         "desc": "体外实验表明，菊花对金黄色葡萄球菌、大肠杆菌及流感病毒等具有不同程度的抑制作用。",
-        "title_en": "Antibacterial & Antiviral Activities",
+        "title_en": "Antibacterial & Antiviral Activity",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -3654,7 +3654,7 @@
       {
         "title": "调节免疫功能",
         "desc": "菊花多糖能够增强巨噬细胞的吞噬活性，提高机体的细胞免疫与体液免疫水平。",
-        "title_en": "调节免疫功能",
+        "title_en": "Immunomodulatory Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
@@ -3865,7 +3865,7 @@
         "indication": "肺热咳嗽，湿热泻痢，痈肿疮毒初起。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "金银花 with 黄芩"
+        "pair_name_en": "金银花 with Scutellaria"
       },
       {
         "pair_name": "金银花配甘草",
@@ -3873,7 +3873,7 @@
         "indication": "疮疡肿毒初起，红肿热痛，或咽喉肿痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "金银花 with 甘草"
+        "pair_name_en": "金银花 with Licorice"
       },
       {
         "pair_name": "金银花配蒲公英",
@@ -4014,7 +4014,7 @@
       {
         "title": "降血糖作用",
         "desc": "地黄提取物及梓醇对实验性糖尿病动物具有明显的降血糖作用，能改善糖代谢。",
-        "title_en": "降血糖作用",
+        "title_en": "Hypoglycemic Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -4065,7 +4065,7 @@
         "indication": "用于肝肾阴虚、血虚津亏所致的面色无华、头晕目眩及筋脉拘挛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "地黄 with 白芍"
+        "pair_name_en": "地黄 with White Peony"
       },
       {
         "pair_name": "地黄配丹皮",
@@ -4257,7 +4257,7 @@
         "indication": "用于命门火衰、畏寒肢冷、小便频数",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "淫羊藿 with 肉桂"
+        "pair_name_en": "淫羊藿 with Cinnamon"
       },
       {
         "pair_name": "淫羊藿配威灵仙",
@@ -4433,7 +4433,7 @@
         "indication": "用于久病虚喘，气阴两虚，体弱神疲。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "冬虫夏草 with 人参"
+        "pair_name_en": "冬虫夏草 with Ginseng"
       },
       {
         "pair_name": "冬虫夏草配川贝母",
@@ -4449,7 +4449,7 @@
         "indication": "用于气血亏虚，面色萎黄，月经不调及虚劳诸证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "冬虫夏草 with 当归"
+        "pair_name_en": "冬虫夏草 with Angelica"
       },
       {
         "pair_name": "冬虫夏草配熟地黄",
@@ -4590,7 +4590,7 @@
       {
         "title": "抗肿瘤作用",
         "desc": "灵芝三萜和多糖成分能诱导肿瘤细胞凋亡，抑制肿瘤生长及转移。",
-        "title_en": "抗肿瘤作用",
+        "title_en": "Antitumor Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -4625,7 +4625,7 @@
         "indication": "气虚乏力，体弱多病，免疫力低下",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "灵芝 with 黄芪"
+        "pair_name_en": "灵芝 with Astragalus"
       },
       {
         "pair_name": "灵芝配酸枣仁",
@@ -4817,7 +4817,7 @@
         "indication": "用于气滞血瘀所致的胸痹心痛、冠心病心绞痛",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "三七 with 丹参"
+        "pair_name_en": "三七 with Salvia"
       },
       {
         "pair_name": "三七配川芎",
@@ -4825,7 +4825,7 @@
         "indication": "用于头痛、跌打损伤及瘀血头痛等证",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "三七 with 川芎"
+        "pair_name_en": "三七 with Chuanxiong"
       },
       {
         "pair_name": "三七配白及",
@@ -5009,7 +5009,7 @@
         "indication": "肝阳上亢之头痛、眩晕、血压偏高。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "天麻与钩藤"
+        "pair_name_en": "天麻 with 钩藤"
       },
       {
         "pair_name": "天麻与半夏",
@@ -5017,7 +5017,7 @@
         "indication": "风痰上扰所致的眩晕、头重、恶心呕吐。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "天麻与半夏"
+        "pair_name_en": "天麻 with 半夏"
       },
       {
         "pair_name": "天麻与全蝎",
@@ -5025,7 +5025,7 @@
         "indication": "肝风内动之急慢惊风、破伤风及顽固性头痛、面瘫。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "天麻与全蝎"
+        "pair_name_en": "天麻 with 全蝎"
       },
       {
         "pair_name": "天麻与川芎",
@@ -5033,7 +5033,7 @@
         "indication": "血虚或血瘀引起的偏头痛、血管神经性头痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "天麻与川芎"
+        "pair_name_en": "天麻 with Chuanxiong"
       }
     ],
     "formulas": [
@@ -5184,7 +5184,7 @@
       {
         "title": "降血糖作用",
         "desc": "可改善胰岛素抵抗，降低实验性糖尿病动物的血糖水平。",
-        "title_en": "降血糖作用",
+        "title_en": "Hypoglycemic Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -5393,7 +5393,7 @@
         "indication": "血虚萎黄，眩晕心悸，月经不调及血虚肠燥便秘。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "何首乌 with 当归"
+        "pair_name_en": "何首乌 with Angelica"
       },
       {
         "pair_name": "何首乌配熟地黄",
@@ -5585,7 +5585,7 @@
         "indication": "湿痰内阻、咳嗽痰多、胸脘痞闷",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "半夏与陈皮"
+        "pair_name_en": "半夏 with 陈皮"
       },
       {
         "pair_name": "半夏与生姜",
@@ -5593,7 +5593,7 @@
         "indication": "胃气上逆、恶心呕吐、妊娠恶阻",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "半夏与生姜"
+        "pair_name_en": "半夏 with Fresh Ginger"
       },
       {
         "pair_name": "半夏与黄芩",
@@ -5601,7 +5601,7 @@
         "indication": "痰热互结、心下痞满、苦夏呕恶",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "半夏与黄芩"
+        "pair_name_en": "半夏 with Scutellaria"
       },
       {
         "pair_name": "半夏与天麻",
@@ -5609,7 +5609,7 @@
         "indication": "风痰眩晕、头痛如蒙、胸闷纳呆",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "半夏与天麻"
+        "pair_name_en": "半夏 with 天麻"
       }
     ],
     "formulas": [
@@ -5766,7 +5766,7 @@
       {
         "title": "降血糖作用",
         "desc": "研究表明泽泻提取物对胰岛素抵抗及实验性高血糖模型动物具有一定的降糖效果。",
-        "title_en": "降血糖作用",
+        "title_en": "Hypoglycemic Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
@@ -5777,7 +5777,7 @@
         "indication": "用于水湿内停所致的小便不利、水肿、泄泻等证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "泽泻与茯苓"
+        "pair_name_en": "泽泻 with Poria"
       },
       {
         "pair_name": "泽泻与白术",
@@ -5785,7 +5785,7 @@
         "indication": "主治脾虚湿盛、水饮内停、头晕目眩之证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "泽泻与白术"
+        "pair_name_en": "泽泻 with Atractylodes"
       },
       {
         "pair_name": "泽泻与山茱萸",
@@ -5793,7 +5793,7 @@
         "indication": "用于肝肾阴虚、虚火上炎或水肿腰痛等证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "泽泻与山茱萸"
+        "pair_name_en": "泽泻 with 山茱萸"
       },
       {
         "pair_name": "泽泻与决明子",
@@ -5801,7 +5801,7 @@
         "indication": "适用于高脂血症、头晕目眩及脂肪肝患者。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "泽泻与决明子"
+        "pair_name_en": "泽泻 with 决明子"
       }
     ],
     "formulas": [
@@ -5952,7 +5952,7 @@
       {
         "title": "抗菌与抗病毒",
         "desc": "体外实验表明，木瓜对多种常见致病菌及部分病毒具有一定的抑制作用。",
-        "title_en": "Antibacterial & Antiviral Activities",
+        "title_en": "Antibacterial & Antiviral Activity",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -5985,7 +5985,7 @@
         "indication": "用于血虚肝旺所致的肢体麻木、筋挛作痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "木瓜 with 当归"
+        "pair_name_en": "木瓜 with Angelica"
       },
       {
         "pair_name": "木瓜配藿香",
@@ -6169,7 +6169,7 @@
         "indication": "适用于气滞血瘀型胸痹心痛、冠心病",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "山楂 with 丹参"
+        "pair_name_en": "山楂 with Salvia"
       },
       {
         "pair_name": "山楂配荷叶",
@@ -6377,7 +6377,7 @@
         "indication": "用于肝肾阴虚、胎动不安或妊娠高血压。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "杜仲 with 黄芩"
+        "pair_name_en": "杜仲 with Scutellaria"
       }
     ],
     "formulas": [
@@ -6545,7 +6545,7 @@
         "indication": "用于肝肾阴虚之腰膝酸软、头晕耳鸣、遗精等。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "山茱萸与熟地黄"
+        "pair_name_en": "山茱萸 with 熟地黄"
       },
       {
         "pair_name": "山茱萸与五味子",
@@ -6553,7 +6553,7 @@
         "indication": "用于虚汗不止、遗精滑泄以及消渴口干。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "山茱萸与五味子"
+        "pair_name_en": "山茱萸 with 五味子"
       },
       {
         "pair_name": "山茱萸与附子",
@@ -6561,7 +6561,7 @@
         "indication": "用于肾阳虚衰、命门火衰之畏寒肢冷、阳痿及虚脱。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "山茱萸与附子"
+        "pair_name_en": "山茱萸 with 附子"
       },
       {
         "pair_name": "山茱萸与山药",
@@ -6569,7 +6569,7 @@
         "indication": "用于脾肾两虚之遗尿、尿频、带下及消渴。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "山茱萸与山药"
+        "pair_name_en": "山茱萸 with 山药"
       }
     ],
     "formulas": [
@@ -6726,7 +6726,7 @@
       {
         "title": "调节免疫功能",
         "desc": "研究表明红花多糖能调节机体免疫功能，具有一定的抗氧化和延缓衰老作用。",
-        "title_en": "调节免疫功能",
+        "title_en": "Immunomodulatory Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
@@ -6737,7 +6737,7 @@
         "indication": "常用于血瘀经闭、痛经、产后瘀阻及跌打损伤等症。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "红花与桃仁"
+        "pair_name_en": "红花 with 桃仁"
       },
       {
         "pair_name": "红花与当归",
@@ -6745,7 +6745,7 @@
         "indication": "适用于血虚兼血瘀之月经不调、面色萎黄等。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "红花与当归"
+        "pair_name_en": "红花 with Angelica"
       },
       {
         "pair_name": "红花与川芎",
@@ -6753,7 +6753,7 @@
         "indication": "主治气滞血瘀所致的胸痹心痛、头痛眩晕。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "红花与川芎"
+        "pair_name_en": "红花 with Chuanxiong"
       },
       {
         "pair_name": "红花与丹参",
@@ -6761,7 +6761,7 @@
         "indication": "多用于冠心病心绞痛、心脉瘀阻及失眠多梦。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "红花与丹参"
+        "pair_name_en": "红花 with Salvia"
       }
     ],
     "formulas": [
@@ -6906,7 +6906,7 @@
       {
         "title": "调节免疫功能",
         "desc": "能增强机体细胞免疫和体液免疫功能，提高巨噬细胞吞噬能力。",
-        "title_en": "调节免疫功能",
+        "title_en": "Immunomodulatory Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -6937,7 +6937,7 @@
         "indication": "心脾两虚或心神不宁之失眠、心悸",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "酸枣仁 with 茯苓"
+        "pair_name_en": "酸枣仁 with Poria"
       },
       {
         "pair_name": "酸枣仁配柏子仁",
@@ -6978,7 +6978,7 @@
         "composition": "酸枣仁、黄芪、白术、茯苓、当归、龙眼肉、远志、人参等",
         "indication": "益气健脾，养血安神。治心脾两虚证及脾不统血证",
         "composition_en": "酸枣仁, Astragali Radix, Atractylodis Macrocephalae Rhizoma, Poria, Angelicae Sinensis Radix, 龙眼肉, 远志, 人参等",
-        "name_en": "归脾汤",
+        "name_en": "Guipi Decoction",
         "indication_en": "Spleen-Stomach deficiency, central Qi collapse, visceral ptosis, spontaneous sweating, and general vitality depletion."
       }
     ],
@@ -7299,7 +7299,7 @@
         "indication": "肺阴虚所致的干咳少痰、咽干口渴。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "沙参与麦冬"
+        "pair_name_en": "沙参 with 麦冬"
       },
       {
         "pair_name": "沙参与玉竹",
@@ -7307,7 +7307,7 @@
         "indication": "燥咳咽痛、热病伤津、口干烦渴。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "沙参与玉竹"
+        "pair_name_en": "沙参 with 玉竹"
       },
       {
         "pair_name": "沙参与川贝母",
@@ -7315,7 +7315,7 @@
         "indication": "肺热燥咳、久咳咯血、痰少质黏。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "沙参与川贝母"
+        "pair_name_en": "沙参 with 川贝母"
       },
       {
         "pair_name": "沙参与生地黄",
@@ -7323,7 +7323,7 @@
         "indication": "温病后期或阴虚发热、口干舌燥。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "沙参与生地黄"
+        "pair_name_en": "沙参 with 生地黄"
       }
     ],
     "formulas": [
@@ -7442,7 +7442,7 @@
       {
         "title": "降血糖作用",
         "desc": "知母多糖及芒果苷具有明显的降血糖作用，能改善胰岛素抵抗。",
-        "title_en": "降血糖作用",
+        "title_en": "Hypoglycemic Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -7460,7 +7460,7 @@
       {
         "title": "抗菌与抗病毒",
         "desc": "体外实验表明知母水提物对多种革兰氏阳性菌及部分真菌有抑制作用。",
-        "title_en": "Antibacterial & Antiviral Activities",
+        "title_en": "Antibacterial & Antiviral Activity",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -7477,7 +7477,7 @@
         "indication": "用于气分热盛之高热烦渴、脉洪大等证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "知母与石膏"
+        "pair_name_en": "知母 with 石膏"
       },
       {
         "pair_name": "知母与黄柏",
@@ -7485,7 +7485,7 @@
         "indication": "用于阴虚火旺之骨蒸潮热、盗汗遗精等证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "知母与黄柏"
+        "pair_name_en": "知母 with 黄柏"
       },
       {
         "pair_name": "知母与贝母",
@@ -7493,7 +7493,7 @@
         "indication": "用于肺热燥咳、痰稠不易咯出者。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "知母与贝母"
+        "pair_name_en": "知母 with 贝母"
       },
       {
         "pair_name": "知母与生地黄",
@@ -7501,7 +7501,7 @@
         "indication": "用于热病伤津或消渴证。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "知母与生地黄"
+        "pair_name_en": "知母 with 生地黄"
       }
     ],
     "formulas": [
@@ -7640,7 +7640,7 @@
       {
         "title": "降血糖作用",
         "desc": "黄柏总生物碱及小檗碱能改善胰岛素抵抗，降低实验动物的血糖及糖化血红蛋白水平。",
-        "title_en": "降血糖作用",
+        "title_en": "Hypoglycemic Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -7658,7 +7658,7 @@
       {
         "title": "抗肿瘤作用",
         "desc": "现代体外实验表明，黄柏提取物对多种肿瘤细胞株具有抑制增殖和诱导凋亡的作用。",
-        "title_en": "抗肿瘤作用",
+        "title_en": "Antitumor Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
@@ -7669,7 +7669,7 @@
         "indication": "湿热下注之痿躄、脚气、带下、足膝肿痛",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄柏与苍术"
+        "pair_name_en": "黄柏 with 苍术"
       },
       {
         "pair_name": "黄柏与知母",
@@ -7677,7 +7677,7 @@
         "indication": "肾阴虚火旺之骨蒸劳热、潮热盗汗、遗精",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄柏与知母"
+        "pair_name_en": "黄柏 with 知母"
       },
       {
         "pair_name": "黄柏与黄连",
@@ -7685,7 +7685,7 @@
         "indication": "湿热泻痢、胃热呕吐、疮疡肿毒",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄柏与黄连"
+        "pair_name_en": "黄柏 with 黄连"
       },
       {
         "pair_name": "黄柏与栀子",
@@ -7693,7 +7693,7 @@
         "indication": "湿热黄疸、热淋涩痛、血热吐衄",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "黄柏与栀子"
+        "pair_name_en": "黄柏 with 栀子"
       }
     ],
     "formulas": [
@@ -7861,7 +7861,7 @@
         "indication": "用于三焦火毒郁滞所致的发热、烦躁、目赤咽痛等症。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "栀子与黄芩"
+        "pair_name_en": "栀子 with Scutellaria"
       },
       {
         "pair_name": "栀子与淡豆豉",
@@ -7869,7 +7869,7 @@
         "indication": "用于外感热病后热郁胸膈、心烦不得眠等症。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "栀子与淡豆豉"
+        "pair_name_en": "栀子 with 淡豆豉"
       },
       {
         "pair_name": "栀子与茵陈",
@@ -7877,7 +7877,7 @@
         "indication": "为治湿热黄疸之要药，主治身黄、尿黄、苔黄腻。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "栀子与茵陈"
+        "pair_name_en": "栀子 with 茵陈"
       },
       {
         "pair_name": "栀子与大黄",
@@ -7885,7 +7885,7 @@
         "indication": "用于实热积滞、血热吐衄及湿热下痢等症。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "栀子与大黄"
+        "pair_name_en": "栀子 with 大黄"
       }
     ],
     "formulas": [
@@ -8245,7 +8245,7 @@
         "indication": "适用于热毒疮痈、乳痈初起、咽喉肿痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "蒲公英与金银花"
+        "pair_name_en": "蒲公英 with 金银花"
       },
       {
         "pair_name": "蒲公英与夏枯草",
@@ -8253,7 +8253,7 @@
         "indication": "适用于瘰疬结核、目赤肿痛、甲状腺肿大。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "蒲公英与夏枯草"
+        "pair_name_en": "蒲公英 with 夏枯草"
       },
       {
         "pair_name": "蒲公英与茯苓",
@@ -8261,7 +8261,7 @@
         "indication": "适用于湿热下注所致的小便淋痛、水肿及脾虚湿盛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "蒲公英与茯苓"
+        "pair_name_en": "蒲公英 with Poria"
       },
       {
         "pair_name": "蒲公英与板蓝根",
@@ -8269,7 +8269,7 @@
         "indication": "适用于流行性感冒、扁桃体炎及各种急性热病。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "蒲公英与板蓝根"
+        "pair_name_en": "蒲公英 with 板蓝根"
       }
     ],
     "formulas": [
@@ -8414,7 +8414,7 @@
       {
         "title": "抗菌与抗病毒",
         "desc": "对金黄色葡萄球菌、大肠杆菌及流感病毒等多种病原微生物具有不同程度的抑制作用。",
-        "title_en": "Antibacterial & Antiviral Activities",
+        "title_en": "Antibacterial & Antiviral Activity",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -8437,7 +8437,7 @@
         "indication": "风热感冒引起的头痛目赤、视物不清等症。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "薄荷与菊花"
+        "pair_name_en": "薄荷 with 菊花"
       },
       {
         "pair_name": "薄荷与蝉蜕",
@@ -8445,7 +8445,7 @@
         "indication": "风热感冒咽痛、麻疹初期透发不畅及皮肤瘙痒。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "薄荷与蝉蜕"
+        "pair_name_en": "薄荷 with 蝉蜕"
       },
       {
         "pair_name": "薄荷与牛蒡子",
@@ -8453,7 +8453,7 @@
         "indication": "风热郁肺之咽喉肿痛、声音嘶哑及咳嗽痰多。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "薄荷与牛蒡子"
+        "pair_name_en": "薄荷 with 牛蒡子"
       },
       {
         "pair_name": "薄荷与柴胡",
@@ -8461,7 +8461,7 @@
         "indication": "肝气郁结所致的胸胁胀痛、月经不调及情志抑郁。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "薄荷与柴胡"
+        "pair_name_en": "薄荷 with Bupleurum"
       }
     ],
     "formulas": [
@@ -8629,7 +8629,7 @@
         "indication": "用于气滞血瘀所致的胸痹、头痛及跌打损伤。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "川芎 with 赤芍"
+        "pair_name_en": "Chuanxiong with 赤芍"
       },
       {
         "pair_name": "川芎配白芷",
@@ -8637,7 +8637,7 @@
         "indication": "尤善治外感风邪或血瘀引起的头痛、眉棱骨痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "川芎 with 白芷"
+        "pair_name_en": "Chuanxiong with 白芷"
       },
       {
         "pair_name": "川芎配当归",
@@ -8645,7 +8645,7 @@
         "indication": "用于血虚血瘀之月经不调、痛经及产后腹痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "川芎 with 当归"
+        "pair_name_en": "Chuanxiong with Angelica"
       },
       {
         "pair_name": "川芎配香附",
@@ -8653,7 +8653,7 @@
         "indication": "用于肝郁气滞、血行不畅所致的胁肋疼痛及痛经。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "川芎 with 香附"
+        "pair_name_en": "Chuanxiong with 香附"
       }
     ],
     "formulas": [
@@ -8821,7 +8821,7 @@
         "indication": "用于肝肾不足所致的腰膝酸软、筋骨无力。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "牛膝与杜仲"
+        "pair_name_en": "牛膝 with 杜仲"
       },
       {
         "pair_name": "牛膝与生地黄",
@@ -8829,7 +8829,7 @@
         "indication": "用于肝阳上亢或阴虚火旺引起的头痛眩晕、牙痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "牛膝与生地黄"
+        "pair_name_en": "牛膝 with 生地黄"
       },
       {
         "pair_name": "牛膝与桃仁",
@@ -8837,7 +8837,7 @@
         "indication": "用于血瘀经闭、痛经、产后瘀阻腹痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "牛膝与桃仁"
+        "pair_name_en": "牛膝 with 桃仁"
       },
       {
         "pair_name": "牛膝与车前子",
@@ -8845,7 +8845,7 @@
         "indication": "用于下焦湿热所致的小便淋沥涩痛或水肿脚气。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "牛膝与车前子"
+        "pair_name_en": "牛膝 with 车前子"
       }
     ],
     "formulas": [
@@ -9013,7 +9013,7 @@
         "indication": "肝郁气滞所致的胸胁疼痛、胃脘胀痛等",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "延胡索与川楝子"
+        "pair_name_en": "延胡索 with 川楝子"
       },
       {
         "pair_name": "延胡索与当归",
@@ -9021,7 +9021,7 @@
         "indication": "血瘀气滞引起的妇女痛经、产后腹痛",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "延胡索与当归"
+        "pair_name_en": "延胡索 with Angelica"
       },
       {
         "pair_name": "延胡索与乳香",
@@ -9029,7 +9029,7 @@
         "indication": "气滞血瘀较重的跌打损伤、筋骨疼痛",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "延胡索与乳香"
+        "pair_name_en": "延胡索 with 乳香"
       },
       {
         "pair_name": "延胡索与白芷",
@@ -9037,7 +9037,7 @@
         "indication": "头痛、牙痛及寒凝气滞诸痛",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "延胡索与白芷"
+        "pair_name_en": "延胡索 with 白芷"
       }
     ],
     "formulas": [
@@ -9205,7 +9205,7 @@
         "indication": "用于血虚兼瘀所致的月经不调、痛经及产后腹痛。",
         "efficacy_en": "Synergistically supplements primordial Qi and harmonizes blood circulation.",
         "indication_en": "Dual deficiency of Qi and blood, chronic exhaustion, and diminished physiological defense.",
-        "pair_name_en": "益母草 with 当归"
+        "pair_name_en": "益母草 with Angelica"
       },
       {
         "pair_name": "益母草配香附",
@@ -9356,7 +9356,7 @@
       {
         "title": "降血糖作用",
         "desc": "桑叶中的1-脱氧野尻霉素（DNJ）具有显著的α-葡萄糖苷酶抑制活性，有助于控制餐后血糖。",
-        "title_en": "降血糖作用",
+        "title_en": "Hypoglycemic Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
@@ -9386,7 +9386,7 @@
       {
         "title": "调节免疫功能",
         "desc": "桑叶多糖能促进淋巴细胞增殖，增强巨噬细胞的吞噬活性，从而调节机体免疫力。",
-        "title_en": "调节免疫功能",
+        "title_en": "Immunomodulatory Effects",
         "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
