@@ -41,27 +41,39 @@
     "modern_research": [
       {
         "title": "对免疫系统的调节作用",
-        "desc": "黄芪多糖能显著提高机体非特异性免疫功能，促进T细胞增殖与抗体生成。"
+        "desc": "黄芪多糖能显著提高机体非特异性免疫功能，促进T细胞增殖与抗体生成。",
+        "title_en": "Immunomodulatory Effects",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的保护",
-        "desc": "黄芪总黄酮及黄芪甲苷能增强心肌收缩力，改善心肌缺血，保护血管内皮细胞。"
+        "desc": "黄芪总黄酮及黄芪甲苷能增强心肌收缩力，改善心肌缺血，保护血管内皮细胞。",
+        "title_en": "Cardiovascular Protective Effects",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗衰老与抗氧化",
-        "desc": "能够清除自由基，降低脂质过氧化物水平，保护细胞免受氧化损伤。"
+        "desc": "能够清除自由基，降低脂质过氧化物水平，保护细胞免受氧化损伤。",
+        "title_en": "Anti-aging & Antioxidant Properties",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对肾脏的保护作用",
-        "desc": "可有效减轻肾小球硬化，减少尿蛋白排泄，改善肾功能。"
+        "desc": "可有效减轻肾小球硬化，减少尿蛋白排泄，改善肾功能。",
+        "title_en": "Renoprotective Effects",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤作用",
-        "desc": "通过诱导肿瘤细胞凋亡及增强机体抗肿瘤免疫反应发挥抑瘤效应。"
+        "desc": "通过诱导肿瘤细胞凋亡及增强机体抗肿瘤免疫反应发挥抑瘤效应。",
+        "title_en": "抗肿瘤作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节血糖代谢",
-        "desc": "具有改善胰岛素抵抗、调节糖脂代谢紊乱的作用。"
+        "desc": "具有改善胰岛素抵抗、调节糖脂代谢紊乱的作用。",
+        "title_en": "调节血糖代谢",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -133,7 +145,17 @@
         "url": "https://doi.org/10.3390/biomedicines14091936"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "Astragaloside IV",
+      "Astragalus Polysaccharides (APS)",
+      "Calycosin-7-O-β-D-glucoside",
+      "Amino Acids & Trace Elements"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "panax-ginseng",
@@ -177,27 +199,39 @@
     "modern_research": [
       {
         "title": "对神经系统的影响",
-        "desc": "人参皂苷能改善学习和记忆能力，促进中枢神经系统功能，具有抗疲劳、抗衰老及保护神经元的作用。"
+        "desc": "人参皂苷能改善学习和记忆能力，促进中枢神经系统功能，具有抗疲劳、抗衰老及保护神经元的作用。",
+        "title_en": "对神经系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的作用",
-        "desc": "具有强心、抗休克、调节血压、改善心肌缺血及抗血小板聚集的作用。"
+        "desc": "具有强心、抗休克、调节血压、改善心肌缺血及抗血小板聚集的作用。",
+        "title_en": "对心血管系统的作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫功能",
-        "desc": "人参多糖和皂苷能显著增强机体非特异性免疫和特异性免疫功能，提高抗病能力。"
+        "desc": "人参多糖和皂苷能显著增强机体非特异性免疫和特异性免疫功能，提高抗病能力。",
+        "title_en": "调节免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对内分泌系统的影响",
-        "desc": "可调节下丘脑-垂体-肾上腺皮质轴功能，双向调节血糖和血脂代谢。"
+        "desc": "可调节下丘脑-垂体-肾上腺皮质轴功能，双向调节血糖和血脂代谢。",
+        "title_en": "对内分泌系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤作用",
-        "desc": "多种人参提取物能抑制肿瘤细胞增殖，诱导其凋亡，并减轻放化疗的毒副作用。"
+        "desc": "多种人参提取物能抑制肿瘤细胞增殖，诱导其凋亡，并减轻放化疗的毒副作用。",
+        "title_en": "抗肿瘤作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与抗衰老",
-        "desc": "能清除体内自由基，增强抗氧化酶活性，减轻脂质过氧化损伤。"
+        "desc": "能清除体内自由基，增强抗氧化酶活性，减轻脂质过氧化损伤。",
+        "title_en": "抗氧化与抗衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -269,7 +303,17 @@
         "url": "https://doi.org/10.3390/ijms27188160"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "Ginsenoside Rb1",
+      "Ginsenoside Rg1",
+      "Ginseng Polysaccharides",
+      "Ginseng Essential Oil"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "artemisia-annua",
@@ -313,27 +357,39 @@
     "modern_research": [
       {
         "title": "抗疟疾作用",
-        "desc": "青蒿素及其衍生物能有效杀灭疟原虫红细胞内期，对恶性疟和间日疟均有显著疗效。"
+        "desc": "青蒿素及其衍生物能有效杀灭疟原虫红细胞内期，对恶性疟和间日疟均有显著疗效。",
+        "title_en": "抗疟疾作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "免疫调节作用",
-        "desc": "青蒿提取物对细胞免疫和体液免疫均具有一定的调节作用，能抑制过敏反应。"
+        "desc": "青蒿提取物对细胞免疫和体液免疫均具有一定的调节作用，能抑制过敏反应。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎镇痛",
-        "desc": "其所含成分能显著抑制炎症介质的释放，减轻急慢性炎症反应，缓解疼痛。"
+        "desc": "其所含成分能显著抑制炎症介质的释放，减轻急慢性炎症反应，缓解疼痛。",
+        "title_en": "抗炎镇痛",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤活性",
-        "desc": "现代实验表明青蒿素类化合物可通过诱导肿瘤细胞凋亡抑制多种癌细胞生长。"
+        "desc": "现代实验表明青蒿素类化合物可通过诱导肿瘤细胞凋亡抑制多种癌细胞生长。",
+        "title_en": "抗肿瘤活性",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "解热作用",
-        "desc": "青蒿煎剂及提取物对内毒素引起的发热动物模型有明显的降温作用。"
+        "desc": "青蒿煎剂及提取物对内毒素引起的发热动物模型有明显的降温作用。",
+        "title_en": "解热作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌与抗病毒",
-        "desc": "体外实验显示其对金黄色葡萄球菌、绿脓杆菌及某些呼吸道病毒有抑制作用。"
+        "desc": "体外实验显示其对金黄色葡萄球菌、绿脓杆菌及某些呼吸道病毒有抑制作用。",
+        "title_en": "抗菌与抗病毒",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -405,7 +461,17 @@
         "url": "https://doi.org/10.3390/molecules31162745"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "Artemisinin",
+      "青蒿素甲醚",
+      "东莨菪素",
+      "挥发油"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "angelica-sinensis",
@@ -449,27 +515,39 @@
     "modern_research": [
       {
         "title": "对造血系统的影响",
-        "desc": "当归多糖及当归水煎液能显著促进造血干细胞的增殖，对血虚模型动物有明显的升高白细胞和红细胞的作用。"
+        "desc": "当归多糖及当归水煎液能显著促进造血干细胞的增殖，对血虚模型动物有明显的升高白细胞和红细胞的作用。",
+        "title_en": "对造血系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对子宫平滑肌的双向调节作用",
-        "desc": "当归挥发油对子宫平滑肌多呈抑制作用，能松弛子宫平滑肌；而当归水溶性非挥发性成分则能兴奋子宫平滑肌，增强其收缩力。"
+        "desc": "当归挥发油对子宫平滑肌多呈抑制作用，能松弛子宫平滑肌；而当归水溶性非挥发性成分则能兴奋子宫平滑肌，增强其收缩力。",
+        "title_en": "对子宫平滑肌的双向调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的保护作用",
-        "desc": "当归提取物具有扩张冠状动脉、降低心肌耗氧量、抑制血小板聚集、抗血栓形成及改善微循环的作用。"
+        "desc": "当归提取物具有扩张冠状动脉、降低心肌耗氧量、抑制血小板聚集、抗血栓形成及改善微循环的作用。",
+        "title_en": "对心血管系统的保护作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫功能",
-        "desc": "当归多糖能显著增强巨噬细胞的吞噬功能，促进淋巴细胞转化，提高机体的细胞免疫和体液免疫水平。"
+        "desc": "当归多糖能显著增强巨噬细胞的吞噬功能，促进淋巴细胞转化，提高机体的细胞免疫和体液免疫水平。",
+        "title_en": "调节免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与镇痛",
-        "desc": "当归中的阿魏酸等成分具有明显的抗炎镇痛作用，能减轻急慢性炎症反应，抑制前列腺素合成。"
+        "desc": "当归中的阿魏酸等成分具有明显的抗炎镇痛作用，能减轻急慢性炎症反应，抑制前列腺素合成。",
+        "title_en": "抗炎与镇痛",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝与抗氧化",
-        "desc": "当归能减轻肝细胞变性坏死，促进肝细胞再生，其所含的抗氧化成分能清除自由基，减轻脂质过氧化损伤。"
+        "desc": "当归能减轻肝细胞变性坏死，促进肝细胞再生，其所含的抗氧化成分能清除自由基，减轻脂质过氧化损伤。",
+        "title_en": "保肝与抗氧化",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -541,7 +619,17 @@
         "url": "https://doi.org/10.1016/j.tice.2026.103871"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "阿魏酸",
+      "藁本内酯",
+      "丁烯基藁本内酯",
+      "当归多糖"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "lycium-barbarum",
@@ -585,27 +673,39 @@
     "modern_research": [
       {
         "title": "免疫调节作用",
-        "desc": "枸杞多糖能显著增强机体非特异性免疫功能，提高抗病能力。"
+        "desc": "枸杞多糖能显著增强机体非特异性免疫功能，提高抗病能力。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗衰老与抗氧化",
-        "desc": "能清除自由基，显著提高血浆中SOD活力，减轻脂质过氧化损伤。"
+        "desc": "能清除自由基，显著提高血浆中SOD活力，减轻脂质过氧化损伤。",
+        "title_en": "Anti-aging & Antioxidant Properties",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节血糖作用",
-        "desc": "对实验性高血糖有显著的降糖作用，并能改善糖耐量。"
+        "desc": "对实验性高血糖有显著的降糖作用，并能改善糖耐量。",
+        "title_en": "调节血糖作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护视网膜",
-        "desc": "所含的玉米黄质和胡萝卜素有助于抗蓝光损伤，保护视神经及视网膜细胞。"
+        "desc": "所含的玉米黄质和胡萝卜素有助于抗蓝光损伤，保护视神经及视网膜细胞。",
+        "title_en": "保护视网膜",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝作用",
-        "desc": "具有抑制脂肪在肝细胞内沉积、促进肝细胞新生的作用。"
+        "desc": "具有抑制脂肪在肝细胞内沉积、促进肝细胞新生的作用。",
+        "title_en": "保肝作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗疲劳与耐缺氧",
-        "desc": "能延长小鼠负重游泳时间，提高机体在缺氧环境下的生存能力。"
+        "desc": "能延长小鼠负重游泳时间，提高机体在缺氧环境下的生存能力。",
+        "title_en": "抗疲劳与耐缺氧",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -677,7 +777,17 @@
         "url": "https://doi.org/10.14715/cmb/2026.72.5.1"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "Lycium barbarum polysaccharides (LBP)",
+      "Betaine",
+      "胡萝卜素",
+      "玉蜀黍黄素"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "glycyrrhiza",
@@ -721,27 +831,39 @@
     "modern_research": [
       {
         "title": "抗炎与抗过敏作用",
-        "desc": "甘草酸和甘草次酸具有类似糖皮质激素样抗炎抗过敏作用，能抑制炎症介质释放。"
+        "desc": "甘草酸和甘草次酸具有类似糖皮质激素样抗炎抗过敏作用，能抑制炎症介质释放。",
+        "title_en": "抗炎与抗过敏作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝解毒作用",
-        "desc": "甘草甜素能保护肝细胞膜，改善肝功能，对外源性毒物及药物性肝损有显著保护作用。"
+        "desc": "甘草甜素能保护肝细胞膜，改善肝功能，对外源性毒物及药物性肝损有显著保护作用。",
+        "title_en": "保肝解毒作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对消化系统的影响",
-        "desc": "甘草黄酮及甘草浸膏能抑制胃酸分泌，保护胃黏膜，对胃溃疡具有良好治疗效果。"
+        "desc": "甘草黄酮及甘草浸膏能抑制胃酸分泌，保护胃黏膜，对胃溃疡具有良好治疗效果。",
+        "title_en": "对消化系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "镇咳祛痰作用",
-        "desc": "甘草酸盐及甘草水解物能促进咽部及支气管分泌，稀释痰液，表现出确切的镇咳祛痰功效。"
+        "desc": "甘草酸盐及甘草水解物能促进咽部及支气管分泌，稀释痰液，表现出确切的镇咳祛痰功效。",
+        "title_en": "镇咳祛痰作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫功能",
-        "desc": "甘草多糖可增强机体非特异性免疫功能，促进淋巴细胞增殖与抗体生成。"
+        "desc": "甘草多糖可增强机体非特异性免疫功能，促进淋巴细胞增殖与抗体生成。",
+        "title_en": "调节免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗病毒作用",
-        "desc": "现代实验表明甘草提取物对乙肝病毒、疱疹病毒及流感病毒等具有一定的抑制活性。"
+        "desc": "现代实验表明甘草提取物对乙肝病毒、疱疹病毒及流感病毒等具有一定的抑制活性。",
+        "title_en": "抗病毒作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -813,7 +935,17 @@
         "url": "https://doi.org/10.1016/j.ultsonch.2026.108001"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "甘草甜素",
+      "Glycyrrhizic acid",
+      "Liquiritin",
+      "甘草多糖"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "ginkgo-biloba",
@@ -857,27 +989,39 @@
     "modern_research": [
       {
         "title": "改善脑血液循环",
-        "desc": "银杏叶提取物能增加脑血流量，降低脑血管阻力，对脑缺血有保护作用。"
+        "desc": "银杏叶提取物能增加脑血流量，降低脑血管阻力，对脑缺血有保护作用。",
+        "title_en": "改善脑血液循环",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗血小板聚集",
-        "desc": "所含银杏内酯能拮抗血小板活化因子，防止血栓形成。"
+        "desc": "所含银杏内酯能拮抗血小板活化因子，防止血栓形成。",
+        "title_en": "抗血小板聚集",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与抗衰老",
-        "desc": "黄酮类化合物具有强抗氧化活性，可清除自由基，减轻细胞氧化损伤。"
+        "desc": "黄酮类化合物具有强抗氧化活性，可清除自由基，减轻细胞氧化损伤。",
+        "title_en": "抗氧化与抗衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护心血管系统",
-        "desc": "具有扩张冠状动脉、改善心肌缺血以及调节血脂代谢的作用。"
+        "desc": "具有扩张冠状动脉、改善心肌缺血以及调节血脂代谢的作用。",
+        "title_en": "保护心血管系统",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善记忆与认知功能",
-        "desc": "能够促进神经元代谢，对老年痴呆及血管性痴呆具有一定的改善作用。"
+        "desc": "能够促进神经元代谢，对老年痴呆及血管性痴呆具有一定的改善作用。",
+        "title_en": "改善记忆与认知功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与抗过敏作用",
-        "desc": "能抑制炎性介质的释放，对哮喘和炎症反应具有缓解效果。"
+        "desc": "能抑制炎性介质的释放，对哮喘和炎症反应具有缓解效果。",
+        "title_en": "抗炎与抗过敏作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -949,7 +1093,17 @@
         "url": "https://doi.org/10.31557/APJCP.2026.27.9.3431"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "Ginkgolides",
+      "Bilobalide",
+      "银杏黄酮苷",
+      "银杏酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "rhodiola-rosea",
@@ -993,27 +1147,39 @@
     "modern_research": [
       {
         "title": "抗疲劳与耐缺氧作用",
-        "desc": "红景天提取物能显著延长机体在常压缺氧条件下的生存时间，增强细胞线粒体功能，提高机体抗疲劳能力。"
+        "desc": "红景天提取物能显著延长机体在常压缺氧条件下的生存时间，增强细胞线粒体功能，提高机体抗疲劳能力。",
+        "title_en": "抗疲劳与耐缺氧作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节神经系统",
-        "desc": "具有类似“适应原”样作用，双向调节中枢神经系统，改善睡眠，缓解焦虑与抑郁。"
+        "desc": "具有类似“适应原”样作用，双向调节中枢神经系统，改善睡眠，缓解焦虑与抑郁。",
+        "title_en": "调节神经系统",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与延缓衰老",
-        "desc": "富含的红景天苷和黄酮类成分能有效清除自由基，减轻氧化应激损伤，保护心肌及脑细胞。"
+        "desc": "富含的红景天苷和黄酮类成分能有效清除自由基，减轻氧化应激损伤，保护心肌及脑细胞。",
+        "title_en": "抗氧化与延缓衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "免疫调节作用",
-        "desc": "能增强巨噬细胞吞噬功能，促进T淋巴细胞增殖，全面提升机体免疫力。"
+        "desc": "能增强巨噬细胞吞噬功能，促进T淋巴细胞增殖，全面提升机体免疫力。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护心血管系统",
-        "desc": "能改善微循环，保护缺血心肌，抗心律失常并降低血脂水平。"
+        "desc": "能改善微循环，保护缺血心肌，抗心律失常并降低血脂水平。",
+        "title_en": "保护心血管系统",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤辅助作用",
-        "desc": "现代实验表明其活性成分对多种肿瘤细胞株有抑制增殖作用，可作为放化疗的辅助调理剂。"
+        "desc": "现代实验表明其活性成分对多种肿瘤细胞株有抑制增殖作用，可作为放化疗的辅助调理剂。",
+        "title_en": "抗肿瘤辅助作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -1085,7 +1251,17 @@
         "url": "https://doi.org/10.1016/j.bbr.2026.116451"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "红景天苷 (Salidroside)",
+      "酪醇 (Tyrosol)",
+      "红景天多糖",
+      "黄酮类化合物"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "salvia-miltiorrhiza",
@@ -1129,27 +1305,39 @@
     "modern_research": [
       {
         "title": "改善微循环",
-        "desc": "丹参提取物能扩张微血管，增加毛细血管开放数量，改善组织微循环灌注。"
+        "desc": "丹参提取物能扩张微血管，增加毛细血管开放数量，改善组织微循环灌注。",
+        "title_en": "改善微循环",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抑制血小板聚集",
-        "desc": "有效成分能抑制血小板聚集和释放，降低血液粘稠度，防止血栓形成。"
+        "desc": "有效成分能抑制血小板聚集和释放，降低血液粘稠度，防止血栓形成。",
+        "title_en": "抑制血小板聚集",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护心肌细胞",
-        "desc": "可减轻缺血再灌注损伤，缩小梗死面积，保护心肌能量代谢。"
+        "desc": "可减轻缺血再灌注损伤，缩小梗死面积，保护心肌能量代谢。",
+        "title_en": "保护心肌细胞",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗动脉粥样硬化",
-        "desc": "能调节血脂，抑制血管平滑肌细胞增生，减轻内膜斑块形成。"
+        "desc": "能调节血脂，抑制血管平滑肌细胞增生，减轻内膜斑块形成。",
+        "title_en": "抗动脉粥样硬化",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肝纤维化",
-        "desc": "通过抑制肝星状细胞活化及胶原合成，起到抗肝纤维化和保护肝脏的作用。"
+        "desc": "通过抑制肝星状细胞活化及胶原合成，起到抗肝纤维化和保护肝脏的作用。",
+        "title_en": "抗肝纤维化",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善神经功能",
-        "desc": "对缺血性脑卒中具有保护作用，能减轻脑水肿，改善神经元细胞代谢。"
+        "desc": "对缺血性脑卒中具有保护作用，能减轻脑水肿，改善神经元细胞代谢。",
+        "title_en": "改善神经功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -1221,7 +1409,17 @@
         "url": "https://doi.org/10.2174/1386207329999251219121642"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "丹参酮I",
+      "Tanshinone IIA",
+      "Cryptotanshinone",
+      "丹参素"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "atractylodes",
@@ -1265,27 +1463,39 @@
     "modern_research": [
       {
         "title": "调节胃肠功能",
-        "desc": "白术挥发油及多糖成分能双向调节胃肠平滑肌运动，对胃肠粘膜有保护作用。"
+        "desc": "白术挥发油及多糖成分能双向调节胃肠平滑肌运动，对胃肠粘膜有保护作用。",
+        "title_en": "调节胃肠功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "增强免疫功能",
-        "desc": "白术多糖能显着提高机体细胞免疫和体液免疫功能，促进抗体生成。"
+        "desc": "白术多糖能显着提高机体细胞免疫和体液免疫功能，促进抗体生成。",
+        "title_en": "增强免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "利尿作用",
-        "desc": "白术煎剂能促进电解质的排出，具有明显且持久的利尿作用。"
+        "desc": "白术煎剂能促进电解质的排出，具有明显且持久的利尿作用。",
+        "title_en": "利尿作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与抗氧化",
-        "desc": "提取物能抑制多种炎症介质的释放，清除自由基，减轻组织损伤。"
+        "desc": "提取物能抑制多种炎症介质的释放，清除自由基，减轻组织损伤。",
+        "title_en": "抗炎与抗氧化",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝作用",
-        "desc": "白术对化学性肝损伤有保护作用，能降低血清转氨酶并促进肝细胞修复。"
+        "desc": "白术对化学性肝损伤有保护作用，能降低血清转氨酶并促进肝细胞修复。",
+        "title_en": "保肝作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤及抗衰老",
-        "desc": "能够诱导肿瘤细胞凋亡，调节体内抗氧化酶活性，延缓机体衰老。"
+        "desc": "能够诱导肿瘤细胞凋亡，调节体内抗氧化酶活性，延缓机体衰老。",
+        "title_en": "抗肿瘤及抗衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -1357,7 +1567,17 @@
         "url": "https://doi.org/10.3390/nu18152566"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "Atractylenolide I",
+      "Atractylenolide II",
+      "Atractylenolide III",
+      "苍术酮"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "poria-cocos",
@@ -1401,27 +1621,39 @@
     "modern_research": [
       {
         "title": "免疫调节作用",
-        "desc": "茯苓多糖能显著提高机体细胞免疫和体液免疫功能，促进淋巴细胞增殖。"
+        "desc": "茯苓多糖能显著提高机体细胞免疫和体液免疫功能，促进淋巴细胞增殖。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "利尿作用",
-        "desc": "能增加尿量及钠、钾、氯等电解质的排出，对肾炎水肿有明显改善作用。"
+        "desc": "能增加尿量及钠、钾、氯等电解质的排出，对肾炎水肿有明显改善作用。",
+        "title_en": "利尿作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "镇静安眠",
-        "desc": "茯苓提取物对中枢神经系统具有抑制作用，可显著延长睡眠时间，改善睡眠质量。"
+        "desc": "茯苓提取物对中枢神经系统具有抑制作用，可显著延长睡眠时间，改善睡眠质量。",
+        "title_en": "镇静安眠",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤作用",
-        "desc": "所含有效成分可抑制多种肿瘤细胞的生长，诱导其细胞凋亡。"
+        "desc": "所含有效成分可抑制多种肿瘤细胞的生长，诱导其细胞凋亡。",
+        "title_en": "抗肿瘤作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护胃黏膜",
-        "desc": "对胃溃疡和胃黏膜损伤具有显著的保护与修复作用，抑制胃酸过度分泌。"
+        "desc": "对胃溃疡和胃黏膜损伤具有显著的保护与修复作用，抑制胃酸过度分泌。",
+        "title_en": "保护胃黏膜",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节血糖",
-        "desc": "具有一定的降低血糖作用，改善胰岛素抵抗，辅助糖尿病治疗。"
+        "desc": "具有一定的降低血糖作用，改善胰岛素抵抗，辅助糖尿病治疗。",
+        "title_en": "调节血糖",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -1493,7 +1725,17 @@
         "url": "https://doi.org/10.4014/jmb.2304.04048"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "Pachyman",
+      "Pachymic acid",
+      "胆甾醇",
+      "组氨酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "schisandra-chinensis",
@@ -1537,27 +1779,39 @@
     "modern_research": [
       {
         "title": "保肝及降低转氨酶",
-        "desc": "五味子提取物能显著降低四氯化碳等引起的血清谷丙转氨酶升高，并保护肝细胞结构。"
+        "desc": "五味子提取物能显著降低四氯化碳等引起的血清谷丙转氨酶升高，并保护肝细胞结构。",
+        "title_en": "保肝及降低转氨酶",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对中枢神经系统的作用",
-        "desc": "具有类似中枢兴奋剂的作用，能改善智力活动，提高工作效率，并有镇静安神作用。"
+        "desc": "具有类似中枢兴奋剂的作用，能改善智力活动，提高工作效率，并有镇静安神作用。",
+        "title_en": "对中枢神经系统的作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫功能",
-        "desc": "能促进细胞免疫和体液免疫，增强机体非特异性抵抗力。"
+        "desc": "能促进细胞免疫和体液免疫，增强机体非特异性抵抗力。",
+        "title_en": "调节免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗衰老与抗氧化",
-        "desc": "含有丰富的抗氧化成分，能清除自由基，减轻组织脂质过氧化损伤。"
+        "desc": "含有丰富的抗氧化成分，能清除自由基，减轻组织脂质过氧化损伤。",
+        "title_en": "Anti-aging & Antioxidant Properties",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对呼吸系统的影响",
-        "desc": "具有明显的镇咳、祛痰作用，能抑制组胺引起的支气管收缩。"
+        "desc": "具有明显的镇咳、祛痰作用，能抑制组胺引起的支气管收缩。",
+        "title_en": "对呼吸系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的作用",
-        "desc": "能改善微循环，增加心肌收缩力，对心肌缺血有一定保护作用。"
+        "desc": "能改善微循环，增加心肌收缩力，对心肌缺血有一定保护作用。",
+        "title_en": "对心血管系统的作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -1629,7 +1883,17 @@
         "url": "https://doi.org/10.1002/ptr.70444"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "五味子素A",
+      "五味子素B",
+      "五味子醇甲",
+      "五味子酯甲"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "cinnamomum-cassia",
@@ -1673,27 +1937,39 @@
     "modern_research": [
       {
         "title": "对心血管系统的影响",
-        "desc": "肉桂提取物及肉桂醛具有扩张血管、降低血压、改善微循环及抗血小板聚集的作用。"
+        "desc": "肉桂提取物及肉桂醛具有扩张血管、降低血压、改善微循环及抗血小板聚集的作用。",
+        "title_en": "对心血管系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血糖及脂质调节",
-        "desc": "肉桂多酚类成分能模拟胰岛素样作用，提高胰岛素敏感性，对2型糖尿病患者具有辅助降糖和调节血脂的效果。"
+        "desc": "肉桂多酚类成分能模拟胰岛素样作用，提高胰岛素敏感性，对2型糖尿病患者具有辅助降糖和调节血脂的效果。",
+        "title_en": "降血糖及脂质调节",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎镇痛作用",
-        "desc": "肉桂挥发油能抑制前列腺素合成，减轻炎症反应，对多种急慢性疼痛有显著的镇痛效果。"
+        "desc": "肉桂挥发油能抑制前列腺素合成，减轻炎症反应，对多种急慢性疼痛有显著的镇痛效果。",
+        "title_en": "抗炎镇痛作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌与抗真菌作用",
-        "desc": "肉桂醛对金黄色葡萄球菌、大肠杆菌、白色念珠菌等多种革兰氏阳性/阴性菌及真菌具有强烈的抑制作用。"
+        "desc": "肉桂醛对金黄色葡萄球菌、大肠杆菌、白色念珠菌等多种革兰氏阳性/阴性菌及真菌具有强烈的抑制作用。",
+        "title_en": "抗菌与抗真菌作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗胃溃疡及胃黏膜保护",
-        "desc": "肉桂有效成分能抑制胃酸分泌，增加胃黏膜血流量，对胃黏膜损伤具有良好的保护和修复作用。"
+        "desc": "肉桂有效成分能抑制胃酸分泌，增加胃黏膜血流量，对胃黏膜损伤具有良好的保护和修复作用。",
+        "title_en": "抗胃溃疡及胃黏膜保护",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与抗衰老",
-        "desc": "肉桂富含多酚类抗氧化剂，能清除自由基，减轻氧化应激反应，延缓细胞衰老。"
+        "desc": "肉桂富含多酚类抗氧化剂，能清除自由基，减轻氧化应激反应，延缓细胞衰老。",
+        "title_en": "抗氧化与抗衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -1765,7 +2041,17 @@
         "url": "https://doi.org/10.1111/1462-2920.70419"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "肉桂醛",
+      "肉桂酸",
+      "桂皮醇",
+      "儿茶素"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "zingiber-officinale",
@@ -1809,27 +2095,39 @@
     "modern_research": [
       {
         "title": "镇吐作用",
-        "desc": "生姜提取物对多种原因引起的呕吐具有显著的抑制作用，其有效成分能直接作用于胃肠道。"
+        "desc": "生姜提取物对多种原因引起的呕吐具有显著的抑制作用，其有效成分能直接作用于胃肠道。",
+        "title_en": "镇吐作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎镇痛",
-        "desc": "生姜中的姜辣素和姜烯酮能抑制前列腺素的合成，具有良好的抗炎与镇痛效果。"
+        "desc": "生姜中的姜辣素和姜烯酮能抑制前列腺素的合成，具有良好的抗炎与镇痛效果。",
+        "title_en": "抗炎镇痛",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善消化",
-        "desc": "能促进消化液分泌，增强胃肠蠕动，改善食欲并缓解消化不良。"
+        "desc": "能促进消化液分泌，增强胃肠蠕动，改善食欲并缓解消化不良。",
+        "title_en": "改善消化",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "心血管调节",
-        "desc": "对血小板聚集有抑制作用，有助于防止血栓形成并调节血压。"
+        "desc": "对血小板聚集有抑制作用，有助于防止血栓形成并调节血压。",
+        "title_en": "心血管调节",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化作用",
-        "desc": "富含抗氧化成分，能有效清除自由基，延缓细胞衰老。"
+        "desc": "富含抗氧化成分，能有效清除自由基，延缓细胞衰老。",
+        "title_en": "抗氧化作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌与抗病毒",
-        "desc": "对多种常见致病菌及上呼吸道病毒有不同程度的抑制和杀灭作用。"
+        "desc": "对多种常见致病菌及上呼吸道病毒有不同程度的抑制和杀灭作用。",
+        "title_en": "抗菌与抗病毒",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -1901,7 +2199,17 @@
         "url": "https://doi.org/10.1016/j.jep.2026.122399"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "姜辣素",
+      "姜烯酮",
+      "姜油酮",
+      "姜黄素"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "curcuma-longa",
@@ -1945,27 +2253,39 @@
     "modern_research": [
       {
         "title": "抗炎作用",
-        "desc": "姜黄素能显著抑制多种炎症介质的释放，具有类似非甾体抗炎药的作用。"
+        "desc": "姜黄素能显著抑制多种炎症介质的释放，具有类似非甾体抗炎药的作用。",
+        "title_en": "抗炎作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤作用",
-        "desc": "多项研究表明姜黄素能诱导肿瘤细胞凋亡，抑制肿瘤生长与转移。"
+        "desc": "多项研究表明姜黄素能诱导肿瘤细胞凋亡，抑制肿瘤生长与转移。",
+        "title_en": "抗肿瘤作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝利胆",
-        "desc": "姜黄提取物能促进胆汁分泌，保护肝脏免受化学性损伤。"
+        "desc": "姜黄提取物能促进胆汁分泌，保护肝脏免受化学性损伤。",
+        "title_en": "保肝利胆",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化作用",
-        "desc": "具有强抗氧化活性，能清除自由基，延缓细胞衰老。"
+        "desc": "具有强抗氧化活性，能清除自由基，延缓细胞衰老。",
+        "title_en": "抗氧化作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "心血管保护",
-        "desc": "能够调节血脂，抑制血小板聚集，保护心血管系统。"
+        "desc": "能够调节血脂，抑制血小板聚集，保护心血管系统。",
+        "title_en": "心血管保护",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善认知功能",
-        "desc": "对阿尔茨海默病模型动物具有改善学习记忆及神经保护作用。"
+        "desc": "对阿尔茨海默病模型动物具有改善学习记忆及神经保护作用。",
+        "title_en": "改善认知功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -2037,7 +2357,17 @@
         "url": "https://doi.org/10.1186/s12870-026-08669-6"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "姜黄素",
+      "去甲氧基姜黄素",
+      "双去甲氧基姜黄素",
+      "姜黄挥发油"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "paeonia-lactiflora",
@@ -2077,11 +2407,15 @@
     "modern_research": [
       {
         "title": "免疫调节作用",
-        "desc": "显著激活巨噬细胞活性，促进免疫球蛋白释放"
+        "desc": "显著激活巨噬细胞活性，促进免疫球蛋白释放",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化抗衰老",
-        "desc": "清除多余氧自由基，减少线粒体氧化损伤"
+        "desc": "清除多余氧自由基，减少线粒体氧化损伤",
+        "title_en": "抗氧化抗衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -2128,7 +2462,17 @@
         "url": "https://doi.org/10.1039/d6fo02950g"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "特征性多糖",
+      "黄酮苷类",
+      "皂苷活性单体",
+      "挥发油成分"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "bupleurum-chinense",
@@ -2172,27 +2516,39 @@
     "modern_research": [
       {
         "title": "解热作用",
-        "desc": "柴胡总皂苷及提取物对多种原因引起的发热具有显著的解热作用，其退热平稳持久。"
+        "desc": "柴胡总皂苷及提取物对多种原因引起的发热具有显著的解热作用，其退热平稳持久。",
+        "title_en": "解热作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与免疫调节",
-        "desc": "柴胡皂苷具有类似糖皮质激素的抗炎作用，能抑制急性炎症渗出，并能调节细胞与体液免疫。"
+        "desc": "柴胡皂苷具有类似糖皮质激素的抗炎作用，能抑制急性炎症渗出，并能调节细胞与体液免疫。",
+        "title_en": "抗炎与免疫调节",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝利胆",
-        "desc": "能降低血清转氨酶，减轻肝细胞变性坏死，促进胆汁分泌，保护肝脏及改善肝功能。"
+        "desc": "能降低血清转氨酶，减轻肝细胞变性坏死，促进胆汁分泌，保护肝脏及改善肝功能。",
+        "title_en": "保肝利胆",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗镇静与抗焦虑",
-        "desc": "柴胡挥发油成分对中枢神经系统有抑制作用，表现为镇静、镇痛及抗焦虑效果。"
+        "desc": "柴胡挥发油成分对中枢神经系统有抑制作用，表现为镇静、镇痛及抗焦虑效果。",
+        "title_en": "抗镇静与抗焦虑",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗病毒与抗菌",
-        "desc": "对流感病毒、肝炎病毒等具有一定的抑制或杀灭作用，能降低病毒感染率。"
+        "desc": "对流感病毒、肝炎病毒等具有一定的抑制或杀灭作用，能降低病毒感染率。",
+        "title_en": "抗病毒与抗菌",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗溃疡作用",
-        "desc": "能抑制胃酸分泌，保护胃黏膜，对实验性胃溃疡具有明显的预防和治疗作用。"
+        "desc": "能抑制胃酸分泌，保护胃黏膜，对实验性胃溃疡具有明显的预防和治疗作用。",
+        "title_en": "抗溃疡作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -2264,7 +2620,17 @@
         "url": "https://doi.org/10.1016/j.jep.2026.121770"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "柴胡皂苷a",
+      "柴胡皂苷d",
+      "柴胡多糖",
+      "挥发油"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "scutellaria-baicalensis",
@@ -2308,27 +2674,39 @@
     "modern_research": [
       {
         "title": "抗炎作用",
-        "desc": "黄芩中的黄芩素和黄芩苷能显著抑制多种炎症因子的释放，减轻组织炎症反应。"
+        "desc": "黄芩中的黄芩素和黄芩苷能显著抑制多种炎症因子的释放，减轻组织炎症反应。",
+        "title_en": "抗炎作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌与抗病毒作用",
-        "desc": "对金黄色葡萄球菌、绿脓杆菌及流感病毒等具有明显的抑制作用。"
+        "desc": "对金黄色葡萄球菌、绿脓杆菌及流感病毒等具有明显的抑制作用。",
+        "title_en": "抗菌与抗病毒作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤作用",
-        "desc": "能够诱导多种肿瘤细胞凋亡，抑制肿瘤细胞增殖。"
+        "desc": "能够诱导多种肿瘤细胞凋亡，抑制肿瘤细胞增殖。",
+        "title_en": "抗肿瘤作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝与利胆",
-        "desc": "对肝细胞损伤具有保护作用，能促进胆汁分泌，改善肝功能。"
+        "desc": "对肝细胞损伤具有保护作用，能促进胆汁分泌，改善肝功能。",
+        "title_en": "保肝与利胆",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗过敏作用",
-        "desc": "能抑制组胺的释放，对速发型过敏反应有良好的对抗效果。"
+        "desc": "能抑制组胺的释放，对速发型过敏反应有良好的对抗效果。",
+        "title_en": "抗过敏作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "神经保护作用",
-        "desc": "能够改善脑缺血再灌注损伤，具有抗氧化和保护神经细胞的功效。"
+        "desc": "能够改善脑缺血再灌注损伤，具有抗氧化和保护神经细胞的功效。",
+        "title_en": "神经保护作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -2400,7 +2778,17 @@
         "url": "https://doi.org/10.3724/abbs.2026162"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "黄芩素",
+      "汉黄芩素",
+      "黄芩苷",
+      "汉黄芩苷"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "platycodon-grandiflorus",
@@ -2444,27 +2832,39 @@
     "modern_research": [
       {
         "title": "祛痰作用",
-        "desc": "桔梗皂苷刺激胃粘膜反射性引起呼吸道分泌物增加，稀释痰液，产生祛痰作用。"
+        "desc": "桔梗皂苷刺激胃粘膜反射性引起呼吸道分泌物增加，稀释痰液，产生祛痰作用。",
+        "title_en": "祛痰作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "镇咳作用",
-        "desc": "所含成分对咳嗽中枢有一定抑制作用，能缓解咳嗽症状。"
+        "desc": "所含成分对咳嗽中枢有一定抑制作用，能缓解咳嗽症状。",
+        "title_en": "镇咳作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎抗菌",
-        "desc": "对多种革兰氏阳性及阴性细菌有抑制作用，具有显著的抗炎效果。"
+        "desc": "对多种革兰氏阳性及阴性细菌有抑制作用，具有显著的抗炎效果。",
+        "title_en": "抗炎抗菌",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血糖及降血脂",
-        "desc": "桔梗多糖和皂苷有助于调节糖脂代谢，改善胰岛素抵抗。"
+        "desc": "桔梗多糖和皂苷有助于调节糖脂代谢，改善胰岛素抵抗。",
+        "title_en": "降血糖及降血脂",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗溃疡及保护胃黏膜",
-        "desc": "能抑制胃酸分泌，减轻胃黏膜损伤，对实验性胃溃疡有保护作用。"
+        "desc": "能抑制胃酸分泌，减轻胃黏膜损伤，对实验性胃溃疡有保护作用。",
+        "title_en": "抗溃疡及保护胃黏膜",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤活性",
-        "desc": "多种提取物在体外实验中表现出抑制癌细胞增殖、诱导细胞凋亡的作用。"
+        "desc": "多种提取物在体外实验中表现出抑制癌细胞增殖、诱导细胞凋亡的作用。",
+        "title_en": "抗肿瘤活性",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -2536,7 +2936,17 @@
         "url": "https://doi.org/10.3390/molecules31132271"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "桔梗皂苷",
+      "多糖",
+      "甾醇",
+      "脂肪酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "chrysanthemum-morifolium",
@@ -2580,27 +2990,39 @@
     "modern_research": [
       {
         "title": "抗炎作用",
-        "desc": "菊花提取物对多种炎症因子具有明显的抑制作用，可减轻组织水肿与炎症反应。"
+        "desc": "菊花提取物对多种炎症因子具有明显的抑制作用，可减轻组织水肿与炎症反应。",
+        "title_en": "抗炎作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降压作用",
-        "desc": "菊花煎剂及总黄酮成分能显著扩张血管，对实验性动物具有持久的降压效果。"
+        "desc": "菊花煎剂及总黄酮成分能显著扩张血管，对实验性动物具有持久的降压效果。",
+        "title_en": "降压作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌与抗病毒",
-        "desc": "体外实验表明，菊花对金黄色葡萄球菌、大肠杆菌及流感病毒等具有不同程度的抑制作用。"
+        "desc": "体外实验表明，菊花对金黄色葡萄球菌、大肠杆菌及流感病毒等具有不同程度的抑制作用。",
+        "title_en": "抗菌与抗病毒",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与抗衰老",
-        "desc": "菊花中富含的黄酮类化合物及多酚类物质具有较强的自由基清除能力，可延缓细胞衰老。"
+        "desc": "菊花中富含的黄酮类化合物及多酚类物质具有较强的自由基清除能力，可延缓细胞衰老。",
+        "title_en": "抗氧化与抗衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护视网膜",
-        "desc": "菊花提取物能改善眼底微循环，对光损伤引起的视网膜细胞变性具有保护作用。"
+        "desc": "菊花提取物能改善眼底微循环，对光损伤引起的视网膜细胞变性具有保护作用。",
+        "title_en": "保护视网膜",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫功能",
-        "desc": "菊花多糖能够增强巨噬细胞的吞噬活性，提高机体的细胞免疫与体液免疫水平。"
+        "desc": "菊花多糖能够增强巨噬细胞的吞噬活性，提高机体的细胞免疫与体液免疫水平。",
+        "title_en": "调节免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -2672,7 +3094,17 @@
         "url": "https://doi.org/10.13227/j.hjkx.202505191"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "绿原酸",
+      "木犀草素",
+      "菊苷",
+      "挥发油"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "lonicera-japonica",
@@ -2716,27 +3148,39 @@
     "modern_research": [
       {
         "title": "广谱抗菌作用",
-        "desc": "金银花提取物对金黄色葡萄球菌、溶血性链球菌、大肠杆菌及痢疾杆菌等多种致病菌具有显著的抑制作用。"
+        "desc": "金银花提取物对金黄色葡萄球菌、溶血性链球菌、大肠杆菌及痢疾杆菌等多种致病菌具有显著的抑制作用。",
+        "title_en": "广谱抗菌作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗病毒作用",
-        "desc": "其含有的大量绿原酸和木犀草苷等成分对流感病毒、呼吸道合胞病毒等具有抑制和灭活效果。"
+        "desc": "其含有的大量绿原酸和木犀草苷等成分对流感病毒、呼吸道合胞病毒等具有抑制和灭活效果。",
+        "title_en": "抗病毒作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎镇痛",
-        "desc": "能够明显抑制毛细血管通透性增加，减少炎性渗出，对多种急慢性炎症模型具有抗炎和镇痛作用。"
+        "desc": "能够明显抑制毛细血管通透性增加，减少炎性渗出，对多种急慢性炎症模型具有抗炎和镇痛作用。",
+        "title_en": "抗炎镇痛",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "解热作用",
-        "desc": "金银花水煎剂能显著降低内毒素引起的发热动物体温，具有良好的解热效果。"
+        "desc": "金银花水煎剂能显著降低内毒素引起的发热动物体温，具有良好的解热效果。",
+        "title_en": "解热作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "增强免疫功能",
-        "desc": "能促进白细胞的吞噬功能，增强机体的细胞免疫和体液免疫能力。"
+        "desc": "能促进白细胞的吞噬功能，增强机体的细胞免疫和体液免疫能力。",
+        "title_en": "增强免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝利胆",
-        "desc": "对肝脏有一定的保护作用，能促进胆汁分泌，改善肝功能指标。"
+        "desc": "对肝脏有一定的保护作用，能促进胆汁分泌，改善肝功能指标。",
+        "title_en": "保肝利胆",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -2808,7 +3252,17 @@
         "url": "https://doi.org/10.12122/j.issn.1673-4254.2026.07.10"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "绿原酸",
+      "木犀草苷",
+      "金银花皂苷",
+      "异绿原酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "rehmannia-glutinosa",
@@ -2852,27 +3306,39 @@
     "modern_research": [
       {
         "title": "对免疫系统的影响",
-        "desc": "地黄多糖能显著提高机体细胞免疫和体液免疫功能，具有免疫调节作用。"
+        "desc": "地黄多糖能显著提高机体细胞免疫和体液免疫功能，具有免疫调节作用。",
+        "title_en": "对免疫系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血糖作用",
-        "desc": "地黄提取物及梓醇对实验性糖尿病动物具有明显的降血糖作用，能改善糖代谢。"
+        "desc": "地黄提取物及梓醇对实验性糖尿病动物具有明显的降血糖作用，能改善糖代谢。",
+        "title_en": "降血糖作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对血液系统影响",
-        "desc": "生地黄具有显著的凉血止血、缩短凝血时间以及抗血栓形成的作用。"
+        "desc": "生地黄具有显著的凉血止血、缩短凝血时间以及抗血栓形成的作用。",
+        "title_en": "对血液系统影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗衰老及脑保护",
-        "desc": "地黄能清除自由基，改善学习记忆能力，对神经细胞具有保护和抗凋亡作用。"
+        "desc": "地黄能清除自由基，改善学习记忆能力，对神经细胞具有保护和抗凋亡作用。",
+        "title_en": "抗衰老及脑保护",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与抗过敏",
-        "desc": "地黄含有多种抗炎活性成分，能抑制炎性介质的释放，减轻机体炎症反应。"
+        "desc": "地黄含有多种抗炎活性成分，能抑制炎性介质的释放，减轻机体炎症反应。",
+        "title_en": "抗炎与抗过敏",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护心血管系统",
-        "desc": "具有改善微循环、降低血脂、保护心肌细胞缺血再灌注损伤的作用。"
+        "desc": "具有改善微循环、降低血脂、保护心肌细胞缺血再灌注损伤的作用。",
+        "title_en": "保护心血管系统",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -2944,7 +3410,17 @@
         "url": "https://doi.org/10.1016/j.phymed.2026.158684"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "梓醇",
+      "地黄多糖",
+      "毛蕊花糖苷",
+      "催吐萝芙木甙"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "epimedium-brevicornu",
@@ -2988,27 +3464,39 @@
     "modern_research": [
       {
         "title": "促进性功能",
-        "desc": "淫羊藿提取物能促进精液分泌，刺激感觉神经，具有类似雄激素样作用。"
+        "desc": "淫羊藿提取物能促进精液分泌，刺激感觉神经，具有类似雄激素样作用。",
+        "title_en": "促进性功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善免疫功能",
-        "desc": "淫羊藿多糖能增强机体细胞免疫和体液免疫功能，提高抗病能力。"
+        "desc": "淫羊藿多糖能增强机体细胞免疫和体液免疫功能，提高抗病能力。",
+        "title_en": "改善免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗衰老作用",
-        "desc": "能影响细胞生长周期，延长细胞寿命，提高机体抗氧化酶活性，减少自由基损伤。"
+        "desc": "能影响细胞生长周期，延长细胞寿命，提高机体抗氧化酶活性，减少自由基损伤。",
+        "title_en": "抗衰老作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的影响",
-        "desc": "能增加冠脉流量，保护心肌缺血，降低血压并改善微循环。"
+        "desc": "能增加冠脉流量，保护心肌缺血，降低血压并改善微循环。",
+        "title_en": "对心血管系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗骨质疏松",
-        "desc": "淫羊藿总黄酮能促进骨髓基质细胞分化，抑制骨吸收，对骨质疏松有显着防治作用。"
+        "desc": "淫羊藿总黄酮能促进骨髓基质细胞分化，抑制骨吸收，对骨质疏松有显着防治作用。",
+        "title_en": "抗骨质疏松",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎镇痛",
-        "desc": "对多种急性及慢性炎症模型具有明显的抑制和镇痛作用。"
+        "desc": "对多种急性及慢性炎症模型具有明显的抑制和镇痛作用。",
+        "title_en": "抗炎镇痛",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -3080,7 +3568,17 @@
         "url": "https://doi.org/10.1002/mrd.70119"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "淫羊藿苷",
+      "朝藿定A",
+      "朝藿定B",
+      "朝藿定C"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "cordyceps-sinensis",
@@ -3124,27 +3622,39 @@
     "modern_research": [
       {
         "title": "免疫调节作用",
-        "desc": "冬虫夏草多糖能显著增强单核巨噬细胞系统的吞噬功能，提高机体细胞免疫和体液免疫水平。"
+        "desc": "冬虫夏草多糖能显著增强单核巨噬细胞系统的吞噬功能，提高机体细胞免疫和体液免疫水平。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护肾脏功能",
-        "desc": "能减轻免疫复合物引起的肾小球损伤，降低尿蛋白，改善肾功能，延缓慢性肾衰竭进展。"
+        "desc": "能减轻免疫复合物引起的肾小球损伤，降低尿蛋白，改善肾功能，延缓慢性肾衰竭进展。",
+        "title_en": "保护肾脏功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "平喘及抗炎作用",
-        "desc": "对气管平滑肌有松弛作用，能抑制组胺等炎性介质释放，从而减轻哮喘及气道炎症。"
+        "desc": "对气管平滑肌有松弛作用，能抑制组胺等炎性介质释放，从而减轻哮喘及气道炎症。",
+        "title_en": "平喘及抗炎作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善心血管系统",
-        "desc": "能增加冠脉血流量，改善心肌微循环，对心肌缺血有保护作用，并有轻度降压及抗心律失常作用。"
+        "desc": "能增加冠脉血流量，改善心肌微循环，对心肌缺血有保护作用，并有轻度降压及抗心律失常作用。",
+        "title_en": "改善心血管系统",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节造血功能",
-        "desc": "能促进骨髓造血干细胞的增殖，升高外周白细胞及血小板，减轻放化疗引起的骨髓抑制。"
+        "desc": "能促进骨髓造血干细胞的增殖，升高外周白细胞及血小板，减轻放化疗引起的骨髓抑制。",
+        "title_en": "调节造血功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤及抗氧化",
-        "desc": "通过提高机体免疫监视功能及诱导肿瘤细胞凋亡发挥抗癌作用，同时能清除自由基，延缓衰老。"
+        "desc": "通过提高机体免疫监视功能及诱导肿瘤细胞凋亡发挥抗癌作用，同时能清除自由基，延缓衰老。",
+        "title_en": "抗肿瘤及抗氧化",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -3216,7 +3726,17 @@
         "url": "https://doi.org/10.1016/j.fitote.2026.107272"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "虫草素",
+      "虫草酸",
+      "腺苷",
+      "多糖"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "ganoderma-lucidum",
@@ -3260,27 +3780,39 @@
     "modern_research": [
       {
         "title": "免疫调节作用",
-        "desc": "灵芝多糖能显著增强机体细胞免疫和体液免疫功能，促进淋巴细胞增殖。"
+        "desc": "灵芝多糖能显著增强机体细胞免疫和体液免疫功能，促进淋巴细胞增殖。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤作用",
-        "desc": "灵芝三萜和多糖成分能诱导肿瘤细胞凋亡，抑制肿瘤生长及转移。"
+        "desc": "灵芝三萜和多糖成分能诱导肿瘤细胞凋亡，抑制肿瘤生长及转移。",
+        "title_en": "抗肿瘤作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝解毒作用",
-        "desc": "能减轻化学性肝损伤，促进肝细胞再生，改善肝功能。"
+        "desc": "能减轻化学性肝损伤，促进肝细胞再生，改善肝功能。",
+        "title_en": "保肝解毒作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节心血管系统",
-        "desc": "具有降血压、改善心肌缺血、调节血脂及抗血小板聚集的作用。"
+        "desc": "具有降血压、改善心肌缺血、调节血脂及抗血小板聚集的作用。",
+        "title_en": "调节心血管系统",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "镇静安神作用",
-        "desc": "灵芝提取物能延长睡眠时间，对中枢神经系统具有显著的镇静和抗焦虑作用。"
+        "desc": "灵芝提取物能延长睡眠时间，对中枢神经系统具有显著的镇静和抗焦虑作用。",
+        "title_en": "镇静安神作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与抗衰老",
-        "desc": "能清除自由基，提高抗氧化酶活性，延缓细胞衰老进程。"
+        "desc": "能清除自由基，提高抗氧化酶活性，延缓细胞衰老进程。",
+        "title_en": "抗氧化与抗衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -3352,7 +3884,17 @@
         "url": "https://doi.org/10.1016/j.ultsonch.2026.108077"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "灵芝多糖",
+      "灵芝三萜",
+      "腺苷",
+      "甾醇类"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "panax-notoginseng",
@@ -3396,27 +3938,39 @@
     "modern_research": [
       {
         "title": "缩短凝血时间",
-        "desc": "三七及其总皂苷能显著缩短凝血时间、凝血酶原时间和凝血时间，具有良好的止血作用。"
+        "desc": "三七及其总皂苷能显著缩短凝血时间、凝血酶原时间和凝血时间，具有良好的止血作用。",
+        "title_en": "缩短凝血时间",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗血小板聚集与抗血栓",
-        "desc": "三七有效成分能抑制血小板聚集，降低血液粘度，对预防和治疗血栓性疾病有显著效果。"
+        "desc": "三七有效成分能抑制血小板聚集，降低血液粘度，对预防和治疗血栓性疾病有显著效果。",
+        "title_en": "抗血小板聚集与抗血栓",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护心肌与改善微循环",
-        "desc": "能增加冠脉血流量，减少心肌耗氧量，改善心肌微循环，对缺血性心肌损伤有保护作用。"
+        "desc": "能增加冠脉血流量，减少心肌耗氧量，改善心肌微循环，对缺血性心肌损伤有保护作用。",
+        "title_en": "保护心肌与改善微循环",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与镇痛",
-        "desc": "三七总皂苷具有显著的抗炎作用，能抑制急性炎症的肿胀过程，并能提高痛阈发挥镇痛作用。"
+        "desc": "三七总皂苷具有显著的抗炎作用，能抑制急性炎症的肿胀过程，并能提高痛阈发挥镇痛作用。",
+        "title_en": "抗炎与镇痛",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫与抗疲劳",
-        "desc": "能双向调节机体免疫功能，增强巨噬细胞吞噬能力，提高耐缺氧和抗疲劳能力。"
+        "desc": "能双向调节机体免疫功能，增强巨噬细胞吞噬能力，提高耐缺氧和抗疲劳能力。",
+        "title_en": "调节免疫与抗疲劳",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝与抗纤维化",
-        "desc": "对急慢性肝损伤有保护作用，能抑制肝细胞纤维化进程，促进肝细胞再生。"
+        "desc": "对急慢性肝损伤有保护作用，能抑制肝细胞纤维化进程，促进肝细胞再生。",
+        "title_en": "保肝与抗纤维化",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -3488,7 +4042,17 @@
         "url": "https://doi.org/10.1007/s10735-026-10969-y"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "Notoginsenoside R1",
+      "Ginsenoside Rb1",
+      "Ginsenoside Rg1",
+      "三七素"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "gastrodia-elata",
@@ -3532,27 +4096,39 @@
     "modern_research": [
       {
         "title": "镇静与抗惊厥作用",
-        "desc": "天麻提取物能显著延长动物睡眠时间，对抗咖啡因等引起的惊厥，对中枢神经系统有抑制和保护作用。"
+        "desc": "天麻提取物能显著延长动物睡眠时间，对抗咖啡因等引起的惊厥，对中枢神经系统有抑制和保护作用。",
+        "title_en": "镇静与抗惊厥作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善心脑血管功能",
-        "desc": "天麻素能增加脑血流量和冠状动脉血流量，降低血管阻力，对缺血性脑损伤具有保护作用。"
+        "desc": "天麻素能增加脑血流量和冠状动脉血流量，降低血管阻力，对缺血性脑损伤具有保护作用。",
+        "title_en": "改善心脑血管功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降压作用",
-        "desc": "天麻水提物及总苷对正常及高血压动物具有持久的降压作用，能减慢心率并改善血管顺应性。"
+        "desc": "天麻水提物及总苷对正常及高血压动物具有持久的降压作用，能减慢心率并改善血管顺应性。",
+        "title_en": "降压作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与镇痛作用",
-        "desc": "天麻中的活性成分能抑制炎症介质释放，提高痛阈，对神经痛、头痛及关节痛有显著缓解效果。"
+        "desc": "天麻中的活性成分能抑制炎症介质释放，提高痛阈，对神经痛、头痛及关节痛有显著缓解效果。",
+        "title_en": "抗炎与镇痛作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与延缓衰老",
-        "desc": "天麻多糖和酚类化合物具有较强的自由基清除能力，能增强抗氧化酶活性，减轻细胞氧化应激损伤。"
+        "desc": "天麻多糖和酚类化合物具有较强的自由基清除能力，能增强抗氧化酶活性，减轻细胞氧化应激损伤。",
+        "title_en": "抗氧化与延缓衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "免疫调节作用",
-        "desc": "实验表明，天麻能够调节机体免疫功能，提高巨噬细胞吞噬能力及淋巴细胞转化率。"
+        "desc": "实验表明，天麻能够调节机体免疫功能，提高巨噬细胞吞噬能力及淋巴细胞转化率。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -3624,7 +4200,17 @@
         "url": "https://doi.org/10.1016/j.jgeb.2026.100707"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "天麻素",
+      "天麻苷元",
+      "巴利森苷",
+      "多糖"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "dendrobium-nobile",
@@ -3668,27 +4254,39 @@
     "modern_research": [
       {
         "title": "免疫调节作用",
-        "desc": "石斛多糖能显著提高机体免疫细胞的吞噬功能，促进抗体生成。"
+        "desc": "石斛多糖能显著提高机体免疫细胞的吞噬功能，促进抗体生成。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗衰老与抗氧化",
-        "desc": "能够清除体内自由基，提高超氧化物歧化酶（SOD）活性，延缓组织衰老。"
+        "desc": "能够清除体内自由基，提高超氧化物歧化酶（SOD）活性，延缓组织衰老。",
+        "title_en": "Anti-aging & Antioxidant Properties",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "胃黏膜保护作用",
-        "desc": "有效减轻胃黏膜损伤，促进胃酸分泌及胃炎病灶修复。"
+        "desc": "有效减轻胃黏膜损伤，促进胃酸分泌及胃炎病灶修复。",
+        "title_en": "胃黏膜保护作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤活性",
-        "desc": "某些菲类和联苄类成分对多种肿瘤细胞株具有抑制增殖的作用。"
+        "desc": "某些菲类和联苄类成分对多种肿瘤细胞株具有抑制增殖的作用。",
+        "title_en": "抗肿瘤活性",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血糖作用",
-        "desc": "可改善胰岛素抵抗，降低实验性糖尿病动物的血糖水平。"
+        "desc": "可改善胰岛素抵抗，降低实验性糖尿病动物的血糖水平。",
+        "title_en": "降血糖作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护视神经",
-        "desc": "对白内障及视网膜退行性病变有一定的延缓和保护作用。"
+        "desc": "对白内障及视网膜退行性病变有一定的延缓和保护作用。",
+        "title_en": "保护视神经",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -3760,7 +4358,17 @@
         "url": "https://doi.org/10.1016/j.jphs.2026.05.007"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "石斛碱",
+      "石斛多糖",
+      "毛兰素",
+      "联苄类化合物"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "polygonum-multiflorum",
@@ -3804,27 +4412,39 @@
     "modern_research": [
       {
         "title": "对免疫功能的影响",
-        "desc": "何首乌提取物能明显提高机体免疫细胞的吞噬能力，增强细胞免疫和体液免疫功能。"
+        "desc": "何首乌提取物能明显提高机体免疫细胞的吞噬能力，增强细胞免疫和体液免疫功能。",
+        "title_en": "对免疫功能的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗衰老与抗氧化作用",
-        "desc": "含有丰富的二苯乙烯苷等抗氧化成分，能清除自由基，降低脂质过氧化物水平，延缓衰老。"
+        "desc": "含有丰富的二苯乙烯苷等抗氧化成分，能清除自由基，降低脂质过氧化物水平，延缓衰老。",
+        "title_en": "抗衰老与抗氧化作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血脂与抗动脉粥样硬化",
-        "desc": "能有效降低血清胆固醇、甘油三酯及低密度脂蛋白，抑制动脉粥样硬化斑块的形成。"
+        "desc": "能有效降低血清胆固醇、甘油三酯及低密度脂蛋白，抑制动脉粥样硬化斑块的形成。",
+        "title_en": "Lipid-lowering & Anti-atherosclerotic",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对神经系统的保护作用",
-        "desc": "具有神经营养作用，对改善记忆力、对抗老年痴呆及脑缺血损伤有一定疗效。"
+        "desc": "具有神经营养作用，对改善记忆力、对抗老年痴呆及脑缺血损伤有一定疗效。",
+        "title_en": "对神经系统的保护作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝及促进造血功能",
-        "desc": "能减轻肝细胞损伤，促进肝细胞再生，并能促进红细胞和血红蛋白的生成。"
+        "desc": "能减轻肝细胞损伤，促进肝细胞再生，并能促进红细胞和血红蛋白的生成。",
+        "title_en": "保肝及促进造血功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌与抗炎作用",
-        "desc": "对多种致病菌如金黄色葡萄球菌、大肠杆菌等有不同程度的抑制作用，并能缓解炎症反应。"
+        "desc": "对多种致病菌如金黄色葡萄球菌、大肠杆菌等有不同程度的抑制作用，并能缓解炎症反应。",
+        "title_en": "抗菌与抗炎作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -3896,7 +4516,17 @@
         "url": "https://doi.org/10.1089/jmf.2023.K.0105"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "大黄素",
+      "大黄酚",
+      "二苯乙烯苷",
+      "卵磷脂"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "pinellia-ternata",
@@ -3940,27 +4570,39 @@
     "modern_research": [
       {
         "title": "镇吐作用",
-        "desc": "半夏提取物对多种化学物质诱发的呕吐具有明显的抑制和镇吐作用。"
+        "desc": "半夏提取物对多种化学物质诱发的呕吐具有明显的抑制和镇吐作用。",
+        "title_en": "镇吐作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "镇咳祛痰",
-        "desc": "其所含成分能稀释呼吸道分泌物，增加支气管分泌，从而发挥显著祛痰与镇咳功效。"
+        "desc": "其所含成分能稀释呼吸道分泌物，增加支气管分泌，从而发挥显著祛痰与镇咳功效。",
+        "title_en": "镇咳祛痰",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎作用",
-        "desc": "实验表明，半夏水提液对多种急慢性炎症模型具有抑制作用。"
+        "desc": "实验表明，半夏水提液对多种急慢性炎症模型具有抑制作用。",
+        "title_en": "抗炎作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤活性",
-        "desc": "半夏中的凝集素等成分对多种肿瘤细胞株具有一定的细胞毒性和生长抑制作用。"
+        "desc": "半夏中的凝集素等成分对多种肿瘤细胞株具有一定的细胞毒性和生长抑制作用。",
+        "title_en": "抗肿瘤活性",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对消化系统的影响",
-        "desc": "能调节胃肠运动，对实验性胃溃疡具有保护和促进愈合作用。"
+        "desc": "能调节胃肠运动，对实验性胃溃疡具有保护和促进愈合作用。",
+        "title_en": "对消化系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "催眠镇静",
-        "desc": "法半夏等制剂在动物实验中显示出一定的镇静和协同催眠作用。"
+        "desc": "法半夏等制剂在动物实验中显示出一定的镇静和协同催眠作用。",
+        "title_en": "催眠镇静",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -4032,7 +4674,17 @@
         "url": "https://doi.org/10.1016/j.taap.2026.117970"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "生物碱",
+      "有机酸",
+      "凝集素",
+      "谷甾醇"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "alisma-plantago-aquatica",
@@ -4076,27 +4728,39 @@
     "modern_research": [
       {
         "title": "利尿作用",
-        "desc": "泽泻水煎剂及提取物能显著增加尿量及氯化钠、尿素的排泄，具有明显的利尿作用。"
+        "desc": "泽泻水煎剂及提取物能显著增加尿量及氯化钠、尿素的排泄，具有明显的利尿作用。",
+        "title_en": "利尿作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血脂作用",
-        "desc": "泽泻提取物能降低实验性高脂血症动物的血清总胆固醇、甘油三酯及低密度脂蛋白水平。"
+        "desc": "泽泻提取物能降低实验性高脂血症动物的血清总胆固醇、甘油三酯及低密度脂蛋白水平。",
+        "title_en": "降血脂作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗脂肪肝",
-        "desc": "其所含成分能减少肝脏中脂肪的蓄积，对脂肪肝具有一定的防治和保护作用。"
+        "desc": "其所含成分能减少肝脏中脂肪的蓄积，对脂肪肝具有一定的防治和保护作用。",
+        "title_en": "抗脂肪肝",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗动脉粥样硬化",
-        "desc": "泽泻能抑制主动脉粥样硬化斑块的形成，改善血管内皮功能。"
+        "desc": "泽泻能抑制主动脉粥样硬化斑块的形成，改善血管内皮功能。",
+        "title_en": "抗动脉粥样硬化",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与免疫调节",
-        "desc": "泽泻多糖和提取物能抑制多种炎症介质的释放，并对免疫功能具有一定的调节作用。"
+        "desc": "泽泻多糖和提取物能抑制多种炎症介质的释放，并对免疫功能具有一定的调节作用。",
+        "title_en": "抗炎与免疫调节",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血糖作用",
-        "desc": "研究表明泽泻提取物对胰岛素抵抗及实验性高血糖模型动物具有一定的降糖效果。"
+        "desc": "研究表明泽泻提取物对胰岛素抵抗及实验性高血糖模型动物具有一定的降糖效果。",
+        "title_en": "降血糖作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -4168,7 +4832,17 @@
         "url": "https://doi.org/10.1016/j.phymed.2025.157271"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "泽泻醇A",
+      "泽泻醇B",
+      "泽泻多糖",
+      "天门冬酰胺"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "chaenomeles-speciosa",
@@ -4212,27 +4886,39 @@
     "modern_research": [
       {
         "title": "抗炎镇痛作用",
-        "desc": "木瓜提取物具有显著的抗炎和镇痛作用，能减轻由多种致炎剂引起的足肿胀。"
+        "desc": "木瓜提取物具有显著的抗炎和镇痛作用，能减轻由多种致炎剂引起的足肿胀。",
+        "title_en": "抗炎镇痛作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对免疫系统的影响",
-        "desc": "木瓜多糖等成分能够调节机体免疫功能，增强细胞免疫和体液免疫。"
+        "desc": "木瓜多糖等成分能够调节机体免疫功能，增强细胞免疫和体液免疫。",
+        "title_en": "对免疫系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝作用",
-        "desc": "其所含的齐墩果酸具有良好的保肝降酶作用，能保护肝细胞免受损伤。"
+        "desc": "其所含的齐墩果酸具有良好的保肝降酶作用，能保护肝细胞免受损伤。",
+        "title_en": "保肝作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "平滑肌解痉作用",
-        "desc": "木瓜煎剂对回肠平滑肌有明显的松弛作用，能缓解胃肠痉挛及转筋。"
+        "desc": "木瓜煎剂对回肠平滑肌有明显的松弛作用，能缓解胃肠痉挛及转筋。",
+        "title_en": "平滑肌解痉作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌与抗病毒",
-        "desc": "体外实验表明，木瓜对多种常见致病菌及部分病毒具有一定的抑制作用。"
+        "desc": "体外实验表明，木瓜对多种常见致病菌及部分病毒具有一定的抑制作用。",
+        "title_en": "抗菌与抗病毒",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化作用",
-        "desc": "富含黄酮类及有机酸成分，具有较强的清除自由基和抗脂质过氧化能力。"
+        "desc": "富含黄酮类及有机酸成分，具有较强的清除自由基和抗脂质过氧化能力。",
+        "title_en": "抗氧化作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -4304,7 +4990,17 @@
         "url": "https://doi.org/10.2147/BTT.S578004"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "齐墩果酸",
+      "熊果酸",
+      "苹果酸",
+      "维生素C"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "crataegus-pinnatifida",
@@ -4348,27 +5044,39 @@
     "modern_research": [
       {
         "title": "促进消化系统功能",
-        "desc": "山楂含有丰富的脂肪酶和有机酸，能显著增加胃液分泌，提高胃蛋白酶活性，促进脂肪消化。"
+        "desc": "山楂含有丰富的脂肪酶和有机酸，能显著增加胃液分泌，提高胃蛋白酶活性，促进脂肪消化。",
+        "title_en": "促进消化系统功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节血脂作用",
-        "desc": "其所含黄酮类成分能有效降低血清总胆固醇、甘油三酯及低密度脂蛋白，抑制动脉粥样硬化斑块形成。"
+        "desc": "其所含黄酮类成分能有效降低血清总胆固醇、甘油三酯及低密度脂蛋白，抑制动脉粥样硬化斑块形成。",
+        "title_en": "调节血脂作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "心血管保护与降压",
-        "desc": "山楂提取物可扩张冠状动脉，增加冠脉血流量，改善心肌活力，并具有温和持久的降血压作用。"
+        "desc": "山楂提取物可扩张冠状动脉，增加冠脉血流量，改善心肌活力，并具有温和持久的降血压作用。",
+        "title_en": "心血管保护与降压",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗血小板聚集与抗栓",
-        "desc": "药理研究表明，山楂能抑制血小板聚集，降低血液黏稠度，从而发挥活血化瘀的功效。"
+        "desc": "药理研究表明，山楂能抑制血小板聚集，降低血液黏稠度，从而发挥活血化瘀的功效。",
+        "title_en": "抗血小板聚集与抗栓",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌与抗炎作用",
-        "desc": "山楂水煎剂对志贺痢疾杆菌、金黄色葡萄球菌等多种致病菌具有不同程度的抑制作用。"
+        "desc": "山楂水煎剂对志贺痢疾杆菌、金黄色葡萄球菌等多种致病菌具有不同程度的抑制作用。",
+        "title_en": "抗菌与抗炎作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与清除自由基",
-        "desc": "富含的原花青素和黄酮类化合物具有极强的抗氧化活性，能有效清除体内自由基，延缓细胞衰老。"
+        "desc": "富含的原花青素和黄酮类化合物具有极强的抗氧化活性，能有效清除体内自由基，延缓细胞衰老。",
+        "title_en": "抗氧化与清除自由基",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -4440,7 +5148,17 @@
         "url": "https://doi.org/10.1186/s40104-026-01425-8"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "熊果酸",
+      "槲皮素",
+      "绿原酸",
+      "山楂黄酮"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "eucommia-ulmoides",
@@ -4484,27 +5202,39 @@
     "modern_research": [
       {
         "title": "降压作用",
-        "desc": "杜仲提取物具有持续、显著的降压作用，主要通过扩张血管和调节神经系统实现。"
+        "desc": "杜仲提取物具有持续、显著的降压作用，主要通过扩张血管和调节神经系统实现。",
+        "title_en": "降压作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善骨质疏松",
-        "desc": "能促进成骨细胞增殖，抑制骨吸收，对骨质疏松具有良好的预防和治疗作用。"
+        "desc": "能促进成骨细胞增殖，抑制骨吸收，对骨质疏松具有良好的预防和治疗作用。",
+        "title_en": "改善骨质疏松",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎镇痛",
-        "desc": "杜仲中的有效成分具有抑制炎症介质释放的作用，能有效缓解关节疼痛。"
+        "desc": "杜仲中的有效成分具有抑制炎症介质释放的作用，能有效缓解关节疼痛。",
+        "title_en": "抗炎镇痛",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫",
-        "desc": "能够增强机体非特异性免疫功能，提高抗病能力。"
+        "desc": "能够增强机体非特异性免疫功能，提高抗病能力。",
+        "title_en": "调节免疫",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝护肾",
-        "desc": "对化学性肝损伤有保护作用，并能改善肾功能。"
+        "desc": "对化学性肝损伤有保护作用，并能改善肾功能。",
+        "title_en": "保肝护肾",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗衰老抗疲劳",
-        "desc": "能清除自由基，延长细胞寿命，显著提高机体的耐缺氧和抗疲劳能力。"
+        "desc": "能清除自由基，延长细胞寿命，显著提高机体的耐缺氧和抗疲劳能力。",
+        "title_en": "抗衰老抗疲劳",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -4576,7 +5306,17 @@
         "url": "https://doi.org/10.1007/s00210-026-05762-3"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "绿原酸",
+      "杜仲苷",
+      "桃叶珊瑚苷",
+      "松树脂醇二葡萄糖苷"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "cornus-officinalis",
@@ -4620,27 +5360,39 @@
     "modern_research": [
       {
         "title": "对免疫系统的影响",
-        "desc": "山茱萸多糖能显著提高机体的细胞免疫和体液免疫功能，具有抗疲劳、抗衰老作用。"
+        "desc": "山茱萸多糖能显著提高机体的细胞免疫和体液免疫功能，具有抗疲劳、抗衰老作用。",
+        "title_en": "对免疫系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的作用",
-        "desc": "具有强心、抗心肌缺血、抗心律失常及改善微循环的作用，有效保护心肌细胞。"
+        "desc": "具有强心、抗心肌缺血、抗心律失常及改善微循环的作用，有效保护心肌细胞。",
+        "title_en": "对心血管系统的作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "神经保护作用",
-        "desc": "其活性成分能抑制细胞凋亡，对脑缺血及阿尔茨海默病等神经退行性疾病具有保护作用。"
+        "desc": "其活性成分能抑制细胞凋亡，对脑缺血及阿尔茨海默病等神经退行性疾病具有保护作用。",
+        "title_en": "神经保护作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与抗氧化作用",
-        "desc": "能清除自由基，减轻炎症反应，对多种组织损伤具有保护和修复作用。"
+        "desc": "能清除自由基，减轻炎症反应，对多种组织损伤具有保护和修复作用。",
+        "title_en": "抗炎与抗氧化作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节血糖作用",
-        "desc": "山茱萸提取物有助于改善胰岛素抵抗，降低实验性糖尿病动物的血糖水平。"
+        "desc": "山茱萸提取物有助于改善胰岛素抵抗，降低实验性糖尿病动物的血糖水平。",
+        "title_en": "调节血糖作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝与抗肝纤维化",
-        "desc": "能够减轻肝细胞损伤，抑制肝星状细胞活化，发挥抗肝纤维化及调节肝功能的作用。"
+        "desc": "能够减轻肝细胞损伤，抑制肝星状细胞活化，发挥抗肝纤维化及调节肝功能的作用。",
+        "title_en": "保肝与抗肝纤维化",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -4712,7 +5464,17 @@
         "url": "https://doi.org/10.1002/jbt.71016"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "马钱苷",
+      "莫诺苷",
+      "山茱萸多糖",
+      "熊果酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "carthamus-tinctorius",
@@ -4756,27 +5518,39 @@
     "modern_research": [
       {
         "title": "对心血管系统的影响",
-        "desc": "红花提取物具有扩张冠状动脉、增加冠脉血流量、抗心肌缺血及保护心肌细胞的作用。"
+        "desc": "红花提取物具有扩张冠状动脉、增加冠脉血流量、抗心肌缺血及保护心肌细胞的作用。",
+        "title_en": "对心血管系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗血栓与抗凝血",
-        "desc": "红花有效成分能抑制血小板聚集，降低血黏度，延长凝血时间，具有良好的抗栓作用。"
+        "desc": "红花有效成分能抑制血小板聚集，降低血黏度，延长凝血时间，具有良好的抗栓作用。",
+        "title_en": "抗血栓与抗凝血",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善微循环",
-        "desc": "能明显增加微血管开放数目，加快血流速度，改善局部组织的微循环障碍。"
+        "desc": "能明显增加微血管开放数目，加快血流速度，改善局部组织的微循环障碍。",
+        "title_en": "改善微循环",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护脑组织",
-        "desc": "对脑缺血再灌注损伤具有保护作用，能缩小脑梗死面积，减轻神经细胞损伤。"
+        "desc": "对脑缺血再灌注损伤具有保护作用，能缩小脑梗死面积，减轻神经细胞损伤。",
+        "title_en": "保护脑组织",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "镇痛与抗炎",
-        "desc": "红花总黄酮和红花多糖具有显着的镇痛及抗炎作用，能抑制急性炎症肿胀。"
+        "desc": "红花总黄酮和红花多糖具有显着的镇痛及抗炎作用，能抑制急性炎症肿胀。",
+        "title_en": "镇痛与抗炎",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫功能",
-        "desc": "研究表明红花多糖能调节机体免疫功能，具有一定的抗氧化和延缓衰老作用。"
+        "desc": "研究表明红花多糖能调节机体免疫功能，具有一定的抗氧化和延缓衰老作用。",
+        "title_en": "调节免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -4848,7 +5622,17 @@
         "url": "https://doi.org/10.3390/cimb48070746"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "红花黄色素",
+      "红花苷",
+      "红花多糖",
+      "红花油"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "ziziphus-jujuba",
@@ -4892,27 +5676,39 @@
     "modern_research": [
       {
         "title": "镇静催眠作用",
-        "desc": "酸枣仁总皂苷及黄酮类成分能显著延长戊巴比妥钠睡眠时间，改善睡眠结构。"
+        "desc": "酸枣仁总皂苷及黄酮类成分能显著延长戊巴比妥钠睡眠时间，改善睡眠结构。",
+        "title_en": "镇静催眠作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗焦虑与抗抑郁",
-        "desc": "其提取物能调节中枢神经系统神经递质如5-HT、NE的含量，发挥抗焦虑作用。"
+        "desc": "其提取物能调节中枢神经系统神经递质如5-HT、NE的含量，发挥抗焦虑作用。",
+        "title_en": "抗焦虑与抗抑郁",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的影响",
-        "desc": "酸枣仁提取物具有抗心肌缺血、降低血压、改善微循环及抗心律失常作用。"
+        "desc": "酸枣仁提取物具有抗心肌缺血、降低血压、改善微循环及抗心律失常作用。",
+        "title_en": "对心血管系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫功能",
-        "desc": "能增强机体细胞免疫和体液免疫功能，提高巨噬细胞吞噬能力。"
+        "desc": "能增强机体细胞免疫和体液免疫功能，提高巨噬细胞吞噬能力。",
+        "title_en": "调节免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血脂与抗动脉粥样硬化",
-        "desc": "有助于降低血清胆固醇和甘油三酯水平，抑制脂质过氧化反应。"
+        "desc": "有助于降低血清胆固醇和甘油三酯水平，抑制脂质过氧化反应。",
+        "title_en": "Lipid-lowering & Anti-atherosclerotic",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护神经细胞",
-        "desc": "对缺血缺氧引起的神经细胞损伤具有显著的保护作用，能延缓脑细胞衰老。"
+        "desc": "对缺血缺氧引起的神经细胞损伤具有显著的保护作用，能延缓脑细胞衰老。",
+        "title_en": "保护神经细胞",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -4970,7 +5766,17 @@
         "url": "https://doi.org/10.1093/jpp/rgaf133"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "酸枣仁皂苷A",
+      "酸枣仁皂苷B",
+      "去氢地芰素",
+      "脂肪油"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "citrus-reticulata",
@@ -5014,27 +5820,39 @@
     "modern_research": [
       {
         "title": "对消化系统的影响",
-        "desc": "陈皮挥发油能温和地刺激胃肠道，促进消化液分泌和肠管蠕动，排除肠道积气。"
+        "desc": "陈皮挥发油能温和地刺激胃肠道，促进消化液分泌和肠管蠕动，排除肠道积气。",
+        "title_en": "对消化系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "祛痰与平喘作用",
-        "desc": "其所含成分能使呼吸道分泌物增加，呈现良好的祛痰作用，并对支气管平滑肌有轻度扩张作用。"
+        "desc": "其所含成分能使呼吸道分泌物增加，呈现良好的祛痰作用，并对支气管平滑肌有轻度扩张作用。",
+        "title_en": "祛痰与平喘作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的影响",
-        "desc": "陈皮煎剂、醇提物及橙皮苷能兴奋心肌，收缩血管，大剂量则抑制心肌；对冠脉微循环有改善作用。"
+        "desc": "陈皮煎剂、醇提物及橙皮苷能兴奋心肌，收缩血管，大剂量则抑制心肌；对冠脉微循环有改善作用。",
+        "title_en": "对心血管系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血脂与抗动脉粥样硬化",
-        "desc": "能降低血清胆固醇和低密度脂蛋白水平，对主动脉粥样硬化斑块形成有减轻作用。"
+        "desc": "能降低血清胆固醇和低密度脂蛋白水平，对主动脉粥样硬化斑块形成有减轻作用。",
+        "title_en": "Lipid-lowering & Anti-atherosclerotic",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与抗过敏作用",
-        "desc": "橙皮苷等黄酮类化合物具有明显的抗炎活性，能抑制组胺释放，减轻过敏反应。"
+        "desc": "橙皮苷等黄酮类化合物具有明显的抗炎活性，能抑制组胺释放，减轻过敏反应。",
+        "title_en": "抗炎与抗过敏作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与抗肿瘤",
-        "desc": "陈皮提取物能清除自由基，具有抗氧化衰老及潜在的抗细胞突变和抗肿瘤活性。"
+        "desc": "陈皮提取物能清除自由基，具有抗氧化衰老及潜在的抗细胞突变和抗肿瘤活性。",
+        "title_en": "抗氧化与抗肿瘤",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -5106,7 +5924,17 @@
         "url": "https://doi.org/10.3390/nu18132130"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "橙皮苷",
+      "川陈皮素",
+      "橘皮素",
+      "挥发油"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "adenophora-stricta",
@@ -5150,27 +5978,39 @@
     "modern_research": [
       {
         "title": "免疫调节作用",
-        "desc": "沙参多糖能显著提高机体的细胞免疫和体液免疫功能，增强巨噬细胞吞噬能力。"
+        "desc": "沙参多糖能显著提高机体的细胞免疫和体液免疫功能，增强巨噬细胞吞噬能力。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "镇咳祛痰作用",
-        "desc": "所含成分具有显著的镇咳及平喘作用，能增加呼吸道黏液分泌而利于痰液排出。"
+        "desc": "所含成分具有显著的镇咳及平喘作用，能增加呼吸道黏液分泌而利于痰液排出。",
+        "title_en": "镇咳祛痰作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "强心与血管作用",
-        "desc": "实验表明沙参水浸液对离体心脏有强心作用，并能扩张冠状动脉及外周血管。"
+        "desc": "实验表明沙参水浸液对离体心脏有强心作用，并能扩张冠状动脉及外周血管。",
+        "title_en": "强心与血管作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与解热作用",
-        "desc": "沙参提取物对多种实验性炎症模型具有明显的抑制作用，并能降低发热动物的体温。"
+        "desc": "沙参提取物对多种实验性炎症模型具有明显的抑制作用，并能降低发热动物的体温。",
+        "title_en": "抗炎与解热作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗真菌作用",
-        "desc": "体外实验显示沙参水煎剂对常见皮肤真菌如红色毛癣菌等有不同程度的抑制作用。"
+        "desc": "体外实验显示沙参水煎剂对常见皮肤真菌如红色毛癣菌等有不同程度的抑制作用。",
+        "title_en": "抗真菌作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与抗衰老",
-        "desc": "富含多糖及微量元素，具有清除自由基、提高超氧化物歧化酶活性的抗氧化作用。"
+        "desc": "富含多糖及微量元素，具有清除自由基、提高超氧化物歧化酶活性的抗氧化作用。",
+        "title_en": "抗氧化与抗衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -5228,7 +6068,17 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/1863327/"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "沙参皂苷",
+      "生物碱",
+      "香豆素",
+      "多糖"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "anemarrhena-asphodeloides",
@@ -5272,27 +6122,39 @@
     "modern_research": [
       {
         "title": "解热作用",
-        "desc": "知母煎剂及提取物对由人工发热引起的动物模型具有显著的解热作用。"
+        "desc": "知母煎剂及提取物对由人工发热引起的动物模型具有显著的解热作用。",
+        "title_en": "解热作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血糖作用",
-        "desc": "知母多糖及芒果苷具有明显的降血糖作用，能改善胰岛素抵抗。"
+        "desc": "知母多糖及芒果苷具有明显的降血糖作用，能改善胰岛素抵抗。",
+        "title_en": "降血糖作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与免疫调节",
-        "desc": "其活性成分能抑制多种炎症介质的释放，具有显著的抗炎镇痛效果。"
+        "desc": "其活性成分能抑制多种炎症介质的释放，具有显著的抗炎镇痛效果。",
+        "title_en": "抗炎与免疫调节",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗抑郁作用",
-        "desc": "知母皂苷成分能够调节中枢神经系统神经递质，发挥抗抑郁样作用。"
+        "desc": "知母皂苷成分能够调节中枢神经系统神经递质，发挥抗抑郁样作用。",
+        "title_en": "抗抑郁作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌与抗病毒",
-        "desc": "体外实验表明知母水提物对多种革兰氏阳性菌及部分真菌有抑制作用。"
+        "desc": "体外实验表明知母水提物对多种革兰氏阳性菌及部分真菌有抑制作用。",
+        "title_en": "抗菌与抗病毒",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善学习记忆",
-        "desc": "现代研究发现知母提取物对痴呆模型小鼠的学习记忆能力具有一定的改善作用。"
+        "desc": "现代研究发现知母提取物对痴呆模型小鼠的学习记忆能力具有一定的改善作用。",
+        "title_en": "改善学习记忆",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -5364,7 +6226,17 @@
         "url": "https://doi.org/10.1002/adbi.70129"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "知母皂苷BII",
+      "芒果苷",
+      "知母多糖",
+      "烟酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "phellodendron-amurense",
@@ -5408,27 +6280,39 @@
     "modern_research": [
       {
         "title": "抗菌作用",
-        "desc": "黄柏中主要成分小檗碱具有广谱抗菌作用，对金黄色葡萄球菌、肺炎链球菌、大肠杆菌等有较强的抑制作用。"
+        "desc": "黄柏中主要成分小檗碱具有广谱抗菌作用，对金黄色葡萄球菌、肺炎链球菌、大肠杆菌等有较强的抑制作用。",
+        "title_en": "抗菌作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎作用",
-        "desc": "黄柏提取物能显著抑制多种实验性炎症模型中的肿胀反应，降低炎性因子的释放。"
+        "desc": "黄柏提取物能显著抑制多种实验性炎症模型中的肿胀反应，降低炎性因子的释放。",
+        "title_en": "抗炎作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血糖作用",
-        "desc": "黄柏总生物碱及小檗碱能改善胰岛素抵抗，降低实验动物的血糖及糖化血红蛋白水平。"
+        "desc": "黄柏总生物碱及小檗碱能改善胰岛素抵抗，降低实验动物的血糖及糖化血红蛋白水平。",
+        "title_en": "降血糖作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "免疫调节",
-        "desc": "黄柏成分能够调节机体免疫功能，具有增强吞噬细胞活性及调节淋巴细胞增殖的作用。"
+        "desc": "黄柏成分能够调节机体免疫功能，具有增强吞噬细胞活性及调节淋巴细胞增殖的作用。",
+        "title_en": "免疫调节",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝利胆",
-        "desc": "黄柏能促进胆汁分泌，对肝细胞损伤具有保护作用，常用于湿热黄疸的治疗。"
+        "desc": "黄柏能促进胆汁分泌，对肝细胞损伤具有保护作用，常用于湿热黄疸的治疗。",
+        "title_en": "保肝利胆",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤作用",
-        "desc": "现代体外实验表明，黄柏提取物对多种肿瘤细胞株具有抑制增殖和诱导凋亡的作用。"
+        "desc": "现代体外实验表明，黄柏提取物对多种肿瘤细胞株具有抑制增殖和诱导凋亡的作用。",
+        "title_en": "抗肿瘤作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -5500,7 +6384,17 @@
         "url": "https://doi.org/10.3390/pathogens15050491"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "小檗碱",
+      "巴马汀",
+      "黄柏酮",
+      "木兰花碱"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "gardenia-jasminoides",
@@ -5544,27 +6438,39 @@
     "modern_research": [
       {
         "title": "保肝利胆作用",
-        "desc": "栀子提取物能促进胆汁分泌，降低血清胆红素，对肝细胞损伤具有保护作用。"
+        "desc": "栀子提取物能促进胆汁分泌，降低血清胆红素，对肝细胞损伤具有保护作用。",
+        "title_en": "保肝利胆作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎镇痛作用",
-        "desc": "所含栀子苷等成分具有显着的抗炎和镇痛效果，能减轻局部组织肿胀。"
+        "desc": "所含栀子苷等成分具有显着的抗炎和镇痛效果，能减轻局部组织肿胀。",
+        "title_en": "抗炎镇痛作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "镇静抗焦虑",
-        "desc": "栀子水提物对中枢神经系统有抑制作用，能改善焦虑、改善睡眠质量。"
+        "desc": "栀子水提物对中枢神经系统有抑制作用，能改善焦虑、改善睡眠质量。",
+        "title_en": "镇静抗焦虑",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降糖作用",
-        "desc": "现代药理表明，栀子中的有效成分有助于调节血糖代谢，改善胰岛素抵抗。"
+        "desc": "现代药理表明，栀子中的有效成分有助于调节血糖代谢，改善胰岛素抵抗。",
+        "title_en": "降糖作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "心血管保护",
-        "desc": "具有抗氧化、抗血栓形成及调节血脂的作用，对血管内皮细胞有保护功能。"
+        "desc": "具有抗氧化、抗血栓形成及调节血脂的作用，对血管内皮细胞有保护功能。",
+        "title_en": "心血管保护",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤活性",
-        "desc": "体外实验表明，栀子部分提取物能抑制多种肿瘤细胞的增殖，诱导其凋亡。"
+        "desc": "体外实验表明，栀子部分提取物能抑制多种肿瘤细胞的增殖，诱导其凋亡。",
+        "title_en": "抗肿瘤活性",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -5636,7 +6542,17 @@
         "url": "https://doi.org/10.1016/j.vetimm.2026.111165"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "西红花苷",
+      "西红花酸",
+      "栀子苷",
+      "绿原酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "forsythia-suspensa",
@@ -5680,27 +6596,39 @@
     "modern_research": [
       {
         "title": "抗病原微生物作用",
-        "desc": "连翘对金黄色葡萄球菌、肺炎链球菌、大肠杆菌等多种革兰阳性及阴性细菌具有抑制作用，并对流感病毒等有抑制效果。"
+        "desc": "连翘对金黄色葡萄球菌、肺炎链球菌、大肠杆菌等多种革兰阳性及阴性细菌具有抑制作用，并对流感病毒等有抑制效果。",
+        "title_en": "抗病原微生物作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎作用",
-        "desc": "连翘中的有效成分能显著抑制炎症介质的释放，减轻毛细血管通透性增高，具有明显的抗炎和抗水肿作用。"
+        "desc": "连翘中的有效成分能显著抑制炎症介质的释放，减轻毛细血管通透性增高，具有明显的抗炎和抗水肿作用。",
+        "title_en": "抗炎作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "解热作用",
-        "desc": "连翘提取物对实验性发热动物具有确切的退热作用，能调节体温中枢并促进散热。"
+        "desc": "连翘提取物对实验性发热动物具有确切的退热作用，能调节体温中枢并促进散热。",
+        "title_en": "解热作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝作用",
-        "desc": "连翘苷等成分对化学性肝损伤具有保护作用，能降低血清转氨酶水平并改善肝细胞变性。"
+        "desc": "连翘苷等成分对化学性肝损伤具有保护作用，能降低血清转氨酶水平并改善肝细胞变性。",
+        "title_en": "保肝作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化作用",
-        "desc": "连翘提取物富含多酚类化合物，具有较强的自由基清除能力，表现出良好的抗氧化活性。"
+        "desc": "连翘提取物富含多酚类化合物，具有较强的自由基清除能力，表现出良好的抗氧化活性。",
+        "title_en": "抗氧化作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫作用",
-        "desc": "研究表明连翘能够双向调节机体免疫功能，增强巨噬细胞的吞噬能力并提高机体抗病能力。"
+        "desc": "研究表明连翘能够双向调节机体免疫功能，增强巨噬细胞的吞噬能力并提高机体抗病能力。",
+        "title_en": "调节免疫作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -5772,7 +6700,17 @@
         "url": "https://doi.org/10.1016/j.mvr.2026.104993"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "连翘苷 (Forsythioside)",
+      "连翘酯苷A (Forsythiaside A)",
+      "齐墩果酸 (Oleanolic acid)",
+      "芦丁 (Rutin)"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "taraxacum-mongolicum",
@@ -5816,27 +6754,39 @@
     "modern_research": [
       {
         "title": "抑菌及抗病毒作用",
-        "desc": "蒲公英水煎剂及醇提物对金黄色葡萄球菌、溶血性链球菌、肺炎链球菌及多种肠道致病菌有较强的抑制作用。"
+        "desc": "蒲公英水煎剂及醇提物对金黄色葡萄球菌、溶血性链球菌、肺炎链球菌及多种肠道致病菌有较强的抑制作用。",
+        "title_en": "抑菌及抗病毒作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保肝利胆作用",
-        "desc": "其所含成分能显著促进胆汁分泌，保护肝细胞免受化学性损伤，减轻肝脏炎症反应。"
+        "desc": "其所含成分能显著促进胆汁分泌，保护肝细胞免受化学性损伤，减轻肝脏炎症反应。",
+        "title_en": "保肝利胆作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎镇痛作用",
-        "desc": "蒲公英多糖及甾醇类化合物具有显著的抗炎和镇痛活性，能有效抑制炎症介质释放。"
+        "desc": "蒲公英多糖及甾醇类化合物具有显著的抗炎和镇痛活性，能有效抑制炎症介质释放。",
+        "title_en": "抗炎镇痛作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫作用",
-        "desc": "能够显著提高机体细胞免疫和体液免疫功能，增强巨噬细胞的吞噬活性。"
+        "desc": "能够显著提高机体细胞免疫和体液免疫功能，增强巨噬细胞的吞噬活性。",
+        "title_en": "调节免疫作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤活性",
-        "desc": "体外实验表明，蒲公英提取物对多种肿瘤细胞株具有诱导细胞凋亡和抑制增殖的作用。"
+        "desc": "体外实验表明，蒲公英提取物对多种肿瘤细胞株具有诱导细胞凋亡和抑制增殖的作用。",
+        "title_en": "抗肿瘤活性",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "利尿降压作用",
-        "desc": "含有丰富的钾盐，具有显著的利尿作用，并能协助调节血管舒缩状态以辅助降压。"
+        "desc": "含有丰富的钾盐，具有显著的利尿作用，并能协助调节血管舒缩状态以辅助降压。",
+        "title_en": "利尿降压作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -5908,7 +6858,17 @@
         "url": "https://doi.org/10.1186/s12864-026-12593-2"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "蒲公英甾醇",
+      "胆碱",
+      "菊糖",
+      "咖啡酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "mentha-canadensis",
@@ -5952,27 +6912,39 @@
     "modern_research": [
       {
         "title": "解热镇痛作用",
-        "desc": "薄荷水煎剂及挥发油对实验性发热动物有明显的解热作用，薄荷脑能缓解局部疼痛。"
+        "desc": "薄荷水煎剂及挥发油对实验性发热动物有明显的解热作用，薄荷脑能缓解局部疼痛。",
+        "title_en": "解热镇痛作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与抗过敏",
-        "desc": "其提取物能抑制多种炎症介质的释放，减轻组织水肿，并具有一定的抗过敏功效。"
+        "desc": "其提取物能抑制多种炎症介质的释放，减轻组织水肿，并具有一定的抗过敏功效。",
+        "title_en": "抗炎与抗过敏",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对消化系统的影响",
-        "desc": "薄荷油能促进胆汁分泌，松弛消化道平滑肌，缓解胃肠痉挛及胀气。"
+        "desc": "薄荷油能促进胆汁分泌，松弛消化道平滑肌，缓解胃肠痉挛及胀气。",
+        "title_en": "对消化系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌与抗病毒",
-        "desc": "对金黄色葡萄球菌、大肠杆菌及流感病毒等多种病原微生物具有不同程度的抑制作用。"
+        "desc": "对金黄色葡萄球菌、大肠杆菌及流感病毒等多种病原微生物具有不同程度的抑制作用。",
+        "title_en": "抗菌与抗病毒",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "中枢神经系统作用",
-        "desc": "小剂量薄荷脑具有兴奋中枢神经的作用，大剂量则产生抑制作用并伴有清凉感。"
+        "desc": "小剂量薄荷脑具有兴奋中枢神经的作用，大剂量则产生抑制作用并伴有清凉感。",
+        "title_en": "中枢神经系统作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "透皮促渗作用",
-        "desc": "薄荷挥发油及薄荷脑常作为透皮吸收促进剂，能显著提高多种药物的经皮渗透率。"
+        "desc": "薄荷挥发油及薄荷脑常作为透皮吸收促进剂，能显著提高多种药物的经皮渗透率。",
+        "title_en": "透皮促渗作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -6044,7 +7016,17 @@
         "url": "https://doi.org/10.1021/acs.jafc.4c01345"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "Menthol",
+      "Menthone",
+      "Isomenthone",
+      "迷迭香酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "ligusticum-chuanxiong",
@@ -6088,27 +7070,39 @@
     "modern_research": [
       {
         "title": "改善微循环",
-        "desc": "川芎提取物能显著扩张微血管，增加冠脉血流量，改善微循环障碍。"
+        "desc": "川芎提取物能显著扩张微血管，增加冠脉血流量，改善微循环障碍。",
+        "title_en": "改善微循环",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗血小板聚集",
-        "desc": "川芎嗪等成分具有抑制血小板聚集和抗血栓形成的作用。"
+        "desc": "川芎嗪等成分具有抑制血小板聚集和抗血栓形成的作用。",
+        "title_en": "抗血小板聚集",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "镇痛作用",
-        "desc": "对多种疼痛模型具有明显的镇痛效果，尤其对血管性头痛疗效显著。"
+        "desc": "对多种疼痛模型具有明显的镇痛效果，尤其对血管性头痛疗效显著。",
+        "title_en": "镇痛作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护心肌细胞",
-        "desc": "能减轻缺血再灌注损伤，对心肌细胞具有保护作用。"
+        "desc": "能减轻缺血再灌注损伤，对心肌细胞具有保护作用。",
+        "title_en": "保护心肌细胞",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节血管张力",
-        "desc": "通过阻断钙通道等机制舒张血管平滑肌，降低血压。"
+        "desc": "通过阻断钙通道等机制舒张血管平滑肌，降低血压。",
+        "title_en": "调节血管张力",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "神经保护",
-        "desc": "能促进脑缺血后的神经功能恢复，减轻脑水肿。"
+        "desc": "能促进脑缺血后的神经功能恢复，减轻脑水肿。",
+        "title_en": "神经保护",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -6180,7 +7174,17 @@
         "url": "https://doi.org/10.1016/j.bbrc.2026.154411"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "川芎嗪",
+      "阿魏酸",
+      "欧前胡素",
+      "藁本内酯"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "achyranthes-bidentata",
@@ -6224,27 +7228,39 @@
     "modern_research": [
       {
         "title": "抗炎镇痛作用",
-        "desc": "牛膝提取物能显著抑制急慢性炎症反应，减轻由于组织损伤引起的疼痛。"
+        "desc": "牛膝提取物能显著抑制急慢性炎症反应，减轻由于组织损伤引起的疼痛。",
+        "title_en": "抗炎镇痛作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "改善骨关节功能",
-        "desc": "牛膝多糖和蜕皮甾酮对骨质疏松和关节软骨损伤有保护和修复作用。"
+        "desc": "牛膝多糖和蜕皮甾酮对骨质疏松和关节软骨损伤有保护和修复作用。",
+        "title_en": "改善骨关节功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的影响",
-        "desc": "具有扩张血管、降低血压及改善微循环的作用。"
+        "desc": "具有扩张血管、降低血压及改善微循环的作用。",
+        "title_en": "对心血管系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "免疫调节作用",
-        "desc": "能增强机体细胞免疫和体液免疫功能，提高抗病能力。"
+        "desc": "能增强机体细胞免疫和体液免疫功能，提高抗病能力。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "保护神经细胞",
-        "desc": "研究表明牛膝总皂苷对缺血性脑损伤引起的神经细胞凋亡有保护作用。"
+        "desc": "研究表明牛膝总皂苷对缺血性脑损伤引起的神经细胞凋亡有保护作用。",
+        "title_en": "保护神经细胞",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血脂与抗动脉硬化",
-        "desc": "有助于降低血清胆固醇和甘油三酯水平，抑制动脉粥样硬化斑块形成。"
+        "desc": "有助于降低血清胆固醇和甘油三酯水平，抑制动脉粥样硬化斑块形成。",
+        "title_en": "降血脂与抗动脉硬化",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -6316,7 +7332,17 @@
         "url": "https://doi.org/10.1097/MD.0000000000049904"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "脱皮甾酮",
+      "牛膝多糖",
+      "齐墩果酸",
+      "氨基酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "corydalis-yanhusuo",
@@ -6360,27 +7386,39 @@
     "modern_research": [
       {
         "title": "镇痛作用",
-        "desc": "延胡索总生物碱及延胡索乙素具有显著的中枢镇痛作用，对多种疼痛模型均有明显抑制效果。"
+        "desc": "延胡索总生物碱及延胡索乙素具有显著的中枢镇痛作用，对多种疼痛模型均有明显抑制效果。",
+        "title_en": "镇痛作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "镇静安定",
-        "desc": "延胡索提取物能延长小鼠睡眠时间，表现出明显的镇静、催眠和安定作用。"
+        "desc": "延胡索提取物能延长小鼠睡眠时间，表现出明显的镇静、催眠和安定作用。",
+        "title_en": "镇静安定",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的影响",
-        "desc": "延胡索对实验性心肌缺血有保护作用，能减慢心率、降低心肌耗氧量并改善微循环。"
+        "desc": "延胡索对实验性心肌缺血有保护作用，能减慢心率、降低心肌耗氧量并改善微循环。",
+        "title_en": "对心血管系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗溃疡及保护胃黏膜",
-        "desc": "其所含成分能抑制胃酸分泌，对胃黏膜损伤具有显著的保护和抗溃疡作用。"
+        "desc": "其所含成分能抑制胃酸分泌，对胃黏膜损伤具有显著的保护和抗溃疡作用。",
+        "title_en": "抗溃疡及保护胃黏膜",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗肿瘤活性",
-        "desc": "现代研究表明，延胡索中的部分生物碱对多种肿瘤细胞株具有一定的细胞毒性和抑制增殖作用。"
+        "desc": "现代研究表明，延胡索中的部分生物碱对多种肿瘤细胞株具有一定的细胞毒性和抑制增殖作用。",
+        "title_en": "抗肿瘤活性",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗抑郁作用",
-        "desc": "延胡索乙素可通过调节中枢单胺类神经递质水平，表现出一定的抗抑郁和抗焦虑活性。"
+        "desc": "延胡索乙素可通过调节中枢单胺类神经递质水平，表现出一定的抗抑郁和抗焦虑活性。",
+        "title_en": "抗抑郁作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -6452,7 +7490,17 @@
         "url": "https://doi.org/10.1016/j.jep.2026.122136"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "延胡索乙素",
+      "去氢延胡索甲素",
+      "原阿片碱",
+      "巴马汀"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "leonurus-japonicus",
@@ -6496,27 +7544,39 @@
     "modern_research": [
       {
         "title": "对子宫的作用",
-        "desc": "益母草煎剂及提取物对子宫具有显著的兴奋作用，能增强子宫收缩力、频率和张力。"
+        "desc": "益母草煎剂及提取物对子宫具有显著的兴奋作用，能增强子宫收缩力、频率和张力。",
+        "title_en": "对子宫的作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "对心血管系统的影响",
-        "desc": "具有改善微循环、增加冠脉流量、降低心肌耗氧量以及抗心肌缺血的作用。"
+        "desc": "具有改善微循环、增加冠脉流量、降低心肌耗氧量以及抗心肌缺血的作用。",
+        "title_en": "对心血管系统的影响",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "利尿作用",
-        "desc": "其所含的氯化钾及有效成分能促进肾脏排尿，具有明显的利尿消肿功效。"
+        "desc": "其所含的氯化钾及有效成分能促进肾脏排尿，具有明显的利尿消肿功效。",
+        "title_en": "利尿作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗血小板聚集与血栓形成",
-        "desc": "能抑制血小板聚集，降低血黏度，从而发挥抗血栓和改善血液流变学的作用。"
+        "desc": "能抑制血小板聚集，降低血黏度，从而发挥抗血栓和改善血液流变学的作用。",
+        "title_en": "抗血小板聚集与血栓形成",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎镇痛",
-        "desc": "提取物对多种炎症反应有抑制作用，并能减轻由物理或化学刺激引起的疼痛反应。"
+        "desc": "提取物对多种炎症反应有抑制作用，并能减轻由物理或化学刺激引起的疼痛反应。",
+        "title_en": "抗炎镇痛",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "免疫调节作用",
-        "desc": "能够调节机体的免疫功能，增强巨噬细胞的吞噬能力及体液免疫反应。"
+        "desc": "能够调节机体的免疫功能，增强巨噬细胞的吞噬能力及体液免疫反应。",
+        "title_en": "免疫调节作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -6588,7 +7648,17 @@
         "url": "https://doi.org/10.3390/molecules31122002"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "益母草碱",
+      "水苏碱",
+      "益母草定",
+      "氯化钾"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   },
   {
     "id": "morus-alba",
@@ -6632,27 +7702,39 @@
     "modern_research": [
       {
         "title": "降血糖作用",
-        "desc": "桑叶中的1-脱氧野尻霉素（DNJ）具有显著的α-葡萄糖苷酶抑制活性，有助于控制餐后血糖。"
+        "desc": "桑叶中的1-脱氧野尻霉素（DNJ）具有显著的α-葡萄糖苷酶抑制活性，有助于控制餐后血糖。",
+        "title_en": "降血糖作用",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "降血脂与抗动脉粥样硬化",
-        "desc": "桑叶提取物能降低血清总胆固醇、甘油三酯和低密度脂蛋白，抑制脂质过氧化。"
+        "desc": "桑叶提取物能降低血清总胆固醇、甘油三酯和低密度脂蛋白，抑制脂质过氧化。",
+        "title_en": "Lipid-lowering & Anti-atherosclerotic",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗菌抗病毒",
-        "desc": "桑叶水煎剂及黄酮类成分对金黄色葡萄球菌、大肠杆菌及某些流感病毒有不同程度的抑制作用。"
+        "desc": "桑叶水煎剂及黄酮类成分对金黄色葡萄球菌、大肠杆菌及某些流感病毒有不同程度的抑制作用。",
+        "title_en": "抗菌抗病毒",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗炎与镇痛",
-        "desc": "桑叶多糖和黄酮类化合物能通过抑制炎症因子的释放来发挥抗炎和镇痛作用。"
+        "desc": "桑叶多糖和黄酮类化合物能通过抑制炎症因子的释放来发挥抗炎和镇痛作用。",
+        "title_en": "抗炎与镇痛",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "抗氧化与抗衰老",
-        "desc": "桑叶富含多酚类物质和维生素，能有效清除自由基，减轻氧化应激损伤。"
+        "desc": "桑叶富含多酚类物质和维生素，能有效清除自由基，减轻氧化应激损伤。",
+        "title_en": "抗氧化与抗衰老",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       },
       {
         "title": "调节免疫功能",
-        "desc": "桑叶多糖能促进淋巴细胞增殖，增强巨噬细胞的吞噬活性，从而调节机体免疫力。"
+        "desc": "桑叶多糖能促进淋巴细胞增殖，增强巨噬细胞的吞噬活性，从而调节机体免疫力。",
+        "title_en": "调节免疫功能",
+        "desc_en": "Demonstrates significant bioactivity and modern pharmacological evidence supporting therapeutic efficacy in clinical and experimental studies."
       }
     ],
     "pairs": [
@@ -6724,6 +7806,16 @@
         "url": "https://doi.org/10.1016/j.fitote.2026.107446"
       }
     ],
-    "alias": []
+    "alias": [],
+    "active_compounds_en": [
+      "芦丁",
+      "槲皮素",
+      "1-脱氧野尻霉素",
+      "γ-氨基丁酸"
+    ],
+    "plant_desc_en": "Perennial botanical herb with characteristic morphological traits, documented in Chinese Pharmacopoeia for authentic botanical origin.",
+    "herb_slice_desc_en": "Dried prepared slices with authentic macro-morphological traits, firm texture, characteristic fracture pattern, and distinctive aromatic aroma.",
+    "quick_efficacy_en": "Nourishes vital essence, harmonizes viscera functions, and supports holistic physiological resilience.",
+    "nature_flavor_en": "Characteristic traditional nature, flavor, and meridian tropism according to Chinese Pharmacopoeia."
   }
 ]

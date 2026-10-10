@@ -12,6 +12,7 @@ const { herb } = Astro.props;
 
 const tags = herb.tags || [];
 const activeCompounds = herb.active_compounds || [];
+const activeCompoundsEn = herb.active_compounds_en || activeCompounds;
 const classicalRecords = herb.classical_records || [];
 const modernResearch = herb.modern_research || [];
 const pairs = herb.pairs || [];
@@ -23,7 +24,7 @@ const papers = herb.papers || [];
 <head>
   <meta charset="UTF-8" />
   <title>{herb.cn} ({herb.latin}) · 本草全景图谱</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="referrer" content="no-referrer" />
   <style>
     :root {
@@ -36,129 +37,11 @@ const papers = herb.papers || [];
       --muted: #7f8c8d;
       --border: #e8e5de;
     }
-/* ================= 移动端竖屏专属适配 (手机端) ================= */
-    @media (max-width: 768px) {
-      /* 1. 顶部全局导航 */
-      .top-nav {
-        padding: 0.8rem 1rem;
-      }
-      .back-home {
-        font-size: 0.95rem;
-      }
-      .top-nav > div:last-child {
-        display: none;
-      }
-
-      /* 2. 快捷索引栏：手机端转为紧凑网格胶囊，免横向滑动，一眼全览 */
-      .subnav-bar {
-        top: 54px;
-        padding: 0.5rem 0.8rem;
-      }
-      .subnav-inner {
-        padding: 0;
-        display: flex;
-        flex-wrap: wrap; /* 允许自动折行 */
-        justify-content: center;
-        gap: 0.4rem 0.5rem;
-        overflow-x: visible;
-      }
-      .subnav-link {
-        font-size: 0.78rem;
-        padding: 0.25rem 0.55rem;
-        background: #eeeae0;
-        border-radius: 12px;
-      }
-
-      /* 3. 页面容器边距 */
-      .detail-container {
-        margin: 1rem auto;
-        padding: 0 0.8rem;
-        gap: 1.2rem;
-      }
-
-      /* 4. 彻底解决 Hero 左右挤压：强制转为单列垂直流 */
-      .hero-panel {
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        padding: 1.5rem 1rem !important;
-        gap: 1.2rem !important;
-        text-align: center !important;
-      }
-      
-      .hero-title {
-        font-size: 2.1rem;
-        margin-bottom: 0.2rem;
-      }
-      .hero-latin {
-        font-size: 0.95rem;
-        margin-bottom: 0.8rem;
-      }
-      
-      .hero-tags {
-        justify-content: center;
-        margin-bottom: 1rem;
-      }
-      .tag {
-        font-size: 0.78rem;
-        padding: 0.25rem 0.5rem;
-      }
-
-      .hero-right {
-        order: 0;
-        width: 100%;
-        margin-bottom: 0.5rem;
-      }
-      .hero-thumb {
-        width: 130px !important;
-        height: 130px !important;
-        margin-bottom: 1rem !important;
-      }
-      .quote-box {
-        text-align: left;
-        font-size: 0.88rem;
-        padding: 0.8rem 1rem;
-      }
-
-      /* 性味参数网格：手机端转为舒展的双列规整卡片 */
-      .meta-grid {
-        grid-template-columns: 1fr 1fr !important;
-        text-align: left !important;
-        gap: 0.6rem !important;
-        font-size: 0.85rem !important;
-        padding: 0.8rem !important;
-      }
-
-      /* 5. 卡片与各内容模块单列自适应 */
-      .card {
-        padding: 1.4rem 1rem !important;
-      }
-      .card-title {
-        font-size: 1.15rem;
-        margin-bottom: 1rem;
-      }
-
-      /* 植物原形态与饮片特征：单列堆叠 */
-      .dual-grid {
-        grid-template-columns: 1fr !important;
-        gap: 1.2rem !important;
-      }
-      .plant-photo {
-        height: 220px !important;
-      }
-
-      /* 现代药理机制与配伍古方：单列堆叠 */
-      .research-grid,
-      .pair-grid {
-        grid-template-columns: 1fr !important;
-        gap: 0.8rem !important;
-      }
-    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
+    html, body { width: 100%; overflow-x: hidden; }
     body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif; background: var(--bg); color: var(--text); padding-bottom: 5rem; }
     
-    /* 1. 顶部全局导航栏 */
     .top-nav { background: #fff; padding: 1.1rem 3rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
     .nav-left { display: flex; align-items: center; gap: 1.5rem; }
     .back-home { text-decoration: none; color: var(--primary); font-weight: 700; font-size: 1.1rem; display: flex; align-items: center; gap: 0.4rem; transition: 0.2s; }
@@ -167,7 +50,30 @@ const papers = herb.papers || [];
     .back-btn { text-decoration: none; color: #5a6268; font-size: 0.95rem; font-weight: 500; display: inline-flex; align-items: center; gap: 0.3rem; }
     .back-btn:hover { color: var(--primary); }
 
-    /* 2. 快捷章节索引跳转栏 */
+    .nav-right-wrap { display: flex; align-items: center; gap: 1.5rem; }
+    .lang-switch {
+      display: inline-flex;
+      align-items: center;
+      background: #f2eee5;
+      border: 1px solid #dfd9cb;
+      border-radius: 20px;
+      padding: 2px 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      user-select: none;
+    }
+    .lang-btn {
+      padding: 0.25rem 0.65rem;
+      border-radius: 14px;
+      color: #666;
+      transition: 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 600;
+    }
+
     .subnav-bar { background: #faf9f6; border-bottom: 1px solid var(--border); position: sticky; top: 62px; z-index: 90; backdrop-filter: blur(8px); }
     .subnav-inner { max-width: 1100px; margin: 0 auto; padding: 0.6rem 1.5rem; display: flex; gap: 1.2rem; overflow-x: auto; white-space: nowrap; scrollbar-width: none; }
     .subnav-inner::-webkit-scrollbar { display: none; }
@@ -176,7 +82,6 @@ const papers = herb.papers || [];
 
     .detail-container { max-width: 1100px; margin: 2rem auto; padding: 0 1.5rem; display: flex; flex-direction: column; gap: 2rem; }
     
-    /* Hero 区域 */
     .hero-panel { background: #fff; border-radius: 12px; border: 1px solid var(--border); padding: 2.5rem; display: grid; grid-template-columns: 1.4fr 1fr; gap: 2.5rem; align-items: center; }
     .hero-title { font-size: 2.6rem; color: #1e3a29; margin-bottom: 0.3rem; }
     .hero-latin { font-family: "Georgia", serif; font-style: italic; color: var(--muted); font-size: 1.15rem; margin-bottom: 1.2rem; }
@@ -190,86 +95,138 @@ const papers = herb.papers || [];
     .quote-box { background: #fbfaf7; border-left: 3.5px solid var(--primary); padding: 1rem 1.2rem; font-size: 0.95rem; color: #444; width: 100%; border-radius: 0 6px 6px 0; line-height: 1.7; }
     .quote-author { font-size: 0.85rem; text-align: right; color: var(--muted); margin-top: 0.4rem; }
 
-    /* 通用卡片容器 */
     .card { background: #fff; border-radius: 12px; border: 1px solid var(--border); padding: 2.2rem; scroll-margin-top: 120px; }
     .card-title { font-size: 1.35rem; color: #1e3a29; margin-bottom: 1.2rem; border-bottom: 1px solid #f0eee9; padding-bottom: 0.7rem; display: flex; align-items: center; gap: 0.5rem; }
 
-    /* 植物原形态与饮片分栏 */
     .dual-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
-  .plant-layout { display: flex; flex-direction: column; gap: 1rem; }
+    .plant-layout { display: flex; flex-direction: column; gap: 1rem; }
     .plant-photo { width: 100%; height: 260px; border-radius: 8px; object-fit: cover; border: 1px solid var(--border); background: #faf9f6; display: block; }
 
-    /* 化学单体胶囊 */
     .compound-wrap { display: flex; flex-wrap: wrap; gap: 0.8rem; }
     .compound-pill { background: #f5f4ef; color: #4a5568; border: 1px solid #e2ded5; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; font-weight: 500; }
 
-    /* 药理作用列表 */
     .research-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
     .research-card { background: #faf9f6; border-radius: 8px; padding: 1.2rem; border-left: 3px solid var(--primary); }
     .research-card h3 { font-size: 1.05rem; color: #1e3a29; margin-bottom: 0.4rem; }
     .research-card p { font-size: 0.92rem; color: #555; line-height: 1.7; }
 
-    /* 经典配伍与方剂列表 */
     .pair-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
     .pair-card { background: #faf9f6; padding: 1.2rem; border-radius: 8px; border: 1px solid var(--border); }
     .pair-name { font-size: 1.05rem; font-weight: 700; color: var(--accent); margin-bottom: 0.4rem; }
 
-    /* PubMed 文献列表 */
     .paper-list { display: flex; flex-direction: column; gap: 0.8rem; }
     .paper-card { padding: 0.8rem 0; border-bottom: 1px dashed var(--border); font-size: 0.92rem; line-height: 1.6; }
     .paper-card:last-child { border-bottom: none; }
     .paper-title { color: var(--primary); text-decoration: none; font-weight: 600; }
     .paper-title:hover { text-decoration: underline; }
     .paper-meta { font-size: 0.82rem; color: var(--muted); margin-top: 0.3rem; }
+
+    @media (max-width: 768px) {
+      .top-nav { padding: 0.8rem 1rem; }
+      .back-home { font-size: 0.95rem; }
+      .nav-right-wrap > div:first-child { display: none; }
+
+      .subnav-bar { top: 54px; padding: 0.5rem 0.8rem; }
+      .subnav-inner {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.4rem 0.5rem;
+        overflow-x: visible;
+      }
+      .subnav-link { font-size: 0.78rem; padding: 0.25rem 0.55rem; background: #eeeae0; border-radius: 12px; }
+
+      .detail-container { margin: 1rem auto; padding: 0 0.8rem; gap: 1.2rem; }
+
+      .hero-panel {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 1.5rem 1rem !important;
+        gap: 1.2rem !important;
+        text-align: center !important;
+      }
+      .hero-title { font-size: 2.1rem; margin-bottom: 0.2rem; }
+      .hero-latin { font-size: 0.95rem; margin-bottom: 0.8rem; }
+      .hero-tags { justify-content: center; margin-bottom: 1rem; }
+      .tag { font-size: 0.78rem; padding: 0.25rem 0.5rem; }
+
+      .hero-right { order: 0; width: 100%; margin-bottom: 0.5rem; }
+      .hero-thumb { width: 130px !important; height: 130px !important; margin-bottom: 1rem !important; }
+      .quote-box { text-align: left; font-size: 0.88rem; padding: 0.8rem 1rem; }
+
+      .meta-grid {
+        grid-template-columns: 1fr 1fr !important;
+        text-align: left !important;
+        gap: 0.6rem !important;
+        font-size: 0.85rem !important;
+        padding: 0.8rem !important;
+      }
+
+      .card { padding: 1.4rem 1rem !important; }
+      .card-title { font-size: 1.15rem; margin-bottom: 1rem; }
+
+      .dual-grid { grid-template-columns: 1fr !important; gap: 1.2rem !important; }
+      .plant-photo { height: 220px !important; }
+
+      .research-grid, .pair-grid { grid-template-columns: 1fr !important; gap: 0.8rem !important; }
+    }
   </style>
 </head>
 <body>
-  <!-- 1. 顶部全局导航 -->
   <nav class="top-nav">
     <div class="nav-left">
-      <a href="/" class="back-home">🌿 本草图谱 <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;">HerbAtlas</span></a>
+      <a href="/" class="back-home">🌿 <span data-i18n="brand">本草图谱</span> <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;">HerbAtlas</span></a>
       <span class="split-dot">/</span>
-      <a href="/" class="back-btn">← 返回中药名录</a>
+      <a href="/herbs" class="back-btn" data-i18n="back_catalogue">← 返回中药名录</a>
     </div>
-    <div style="font-size:0.9rem;color:var(--muted);">道地本草 · 学术实证体系</div>
+
+    <div class="nav-right-wrap">
+      <div style="font-size:0.9rem;color:var(--muted);" data-i18n="sub_slogan">道地本草 · 学术实证体系</div>
+      <div class="lang-switch" id="langSwitch">
+        <span class="lang-btn active" id="btnZh">中</span>
+        <span class="lang-btn" id="btnEn">EN</span>
+      </div>
+    </div>
   </nav>
 
-  <!-- 2. 吸顶快捷索引跳转栏 -->
   <div class="subnav-bar">
     <div class="subnav-inner">
-      <a href="#overview" class="subnav-link">概览</a>
-      <a href="#morphology" class="subnav-link">植物形态</a>
-      {activeCompounds.length > 0 && <a href="#compounds" class="subnav-link">化学成分</a>}
-      {modernResearch.length > 0 && <a href="#pharmacology" class="subnav-link">现代药理</a>}
-      {(pairs.length > 0 || formulas.length > 0) && <a href="#formulas" class="subnav-link">配伍古方</a>}
-      {classicalRecords.length > 0 && <a href="#classics" class="subnav-link">历代本草</a>}
-      {papers.length > 0 && <a href="#pubmed" class="subnav-link">PubMed文献</a>}
+      <a href="#overview" class="subnav-link" data-i18n="tab_overview">概览</a>
+      <a href="#morphology" class="subnav-link" data-i18n="tab_morphology">植物形态</a>
+      {activeCompounds.length > 0 && <a href="#compounds" class="subnav-link" data-i18n="tab_compounds">化学成分</a>}
+      {modernResearch.length > 0 && <a href="#pharmacology" class="subnav-link" data-i18n="tab_pharmacology">现代药理</a>}
+      {(pairs.length > 0 || formulas.length > 0) && <a href="#formulas" class="subnav-link" data-i18n="tab_formulas">配伍古方</a>}
+      {classicalRecords.length > 0 && <a href="#classics" class="subnav-link" data-i18n="tab_classics">历代本草</a>}
+      {papers.length > 0 && <a href="#pubmed" class="subnav-link" data-i18n="tab_pubmed">PubMed文献</a>}
     </div>
   </div>
 
   <div class="detail-container">
     
-    <!-- 概览面板 -->
     <section class="hero-panel" id="overview">
       <div>
-        <h1 class="hero-title">{herb.cn}</h1>
+        <h1 class="hero-title" id="herbTitle" data-cn={herb.cn} data-en={herb.en_common || herb.latin}>{herb.cn}</h1>
         <div class="hero-latin">{herb.latin}</div>
         
         {herb.alias && herb.alias.length > 0 && (
-          <div style="font-size:0.9rem;color:var(--muted);margin-bottom:0.8rem;">别名：{herb.alias.join(' / ')}</div>
+          <div style="font-size:0.9rem;color:var(--muted);margin-bottom:0.8rem;">
+            <span data-i18n="lbl_alias">别名</span>：{herb.alias.join(' / ')}
+          </div>
         )}
         
         <div class="hero-tags">
           {tags.map((t: string) => <span class="tag">{t}</span>)}
         </div>
         
-        <p style="line-height:1.8;font-size:1.05rem;color:#333;margin-top:0.6rem;">{herb.quick_efficacy}</p>
+        <p style="line-height:1.8;font-size:1.05rem;color:#333;margin-top:0.6rem;" id="quickEfficacy" data-cn={herb.quick_efficacy} data-en={herb.quick_efficacy_en || herb.quick_efficacy}>{herb.quick_efficacy}</p>
         
         <div class="meta-grid">
-          <div><strong>性味归经：</strong>{herb.nature_flavor || '暂缺'}</div>
-          <div><strong>常用剂量：</strong>{herb.dosage || '遵医嘱'}</div>
-          <div><strong>适用人群：</strong>{herb.target_crowd || '脏腑偏颇者'}</div>
-          <div><strong>使用注意：</strong>{herb.caution || '遵医嘱'}</div>
+          <div><strong data-i18n="lbl_nature">性味归经</strong>：<span class="meta-val" data-cn={herb.nature_flavor || '暂缺'} data-en={herb.nature_flavor_en || herb.nature_flavor || 'Traditional traits'}>{herb.nature_flavor || '暂缺'}</span></div>
+          <div><strong data-i18n="lbl_dosage">常用剂量</strong>：<span>{herb.dosage || '遵医嘱'}</span></div>
+          <div><strong data-i18n="lbl_target">适用人群</strong>：<span class="meta-val" data-cn={herb.target_crowd || '脏腑偏颇者'} data-en="Holistic health & constitution support">{herb.target_crowd || '脏腑偏颇者'}</span></div>
+          <div><strong data-i18n="lbl_caution">使用注意</strong>：<span class="meta-val" data-cn={herb.caution || '遵医嘱'} data-en="Follow medical advice">{herb.caution || '遵医嘱'}</span></div>
         </div>
       </div>
 
@@ -282,81 +239,78 @@ const papers = herb.papers || [];
       </div>
     </section>
 
-    <!-- 植物原形态与饮片特征 -->
     <div class="dual-grid" id="morphology">
       <div class="card">
-        <h2 class="card-title">🌿 植物原形态</h2>
+        <h2 class="card-title">🌿 <span data-i18n="sec_plant">植物原形态</span></h2>
         <div class="plant-layout">
           <img src={herb.plant_img} class="plant-photo" alt={`${herb.cn}原植物形态`} loading="lazy" />
-          <div style="font-size:0.95rem;line-height:1.85;color:#444;">
+          <div style="font-size:0.95rem;line-height:1.85;color:#444;" id="plantDesc" data-cn={herb.plant_desc || '植物基原形态良好，具备典型植物学特征。'} data-en={herb.plant_desc_en || 'Botanical herb with authentic morphology.'}>
             {herb.plant_desc || '植物基原形态良好，具备典型植物学特征。'}
           </div>
         </div>
       </div>
 
       <div class="card">
-        <h2 class="card-title">🪵 药材与饮片鉴别</h2>
+        <h2 class="card-title">🪵 <span data-i18n="sec_slice">药材与饮片鉴别</span></h2>
         <div style="background:#faf8f5;border:1px solid #eee9df;border-radius:8px;padding:1.4rem;line-height:1.9;font-size:0.95rem;">
-          <div style="font-weight:700;color:var(--primary);margin-bottom:0.4rem;">性状鉴别特征</div>
-          {herb.herb_slice_desc || '干燥饮片质地坚实，断面纹理清晰，气味芳香浓郁。'}
+          <div style="font-weight:700;color:var(--primary);margin-bottom:0.4rem;" data-i18n="lbl_char_id">性状鉴别特征</div>
+          <div id="sliceDesc" data-cn={herb.herb_slice_desc || '干燥饮片质地坚实，断面纹理清晰，气味芳香浓郁。'} data-en={herb.herb_slice_desc_en || 'Prepared dried herbal slices with distinctive macroscopic traits.'}>
+            {herb.herb_slice_desc || '干燥饮片质地坚实，断面纹理清晰，气味芳香浓郁。'}
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- 主要化学单体 / 活性成分 -->
     {activeCompounds.length > 0 && (
       <div class="card" id="compounds">
-        <h2 class="card-title">⚗️ 主要化学单体与有效成分</h2>
+        <h2 class="card-title">⚗️ <span data-i18n="sec_compounds">主要化学单体与有效成分</span></h2>
         <div class="compound-wrap">
-          {activeCompounds.map((cp: string) => (
-            <div class="compound-pill">{cp}</div>
+          {activeCompounds.map((cp: string, idx: number) => (
+            <div class="compound-pill" data-cn={cp} data-en={activeCompoundsEn[idx] || cp}>{cp}</div>
           ))}
         </div>
       </div>
     )}
 
-    <!-- 现代药理机制与实证 -->
     {modernResearch.length > 0 && (
       <div class="card" id="pharmacology">
-        <h2 class="card-title">🔬 核心药理机制与现代研究</h2>
+        <h2 class="card-title">🔬 <span data-i18n="sec_pharma">核心药理机制与现代研究</span></h2>
         <div class="research-grid">
           {modernResearch.map((r: any) => (
             <div class="research-card">
-              <h3>{r.title}</h3>
-              <p>{r.desc}</p>
+              <h3 class="res-title" data-cn={r.title} data-en={r.title_en || r.title}>{r.title}</h3>
+              <p class="res-desc" data-cn={r.desc} data-en={r.desc_en || r.desc}>{r.desc}</p>
             </div>
           ))}
         </div>
       </div>
     )}
 
-    <!-- 经典配伍（药对）与代表方剂 -->
     {(pairs.length > 0 || formulas.length > 0) && (
       <div class="card" id="formulas">
-        <h2 class="card-title">📜 经典配伍与古方精选</h2>
+        <h2 class="card-title">📜 <span data-i18n="sec_formulas">经典配伍与古方精选</span></h2>
         <div class="pair-grid">
           {pairs.map((p: any) => (
             <div class="pair-card">
               <div class="pair-name">{p.pair_name}</div>
-              <div style="font-size:0.9rem;color:#444;line-height:1.6;"><strong>功效：</strong>{p.efficacy}</div>
-              <div style="font-size:0.9rem;color:#666;margin-top:0.2rem;"><strong>主治：</strong>{p.indication}</div>
+              <div style="font-size:0.9rem;color:#444;line-height:1.6;"><strong data-i18n="lbl_efficacy">功效</strong>：{p.efficacy}</div>
+              <div style="font-size:0.9rem;color:#666;margin-top:0.2rem;"><strong data-i18n="lbl_indication">主治</strong>：{p.indication}</div>
             </div>
           ))}
           {formulas.map((f: any) => (
             <div class="pair-card" style="border-left:3px solid var(--accent);">
               <div class="pair-name" style="color:var(--primary);">{f.name}</div>
-              <div style="font-size:0.9rem;color:#444;line-height:1.6;"><strong>组成：</strong>{f.composition}</div>
-              <div style="font-size:0.9rem;color:#666;margin-top:0.2rem;"><strong>主治：</strong>{f.indication}</div>
+              <div style="font-size:0.9rem;color:#444;line-height:1.6;"><strong data-i18n="lbl_composition">组成</strong>：{f.composition}</div>
+              <div style="font-size:0.9rem;color:#666;margin-top:0.2rem;"><strong data-i18n="lbl_indication">主治</strong>：{f.indication}</div>
             </div>
           ))}
         </div>
       </div>
     )}
 
-    <!-- 历代本草文献记载 -->
     {classicalRecords.length > 0 && (
       <div class="card" id="classics">
-        <h2 class="card-title">📖 历代本草文献记载</h2>
+        <h2 class="card-title">📖 <span data-i18n="sec_classics">历代本草文献记载</span></h2>
         <div style="display:flex;flex-direction:column;gap:1rem;">
           {classicalRecords.map((c: any) => (
             <div style="background:#faf9f6;padding:1.2rem;border-radius:6px;border-left:3px solid #8c6d46;">
@@ -368,15 +322,14 @@ const papers = herb.papers || [];
       </div>
     )}
 
-    <!-- PubMed 国际学术文献 -->
     {papers.length > 0 && (
       <div class="card" id="pubmed">
-        <h2 class="card-title">🌐 PubMed 国际学术文献支持</h2>
+        <h2 class="card-title">🌐 <span data-i18n="sec_pubmed">PubMed 国际学术文献支持</span></h2>
         <div class="paper-list">
           {papers.map((p: any) => (
             <div class="paper-card">
               <a href={p.url} class="paper-title" target="_blank" rel="noopener noreferrer">[{p.year}] {p.title}</a>
-              <div class="paper-meta">来源: {p.source} | PMID: {p.pmid}</div>
+              <div class="paper-meta">来源 / Source: {p.source} | PMID: {p.pmid}</div>
             </div>
           ))}
         </div>
@@ -384,5 +337,128 @@ const papers = herb.papers || [];
     )}
 
   </div>
+
+  <script>
+    const I18N_DICT = {
+      zh: {
+        brand: '本草图谱',
+        back_catalogue: '← 返回中药名录',
+        sub_slogan: '道地本草 · 学术实证体系',
+        tab_overview: '概览',
+        tab_morphology: '植物形态',
+        tab_compounds: '化学成分',
+        tab_pharmacology: '现代药理',
+        tab_formulas: '配伍古方',
+        tab_classics: '历代本草',
+        tab_pubmed: 'PubMed文献',
+        lbl_alias: '别名',
+        lbl_nature: '性味归经',
+        lbl_dosage: '常用剂量',
+        lbl_target: '适用人群',
+        lbl_caution: '使用注意',
+        sec_plant: '植物原形态',
+        sec_slice: '药材与饮片鉴别',
+        lbl_char_id: '性状鉴别特征',
+        sec_compounds: '主要化学单体与有效成分',
+        sec_pharma: '核心药理机制与现代研究',
+        sec_formulas: '经典配伍与古方精选',
+        lbl_efficacy: '功效',
+        lbl_indication: '主治',
+        lbl_composition: '组成',
+        sec_classics: '历代本草文献记载',
+        sec_pubmed: 'PubMed 国际学术文献支持'
+      },
+      en: {
+        brand: 'HerbAtlas',
+        back_catalogue: '← Back to Catalogue',
+        sub_slogan: 'Authentic Herbs · Evidence-Based System',
+        tab_overview: 'Overview',
+        tab_morphology: 'Morphology',
+        tab_compounds: 'Compounds',
+        tab_pharmacology: 'Pharmacology',
+        tab_formulas: 'Formulas & Pairs',
+        tab_classics: 'Classics',
+        tab_pubmed: 'PubMed Studies',
+        lbl_alias: 'Aliases',
+        lbl_nature: 'Nature & Meridians',
+        lbl_dosage: 'Dosage',
+        lbl_target: 'Suitable For',
+        lbl_caution: 'Cautions',
+        sec_plant: 'Botanical Morphology',
+        sec_slice: 'Herbal Slices & Identification',
+        lbl_char_id: 'Macroscopic Traits',
+        sec_compounds: 'Active Compounds & Monomers',
+        sec_pharma: 'Pharmacological Mechanisms',
+        sec_formulas: 'Classical Formulas & Pairings',
+        lbl_efficacy: 'Efficacy',
+        lbl_indication: 'Indications',
+        lbl_composition: 'Composition',
+        sec_classics: 'Historical Herbal Records',
+        sec_pubmed: 'PubMed Academic Evidence'
+      }
+    };
+
+    let currentLang = localStorage.getItem('site_lang') || 'zh';
+
+    const btnZh = document.getElementById('btnZh');
+    const btnEn = document.getElementById('btnEn');
+    const herbTitle = document.getElementById('herbTitle');
+    const quickEfficacy = document.getElementById('quickEfficacy');
+    const plantDesc = document.getElementById('plantDesc');
+    const sliceDesc = document.getElementById('sliceDesc');
+
+    function applyLang(lang) {
+      currentLang = lang;
+      localStorage.setItem('site_lang', lang);
+
+      if (btnZh) btnZh.classList.toggle('active', lang === 'zh');
+      if (btnEn) btnEn.classList.toggle('active', lang === 'en');
+
+      const dict = I18N_DICT[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) el.innerHTML = dict[key];
+      });
+
+      // 切换药名与标题
+      if (herbTitle) {
+        herbTitle.innerText = lang === 'en' ? (herbTitle.getAttribute('data-en') || herbTitle.getAttribute('data-cn')) : herbTitle.getAttribute('data-cn');
+      }
+
+      // 切换植物描述与饮片描述
+      if (plantDesc) {
+        plantDesc.innerText = lang === 'en' ? plantDesc.getAttribute('data-en') : plantDesc.getAttribute('data-cn');
+      }
+      if (sliceDesc) {
+        sliceDesc.innerText = lang === 'en' ? sliceDesc.getAttribute('data-en') : sliceDesc.getAttribute('data-cn');
+      }
+      if (quickEfficacy) {
+        quickEfficacy.innerText = lang === 'en' ? quickEfficacy.getAttribute('data-en') : quickEfficacy.getAttribute('data-cn');
+      }
+
+      // 切换元数据（性味归经、适用人群等）
+      document.querySelectorAll('.meta-val').forEach(el => {
+        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+      });
+
+      // 切换化学单体胶囊
+      document.querySelectorAll('.compound-pill').forEach(el => {
+        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+      });
+
+      // 切换现代药理标题与正文
+      document.querySelectorAll('.res-title').forEach(el => {
+        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+      });
+      document.querySelectorAll('.res-desc').forEach(el => {
+        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+      });
+    }
+
+    if (btnZh) btnZh.addEventListener('click', () => applyLang('zh'));
+    if (btnEn) btnEn.addEventListener('click', () => applyLang('en'));
+
+    applyLang(currentLang);
+  </script>
 </body>
 </html>
