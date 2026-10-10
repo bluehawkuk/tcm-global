@@ -1,17 +1,15 @@
 ---
 import herbs from '../data/herbs.json';
 
-// 首页精选：优先取 featured === true，若无则默认取前 8 种，确保线上永远有 8 种药材渲染，绝不留白
-const featuredHerbs = (herbs.filter(h => h.featured).length >= 8) 
-  ? herbs.filter(h => h.featured).slice(0, 8) 
-  : herbs.slice(0, 8);
+// 直接截取前 8 种核心药材展示
+const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
 ---
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
   <title>本草图谱 · HerbAtlas</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="referrer" content="no-referrer" />
   <style>
     :root {
@@ -24,6 +22,7 @@ const featuredHerbs = (herbs.filter(h => h.featured).length >= 8)
       --border: #e8e5de;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; overflow-x: hidden; }
     body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif; background: var(--bg); color: var(--text-main); }
     
     .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.2rem 3rem; background: #fff; border-bottom: 1px solid var(--border); }
@@ -31,35 +30,53 @@ const featuredHerbs = (herbs.filter(h => h.featured).length >= 8)
     .nav-links { display: flex; gap: 2rem; list-style: none; font-size: 0.95rem; }
     .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; }
     
-    .hero { display: grid; grid-template-columns: 1.15fr 1fr; padding: 4rem 3rem; max-width: 1300px; margin: 0 auto; align-items: center; gap: 3.5rem; }
-    .hero-title { font-size: 3.2rem; color: #1e3a29; margin-bottom: 0.5rem; letter-spacing: 2px; }
+    /* 桌面端 Hero 默认布局：保持 1.15fr 1fr */
+    .hero { display: grid; grid-template-columns: 1.15fr 1fr; padding: 4rem 3rem; max-width: 1300px; margin: 0 auto; align-items: center; gap: 3.5rem; width: 100%; }
+    .hero-title { font-size: 3.2rem; color: #1e3a29; margin-bottom: 0.5rem; letter-spacing: 2px; line-height: 1.2; }
     .hero-subtitle { font-family: "Georgia", serif; font-style: italic; color: #7d827a; font-size: 1.3rem; margin-bottom: 1.5rem; }
     .hero-desc { line-height: 1.8; color: var(--text-sub); margin-bottom: 2rem; font-size: 1.05rem; }
     
     .search-box { display: flex; gap: 0.5rem; max-width: 520px; margin-bottom: 2.5rem; }
-    .search-input { flex: 1; padding: 0.9rem 1.4rem; border-radius: 8px; border: 1.5px solid #c8c2b3; font-size: 1rem; outline: none; transition: 0.2s; background: #fff; }
+    .search-input { width: 100%; padding: 0.9rem 1.4rem; border-radius: 8px; border: 1.5px solid #c8c2b3; font-size: 1rem; outline: none; transition: 0.2s; background: #fff; }
     .search-input:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(45,90,63,0.15); }
     
     .stats { display: flex; gap: 3rem; border-top: 1px solid var(--border); padding-top: 1.5rem; }
     .stat-num { font-size: 1.6rem; font-weight: 700; color: #1e3a29; }
     .stat-label { font-size: 0.8rem; color: var(--text-sub); margin-top: 0.2rem; }
 
-    /* 右上角 Hero 大图容器配置 */
-    .hero-img-box { position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 16px 36px rgba(45,90,63,0.12); border: 2px solid #e8e2d5; }
-    .hero-img { width: 100%; height: 420px; object-fit: cover; object-position: center; display: block; filter: contrast(1.02) saturate(1.05); }
+    .hero-img-box { position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 16px 36px rgba(45,90,63,0.12); border: 2px solid #e8e2d5; min-height: 380px; background: #e8e2d5; }
+    .hero-img { width: 100%; height: 420px; object-fit: cover; object-position: center; display: block; }
     .seal-text { position: absolute; right: 1.8rem; top: 1.8rem; writing-mode: vertical-rl; font-size: 1.05rem; letter-spacing: 4px; color: #fff; background: rgba(30,58,41,0.75); backdrop-filter: blur(4px); padding: 1.2rem 0.6rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.25); }
 
-    .section-wrap { max-width: 1300px; margin: 0 auto 4rem auto; padding: 0 3rem; }
+    .section-wrap { max-width: 1300px; margin: 0 auto 4rem auto; padding: 0 3rem; width: 100%; }
     .section-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem; }
     .section-title { font-size: 1.8rem; color: #1e3a29; letter-spacing: 1px; }
 
-    /* 药材卡片与统一圆形头像尺寸规范 */
-    .herb-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; }
-    .herb-item { background: #fff; border-radius: 12px; padding: 1.8rem 1.2rem; border: 1px solid var(--border); text-decoration: none; color: inherit; text-align: center; transition: 0.2s; display: flex; flex-direction: column; align-items: center; }
-    .herb-item:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(0,0,0,0.06); }
-    
-    /* 严格限制药材缩略图，无论是默认还是搜索结果，永远保持 140px 圆形 */
-   /* 静态卡片与动态搜索渲染卡片：全局强制 140px 圆形规范 */
+    /* 桌面端 4 列网格 */
+    .herb-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; width: 100%; }
+
+    /* 药材卡片基础样式 */
+    .herb-item,
+    :global(.herb-item) {
+      background: #fff !important;
+      border-radius: 12px !important;
+      padding: 1.8rem 1.2rem !important;
+      border: 1px solid var(--border) !important;
+      text-decoration: none !important;
+      color: inherit !important;
+      text-align: center !important;
+      transition: 0.2s !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: center !important;
+      min-width: 0 !important;
+    }
+    .herb-item:hover,
+    :global(.herb-item:hover) {
+      transform: translateY(-4px) !important;
+      box-shadow: 0 12px 28px rgba(0,0,0,0.06) !important;
+    }
+
     .herb-thumb,
     :global(.herb-thumb),
     :global(.herb-item img) { 
@@ -77,59 +94,130 @@ const featuredHerbs = (herbs.filter(h => h.featured).length >= 8)
       display: block !important;
     }
 
-    /* 保证动态搜索结果容器与卡片结构完全继承网格规范 */
-    :global(.herb-item) {
-      background: #fff !important;
-      border-radius: 12px !important;
-      padding: 1.8rem 1.2rem !important;
-      border: 1px solid var(--border) !important;
-      text-decoration: none !important;
-      color: inherit !important;
-      text-align: center !important;
-      transition: 0.2s !important;
-      display: flex !important;
-      flex-direction: column !important;
-      align-items: center !important;
-    }
+    .herb-name, :global(.herb-name) { font-size: 1.3rem !important; font-weight: 700 !important; margin-bottom: 0.2rem !important; }
+    .herb-en, :global(.herb-en) { font-size: 0.85rem !important; color: #8c8c8c !important; font-style: italic !important; margin-bottom: 0.8rem !important; word-break: break-word !important; }
+    .herb-tags, :global(.herb-tags) { display: flex !important; justify-content: center !important; gap: 0.4rem !important; flex-wrap: wrap !important; margin-bottom: 1rem !important; }
+    .tag-sm, :global(.tag-sm) { background: #f2eee5 !important; color: #5a574f !important; font-size: 0.75rem !important; padding: 0.2rem 0.5rem !important; border-radius: 4px !important; white-space: nowrap !important; }
 
-    :global(.herb-item:hover) {
-      transform: translateY(-4px) !important;
-      box-shadow: 0 12px 28px rgba(0,0,0,0.06) !important;
-    }
+    /* ================= 针对手机端（包含 1256*2808 等各种高分屏视口）专属响应式 ================= */
+    @media (max-width: 768px) {
+      .top-nav {
+        padding: 0.9rem 1rem;
+      }
+      .nav-links {
+        display: none;
+      }
+      
+      /* 单列垂直流，消除一切侧边挤压 */
+      .hero {
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem;
+        gap: 1.5rem;
+      }
+      .hero-title {
+        font-size: 2.3rem;
+        letter-spacing: 1px;
+      }
+      .hero-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+      }
+      .hero-desc {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.7;
+      }
+      
+      .search-box {
+        max-width: 100%;
+        margin-bottom: 1.5rem;
+      }
+      .search-input {
+        padding: 0.85rem 1rem;
+        font-size: 0.95rem;
+      }
 
-    :global(.herb-name) {
-      font-size: 1.3rem !important;
-      font-weight: 700 !important;
-      margin-bottom: 0.2rem !important;
-    }
+      /* 手机端彻底隐藏大图容器，避免任何机型裁切挤压 */
+      .hero-img-box {
+        display: none !important;
+      }
 
-    :global(.herb-en) {
-      font-size: 0.85rem !important;
-      color: #8c8c8c !important;
-      font-style: italic !important;
-      margin-bottom: 0.8rem !important;
-    }
+      /* 统计区域：隐藏中间的“8 首页精选”，仅展示收录总数与 PubMed 实证 */
+      .stats {
+        gap: 0;
+        justify-content: space-around;
+        padding-top: 1.2rem;
+      }
+      .stat-featured {
+        display: none !important;
+      }
+      .stat-num {
+        font-size: 1.5rem;
+      }
+      .stat-label {
+        font-size: 0.75rem;
+      }
 
-    :global(.herb-tags) {
-      display: flex !important;
-      justify-content: center !important;
-      gap: 0.4rem !important;
-      flex-wrap: wrap !important;
-      margin-bottom: 1rem !important;
-    }
+      .section-wrap {
+        padding: 0 0.8rem;
+        margin-bottom: 3rem;
+      }
+      .section-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+        margin-bottom: 1.2rem;
+      }
+      .section-title {
+        font-size: 1.4rem;
+      }
+      #gridSub {
+        font-size: 0.8rem !important;
+      }
 
-    :global(.tag-sm) {
-      background: #f2eee5 !important;
-      color: #5a574f !important;
-      font-size: 0.75rem !important;
-      padding: 0.2rem 0.5rem !important;
-      border-radius: 4px !important;
+      /* 核心适配：双列严格平分，minmax(0, 1fr) 严禁溢出撑开屏幕，杜绝左右横拉 */
+      .herb-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 0.6rem !important;
+        width: 100% !important;
+      }
+
+      .herb-item,
+      :global(.herb-item) {
+        padding: 1.2rem 0.5rem !important;
+        border-radius: 10px !important;
+      }
+
+      /* 圆形头像收拢到 95px，完美适应窄屏双列 */
+      .herb-thumb,
+      :global(.herb-thumb),
+      :global(.herb-item img) {
+        width: 95px !important;
+        height: 95px !important;
+        min-width: 95px !important;
+        min-height: 95px !important;
+        max-width: 95px !important;
+        max-height: 95px !important;
+        margin-bottom: 0.6rem !important;
+        border-width: 2px !important;
+      }
+
+      .herb-name, :global(.herb-name) {
+        font-size: 1.15rem !important;
+      }
+      .herb-en, :global(.herb-en) {
+        font-size: 0.72rem !important;
+        margin-bottom: 0.5rem !important;
+      }
+      .herb-tags, :global(.herb-tags) {
+        gap: 0.25rem !important;
+        margin-bottom: 0.6rem !important;
+      }
+      .tag-sm, :global(.tag-sm) {
+        font-size: 0.68rem !important;
+        padding: 0.15rem 0.35rem !important;
+      }
     }
-    
-    .herb-name { font-size: 1.3rem; font-weight: 700; margin-bottom: 0.2rem; }
-    .herb-en { font-size: 0.85rem; color: #8c8c8c; font-style: italic; margin-bottom: 0.8rem; }
-    .herb-tags { display: flex; justify-content: center; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 1rem; }
-    .tag-sm { background: #f2eee5; color: #5a574f; font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 4px; }
   </style>
 </head>
 <body>
@@ -143,7 +231,7 @@ const featuredHerbs = (herbs.filter(h => h.featured).length >= 8)
 
   <section class="hero">
     <div>
-      <h1 class="hero-title">重新认识中草药</h1>
+      <h1 class="hero-title">重新认识<br />中草药</h1>
       <div class="hero-subtitle">Ancient Knowledge. Modern Evidence.</div>
       <p class="hero-desc">从传统智慧、植物科学到现代研究，用更清晰、可信的方式理解中草药，连接东方传统与现代健康生活。</p>
       
@@ -153,12 +241,12 @@ const featuredHerbs = (herbs.filter(h => h.featured).length >= 8)
 
       <div class="stats">
         <div><div class="stat-num">50+</div><div class="stat-label">收录药材总数</div></div>
-        <div><div class="stat-num">8</div><div class="stat-label">首页精选中药</div></div>
+        <div class="stat-featured"><div class="stat-num">8</div><div class="stat-label">首页精选中药</div></div>
         <div><div class="stat-num">500+</div><div class="stat-label">PubMed 实证研究</div></div>
       </div>
     </div>
 
-    <!-- 右上角采用你上传的真实道地药材大图 -->
+    <!-- 电脑端保留大图展示，手机端隐藏 -->
     <div class="hero-img-box">
       <img src="/images/hero_index.jpg" class="hero-img" alt="道地药材陈列" />
       <div class="seal-text">道地药材 · 自然之力</div>
@@ -171,7 +259,7 @@ const featuredHerbs = (herbs.filter(h => h.featured).length >= 8)
       <span style="color:var(--text-sub);font-size:0.9rem;" id="gridSub">展示 8 种高匹配经典中药，其余 42 种支持上方快速搜索</span>
     </div>
 
-    <!-- 药材网格 -->
+    <!-- 药材网格：手机端双列规整自适应，彻底杜绝横向滚动 -->
     <div class="herb-grid" id="herbGrid">
       {featuredHerbs.map((h) => (
         <a href={`/herbs/${h.id}`} class="herb-item">
@@ -181,13 +269,13 @@ const featuredHerbs = (herbs.filter(h => h.featured).length >= 8)
           <div class="herb-tags">
             {(h.tags || []).slice(0, 2).map((t: string) => <span class="tag-sm">{t}</span>)}
           </div>
-          <span style="color:var(--primary);font-size:0.85rem;font-weight:600;">进入全景图谱 →</span>
+          <span style="color:var(--primary);font-size:0.8rem;font-weight:600;">进入全景图谱 →</span>
         </a>
       ))}
     </div>
   </section>
 
-  <script define:vars={{ allHerbs: herbs }}>
+  <script define:vars={{ herbs }}>
     const searchInput = document.getElementById('searchInput');
     const herbGrid = document.getElementById('herbGrid');
     const gridTitle = document.getElementById('gridTitle');
@@ -204,7 +292,7 @@ const featuredHerbs = (herbs.filter(h => h.featured).length >= 8)
         return;
       }
 
-      const results = allHerbs.filter(h => 
+      const results = herbs.filter(h => 
         (h.cn && h.cn.includes(q)) || 
         (h.latin && h.latin.toLowerCase().includes(q)) || 
         (h.tags && h.tags.some(t => t.includes(q))) ||
@@ -215,11 +303,10 @@ const featuredHerbs = (herbs.filter(h => h.featured).length >= 8)
       gridSub.innerText = `在 50 种中草药中匹配到 "${q}"`;
 
       if (results.length === 0) {
-        herbGrid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 3rem; color: #888;">未检索到与 "${q}" 匹配的中药，请尝试搜索其他药名或拉丁学名。</div>`;
+        herbGrid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; padding: 2rem; color: #888;">未检索到与 "${q}" 匹配的中药，请尝试搜索其他药名。</div>`;
         return;
       }
 
-      // 搜索结果模板：强约束图片 class 为 herb-thumb，确保完全与首页 8 种一致
       herbGrid.innerHTML = results.map(h => `
         <a href="/herbs/${h.id}" class="herb-item">
           <img src="${h.hero_img}" class="herb-thumb" alt="${h.cn}" loading="lazy" />
@@ -228,7 +315,7 @@ const featuredHerbs = (herbs.filter(h => h.featured).length >= 8)
           <div class="herb-tags">
             ${(h.tags || []).slice(0, 2).map(t => `<span class="tag-sm">${t}</span>`).join('')}
           </div>
-          <span style="color:var(--primary);font-size:0.85rem;font-weight:600;">进入全景图谱 →</span>
+          <span style="color:var(--primary);font-size:0.8rem;font-weight:600;">进入全景图谱 →</span>
         </a>
       `).join('');
     });
