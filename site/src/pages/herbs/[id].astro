@@ -46,6 +46,7 @@ const papers = herb.papers || [];
     .top-nav { background: #fff; padding: 1.1rem 3rem; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
     .nav-left { display: flex; align-items: center; gap: 1.5rem; }
     .back-home { text-decoration: none; color: var(--primary); font-weight: 700; font-size: 1.1rem; display: flex; align-items: center; gap: 0.4rem; transition: 0.2s; }
+    .back-home:hover { opacity: 0.85; }
     .split-dot { color: #d0ccc0; }
     .back-btn { text-decoration: none; color: #5a6268; font-size: 0.95rem; font-weight: 500; display: inline-flex; align-items: center; gap: 0.3rem; }
     .back-btn:hover { color: var(--primary); }
@@ -295,14 +296,14 @@ const papers = herb.papers || [];
         <div class="pair-grid">
           {pairs.map((p: any) => (
             <div class="pair-card">
-              <div class="pair-name" data-cn={p.pair_name} data-en={p.pair_name}>{p.pair_name}</div>
+              <div class="pair-name" data-cn={p.pair_name} data-en={p.pair_name_en || p.pair_name}>{p.pair_name}</div>
               <div style="font-size:0.9rem;color:#444;line-height:1.6;"><strong data-i18n="lbl_efficacy">功效</strong>：<span class="p-eff" data-cn={p.efficacy} data-en={p.efficacy_en || p.efficacy}>{p.efficacy}</span></div>
               <div style="font-size:0.9rem;color:#666;margin-top:0.2rem;"><strong data-i18n="lbl_indication">主治</strong>：<span class="p-ind" data-cn={p.indication} data-en={p.indication_en || p.indication}>{p.indication}</span></div>
             </div>
           ))}
           {formulas.map((f: any) => (
             <div class="pair-card" style="border-left:3px solid var(--accent);">
-              <div class="pair-name" style="color:var(--primary);" data-cn={f.name} data-en={f.name_en || f.name}>{f.name}</div>
+              <div class="formula-name" style="color:var(--primary);font-size:1.05rem;font-weight:700;margin-bottom:0.4rem;" data-cn={f.name} data-en={f.name_en || f.name}>{f.name}</div>
               <div style="font-size:0.9rem;color:#444;line-height:1.6;"><strong data-i18n="lbl_composition">组成</strong>：<span class="f-comp" data-cn={f.composition} data-en={f.composition_en || f.composition}>{f.composition}</span></div>
               <div style="font-size:0.9rem;color:#666;margin-top:0.2rem;"><strong data-i18n="lbl_indication">主治</strong>：<span class="f-ind" data-cn={f.indication} data-en={f.indication_en || f.indication}>{f.indication}</span></div>
             </div>
@@ -427,12 +428,12 @@ const papers = herb.papers || [];
       });
 
       if (herbTitle) herbTitle.innerText = lang === 'en' ? (herbTitle.getAttribute('data-en') || herbTitle.getAttribute('data-cn')) : herbTitle.getAttribute('data-cn');
-      if (plantDesc) plantDesc.innerText = lang === 'en' ? plantDesc.getAttribute('data-en') : plantDesc.getAttribute('data-cn');
-      if (sliceDesc) sliceDesc.innerText = lang === 'en' ? sliceDesc.getAttribute('data-en') : sliceDesc.getAttribute('data-cn');
-      if (quickEfficacy) quickEfficacy.innerText = lang === 'en' ? quickEfficacy.getAttribute('data-en') : quickEfficacy.getAttribute('data-cn');
-      if (dosageText) dosageText.innerText = lang === 'en' ? dosageText.getAttribute('data-en') : dosageText.getAttribute('data-cn');
-      if (quoteText) quoteText.innerText = lang === 'en' ? quoteText.getAttribute('data-en') : quoteText.getAttribute('data-cn');
-      if (quoteSource) quoteSource.innerText = lang === 'en' ? quoteSource.getAttribute('data-en') : quoteSource.getAttribute('data-cn');
+      if (plantDesc) plantDesc.innerText = lang === 'en' ? (plantDesc.getAttribute('data-en') || plantDesc.getAttribute('data-cn')) : plantDesc.getAttribute('data-cn');
+      if (sliceDesc) sliceDesc.innerText = lang === 'en' ? (sliceDesc.getAttribute('data-en') || sliceDesc.getAttribute('data-cn')) : sliceDesc.getAttribute('data-cn');
+      if (quickEfficacy) quickEfficacy.innerText = lang === 'en' ? (quickEfficacy.getAttribute('data-en') || quickEfficacy.getAttribute('data-cn')) : quickEfficacy.getAttribute('data-cn');
+      if (dosageText) dosageText.innerText = lang === 'en' ? (dosageText.getAttribute('data-en') || dosageText.getAttribute('data-cn')) : dosageText.getAttribute('data-cn');
+      if (quoteText) quoteText.innerText = lang === 'en' ? (quoteText.getAttribute('data-en') || quoteText.getAttribute('data-cn')) : quoteText.getAttribute('data-cn');
+      if (quoteSource) quoteSource.innerText = lang === 'en' ? (quoteSource.getAttribute('data-en') || quoteSource.getAttribute('data-cn')) : quoteSource.getAttribute('data-cn');
 
       // 切换所有顶部功效标签 (Tags)
       document.querySelectorAll('.tag').forEach(el => {
@@ -441,42 +442,50 @@ const papers = herb.papers || [];
 
       // 切换元数据（性味归经、适用人群、禁忌等）
       document.querySelectorAll('.meta-val').forEach(el => {
-        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
       // 切换化学单体胶囊
       document.querySelectorAll('.compound-pill').forEach(el => {
-        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
       // 切换现代药理标题与正文
       document.querySelectorAll('.res-title').forEach(el => {
-        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
       document.querySelectorAll('.res-desc').forEach(el => {
-        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+
+      // 切换配伍药对名称与方剂名称
+      document.querySelectorAll('.pair-name').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+      document.querySelectorAll('.formula-name').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
       // 切换配伍古方与组成
       document.querySelectorAll('.f-comp').forEach(el => {
-        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
       document.querySelectorAll('.f-ind').forEach(el => {
-        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
       document.querySelectorAll('.p-eff').forEach(el => {
-        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
       document.querySelectorAll('.p-ind').forEach(el => {
-        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
 
       // 切换历代本草记载
       document.querySelectorAll('.rec-quote').forEach(el => {
-        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
       document.querySelectorAll('.rec-source').forEach(el => {
-        el.innerText = lang === 'en' ? el.getAttribute('data-en') : el.getAttribute('data-cn');
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
       });
     }
 
