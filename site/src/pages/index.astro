@@ -225,7 +225,7 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
     <a href="/" class="logo">🌿 本草图谱 <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;margin-left:0.5rem;">HerbAtlas</span></a>
     <ul class="nav-links">
       <li><a href="/" style="color:var(--primary);font-weight:700;">首页</a></li>
-      <li><a href="#herbs">中药总库 (50味)</a></li>
+      <li><a href="/herbs">中药总库 </a></li>
     </ul>
   </nav>
 
@@ -254,9 +254,12 @@ const featuredHerbs = (herbs && herbs.length > 0) ? herbs.slice(0, 8) : [];
   </section>
 
   <section class="section-wrap" id="herbs">
-    <div class="section-header">
-      <h2 class="section-title" id="gridTitle">精选中草药</h2>
-      <span style="color:var(--text-sub);font-size:0.9rem;" id="gridSub">展示 8 种高匹配经典中药，其余 42 种支持上方快速搜索</span>
+<div class="section-header">
+      <div>
+        <h2 class="section-title" id="gridTitle">精选中草药</h2>
+        <span style="color:var(--text-sub);font-size:0.85rem;" id="gridSub">展示 8 种高匹配经典中药，支持上方搜索</span>
+      </div>
+      <a href="/herbs" style="color:var(--primary);font-weight:600;font-size:0.92rem;text-decoration:none;display:inline-flex;align-items:center;gap:0.2rem;">查看全部中药 →</a>
     </div>
 
     <!-- 药材网格：手机端双列规整自适应，彻底杜绝横向滚动 -->
