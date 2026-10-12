@@ -124,7 +124,26 @@ const featuredHerbs = herbs.slice(0, 8);
 
     @media (max-width: 768px) {
       .top-nav { padding: 0.8rem 1rem; }
-      .nav-links { display: none; }
+      .nav-links {
+        display: flex !important;
+        gap: 0.6rem !important;
+        font-size: 0.82rem !important;
+      }
+      .nav-links a {
+        padding: 0.25rem 0.5rem;
+        border-radius: 6px;
+        background: #f7f5ef;
+        white-space: nowrap;
+      }
+      .top-nav {
+        flex-wrap: wrap;
+        gap: 0.6rem;
+      }
+      .nav-right-wrap {
+        width: 100%;
+        justify-content: space-between;
+        gap: 0.5rem;
+      }
       
       .hero { grid-template-columns: 1fr; padding: 2rem 1rem; gap: 1.5rem; }
       .hero-title { font-size: 2.3rem; letter-spacing: 1px; }
@@ -175,7 +194,7 @@ const featuredHerbs = herbs.slice(0, 8);
       <ul class="nav-links">
         <li><a href="/" style="color:var(--primary);font-weight:700;" data-i18n="nav_home">首页</a></li>
         <li><a href="/herbs" data-i18n="nav_all">全部中药 (50味)</a></li>
-        <li><a href="/classics" data-i18n="nav_classics">本草典籍</a></li>
+        <li><a href="/classics/" data-i18n="nav_classics">本草典籍</a></li>
       </ul>
       
       <div class="lang-switch" id="langSwitch">
@@ -206,6 +225,26 @@ const featuredHerbs = herbs.slice(0, 8);
       <img src="/images/hero_index.jpg" class="hero-img" alt="道地药材陈列" />
       <div class="seal-text" data-i18n="seal_text">道地药材 · 自然之力</div>
     </div>
+  </section>
+
+  
+  <!-- 本草典籍专属入口横幅 -->
+  <section class="section-wrap" style="margin-bottom: 2rem;">
+    <a href="/classics/" class="classics-banner-link" style="text-decoration:none; display:block;">
+      <div style="background: linear-gradient(135deg, #1e3a29 0%, #2d5a3f 100%); border-radius: 14px; padding: 1.6rem 2rem; color: #fff; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 8px 24px rgba(45,90,63,0.15); transition: transform 0.2s; border: 1px solid rgba(255,255,255,0.1);">
+        <div>
+          <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom: 0.4rem;">
+            <span style="font-size: 1.4rem;">📜</span>
+            <span style="font-size: 1.25rem; font-weight: 700; letter-spacing: 1px;" data-i18n="banner_classics_title">中国八大著名本草用药典籍</span>
+            <span style="background: #b25d38; font-size: 0.72rem; padding: 0.15rem 0.5rem; border-radius: 12px; font-weight: 600;">8部传世巨著</span>
+          </div>
+          <p style="color: #d1dfd6; font-size: 0.88rem; margin: 0; line-height: 1.5;" data-i18n="banner_classics_desc">张仲景、神农本草经、孙思邈千金食治、李时珍《本草纲目》等 · 权威中英双语原典索引</p>
+        </div>
+        <div style="font-size: 1.1rem; color: #f4d06f; font-weight: 700; white-space: nowrap; margin-left: 1rem;" data-i18n="banner_classics_btn">
+          浏览典籍 →
+        </div>
+      </div>
+    </a>
   </section>
 
   <section class="section-wrap" id="herbs">
@@ -248,6 +287,9 @@ const featuredHerbs = herbs.slice(0, 8);
     const I18N_DICT = {
       zh: {
         brand: '本草图谱',
+        banner_classics_title: '中国八大著名本草用药典籍',
+        banner_classics_desc: '张仲景、神农本草经、孙思邈千金食治、李时珍《本草纲目》等 · 权威中英双语原典索引',
+        banner_classics_btn: '浏览典籍 →',
         nav_home: '首页',
         nav_all: '全部中药 (50味)',
         nav_classics: '本草典籍',
@@ -268,6 +310,9 @@ const featuredHerbs = herbs.slice(0, 8);
       },
       en: {
         brand: 'HerbAtlas',
+        banner_classics_title: 'Eight Classical Chinese Pharmacopoeias',
+        banner_classics_desc: 'From Zhang Zhongjing & Shennong to Sun Simiao & Li Shizhen · Bilingual Classical Editions',
+        banner_classics_btn: 'Explore Classics →',
         nav_home: 'Home',
         nav_all: 'All Herbs (50)',
         nav_classics: 'Materia Medica',
