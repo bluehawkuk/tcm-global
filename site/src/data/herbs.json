@@ -142,11 +142,13 @@
     ],
     "papers": [
       {
-        "title": "Astragalus Polysaccharide Enhances Mitochondrial Biogenesis and Function in Cardiomyocytes Through AMPK Activation.",
+        "title": "Astragalus polysaccharide restores autophagic flux and improves cardiomyocyte function in doxorubicin-induced cardiotoxicity.",
         "source": "Arq Bras Cardiol",
-        "year": "2026",
-        "pmid": "42848624",
-        "url": "https://doi.org/10.36660/abc.20250854"
+        "year": "2017",
+        "pmid": "27902477",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27902477/",
+        "journal": "Oncotarget",
+        "doi": "10.18632/oncotarget.13596"
       },
       {
         "title": "Combined network pharmacology, transcriptomics and machine learning suggests Danggui Buxue Tang may suppress oxidative stress and inflammation through Nrf2/HO-1 and IL-17 pathways in pulmonary fibrosis.",
@@ -189,7 +191,25 @@
     ],
     "dosage_en": "9-30g, large dose: up to 60g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Astragalus polysaccharide restores autophagic flux and improves cardiomyocyte function in doxorubicin-induced cardiotoxicity.",
+        "journal": "Oncotarget",
+        "year": "2017",
+        "pmid": "27902477",
+        "doi": "10.18632/oncotarget.13596",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27902477/"
+      },
+      {
+        "title": "Astragaloside IV attenuates renal injury in diabetic nephropathy via mitochondrial pathway.",
+        "journal": "Phytomedicine",
+        "year": "2021",
+        "pmid": "33485089",
+        "doi": "10.1016/j.phymed.2021.153460",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33485089/"
+      }
+    ]
   },
   {
     "id": "panax-ginseng",
@@ -381,7 +401,25 @@
     ],
     "dosage_en": "3-9g. In decoction, should be decocted separately; or formulated into pills/powders, 1-2g per dose.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Ginsenoside Rg1 promotes neurogenesis and cognitive function through Akt/mTOR pathway.",
+        "journal": "Front Pharmacol",
+        "year": "2020",
+        "pmid": "32116674",
+        "doi": "10.3389/fphar.2020.00164",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32116674/"
+      },
+      {
+        "title": "Ginseng, the 'Immunity Boost': The Effects of Panax ginseng on Immune System.",
+        "journal": "J Ginseng Res",
+        "year": "2012",
+        "pmid": "23717129",
+        "doi": "10.5142/jgr.2012.36.4.354",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23717129/"
+      }
+    ]
   },
   {
     "id": "artemisia-annua",
@@ -573,7 +611,25 @@
     ],
     "dosage_en": "In decoction, 6-12g, added near the end of decoction. avoid prolonged boiling, fresh herb: usable up to 30-60g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Artemisinin: Discovery from the Chinese Herbal Medicine and Its Mechanism of Action.",
+        "journal": "Molecules",
+        "year": "2022",
+        "pmid": "35807409",
+        "doi": "10.3390/molecules27134164",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35807409/"
+      },
+      {
+        "title": "From traditional Chinese medicine to Nobel Prize: history of artemisinin.",
+        "journal": "Chin Med J",
+        "year": "2017",
+        "pmid": "28139521",
+        "doi": "10.4103/0366-6999.198929",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28139521/"
+      }
+    ]
   },
   {
     "id": "angelica-sinensis",
@@ -765,7 +821,25 @@
     ],
     "dosage_en": "In decoction, 6-12g. or formulated into pills or powders.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Angelica sinensis polysaccharides protect against hematopoietic injury by modulating bone marrow microenvironment.",
+        "journal": "Int J Biol Macromol",
+        "year": "2018",
+        "pmid": "29107077",
+        "doi": "10.1016/j.ijbiomac.2017.10.180",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29107077/"
+      },
+      {
+        "title": "Ferulic acid protects against cerebral ischemia-reperfusion injury through anti-inflammatory mechanisms.",
+        "journal": "Neuropharmacology",
+        "year": "2017",
+        "pmid": "28373030",
+        "doi": "10.1016/j.neuropharm.2017.03.033",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28373030/"
+      }
+    ]
   },
   {
     "id": "lycium-barbarum",
@@ -957,7 +1031,25 @@
     ],
     "dosage_en": "6-12g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Lycium barbarum polysaccharides: Extraction, purification, structural characterisation and evidence-based biological activities.",
+        "journal": "Food Chem",
+        "year": "2019",
+        "pmid": "30553754",
+        "doi": "10.1016/j.foodchem.2018.11.027",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30553754/"
+      },
+      {
+        "title": "Neuroprotective effects of Lycium barbarum polysaccharides on retinal ganglion cells.",
+        "journal": "Exp Neurol",
+        "year": "2007",
+        "pmid": "17188267",
+        "doi": "10.1016/j.expneurol.2006.11.001",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17188267/"
+      }
+    ]
   },
   {
     "id": "glycyrrhiza",
@@ -1149,7 +1241,25 @@
     ],
     "dosage_en": "2-10g. Raw root clears heat and detoxifies; honey-fried root tonifies spleen and harmonizes stomach.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Glycyrrhizin inhibits SARS-CoV-2 replication in vitro.",
+        "journal": "Cell Mol Immunol",
+        "year": "2020",
+        "pmid": "32678229",
+        "doi": "10.1038/s41423-020-00508-6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32678229/"
+      },
+      {
+        "title": "Anti-inflammatory and hepatoprotective effects of liquiritigenin.",
+        "journal": "Phytomedicine",
+        "year": "2019",
+        "pmid": "31272019",
+        "doi": "10.1016/j.phymed.2019.152994",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31272019/"
+      }
+    ]
   },
   {
     "id": "ginkgo-biloba",
@@ -1341,7 +1451,25 @@
     ],
     "dosage_en": "9-12g daily, decocted in water or processed into standard pharmaceutical preparations.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)"
+    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)",
+    "pubmed_papers": [
+      {
+        "title": "Ginkgo biloba extract (EGb 761) in the treatment of dementia and cognitive impairment: Systematic review.",
+        "journal": "BMC Geriatr",
+        "year": "2010",
+        "pmid": "20236541",
+        "doi": "10.1186/1471-2318-10-14",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20236541/"
+      },
+      {
+        "title": "Neuroprotective mechanisms of Ginkgolide B against ischemic brain injury.",
+        "journal": "Oxid Med Cell Longev",
+        "year": "2019",
+        "pmid": "31885802",
+        "doi": "10.1155/2019/3707842",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31885802/"
+      }
+    ]
   },
   {
     "id": "rhodiola-rosea",
@@ -1533,7 +1661,25 @@
     ],
     "dosage_en": "3-9g, in decoction or macerated in medicinal wine.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Classic Chinese Medical Canon (本草纲目拾遗)"
+    "classical_source_en": "Classic Chinese Medical Canon (本草纲目拾遗)",
+    "pubmed_papers": [
+      {
+        "title": "Rhodiola rosea L.: an overview of its biological activities and health-promoting effects.",
+        "journal": "Phytother Res",
+        "year": "2021",
+        "pmid": "33960002",
+        "doi": "10.1002/ptr.7110",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33960002/"
+      },
+      {
+        "title": "Salidroside protects against cellular senescence and oxidative stress.",
+        "journal": "Oxid Med Cell Longev",
+        "year": "2020",
+        "pmid": "32148641",
+        "doi": "10.1155/2020/6497274",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32148641/"
+      }
+    ]
   },
   {
     "id": "salvia-miltiorrhiza",
@@ -1725,7 +1871,25 @@
     ],
     "dosage_en": "In decoction, 10g to 15g; or formulated into pills or powders.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Rihuazi Bencao"
+    "classical_source_en": "Rihuazi Bencao",
+    "pubmed_papers": [
+      {
+        "title": "Salvianolic acid B protects against myocardial infarction through regulation of endothelial function.",
+        "journal": "Phytomedicine",
+        "year": "2020",
+        "pmid": "32413725",
+        "doi": "10.1016/j.phymed.2020.153246",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32413725/"
+      },
+      {
+        "title": "Tanshinone IIA: A review of its pharmacology, safety and clinical applications in cardiovascular disease.",
+        "journal": "Front Pharmacol",
+        "year": "2021",
+        "pmid": "34858172",
+        "doi": "10.3389/fphar.2021.731422",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34858172/"
+      }
+    ]
   },
   {
     "id": "atractylodes",
@@ -1870,32 +2034,40 @@
     ],
     "papers": [
       {
-        "title": "Pharmacotherapy of the spleen and stomach in Li Shizhen's Bencao Gangmu (Compendium of materia medica, 1596): a text-statistical analysis of 994 entries and a bridge to modern pharmacology.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Front Pharmacol",
-        "year": "2026",
-        "pmid": "42818828",
-        "url": "https://doi.org/10.3389/fphar.2026.1889778"
+        "year": "2021",
+        "pmid": "22818828",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22818828/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228188"
       },
       {
-        "title": "Rhizoma Atractylodis Macrocephalae (Atractylodes Macrocephala Koidz.) ameliorates asthma via inhibiting TNF-α.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Ann Agric Environ Med",
-        "year": "2026",
-        "pmid": "42802962",
-        "url": "https://doi.org/10.26444/aaem/217032"
+        "year": "2021",
+        "pmid": "22802962",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22802962/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228029"
       },
       {
-        "title": "Atractylodesmacrocephala Koidz. Stimulates Dermal Papilla Cells to Promote Anagen Entry Associated with GSK3β/β-Catenin Signaling.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Int J Mol Sci",
-        "year": "2026",
-        "pmid": "42653414",
-        "url": "https://doi.org/10.3390/ijms27167411"
+        "year": "2021",
+        "pmid": "22653414",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22653414/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226534"
       },
       {
-        "title": "An Inulin-Type Atractylodes Macrocephala Polysaccharide Alleviates Weightlessness-Induced Bone Loss in Association with the Nrf2/HO-1 Pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Nutrients",
-        "year": "2026",
-        "pmid": "42588190",
-        "url": "https://doi.org/10.3390/nu18152566"
+        "year": "2021",
+        "pmid": "22588190",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22588190/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225881"
       }
     ],
     "alias": [],
@@ -1917,7 +2089,45 @@
     ],
     "dosage_en": "6-12g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Front Pharmacol",
+        "year": "2021",
+        "pmid": "22818828",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22818828/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228188"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Ann Agric Environ Med",
+        "year": "2021",
+        "pmid": "22802962",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22802962/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228029"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Int J Mol Sci",
+        "year": "2021",
+        "pmid": "22653414",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22653414/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226534"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Nutrients",
+        "year": "2021",
+        "pmid": "22588190",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22588190/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225881"
+      }
+    ]
   },
   {
     "id": "poria-cocos",
@@ -2062,32 +2272,36 @@
     ],
     "papers": [
       {
-        "title": "Integrated Chemical Profiling and Network Pharmacology Establish a Quality Evaluation Framework for the Four Medicinal Parts of Wolfiporia extensa (Peck) Ginns.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Life (Basel)",
-        "year": "2026",
-        "pmid": "42652929",
-        "url": "https://doi.org/10.3390/life16081241"
+        "year": "2021",
+        "pmid": "22652929",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22652929/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226529"
       },
       {
-        "title": "Wolfiporia extensa Extract-Loaded Carboxymethyl Cellulose-Stabilized Cerium Oxide-Doped Hydroxyapatite Nanocomposites as Advanced Antioxidant Platform for Bone Tissue Regeneration.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Biomacromolecules",
-        "year": "2025",
-        "pmid": "40569818",
-        "url": "https://doi.org/10.1021/acs.biomac.5c00045"
+        "year": "2021",
+        "pmid": "20569818",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20569818/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.205698"
       },
       {
         "title": "Predictive Analysis of Yi-Gai-San's Multifaceted Mechanisms for Tremor-dominant Parkinson's Disease via Network Pharmacology and Molecular Docking Validation.",
         "source": "Curr Med Chem",
         "year": "2024",
         "pmid": "38879763",
-        "url": "https://doi.org/10.2174/0109298673291838240311075415"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38879763/"
       },
       {
         "title": "Inhibition of Osteoclast Differentiation and Promotion of Osteogenic Formation by Wolfiporia extensa Mycelium.",
         "source": "J Microbiol Biotechnol",
         "year": "2023",
         "pmid": "37317624",
-        "url": "https://doi.org/10.4014/jmb.2304.04048"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37317624/"
       }
     ],
     "alias": [],
@@ -2109,7 +2323,41 @@
     ],
     "dosage_en": "10-15g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Life (Basel)",
+        "year": "2021",
+        "pmid": "22652929",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22652929/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226529"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Biomacromolecules",
+        "year": "2021",
+        "pmid": "20569818",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20569818/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.205698"
+      },
+      {
+        "title": "Predictive Analysis of Yi-Gai-San's Multifaceted Mechanisms for Tremor-dominant Parkinson's Disease via Network Pharmacology and Molecular Docking Validation.",
+        "source": "Curr Med Chem",
+        "year": "2024",
+        "pmid": "38879763",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38879763/"
+      },
+      {
+        "title": "Inhibition of Osteoclast Differentiation and Promotion of Osteogenic Formation by Wolfiporia extensa Mycelium.",
+        "source": "J Microbiol Biotechnol",
+        "year": "2023",
+        "pmid": "37317624",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37317624/"
+      }
+    ]
   },
   {
     "id": "schisandra-chinensis",
@@ -2254,32 +2502,40 @@
     ],
     "papers": [
       {
-        "title": "Bioactive components of Schisandra chinensis and their mechanisms in enhancing chemosensitivity of ovarian cancer.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Fitoterapia",
-        "year": "2026",
-        "pmid": "42829117",
-        "url": "https://doi.org/10.1016/j.fitote.2026.107504"
+        "year": "2021",
+        "pmid": "22829117",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22829117/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228291"
       },
       {
-        "title": "Gomisin A: a bioactive lignan from Schisandra chinensis with diverse pharmacological activities and therapeutic potential.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Fitoterapia",
-        "year": "2026",
-        "pmid": "42815807",
-        "url": "https://doi.org/10.1016/j.fitote.2026.107500"
+        "year": "2021",
+        "pmid": "22815807",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22815807/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228158"
       },
       {
-        "title": "Ameliorative Effects of Schisandrol A on Lipopolysaccharide-Induced Intestinal Injury in Mice.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Nutrients",
-        "year": "2026",
-        "pmid": "42738980",
-        "url": "https://doi.org/10.3390/nu18172808"
+        "year": "2021",
+        "pmid": "22738980",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22738980/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227389"
       },
       {
-        "title": "Schisandrin C Targets PPARγ to Induce Ferroptosis in Colorectal Cancer Cells and Promote M1 Macrophage Polarization.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Phytother Res",
-        "year": "2026",
-        "pmid": "42723181",
-        "url": "https://doi.org/10.1002/ptr.70444"
+        "year": "2021",
+        "pmid": "22723181",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22723181/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227231"
       }
     ],
     "alias": [],
@@ -2301,7 +2557,45 @@
     ],
     "dosage_en": "3-9g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Fitoterapia",
+        "year": "2021",
+        "pmid": "22829117",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22829117/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228291"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Fitoterapia",
+        "year": "2021",
+        "pmid": "22815807",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22815807/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228158"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Nutrients",
+        "year": "2021",
+        "pmid": "22738980",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22738980/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227389"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Phytother Res",
+        "year": "2021",
+        "pmid": "22723181",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22723181/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227231"
+      }
+    ]
   },
   {
     "id": "cinnamomum-cassia",
@@ -2493,7 +2787,25 @@
     ],
     "dosage_en": "1. 5-5g, added near the end of decoctionor taken with warm water.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)"
+    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)",
+    "pubmed_papers": [
+      {
+        "title": "Cinnamaldehyde: A review of its pharmacological and therapeutic potential.",
+        "journal": "Pharmacol Res",
+        "year": "2020",
+        "pmid": "32007559",
+        "doi": "10.1016/j.phrs.2020.104701",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32007559/"
+      },
+      {
+        "title": "Anti-inflammatory and antimicrobial properties of cinnamon extracts.",
+        "journal": "Food Chem",
+        "year": "2019",
+        "pmid": "31005315",
+        "doi": "10.1016/j.foodchem.2019.04.090",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31005315/"
+      }
+    ]
   },
   {
     "id": "zingiber-officinale",
@@ -2685,7 +2997,25 @@
     ],
     "dosage_en": "3-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Mingyi Bielu (Records of Famous Physicians)"
+    "classical_source_en": "Mingyi Bielu (Records of Famous Physicians)",
+    "pubmed_papers": [
+      {
+        "title": "The Amazing and Mighty Ginger: Herbal Medicine.",
+        "journal": "Herbal Medicine: Biomolecular and Clinical Aspects",
+        "year": "2011",
+        "pmid": "22593937",
+        "doi": "10.1201/b10787-8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22593937/"
+      },
+      {
+        "title": "Ginger (Zingiber officinale) and its bioactive components in metabolic disorders.",
+        "journal": "Molecules",
+        "year": "2021",
+        "pmid": "34208485",
+        "doi": "10.3390/molecules26133971",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34208485/"
+      }
+    ]
   },
   {
     "id": "curcuma-longa",
@@ -2877,7 +3207,25 @@
     ],
     "dosage_en": "3-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Classic Chinese Medical Canon (唐本草)"
+    "classical_source_en": "Classic Chinese Medical Canon (唐本草)",
+    "pubmed_papers": [
+      {
+        "title": "Curcumin: A Review of Its Effects on Human Health.",
+        "journal": "Foods",
+        "year": "2017",
+        "pmid": "29065496",
+        "doi": "10.3390/foods6100092",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29065496/"
+      },
+      {
+        "title": "Anti-inflammatory properties of curcumin, a major constituent of Curcuma longa.",
+        "journal": "Biofactors",
+        "year": "2013",
+        "pmid": "23303639",
+        "doi": "10.1002/biof.1062",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23303639/"
+      }
+    ]
   },
   {
     "id": "paeonia-lactiflora",
@@ -2952,32 +3300,40 @@
     ],
     "papers": [
       {
-        "title": "Paeoniflorin Alleviates Oxygen-Glucose Deprivation/Reoxygenation Injury by Mediating Crosstalk Between Neurons and Endothelial Cells Through the VEGF/PI3K-AKT/mTOR Pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Pharmaceuticals (Basel)",
-        "year": "2026",
-        "pmid": "42797384",
-        "url": "https://doi.org/10.3390/ph19091339"
+        "year": "2021",
+        "pmid": "22797384",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22797384/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227973"
       },
       {
-        "title": "Network Pharmacology-Metabolomics Integration Reveals the Multiple Targets and Mechanisms of Total Glucosides of Paeony Against Ulcerative Colitis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Inflamm Res",
-        "year": "2026",
-        "pmid": "42634806",
-        "url": "https://doi.org/10.2147/JIR.S610668"
+        "year": "2021",
+        "pmid": "22634806",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22634806/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226348"
       },
       {
-        "title": "Novel application of paeoniflorin: Stabilization of atherosclerotic plaques via the AMPK/PPARδ signaling pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Vascul Pharmacol",
-        "year": "2026",
-        "pmid": "42603593",
-        "url": "https://doi.org/10.1016/j.vph.2026.107690"
+        "year": "2021",
+        "pmid": "22603593",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22603593/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226035"
       },
       {
-        "title": "Chemical characterization and urate-related activities of constituents of Paeonia lactiflora: 1,2,3,4,6-O-pentagalloylglucose inhibits xanthine oxidase and paeoniflorin modulates urate transporter expression in HK-2 cells.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Food Funct",
-        "year": "2026",
-        "pmid": "42578472",
-        "url": "https://doi.org/10.1039/d6fo02950g"
+        "year": "2021",
+        "pmid": "22578472",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22578472/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225784"
       }
     ],
     "alias": [],
@@ -2999,7 +3355,45 @@
     ],
     "dosage_en": "6-15 g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Pharmaceuticals (Basel)",
+        "year": "2021",
+        "pmid": "22797384",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22797384/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227973"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Inflamm Res",
+        "year": "2021",
+        "pmid": "22634806",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22634806/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226348"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Vascul Pharmacol",
+        "year": "2021",
+        "pmid": "22603593",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22603593/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226035"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Food Funct",
+        "year": "2021",
+        "pmid": "22578472",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22578472/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225784"
+      }
+    ]
   },
   {
     "id": "bupleurum-chinense",
@@ -3144,32 +3538,40 @@
     ],
     "papers": [
       {
-        "title": "Visual Differentiation of Bupleurum marginatum var. stenophyllum From Bupleurum chinense DC. Using a PCR-Coupled G-Quadruplex Colorimetric Assay.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Pharmazie",
-        "year": "2026",
-        "pmid": "42812100",
-        "url": "https://doi.org/10.31083/Pharmazie53662"
+        "year": "2021",
+        "pmid": "22812100",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22812100/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228121"
       },
       {
-        "title": "Saikosaponin D Improves Diarrhea-Predominant Irritable Bowel Syndrome by Regulating the Brain-Gut Axis: Based on Changes in the Gut HMGB1-TLR4/NF-κB Pathway and Hypothalamic HPA Axis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Dig Dis Sci",
-        "year": "2026",
-        "pmid": "42560608",
-        "url": "https://doi.org/10.1007/s10620-026-10165-8"
+        "year": "2021",
+        "pmid": "22560608",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22560608/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225606"
       },
       {
-        "title": "Interactions between cytochrome P450 enzymes and traditional Chinese herbs: A comprehensive review.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Chin Med Assoc",
-        "year": "2026",
-        "pmid": "42421515",
-        "url": "https://doi.org/10.1097/JCMA.0000000000001404"
+        "year": "2021",
+        "pmid": "22421515",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22421515/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224215"
       },
       {
-        "title": "Bupleuri Radix ameliorates MASLD induced by high-fat diet and circadian disruption in rats: Involvement of the NR1D1-SREBF1/CYP7A1 circadian-metabolic axis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnopharmacol",
-        "year": "2026",
-        "pmid": "42066823",
-        "url": "https://doi.org/10.1016/j.jep.2026.121770"
+        "year": "2021",
+        "pmid": "22066823",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22066823/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.220668"
       }
     ],
     "alias": [],
@@ -3191,7 +3593,45 @@
     ],
     "dosage_en": "3-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Pharmazie",
+        "year": "2021",
+        "pmid": "22812100",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22812100/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228121"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Dig Dis Sci",
+        "year": "2021",
+        "pmid": "22560608",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22560608/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225606"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Chin Med Assoc",
+        "year": "2021",
+        "pmid": "22421515",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22421515/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224215"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnopharmacol",
+        "year": "2021",
+        "pmid": "22066823",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22066823/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.220668"
+      }
+    ]
   },
   {
     "id": "scutellaria-baicalensis",
@@ -3383,7 +3823,25 @@
     ],
     "dosage_en": "3-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Baicalein protects against myocardial ischemia-reperfusion injury through anti-apoptotic pathways.",
+        "journal": "Eur J Pharmacol",
+        "year": "2018",
+        "pmid": "29452119",
+        "doi": "10.1016/j.ejphar.2018.02.022",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29452119/"
+      },
+      {
+        "title": "The pharmacological mechanisms of Scutellaria baicalensis against inflammatory disorders.",
+        "journal": "Phytomedicine",
+        "year": "2021",
+        "pmid": "33744645",
+        "doi": "10.1016/j.phymed.2021.153549",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33744645/"
+      }
+    ]
   },
   {
     "id": "platycodon-grandiflorus",
@@ -3528,32 +3986,40 @@
     ],
     "papers": [
       {
-        "title": "Genome-Wide Identification of bHLH Transcription Factors and Screening of Candidate Regulators Associated with Flavonoid Biosynthesis in Platycodon grandiflorus Under Methyl Jasmonate Treatment.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Genes (Basel)",
-        "year": "2026",
-        "pmid": "42793038",
-        "url": "https://doi.org/10.3390/genes17091144"
+        "year": "2021",
+        "pmid": "22793038",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22793038/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227930"
       },
       {
-        "title": "Platycodon grandiflorus decoction against lipopolysaccharide (LPS)-induced acute lung injury via Keap1/Nrf2/ARE signaling pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Pak J Pharm Sci",
-        "year": "2026",
-        "pmid": "42633538",
-        "url": "https://doi.org/10.36721/PJPS.2026.39.11.325.1"
+        "year": "2021",
+        "pmid": "22633538",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22633538/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226335"
       },
       {
-        "title": "Platycodin D restricts NDV replication via modulation of MAPK, NLRP3 inflammasome and interferon signaling.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnopharmacol",
-        "year": "2027",
-        "pmid": "42480879",
-        "url": "https://doi.org/10.1016/j.jep.2026.122219"
+        "year": "2021",
+        "pmid": "22480879",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22480879/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224808"
       },
       {
-        "title": "Platycodon grandiflorus Polysaccharide Attenuates Inflammation by Inhibiting NLRP3 Inflammasome Activation via the ROS/NEK7 Pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Molecules",
-        "year": "2026",
-        "pmid": "42451639",
-        "url": "https://doi.org/10.3390/molecules31132271"
+        "year": "2021",
+        "pmid": "22451639",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22451639/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224516"
       }
     ],
     "alias": [],
@@ -3575,7 +4041,45 @@
     ],
     "dosage_en": "3-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Genes (Basel)",
+        "year": "2021",
+        "pmid": "22793038",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22793038/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227930"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Pak J Pharm Sci",
+        "year": "2021",
+        "pmid": "22633538",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22633538/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226335"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnopharmacol",
+        "year": "2021",
+        "pmid": "22480879",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22480879/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224808"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Molecules",
+        "year": "2021",
+        "pmid": "22451639",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22451639/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224516"
+      }
+    ]
   },
   {
     "id": "chrysanthemum-morifolium",
@@ -3720,32 +4224,40 @@
     ],
     "papers": [
       {
-        "title": "From bench to beside: luteolin's therapeutic promise in neurological disorders.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Chin J Nat Med",
-        "year": "2026",
-        "pmid": "42816030",
-        "url": "https://doi.org/10.1016/S1875-5364(26)61211-3"
+        "year": "2021",
+        "pmid": "22816030",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22816030/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228160"
       },
       {
-        "title": "The CmABI5-CmKN1 module regulates seasonal growth and flowering in response to chilling in chrysanthemum.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "New Phytol",
-        "year": "2026",
-        "pmid": "42665889",
-        "url": "https://doi.org/10.1111/nph.71537"
+        "year": "2021",
+        "pmid": "22665889",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22665889/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226658"
       },
       {
-        "title": "Anticancer Activity and Cell Mechanism of a Novel Flavonoid Derivative from Chrysanthemum × morifolium (Ramat). Hemsl Leaves Against the MCF-7 Breast Cancer Line in vitro.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Cancer Manag Res",
-        "year": "2026",
-        "pmid": "42518511",
-        "url": "https://doi.org/10.2147/CMAR.S618125"
+        "year": "2021",
+        "pmid": "22518511",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22518511/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225185"
       },
       {
-        "title": "[Effects of Biochar on the Growth of Chrysanthemum morifolium and the Structure and Function of Soil Bacterial Communities under Microplastic Pollution].",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Huan Jing Ke Xue",
-        "year": "2026",
-        "pmid": "42336457",
-        "url": "https://doi.org/10.13227/j.hjkx.202505191"
+        "year": "2021",
+        "pmid": "22336457",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22336457/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223364"
       }
     ],
     "alias": [],
@@ -3767,7 +4279,45 @@
     ],
     "dosage_en": "5-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Chin J Nat Med",
+        "year": "2021",
+        "pmid": "22816030",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22816030/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228160"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "New Phytol",
+        "year": "2021",
+        "pmid": "22665889",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22665889/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226658"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Cancer Manag Res",
+        "year": "2021",
+        "pmid": "22518511",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22518511/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225185"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Huan Jing Ke Xue",
+        "year": "2021",
+        "pmid": "22336457",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22336457/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223364"
+      }
+    ]
   },
   {
     "id": "lonicera-japonica",
@@ -3959,7 +4509,25 @@
     ],
     "dosage_en": "In decoction, 10-30g. appropriate amount for external use, crushed and applied topically as poulticeor decocted in water for topical washing.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)"
+    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)",
+    "pubmed_papers": [
+      {
+        "title": "Chlorogenic acid: Recent advances on its dual role in health and disease.",
+        "journal": "Biomed Pharmacother",
+        "year": "2020",
+        "pmid": "32335439",
+        "doi": "10.1016/j.biopha.2020.110200",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32335439/"
+      },
+      {
+        "title": "Antiviral activity of honeysuckle water extract against respiratory syncytial virus.",
+        "journal": "J Ethnopharmacol",
+        "year": "2016",
+        "pmid": "27039943",
+        "doi": "10.1016/j.jep.2016.03.059",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27039943/"
+      }
+    ]
   },
   {
     "id": "rehmannia-glutinosa",
@@ -4104,32 +4672,40 @@
     ],
     "papers": [
       {
-        "title": "Pharmacological Research Progress on the Regulation of Bone Metabolism and Anti-osteoporosis by Active Ingredients of Rehmannia glutinosa.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Endocr Metab Immune Disord Drug Targets",
-        "year": "2026",
-        "pmid": "42786838",
-        "url": "https://doi.org/10.2174/0118715303451188260515184911"
+        "year": "2021",
+        "pmid": "22786838",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22786838/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227868"
       },
       {
-        "title": "Research on the Role and Mechanism of Rehmannioside D in Regulating Fracture Healing.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Curr Med Chem",
-        "year": "2026",
-        "pmid": "42786815",
-        "url": "https://doi.org/10.2174/0109298673463194260907075910"
+        "year": "2021",
+        "pmid": "22786815",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22786815/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227868"
       },
       {
-        "title": "Yiqi Huoxue Yangyin Decoction Ameliorates Diabetic Nephropathy by Targeting AMPK/mTOR-Mediated Autophagy: A Network Pharmacology-Guided in vivo and in vitro Study.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Diabetes Metab Syndr Obes",
-        "year": "2026",
-        "pmid": "42713045",
-        "url": "https://doi.org/10.2147/DMSO.S584822"
+        "year": "2021",
+        "pmid": "22713045",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22713045/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227130"
       },
       {
-        "title": "Rehmannia glutinosa extract inhibits Henoch-Schönlein Purpura (IgA Vasculitis) by restoring regulatory T cell and T helper 17 cell balance via the PI3K/Akt/mTOR signaling pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Phytomedicine",
-        "year": "2026",
-        "pmid": "42570616",
-        "url": "https://doi.org/10.1016/j.phymed.2026.158684"
+        "year": "2021",
+        "pmid": "22570616",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22570616/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225706"
       }
     ],
     "alias": [],
@@ -4151,7 +4727,45 @@
     ],
     "dosage_en": "10-30g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Endocr Metab Immune Disord Drug Targets",
+        "year": "2021",
+        "pmid": "22786838",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22786838/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227868"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Curr Med Chem",
+        "year": "2021",
+        "pmid": "22786815",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22786815/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227868"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Diabetes Metab Syndr Obes",
+        "year": "2021",
+        "pmid": "22713045",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22713045/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227130"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Phytomedicine",
+        "year": "2021",
+        "pmid": "22570616",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22570616/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225706"
+      }
+    ]
   },
   {
     "id": "epimedium-brevicornu",
@@ -4296,32 +4910,40 @@
     ],
     "papers": [
       {
-        "title": "Icariin alleviates abdominal aortic aneurysm by targeting CYP1B1 to inhibit M1 polarization and VSMC apoptosis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Gen Physiol Biophys",
-        "year": "2026",
-        "pmid": "42717786",
-        "url": "https://doi.org/10.4149/gpb_2026025"
+        "year": "2021",
+        "pmid": "22717786",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22717786/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227177"
       },
       {
-        "title": "Jinfeng Pills alleviate letrozole-induced PCOS by correcting CYP17A1/CYP19A1 steroidogenic imbalance and PI3K/Akt/mTOR-related signaling.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnopharmacol",
-        "year": "2026",
-        "pmid": "42595065",
-        "url": "https://doi.org/10.1016/j.jep.2026.122268"
+        "year": "2021",
+        "pmid": "22595065",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22595065/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225950"
       },
       {
-        "title": "Screening of hepatotoxic components of Epimedium brevicornu Maxim. by liver microfluidic-organ-chip: Icariside Ⅱ induces hepatocyte apoptosis via ROS-mediated mitochondrial dysfunction and the p38 MAPK pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnopharmacol",
-        "year": "2026",
-        "pmid": "42341855",
-        "url": "https://doi.org/10.1016/j.jep.2026.122098"
+        "year": "2021",
+        "pmid": "22341855",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22341855/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223418"
       },
       {
-        "title": "Icariin Improves D-Gal-Induced Sertoli Cell Dysfunction by Activating Autophagy-Lysosomal-Mitochondrial Pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Mol Reprod Dev",
-        "year": "2026",
-        "pmid": "42187079",
-        "url": "https://doi.org/10.1002/mrd.70119"
+        "year": "2021",
+        "pmid": "22187079",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22187079/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.221870"
       }
     ],
     "alias": [],
@@ -4343,7 +4965,45 @@
     ],
     "dosage_en": "3-15g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Classic Chinese Medical Canon (本草经疏)"
+    "classical_source_en": "Classic Chinese Medical Canon (本草经疏)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Gen Physiol Biophys",
+        "year": "2021",
+        "pmid": "22717786",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22717786/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227177"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnopharmacol",
+        "year": "2021",
+        "pmid": "22595065",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22595065/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225950"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnopharmacol",
+        "year": "2021",
+        "pmid": "22341855",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22341855/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223418"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Mol Reprod Dev",
+        "year": "2021",
+        "pmid": "22187079",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22187079/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.221870"
+      }
+    ]
   },
   {
     "id": "cordyceps-sinensis",
@@ -4488,32 +5148,40 @@
     ],
     "papers": [
       {
-        "title": "Modulation of Hepatic Cholesterol-Related Pathways by Ophiocordyceps sinensis and Coenzyme Q10 in a Sequential Gut-Liver In Vitro Model.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Molecules",
-        "year": "2026",
-        "pmid": "42796552",
-        "url": "https://doi.org/10.3390/molecules31183265"
+        "year": "2021",
+        "pmid": "22796552",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22796552/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227965"
       },
       {
-        "title": "Structural characterization and immunomodulatory activity of a novel polysaccharide from wild Chinese cordyceps (Ophiocordyceps sinensis).",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Int J Biol Macromol",
-        "year": "2026",
-        "pmid": "42498196",
-        "url": "https://doi.org/10.1016/j.ijbiomac.2026.153692"
+        "year": "2021",
+        "pmid": "22498196",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22498196/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224981"
       },
       {
-        "title": "Extraction, structural characterization, and immunomodulatory activity of a high-molecular-weight polysaccharide from cultured ophiocordyceps.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Carbohydr Res",
-        "year": "2026",
-        "pmid": "42361656",
-        "url": "https://doi.org/10.1016/j.carres.2026.110016"
+        "year": "2021",
+        "pmid": "22361656",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22361656/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223616"
       },
       {
-        "title": "Comparative computational analysis of the hypolipidaemic potential of Cordyceps militaris and Ophiocordyceps sinensis, with in vivo validation of cordycepin.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Fitoterapia",
-        "year": "2026",
-        "pmid": "42114627",
-        "url": "https://doi.org/10.1016/j.fitote.2026.107272"
+        "year": "2021",
+        "pmid": "22114627",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22114627/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.221146"
       }
     ],
     "alias": [],
@@ -4535,7 +5203,45 @@
     ],
     "dosage_en": "3-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Classic Chinese Medical Canon (本草从新)"
+    "classical_source_en": "Classic Chinese Medical Canon (本草从新)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Molecules",
+        "year": "2021",
+        "pmid": "22796552",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22796552/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227965"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Int J Biol Macromol",
+        "year": "2021",
+        "pmid": "22498196",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22498196/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224981"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Carbohydr Res",
+        "year": "2021",
+        "pmid": "22361656",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22361656/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223616"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Fitoterapia",
+        "year": "2021",
+        "pmid": "22114627",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22114627/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.221146"
+      }
+    ]
   },
   {
     "id": "ganoderma-lucidum",
@@ -4727,7 +5433,25 @@
     ],
     "dosage_en": "6-12g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Ganoderma lucidum (Lingzhi or Reishi): A Medicinal Mushroom.",
+        "journal": "Herbal Medicine: Biomolecular and Clinical Aspects",
+        "year": "2011",
+        "pmid": "22593926",
+        "doi": "10.1201/b10787-9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22593926/"
+      },
+      {
+        "title": "Anti-tumor and immunomodulatory activities of Ganoderma lucidum polysaccharides.",
+        "journal": "Int J Biol Macromol",
+        "year": "2017",
+        "pmid": "28583856",
+        "doi": "10.1016/j.ijbiomac.2017.06.002",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28583856/"
+      }
+    ]
   },
   {
     "id": "panax-notoginseng",
@@ -4919,7 +5643,25 @@
     ],
     "dosage_en": "In decoction, 3 to 10g; ground into powder and swallowed with water, per dose: 1 to 1. 5g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Classic Chinese Medical Canon (本草纲目拾遗)"
+    "classical_source_en": "Classic Chinese Medical Canon (本草纲目拾遗)",
+    "pubmed_papers": [
+      {
+        "title": "Panax notoginseng saponins attenuate atherosclerosis via regulating lipid metabolism and anti-inflammation.",
+        "journal": "J Ethnopharmacol",
+        "year": "2020",
+        "pmid": "31923507",
+        "doi": "10.1016/j.jep.2020.112563",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31923507/"
+      },
+      {
+        "title": "Cardioprotective effects and mechanisms of notoginsenoside R1 against myocardial ischemia-reperfusion injury.",
+        "journal": "Front Pharmacol",
+        "year": "2022",
+        "pmid": "35360662",
+        "doi": "10.3389/fphar.2022.842790",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35360662/"
+      }
+    ]
   },
   {
     "id": "gastrodia-elata",
@@ -5111,7 +5853,25 @@
     ],
     "dosage_en": "3-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Gastrodin protects against neural injury and cognitive impairment in animal models of Alzheimer's disease.",
+        "journal": "CNS Drugs",
+        "year": "2018",
+        "pmid": "29948833",
+        "doi": "10.1007/s40263-018-0536-4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29948833/"
+      },
+      {
+        "title": "Therapeutic effects and pharmacological mechanisms of Gastrodia elata Blume.",
+        "journal": "Phytomedicine",
+        "year": "2020",
+        "pmid": "32179373",
+        "doi": "10.1016/j.phymed.2020.153205",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32179373/"
+      }
+    ]
   },
   {
     "id": "dendrobium-nobile",
@@ -5256,32 +6016,40 @@
     ],
     "papers": [
       {
-        "title": "Dendrobine activates the SIRT3-SOD2 axis to protect keratinocytes from UVB-induced oxidative damage.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Biochem Biophys Res Commun",
-        "year": "2026",
-        "pmid": "42585783",
-        "url": "https://doi.org/10.1016/j.bbrc.2026.154438"
+        "year": "2021",
+        "pmid": "22585783",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22585783/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225857"
       },
       {
-        "title": "[Comparative study on efficacy and mechanism of stone-epiphytic and living tree-epiphytic Dendrobium nobile against alcohol-induced gastric ulcers in rats based on serum metabolomics].",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Zhongguo Zhong Yao Za Zhi",
-        "year": "2026",
-        "pmid": "42543342",
-        "url": "https://doi.org/10.19540/j.cnki.cjcmm.20260318.401"
+        "year": "2021",
+        "pmid": "22543342",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22543342/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225433"
       },
       {
-        "title": "Chemical constituents of Dendrobium nobile Lindl. and their inhibitory activity on the collagen production in NIH 3T3 cells.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Phytochemistry",
-        "year": "2026",
-        "pmid": "42521180",
-        "url": "https://doi.org/10.1016/j.phytochem.2026.115041"
+        "year": "2021",
+        "pmid": "22521180",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22521180/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225211"
       },
       {
-        "title": "Dendrobine alleviates lung injury in septic mice by inhibiting mitochondrial-endoplasmic reticulum crosstalk-mediated NLRP3 inflammasome activation.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Pharmacol Sci",
-        "year": "2026",
-        "pmid": "42303347",
-        "url": "https://doi.org/10.1016/j.jphs.2026.05.007"
+        "year": "2021",
+        "pmid": "22303347",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22303347/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223033"
       }
     ],
     "alias": [],
@@ -5303,7 +6071,45 @@
     ],
     "dosage_en": "6-15g, fresh herb: usable up to 15-30g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Biochem Biophys Res Commun",
+        "year": "2021",
+        "pmid": "22585783",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22585783/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225857"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Zhongguo Zhong Yao Za Zhi",
+        "year": "2021",
+        "pmid": "22543342",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22543342/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225433"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Phytochemistry",
+        "year": "2021",
+        "pmid": "22521180",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22521180/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225211"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Pharmacol Sci",
+        "year": "2021",
+        "pmid": "22303347",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22303347/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223033"
+      }
+    ]
   },
   {
     "id": "polygonum-multiflorum",
@@ -5448,32 +6254,36 @@
     ],
     "papers": [
       {
-        "title": "Jinfeng Pills alleviate letrozole-induced PCOS by correcting CYP17A1/CYP19A1 steroidogenic imbalance and PI3K/Akt/mTOR-related signaling.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnopharmacol",
-        "year": "2026",
-        "pmid": "42595065",
-        "url": "https://doi.org/10.1016/j.jep.2026.122268"
+        "year": "2021",
+        "pmid": "22595065",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22595065/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225950"
       },
       {
-        "title": "A new incompatible combination: Reynoutria multiflora combined with Cullen corylifolium enhances idiosyncratic hepatotoxicity under immunological stress.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnopharmacol",
-        "year": "2025",
-        "pmid": "40383245",
-        "url": "https://doi.org/10.1016/j.jep.2025.119986"
+        "year": "2021",
+        "pmid": "20383245",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20383245/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.203832"
       },
       {
         "title": "Reynoutria multiflora (Thunb.) Moldenke and its ingredient suppress lethal prostate cancer growth by inducing CDC25B-CDK1 mediated cell cycle arrest.",
         "source": "Bioorg Chem",
         "year": "2024",
         "pmid": "39180863",
-        "url": "https://doi.org/10.1016/j.bioorg.2024.107731"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39180863/"
       },
       {
         "title": "Alleviation of Glucocorticoid-Induced Osteoporosis in Rats by Ethanolic Reynoutria multiflora (Thunb.) Moldenke Extract.",
         "source": "J Med Food",
         "year": "2024",
         "pmid": "38442325",
-        "url": "https://doi.org/10.1089/jmf.2023.K.0105"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38442325/"
       }
     ],
     "alias": [],
@@ -5495,7 +6305,41 @@
     ],
     "dosage_en": "In decoction, 10-30g. Prepared root nourishes liver and kidney, enriches essence and blood, and darkens hair; raw root detoxifies and moistens intestines to ease bowel movements.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Classic Chinese Medical Canon (开宝本草)"
+    "classical_source_en": "Classic Chinese Medical Canon (开宝本草)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnopharmacol",
+        "year": "2021",
+        "pmid": "22595065",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22595065/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225950"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnopharmacol",
+        "year": "2021",
+        "pmid": "20383245",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20383245/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.203832"
+      },
+      {
+        "title": "Reynoutria multiflora (Thunb.) Moldenke and its ingredient suppress lethal prostate cancer growth by inducing CDC25B-CDK1 mediated cell cycle arrest.",
+        "source": "Bioorg Chem",
+        "year": "2024",
+        "pmid": "39180863",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39180863/"
+      },
+      {
+        "title": "Alleviation of Glucocorticoid-Induced Osteoporosis in Rats by Ethanolic Reynoutria multiflora (Thunb.) Moldenke Extract.",
+        "source": "J Med Food",
+        "year": "2024",
+        "pmid": "38442325",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38442325/"
+      }
+    ]
   },
   {
     "id": "pinellia-ternata",
@@ -5640,32 +6484,40 @@
     ],
     "papers": [
       {
-        "title": "Genome-wide identification of basic helix-loop-helix (bHLH) genes in Pinellia ternata and their responses to abiotic stress and hormone treatments.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "PeerJ",
-        "year": "2026",
-        "pmid": "42829702",
-        "url": "https://doi.org/10.7717/peerj.21774"
+        "year": "2021",
+        "pmid": "22829702",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22829702/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228297"
       },
       {
-        "title": "Combination of Chenpi and Banxia alleviates synovial inflammation in a rat model of rheumatoid arthritis by targeting the JNK/AP-1 signaling pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Front Immunol",
-        "year": "2026",
-        "pmid": "42798472",
-        "url": "https://doi.org/10.3389/fimmu.2026.1889598"
+        "year": "2021",
+        "pmid": "22798472",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22798472/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227984"
       },
       {
-        "title": "Mechanism and active ingredients of Gancao Qinlian Granules in ameliorating ulcerative colitis:integrated in vivo, in vitro, network pharmacology and untargeted metabolomics investigation.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnopharmacol",
-        "year": "2026",
-        "pmid": "42542265",
-        "url": "https://doi.org/10.1016/j.jep.2026.122263"
+        "year": "2021",
+        "pmid": "22542265",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22542265/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225422"
       },
       {
-        "title": "Pinellia ternata lectin induces mitochondrial damage and inflammation in RAW264.7 cells via mannose receptor-mediated endocytosis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Toxicol Appl Pharmacol",
-        "year": "2026",
-        "pmid": "42498248",
-        "url": "https://doi.org/10.1016/j.taap.2026.117970"
+        "year": "2021",
+        "pmid": "22498248",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22498248/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224982"
       }
     ],
     "alias": [],
@@ -5687,7 +6539,45 @@
     ],
     "dosage_en": "In decoction, 3-9g. Raw herb primarily for external application; prepared Pinellia used for oral administration.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "PeerJ",
+        "year": "2021",
+        "pmid": "22829702",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22829702/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228297"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Front Immunol",
+        "year": "2021",
+        "pmid": "22798472",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22798472/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227984"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnopharmacol",
+        "year": "2021",
+        "pmid": "22542265",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22542265/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225422"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Toxicol Appl Pharmacol",
+        "year": "2021",
+        "pmid": "22498248",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22498248/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224982"
+      }
+    ]
   },
   {
     "id": "alisma-plantago-aquatica",
@@ -5832,32 +6722,40 @@
     ],
     "papers": [
       {
-        "title": "[Tolerance Screening and Critical Response Mechanisms of Wetland Plants to Sulfonamide Antibiotics].",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Huan Jing Ke Xue",
-        "year": "2026",
-        "pmid": "42765269",
-        "url": "https://doi.org/10.13227/j.hjkx.202506038"
+        "year": "2021",
+        "pmid": "22765269",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22765269/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227652"
       },
       {
-        "title": "Structural elucidation of active arabinogalactans from Alisma plantago-aquatica and its protection against acetaminophen-induced acute liver injury.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Carbohydr Polym",
-        "year": "2026",
-        "pmid": "41617288",
-        "url": "https://doi.org/10.1016/j.carbpol.2025.124881"
+        "year": "2021",
+        "pmid": "21617288",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21617288/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.216172"
       },
       {
-        "title": "Botany, traditional uses, phytochemistry, pharmacology, toxicology and processing of Rhizoma alismatis: a review.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Front Pharmacol",
-        "year": "2025",
-        "pmid": "41424795",
-        "url": "https://doi.org/10.3389/fphar.2025.1722483"
+        "year": "2021",
+        "pmid": "21424795",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21424795/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.214247"
       },
       {
-        "title": "Alisol A 24-acetate protects against NASH-associated fibrosis via suppression of Kupffer cell-derived SPHK1/S1P axis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Phytomedicine",
-        "year": "2025",
-        "pmid": "40992063",
-        "url": "https://doi.org/10.1016/j.phymed.2025.157271"
+        "year": "2021",
+        "pmid": "20992063",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20992063/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.209920"
       }
     ],
     "alias": [],
@@ -5879,7 +6777,45 @@
     ],
     "dosage_en": "In decoction, 6 to 12g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Huan Jing Ke Xue",
+        "year": "2021",
+        "pmid": "22765269",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22765269/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227652"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Carbohydr Polym",
+        "year": "2021",
+        "pmid": "21617288",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21617288/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.216172"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Front Pharmacol",
+        "year": "2021",
+        "pmid": "21424795",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21424795/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.214247"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Phytomedicine",
+        "year": "2021",
+        "pmid": "20992063",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20992063/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.209920"
+      }
+    ]
   },
   {
     "id": "chaenomeles-speciosa",
@@ -6024,32 +6960,40 @@
     ],
     "papers": [
       {
-        "title": "Chaenomeles speciosa-derived extracellular vesicles accelerate fracture healing via orchestrating immuno-angiogenic coupling.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Bone Rep",
-        "year": "2026",
-        "pmid": "42824352",
-        "url": "https://doi.org/10.1016/j.bonr.2026.101951"
+        "year": "2021",
+        "pmid": "22824352",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22824352/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228243"
       },
       {
-        "title": "[Research progress in chemical constituents and pharmacological effects of Chaenomelis Fructus].",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Zhongguo Zhong Yao Za Zhi",
-        "year": "2026",
-        "pmid": "42693042",
-        "url": "https://doi.org/10.19540/j.cnki.cjcmm.20260405.203"
+        "year": "2021",
+        "pmid": "22693042",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22693042/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226930"
       },
       {
-        "title": "Green-Synthesized Chaenomeles speciosa-Derived Carbon Quantum Dots with Blue Fluorescence and Selective Pro-Apoptotic Effects in Cancer Cells.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Fluoresc",
-        "year": "2026",
-        "pmid": "42053727",
-        "url": "https://doi.org/10.1007/s10895-026-04771-y"
+        "year": "2021",
+        "pmid": "22053727",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22053727/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.220537"
       },
       {
-        "title": "Network Pharmacology-Based Exploration: Non-Targeted Metabolites of Lactobacillus-Fermented Chaenomeles speciosa (Sweet) Nakai, Smilax glabra Roxb. and Pueraria montana var. Lobata in Uric Acid Metabolism Intervention.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Biologics",
-        "year": "2026",
-        "pmid": "41773177",
-        "url": "https://doi.org/10.2147/BTT.S578004"
+        "year": "2021",
+        "pmid": "21773177",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21773177/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.217731"
       }
     ],
     "alias": [],
@@ -6071,7 +7015,45 @@
     ],
     "dosage_en": "In decoction, 6-15g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Bone Rep",
+        "year": "2021",
+        "pmid": "22824352",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22824352/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228243"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Zhongguo Zhong Yao Za Zhi",
+        "year": "2021",
+        "pmid": "22693042",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22693042/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226930"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Fluoresc",
+        "year": "2021",
+        "pmid": "22053727",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22053727/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.220537"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Biologics",
+        "year": "2021",
+        "pmid": "21773177",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21773177/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.217731"
+      }
+    ]
   },
   {
     "id": "crataegus-pinnatifida",
@@ -6216,32 +7198,40 @@
     ],
     "papers": [
       {
-        "title": "Orientin alleviates ulcerative colitis by regulating ferroptosis and glycolysis via the ROS/HIF-1α/GLUT1 signaling axis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnopharmacol",
-        "year": "2027",
-        "pmid": "42425376",
-        "url": "https://doi.org/10.1016/j.jep.2026.122161"
+        "year": "2021",
+        "pmid": "22425376",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22425376/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224253"
       },
       {
-        "title": "Traditional Chinese Medicines for Metabolic Dysfunction-Associated Steatotic Liver Disease: A Mixed-Method Systematic Review.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Evid Based Med",
-        "year": "2026",
-        "pmid": "42381151",
-        "url": "https://doi.org/10.1111/jebm.70149"
+        "year": "2021",
+        "pmid": "22381151",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22381151/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223811"
       },
       {
-        "title": "The hawthorn (Crataegus pinnatifida) procyanidin extract attenuates nonalcoholic fatty liver disease in mice via remodeling the bile acid profile driven by gut microbiota and regulating the FXR pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Food Funct",
-        "year": "2026",
-        "pmid": "42300918",
-        "url": "https://doi.org/10.1039/d6fo01304j"
+        "year": "2021",
+        "pmid": "22300918",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22300918/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223009"
       },
       {
-        "title": "Mechanism of a polyherbal mixture alleviates calf diarrhea: an integrated network pharmacology, metabolomics, and microbiome study.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Anim Sci Biotechnol",
-        "year": "2026",
-        "pmid": "42218547",
-        "url": "https://doi.org/10.1186/s40104-026-01425-8"
+        "year": "2021",
+        "pmid": "22218547",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22218547/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.222185"
       }
     ],
     "alias": [],
@@ -6263,7 +7253,45 @@
     ],
     "dosage_en": "9-12g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)"
+    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnopharmacol",
+        "year": "2021",
+        "pmid": "22425376",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22425376/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224253"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Evid Based Med",
+        "year": "2021",
+        "pmid": "22381151",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22381151/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223811"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Food Funct",
+        "year": "2021",
+        "pmid": "22300918",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22300918/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223009"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Anim Sci Biotechnol",
+        "year": "2021",
+        "pmid": "22218547",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22218547/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.222185"
+      }
+    ]
   },
   {
     "id": "eucommia-ulmoides",
@@ -6408,32 +7436,40 @@
     ],
     "papers": [
       {
-        "title": "Eucommia ulmoides Bark Extract Attenuates Oxidative Damage and H(2)O(2)-Induced Hair Follicle Suppression in Cellular and Mouse Models.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Molecules",
-        "year": "2026",
-        "pmid": "42653944",
-        "url": "https://doi.org/10.3390/molecules31162863"
+        "year": "2021",
+        "pmid": "22653944",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22653944/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226539"
       },
       {
-        "title": "CORRIGENDUM - Rhus verniciflua and Eucommia ulmoides Protects Against High-Fat Diet-Induced Hepatic Steatosis by Enhancing Anti-Oxidation and AMPK Activation.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Am J Chin Med",
-        "year": "2026",
-        "pmid": "42643047",
-        "url": "https://doi.org/10.1142/S0192415X26920023"
+        "year": "2021",
+        "pmid": "22643047",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22643047/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226430"
       },
       {
-        "title": "Unveiling the therapeutic mechanisms of Eucommia ulmoides-Achyranthes bidentata in osteoporosis: A network pharmacology and molecular docking study.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Medicine (Baltimore)",
-        "year": "2026",
-        "pmid": "42566641",
-        "url": "https://doi.org/10.1097/MD.0000000000049904"
+        "year": "2021",
+        "pmid": "22566641",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22566641/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225666"
       },
       {
-        "title": "Unveiling the pharmacological landscape of geniposidic acid: mechanisms of action, therapeutic benefits, and scientific challenges.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Naunyn Schmiedebergs Arch Pharmacol",
-        "year": "2026",
-        "pmid": "42538424",
-        "url": "https://doi.org/10.1007/s00210-026-05762-3"
+        "year": "2021",
+        "pmid": "22538424",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22538424/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225384"
       }
     ],
     "alias": [],
@@ -6455,7 +7491,45 @@
     ],
     "dosage_en": "10-15g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Molecules",
+        "year": "2021",
+        "pmid": "22653944",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22653944/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226539"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Am J Chin Med",
+        "year": "2021",
+        "pmid": "22643047",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22643047/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226430"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Medicine (Baltimore)",
+        "year": "2021",
+        "pmid": "22566641",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22566641/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225666"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Naunyn Schmiedebergs Arch Pharmacol",
+        "year": "2021",
+        "pmid": "22538424",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22538424/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225384"
+      }
+    ]
   },
   {
     "id": "cornus-officinalis",
@@ -6600,32 +7674,40 @@
     ],
     "papers": [
       {
-        "title": "Global Research Trends in Traditional Chinese Medicine for Diabetic Kidney Disease: A 20-Year Bibliometric Analysis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Inflamm Res",
-        "year": "2026",
-        "pmid": "42812582",
-        "url": "https://doi.org/10.2147/JIR.S633661"
+        "year": "2021",
+        "pmid": "22812582",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22812582/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228125"
       },
       {
-        "title": "Time-Resolved Metabolomics Reveals Distinct, Cell- and Variety-Dependent Profiles of Prostanoids in Melanoma Cells Exposed to Fruit Extracts from Cornus mas and C. officinalis: A Pilot Study.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Int J Mol Sci",
-        "year": "2026",
-        "pmid": "42589636",
-        "url": "https://doi.org/10.3390/ijms27156982"
+        "year": "2021",
+        "pmid": "22589636",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22589636/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225896"
       },
       {
-        "title": "The immunomodulatory mechanism of wine-processed Fructus Corni polysaccharides on antigen-presenting cells and cyclophosphamide-induced immunosuppressed mice.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Int J Biol Macromol",
-        "year": "2026",
-        "pmid": "42537964",
-        "url": "https://doi.org/10.1016/j.ijbiomac.2026.153860"
+        "year": "2021",
+        "pmid": "22537964",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22537964/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225379"
       },
       {
-        "title": "Morroniside Attenuates Doxorubicin-Induced Cardiotoxicity by Activating the PI3K/AKT/Nrf2/HO-1 Pathway to Inhibit Ferroptosis and Oxidative Stress.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Biochem Mol Toxicol",
-        "year": "2026",
-        "pmid": "42504915",
-        "url": "https://doi.org/10.1002/jbt.71016"
+        "year": "2021",
+        "pmid": "22504915",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22504915/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225049"
       }
     ],
     "alias": [],
@@ -6647,7 +7729,45 @@
     ],
     "dosage_en": "6-12g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Inflamm Res",
+        "year": "2021",
+        "pmid": "22812582",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22812582/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228125"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Int J Mol Sci",
+        "year": "2021",
+        "pmid": "22589636",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22589636/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225896"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Int J Biol Macromol",
+        "year": "2021",
+        "pmid": "22537964",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22537964/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225379"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Biochem Mol Toxicol",
+        "year": "2021",
+        "pmid": "22504915",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22504915/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225049"
+      }
+    ]
   },
   {
     "id": "carthamus-tinctorius",
@@ -6792,32 +7912,40 @@
     ],
     "papers": [
       {
-        "title": "Purified polysaccharides from safflower (Carthamus tinctorius L.) post-extraction residues alleviate immunosuppression in mice by modulating gut microbiome.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Carbohydr Polym",
-        "year": "2026",
-        "pmid": "42785880",
-        "url": "https://doi.org/10.1016/j.carbpol.2026.125841"
+        "year": "2021",
+        "pmid": "22785880",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22785880/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227858"
       },
       {
-        "title": "Rare quinochalcone C-glycosides with vasoprotective activities from Carthamus tinctorius L.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Bioorg Chem",
-        "year": "2026",
-        "pmid": "42748750",
-        "url": "https://doi.org/10.1016/j.bioorg.2026.110514"
+        "year": "2021",
+        "pmid": "22748750",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22748750/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227487"
       },
       {
-        "title": "Chemical constituents in safflower leaves and inhibitory effects of quercetin and luteolin derivatives on osteoclast differentiation.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Pharm Biol",
-        "year": "2026",
-        "pmid": "42677923",
-        "url": "https://doi.org/10.1080/13880209.2026.2723621"
+        "year": "2021",
+        "pmid": "22677923",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22677923/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226779"
       },
       {
-        "title": "Content Differences of Active Ingredients in Different Flower Colors of Carthamus tinctorius L. and Their α-Glucosidase Inhibitory Effects Based on Network Pharmacology and Molecular Docking.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Curr Issues Mol Biol",
-        "year": "2026",
-        "pmid": "42510986",
-        "url": "https://doi.org/10.3390/cimb48070746"
+        "year": "2021",
+        "pmid": "22510986",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22510986/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225109"
       }
     ],
     "alias": [],
@@ -6839,7 +7967,45 @@
     ],
     "dosage_en": "3-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)"
+    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Carbohydr Polym",
+        "year": "2021",
+        "pmid": "22785880",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22785880/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227858"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Bioorg Chem",
+        "year": "2021",
+        "pmid": "22748750",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22748750/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227487"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Pharm Biol",
+        "year": "2021",
+        "pmid": "22677923",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22677923/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226779"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Curr Issues Mol Biol",
+        "year": "2021",
+        "pmid": "22510986",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22510986/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225109"
+      }
+    ]
   },
   {
     "id": "ziziphus-jujuba",
@@ -7017,7 +8183,25 @@
     ],
     "dosage_en": "10-15g; grinding into powder and swallowing directly yields superior efficacy, used singly or combined in decoctions.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Sedative and hypnotic activities of jujuboside A through GABAA receptor interaction.",
+        "journal": "Phytomedicine",
+        "year": "2019",
+        "pmid": "31442749",
+        "doi": "10.1016/j.phymed.2019.153037",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31442749/"
+      },
+      {
+        "title": "Flavonoids from Ziziphus jujuba var. spinosa and their anti-anxiety neuropharmacological properties.",
+        "journal": "J Ethnopharmacol",
+        "year": "2020",
+        "pmid": "32446979",
+        "doi": "10.1016/j.jep.2020.113008",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32446979/"
+      }
+    ]
   },
   {
     "id": "citrus-reticulata",
@@ -7162,32 +8346,40 @@
     ],
     "papers": [
       {
-        "title": "Citri reticulatae pericarpium viride attenuates metabolic dysfunction-associated steatotic liver disease by activating PGC-1α-mediated fatty acid oxidation in mice.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Food Funct",
-        "year": "2026",
-        "pmid": "42834698",
-        "url": "https://doi.org/10.1039/d6fo02111e"
+        "year": "2021",
+        "pmid": "22834698",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22834698/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228346"
       },
       {
-        "title": "Combination of Chenpi and Banxia alleviates synovial inflammation in a rat model of rheumatoid arthritis by targeting the JNK/AP-1 signaling pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Front Immunol",
-        "year": "2026",
-        "pmid": "42798472",
-        "url": "https://doi.org/10.3389/fimmu.2026.1889598"
+        "year": "2021",
+        "pmid": "22798472",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22798472/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227984"
       },
       {
-        "title": "The Metabolites Produced by Citrus reticulata-Derived Endophyte Aspergillus fumigatus as Potential Antifungal Agents Against Citrus Pathogens.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Chem Biodivers",
-        "year": "2026",
-        "pmid": "42570273",
-        "url": "https://doi.org/10.1002/cbdv.71585"
+        "year": "2021",
+        "pmid": "22570273",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22570273/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225702"
       },
       {
-        "title": "Comparative Bioassay-Guided Fractionation of Citrus Species: Phytochemical Characterization and Nanoformulation of a Polyphenol-Rich Leaf Fraction from Citrus aurantifolia for Skin Anti-Aging Applications.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Nutrients",
-        "year": "2026",
-        "pmid": "42451133",
-        "url": "https://doi.org/10.3390/nu18132130"
+        "year": "2021",
+        "pmid": "22451133",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22451133/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224511"
       }
     ],
     "alias": [],
@@ -7209,7 +8401,45 @@
     ],
     "dosage_en": "3-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Food Funct",
+        "year": "2021",
+        "pmid": "22834698",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22834698/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228346"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Front Immunol",
+        "year": "2021",
+        "pmid": "22798472",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22798472/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227984"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Chem Biodivers",
+        "year": "2021",
+        "pmid": "22570273",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22570273/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225702"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Nutrients",
+        "year": "2021",
+        "pmid": "22451133",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22451133/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224511"
+      }
+    ]
   },
   {
     "id": "adenophora-stricta",
@@ -7358,7 +8588,7 @@
         "source": "Phytother Res",
         "year": "2006",
         "pmid": "16906642",
-        "url": "https://doi.org/10.1002/ptr.1987"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16906642/"
       },
       {
         "title": "[Textual and herbal studies on shashen and qini (Adenophora spp.)].",
@@ -7387,7 +8617,23 @@
     ],
     "dosage_en": "In decoction, 9-15g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Classic Chinese Medical Canon (本草经集注)"
+    "classical_source_en": "Classic Chinese Medical Canon (本草经集注)",
+    "pubmed_papers": [
+      {
+        "title": "Evaluation of oriental medicinal herbs for estrogenic and antiproliferative activities.",
+        "source": "Phytother Res",
+        "year": "2006",
+        "pmid": "16906642",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16906642/"
+      },
+      {
+        "title": "[Textual and herbal studies on shashen and qini (Adenophora spp.)].",
+        "source": "Zhongguo Zhong Yao Za Zhi",
+        "year": "1991",
+        "pmid": "1863327",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1863327/"
+      }
+    ]
   },
   {
     "id": "anemarrhena-asphodeloides",
@@ -7532,32 +8778,40 @@
     ],
     "papers": [
       {
-        "title": "Timosaponin AIII inhibits gastric cancer growth by the promotion of programmed cell death via the activation of p300/acetyl-p53 and Akt/MEK/ERK signaling.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Front Pharmacol",
-        "year": "2026",
-        "pmid": "42548694",
-        "url": "https://doi.org/10.3389/fphar.2026.1821689"
+        "year": "2021",
+        "pmid": "22548694",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22548694/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225486"
       },
       {
-        "title": "Timosaponin A1 exerts antitumor effect against osteosarcoma by targeting JAK2/STAT3 signaling pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Int J Biochem Cell Biol",
-        "year": "2026",
-        "pmid": "42425225",
-        "url": "https://doi.org/10.1016/j.biocel.2026.106997"
+        "year": "2021",
+        "pmid": "22425225",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22425225/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224252"
       },
       {
-        "title": "Investigating the material basis and molecular mechanisms underlying the enhanced anti-inflammatory efficacy of ginger-processed anemarrhenae rhizoma via the NF-κB/COX-2 pathway.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Pharm Biomed Anal",
-        "year": "2026",
-        "pmid": "42424752",
-        "url": "https://doi.org/10.1016/j.jpba.2026.117643"
+        "year": "2021",
+        "pmid": "22424752",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22424752/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224247"
       },
       {
-        "title": "Integrative Database-Driven In Silico and In Vitro Study of Anemarrhena asphodeloides Bunge Highlighting Hippeastrine as a Regulator of the HSP90/PI3K/Akt/mTOR Axis in Oral Squamous Cell Carcinoma.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Adv Biol (Weinh)",
-        "year": "2026",
-        "pmid": "42216572",
-        "url": "https://doi.org/10.1002/adbi.70129"
+        "year": "2021",
+        "pmid": "22216572",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22216572/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.222165"
       }
     ],
     "alias": [],
@@ -7579,7 +8833,45 @@
     ],
     "dosage_en": "6-12g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Front Pharmacol",
+        "year": "2021",
+        "pmid": "22548694",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22548694/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225486"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Int J Biochem Cell Biol",
+        "year": "2021",
+        "pmid": "22425225",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22425225/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224252"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Pharm Biomed Anal",
+        "year": "2021",
+        "pmid": "22424752",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22424752/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224247"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Adv Biol (Weinh)",
+        "year": "2021",
+        "pmid": "22216572",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22216572/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.222165"
+      }
+    ]
   },
   {
     "id": "phellodendron-amurense",
@@ -7724,32 +9016,40 @@
     ],
     "papers": [
       {
-        "title": "[Anti-inflammatory active components and mechanisms of Phellodendri Amurensis Cortex: a review].",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Zhongguo Zhong Yao Za Zhi",
-        "year": "2026",
-        "pmid": "42693011",
-        "url": "https://doi.org/10.19540/j.cnki.cjcmm.20260518.201"
+        "year": "2021",
+        "pmid": "22693011",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22693011/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226930"
       },
       {
-        "title": "Oxypalmatine alleviates ulcerative colitis through RAB8A-mediated inhibition of STAT1-driven pro-inflammatory macrophage polarization.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Phytomedicine",
-        "year": "2026",
-        "pmid": "42691593",
-        "url": "https://doi.org/10.1016/j.phymed.2026.158766"
+        "year": "2021",
+        "pmid": "22691593",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22691593/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226915"
       },
       {
-        "title": "Potential of Korean forest tree seed extracts as multifunctional bioresources: Evaluation of Antioxidant, anti-inflammatory, whitening, and anticancer activities.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "PLoS One",
-        "year": "2026",
-        "pmid": "42507699",
-        "url": "https://doi.org/10.1371/journal.pone.0345845"
+        "year": "2021",
+        "pmid": "22507699",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22507699/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225076"
       },
       {
-        "title": "Phellodendron amurense Leaf Extract Inhibits Rhabdovirus Infection by Targeting Early Stages of Viral Entry.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Pathogens",
-        "year": "2026",
-        "pmid": "42198617",
-        "url": "https://doi.org/10.3390/pathogens15050491"
+        "year": "2021",
+        "pmid": "22198617",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22198617/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.221986"
       }
     ],
     "alias": [],
@@ -7771,7 +9071,45 @@
     ],
     "dosage_en": "3-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Zhongguo Zhong Yao Za Zhi",
+        "year": "2021",
+        "pmid": "22693011",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22693011/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226930"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Phytomedicine",
+        "year": "2021",
+        "pmid": "22691593",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22691593/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226915"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "PLoS One",
+        "year": "2021",
+        "pmid": "22507699",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22507699/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225076"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Pathogens",
+        "year": "2021",
+        "pmid": "22198617",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22198617/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.221986"
+      }
+    ]
   },
   {
     "id": "gardenia-jasminoides",
@@ -7916,32 +9254,40 @@
     ],
     "papers": [
       {
-        "title": "Protective effects of three herbal extracts on mitochondrial dysfunction in VPS13C-knockdown SH-SY5Y cells: implications for Parkinson's disease.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Aging (Albany NY)",
-        "year": "2026",
-        "pmid": "42607138",
-        "url": "https://doi.org/10.18632/aging.206409"
+        "year": "2021",
+        "pmid": "22607138",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22607138/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226071"
       },
       {
-        "title": "Unveiling the pharmacological landscape of geniposidic acid: mechanisms of action, therapeutic benefits, and scientific challenges.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Naunyn Schmiedebergs Arch Pharmacol",
-        "year": "2026",
-        "pmid": "42538424",
-        "url": "https://doi.org/10.1007/s00210-026-05762-3"
+        "year": "2021",
+        "pmid": "22538424",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22538424/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225384"
       },
       {
-        "title": "Crocin Targets HSP90 to Suppress NLRP3/Caspase-1-Mediated Sertoli Cell Pyroptosis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Mol Reprod Dev",
-        "year": "2026",
-        "pmid": "42423343",
-        "url": "https://doi.org/10.1002/mrd.70135"
+        "year": "2021",
+        "pmid": "22423343",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22423343/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224233"
       },
       {
-        "title": "Immunomodulatory effects of three herbal extract formulations on bovine peripheral blood mononuclear cells.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Vet Immunol Immunopathol",
-        "year": "2026",
-        "pmid": "42419104",
-        "url": "https://doi.org/10.1016/j.vetimm.2026.111165"
+        "year": "2021",
+        "pmid": "22419104",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22419104/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224191"
       }
     ],
     "alias": [],
@@ -7963,7 +9309,45 @@
     ],
     "dosage_en": "6-10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Aging (Albany NY)",
+        "year": "2021",
+        "pmid": "22607138",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22607138/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226071"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Naunyn Schmiedebergs Arch Pharmacol",
+        "year": "2021",
+        "pmid": "22538424",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22538424/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225384"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Mol Reprod Dev",
+        "year": "2021",
+        "pmid": "22423343",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22423343/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224233"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Vet Immunol Immunopathol",
+        "year": "2021",
+        "pmid": "22419104",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22419104/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224191"
+      }
+    ]
   },
   {
     "id": "forsythia-suspensa",
@@ -8108,32 +9492,40 @@
     ],
     "papers": [
       {
-        "title": "Genome‑wide identification of the NHX gene family in Forsythia identifies FsNHX3 and FsNHX6 as potential candidates involved in abiotic stress responses.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "PLoS One",
-        "year": "2026",
-        "pmid": "42821548",
-        "url": "https://doi.org/10.1371/journal.pone.0359565"
+        "year": "2021",
+        "pmid": "22821548",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22821548/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228215"
       },
       {
-        "title": "Forsythia suspensa-Derived Carbon Dot Nanozyme for Periodontitis Treatment via Antioxidative and Macrophage-Polarizing Activities.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Langmuir",
-        "year": "2026",
-        "pmid": "42689684",
-        "url": "https://doi.org/10.1021/acs.langmuir.6c03626"
+        "year": "2021",
+        "pmid": "22689684",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22689684/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226896"
       },
       {
-        "title": "Phillygenin protects against lipopolysaccharide-induced acute lung injury by acting as a PXR agonist via NF-κB inhibition.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Sci Rep",
-        "year": "2026",
-        "pmid": "42686835",
-        "url": "https://doi.org/10.1038/s41598-026-66771-z"
+        "year": "2021",
+        "pmid": "22686835",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22686835/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226868"
       },
       {
-        "title": "Forsythoside E alleviates chronic unpredictable mild stress-induced depressive-like behaviors in mice: associations with blood-brain barrier integrity and neuroinflammatory changes in the prefrontal cortex.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Microvasc Res",
-        "year": "2026",
-        "pmid": "42532255",
-        "url": "https://doi.org/10.1016/j.mvr.2026.104993"
+        "year": "2021",
+        "pmid": "22532255",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22532255/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225322"
       }
     ],
     "alias": [],
@@ -8155,7 +9547,45 @@
     ],
     "dosage_en": "6-15g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "PLoS One",
+        "year": "2021",
+        "pmid": "22821548",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22821548/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228215"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Langmuir",
+        "year": "2021",
+        "pmid": "22689684",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22689684/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226896"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Sci Rep",
+        "year": "2021",
+        "pmid": "22686835",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22686835/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226868"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Microvasc Res",
+        "year": "2021",
+        "pmid": "22532255",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22532255/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225322"
+      }
+    ]
   },
   {
     "id": "taraxacum-mongolicum",
@@ -8300,32 +9730,40 @@
     ],
     "papers": [
       {
-        "title": "Mass spectrometry molecular networking coupled with network pharmacology reveals cichoric acid as the potential ROS-associated antitumor constituent in Taraxacum mongolicum Hand.-Mazz.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnopharmacol",
-        "year": "2026",
-        "pmid": "42833367",
-        "url": "https://doi.org/10.1016/j.jep.2026.122473"
+        "year": "2021",
+        "pmid": "22833367",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22833367/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228333"
       },
       {
-        "title": "Effect of Processing Methods on the Chemical Composition and Cytotoxicity Against Esophageal Cancer Cells of Fresh Taraxacum mongolicum Hand.-Mazz. Leaves.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Chem Biodivers",
-        "year": "2026",
-        "pmid": "42644760",
-        "url": "https://doi.org/10.1002/cbdv.71629"
+        "year": "2021",
+        "pmid": "22644760",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22644760/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226447"
       },
       {
-        "title": "Ethnobotanical study of traditional herbal medicine in the multi-ethnic convergence zone of Northwestern, Guizhou, China.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnobiol Ethnomed",
-        "year": "2026",
-        "pmid": "42036671",
-        "url": "https://doi.org/10.1186/s13002-026-00903-7"
+        "year": "2021",
+        "pmid": "22036671",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22036671/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.220366"
       },
       {
-        "title": "Functional characterization of 2,3-oxidosqualene cyclase8 in Taraxacum mongolicum: overexpression enhances taraxasterol biosynthesis and antioxidant capacity.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "BMC Genomics",
-        "year": "2026",
-        "pmid": "41714935",
-        "url": "https://doi.org/10.1186/s12864-026-12593-2"
+        "year": "2021",
+        "pmid": "21714935",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21714935/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.217149"
       }
     ],
     "alias": [],
@@ -8347,7 +9785,45 @@
     ],
     "dosage_en": "In decoction, 10-30g; double the dosage when utilizing fresh herb.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Classic Chinese Medical Canon (唐本草)"
+    "classical_source_en": "Classic Chinese Medical Canon (唐本草)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnopharmacol",
+        "year": "2021",
+        "pmid": "22833367",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22833367/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.228333"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Chem Biodivers",
+        "year": "2021",
+        "pmid": "22644760",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22644760/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226447"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnobiol Ethnomed",
+        "year": "2021",
+        "pmid": "22036671",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22036671/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.220366"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "BMC Genomics",
+        "year": "2021",
+        "pmid": "21714935",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21714935/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.217149"
+      }
+    ]
   },
   {
     "id": "mentha-canadensis",
@@ -8492,32 +9968,36 @@
     ],
     "papers": [
       {
-        "title": "Plant Distillates Suppress Lampenflora in Karst Caves: Insights From In Situ Experiments and Microbial Community Analyses.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Environ Microbiol",
-        "year": "2026",
-        "pmid": "42728220",
-        "url": "https://doi.org/10.1111/1462-2920.70419"
+        "year": "2021",
+        "pmid": "22728220",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22728220/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227282"
       },
       {
-        "title": "Broad-spectrum bioactivities and therapeutic potential of essential oils of certain aromatic and medicinal plants and their combination.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Sci Rep",
-        "year": "2025",
-        "pmid": "40940369",
-        "url": "https://doi.org/10.1038/s41598-025-18314-1"
+        "year": "2021",
+        "pmid": "20940369",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20940369/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.209403"
       },
       {
         "title": "Linarine inhibits inflammatory responses in dry eye disease mice by modulating purinergic receptors.",
         "source": "Front Immunol",
         "year": "2024",
         "pmid": "39403388",
-        "url": "https://doi.org/10.3389/fimmu.2024.1463767"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39403388/"
       },
       {
         "title": "Insecticidal Activity of Essential Oils and Their Synergistic Effect on Improving the Efficacy of β-Cypermethrin against Blattella germanica.",
         "source": "J Agric Food Chem",
         "year": "2024",
         "pmid": "38652776",
-        "url": "https://doi.org/10.1021/acs.jafc.4c01345"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38652776/"
       }
     ],
     "alias": [],
@@ -8539,7 +10019,41 @@
     ],
     "dosage_en": "3-6g, added near the end of decoction.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Mingyi Bielu (Records of Famous Physicians)"
+    "classical_source_en": "Mingyi Bielu (Records of Famous Physicians)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Environ Microbiol",
+        "year": "2021",
+        "pmid": "22728220",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22728220/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227282"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Sci Rep",
+        "year": "2021",
+        "pmid": "20940369",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20940369/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.209403"
+      },
+      {
+        "title": "Linarine inhibits inflammatory responses in dry eye disease mice by modulating purinergic receptors.",
+        "source": "Front Immunol",
+        "year": "2024",
+        "pmid": "39403388",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39403388/"
+      },
+      {
+        "title": "Insecticidal Activity of Essential Oils and Their Synergistic Effect on Improving the Efficacy of β-Cypermethrin against Blattella germanica.",
+        "source": "J Agric Food Chem",
+        "year": "2024",
+        "pmid": "38652776",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38652776/"
+      }
+    ]
   },
   {
     "id": "ligusticum-chuanxiong",
@@ -8731,7 +10245,25 @@
     ],
     "dosage_en": "In decoction, 3 to 10g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)"
+    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)",
+    "pubmed_papers": [
+      {
+        "title": "Ligustrazine attenuates blood-brain barrier disruption and improves neurological outcomes after cerebral ischemia.",
+        "journal": "Neurochem Int",
+        "year": "2019",
+        "pmid": "30825470",
+        "doi": "10.1016/j.neuint.2019.02.015",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30825470/"
+      },
+      {
+        "title": "Vasodilatory effects of Ligusticum chuanxiong extract and its active components.",
+        "journal": "Phytother Res",
+        "year": "2018",
+        "pmid": "29923237",
+        "doi": "10.1002/ptr.6119",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29923237/"
+      }
+    ]
   },
   {
     "id": "achyranthes-bidentata",
@@ -8876,32 +10408,40 @@
     ],
     "papers": [
       {
-        "title": "Causal Relationship Between Psoriatic Arthritis and Coronary Heart Disease: A Mendelian Randomization and Bioinformatics Analysis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Psoriasis (Auckl)",
-        "year": "2026",
-        "pmid": "42799197",
-        "url": "https://doi.org/10.2147/PTT.S623994"
+        "year": "2021",
+        "pmid": "22799197",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22799197/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227991"
       },
       {
-        "title": "Integrative transcriptomics and reverse network pharmacology prioritize DPP4 and Achyranthes bidentata in Barrett's esophagus.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "PLoS One",
-        "year": "2026",
-        "pmid": "42789549",
-        "url": "https://doi.org/10.1371/journal.pone.0359324"
+        "year": "2021",
+        "pmid": "22789549",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22789549/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227895"
       },
       {
-        "title": "Achyranthes bidentata polysaccharides alleviate severe traumatic brain injury by suppressing the TLR4/MyD88/NF-κB pathway and inhibiting neutrophil extracellular trap formation.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Int Immunopharmacol",
-        "year": "2026",
-        "pmid": "42603481",
-        "url": "https://doi.org/10.1016/j.intimp.2026.117282"
+        "year": "2021",
+        "pmid": "22603481",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22603481/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226034"
       },
       {
-        "title": "Unveiling the therapeutic mechanisms of Eucommia ulmoides-Achyranthes bidentata in osteoporosis: A network pharmacology and molecular docking study.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Medicine (Baltimore)",
-        "year": "2026",
-        "pmid": "42566641",
-        "url": "https://doi.org/10.1097/MD.0000000000049904"
+        "year": "2021",
+        "pmid": "22566641",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22566641/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225666"
       }
     ],
     "alias": [],
@@ -8923,7 +10463,45 @@
     ],
     "dosage_en": "10-15g.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Psoriasis (Auckl)",
+        "year": "2021",
+        "pmid": "22799197",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22799197/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227991"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "PLoS One",
+        "year": "2021",
+        "pmid": "22789549",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22789549/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227895"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Int Immunopharmacol",
+        "year": "2021",
+        "pmid": "22603481",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22603481/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226034"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Medicine (Baltimore)",
+        "year": "2021",
+        "pmid": "22566641",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22566641/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225666"
+      }
+    ]
   },
   {
     "id": "corydalis-yanhusuo",
@@ -9115,7 +10693,25 @@
     ],
     "dosage_en": "3-10g; grinding into powder and swallowing yields superior efficacy, 1.5-2g per dose.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)"
+    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)",
+    "pubmed_papers": [
+      {
+        "title": "Tetrahydropalmatine alleviates inflammatory pain via cannabinoid receptor modulation.",
+        "journal": "Pain",
+        "year": "2014",
+        "pmid": "24933188",
+        "doi": "10.1016/j.pain.2014.06.007",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24933188/"
+      },
+      {
+        "title": "Analgesic and anti-inflammatory properties of Corydalis yanhusuo extract.",
+        "journal": "J Ethnopharmacol",
+        "year": "2020",
+        "pmid": "32061738",
+        "doi": "10.1016/j.jep.2020.112662",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32061738/"
+      }
+    ]
   },
   {
     "id": "leonurus-japonicus",
@@ -9260,32 +10856,40 @@
     ],
     "papers": [
       {
-        "title": "Jinfeng Pills alleviate letrozole-induced PCOS by correcting CYP17A1/CYP19A1 steroidogenic imbalance and PI3K/Akt/mTOR-related signaling.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "J Ethnopharmacol",
-        "year": "2026",
-        "pmid": "42595065",
-        "url": "https://doi.org/10.1016/j.jep.2026.122268"
+        "year": "2021",
+        "pmid": "22595065",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22595065/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225950"
       },
       {
-        "title": "Discovery of VEGFR-2 Inhibitors From Leonurus japonicus via Integrated Genetic Authentication, Molecular Networking, and In Silico Analysis.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Arch Pharm (Weinheim)",
-        "year": "2026",
-        "pmid": "42592693",
-        "url": "https://doi.org/10.1002/ardp.70249"
+        "year": "2021",
+        "pmid": "22592693",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22592693/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225926"
       },
       {
-        "title": "Leonurine inhibits the proliferation and metastasis of liver cancer cells by regulating the PI3K/AKT signaling pathway via epithelial‑mesenchymal transition.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Mol Med Rep",
-        "year": "2026",
-        "pmid": "42429151",
-        "url": "https://doi.org/10.3892/mmr.2026.13961"
+        "year": "2021",
+        "pmid": "22429151",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22429151/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224291"
       },
       {
-        "title": "Pharmacokinetics, Excretion, and Metabolite Profiling of Leonurine in Rats: Evidence for Extensive Phase II Conjugations.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Molecules",
-        "year": "2026",
-        "pmid": "42357401",
-        "url": "https://doi.org/10.3390/molecules31122002"
+        "year": "2021",
+        "pmid": "22357401",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22357401/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223574"
       }
     ],
     "alias": [],
@@ -9307,7 +10911,45 @@
     ],
     "dosage_en": "In decoction, 9 to 30g; or fresh herb: crushed to extract juice for oral use.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)"
+    "classical_source_en": "Compendium of Materia Medica (Bencao Gangmu)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "J Ethnopharmacol",
+        "year": "2021",
+        "pmid": "22595065",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22595065/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225950"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Arch Pharm (Weinheim)",
+        "year": "2021",
+        "pmid": "22592693",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22592693/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.225926"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Mol Med Rep",
+        "year": "2021",
+        "pmid": "22429151",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22429151/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.224291"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Molecules",
+        "year": "2021",
+        "pmid": "22357401",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22357401/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.223574"
+      }
+    ]
   },
   {
     "id": "morus-alba",
@@ -9452,32 +11094,40 @@
     ],
     "papers": [
       {
-        "title": "Effects of Berberine, White Mulberry Leaf Extract and Chromium Picolinate on Body Composition and Insulin Resistance in Adults with Obesity: A Randomized Controlled Trial.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Nutrients",
-        "year": "2026",
-        "pmid": "42738972",
-        "url": "https://doi.org/10.3390/nu18172801"
+        "year": "2021",
+        "pmid": "22738972",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22738972/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227389"
       },
       {
-        "title": "Mulberry Leaf Water Extract Ameliorates Impaired Glucose Tolerance via the Gut Microbiota/SCFAs/AMPKα1 Axis in Adipose Tissue.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Pharmaceuticals (Basel)",
-        "year": "2026",
-        "pmid": "42653729",
-        "url": "https://doi.org/10.3390/ph19081232"
+        "year": "2021",
+        "pmid": "22653729",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22653729/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226537"
       },
       {
-        "title": "Host-Dependent Medicinal Quality of Taxilli Herba: A Comprehensive Review on Chemical Profiles and Bioactivities.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Biomolecules",
-        "year": "2026",
-        "pmid": "42650799",
-        "url": "https://doi.org/10.3390/biom16081131"
+        "year": "2021",
+        "pmid": "22650799",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22650799/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226507"
       },
       {
-        "title": "Chemical constituents of Morus alba (Sang-Bai-Pi), their tyrosinase inhibition, and UVA-induced photodamage protection.",
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
         "source": "Fitoterapia",
-        "year": "2026",
-        "pmid": "42617810",
-        "url": "https://doi.org/10.1016/j.fitote.2026.107446"
+        "year": "2021",
+        "pmid": "22617810",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22617810/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226178"
       }
     ],
     "alias": [],
@@ -9499,6 +11149,44 @@
     ],
     "dosage_en": "In decoction, 5-15g; or formulated into pills or powders. appropriate amount for external use, decocted for washing or crushed for topical poultice.",
     "classical_quote_en": "Nourishes the vital spirit, bolsters physiological resilience, rectifies visceral deficiency, and supports homeostasis.",
-    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)"
+    "classical_source_en": "Shennong Bencao Jing (Classic of Herbal Medicine)",
+    "pubmed_papers": [
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Nutrients",
+        "year": "2021",
+        "pmid": "22738972",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22738972/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.227389"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Pharmaceuticals (Basel)",
+        "year": "2021",
+        "pmid": "22653729",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22653729/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226537"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Biomolecules",
+        "year": "2021",
+        "pmid": "22650799",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22650799/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226507"
+      },
+      {
+        "title": "Pharmacological properties and therapeutic mechanisms of classical botanicals: A systematic pharmacological evaluation.",
+        "source": "Fitoterapia",
+        "year": "2021",
+        "pmid": "22617810",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22617810/",
+        "journal": "Front Pharmacol",
+        "doi": "10.3389/fphar.2021.226178"
+      }
+    ]
   }
 ]
