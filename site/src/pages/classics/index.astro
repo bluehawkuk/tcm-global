@@ -1,0 +1,277 @@
+---
+import rawClassics from '../../data/classics.json';
+
+const classics = Array.isArray(rawClassics) ? rawClassics : [];
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>著名用药典籍 · 本草图谱 HerbAtlas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="referrer" content="no-referrer" />
+  <style>
+    :root {
+      --primary: #2d5a3f;
+      --accent: #b25d38;
+      --bg: #f9f8f5;
+      --card-bg: #ffffff;
+      --text-main: #2b2b2b;
+      --text-sub: #6e6e6e;
+      --border: #e8e5de;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; overflow-x: hidden; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif; background: var(--bg); color: var(--text-main); padding-bottom: 5rem; }
+
+    .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 3rem; background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+    .nav-left { display: flex; align-items: center; gap: 1.2rem; }
+    .logo { font-size: 1.25rem; font-weight: 700; color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 0.4rem; }
+    .back-btn { text-decoration: none; color: #5a6268; font-size: 0.95rem; font-weight: 500; }
+    .back-btn:hover { color: var(--primary); }
+
+    .nav-right-wrap { display: flex; align-items: center; gap: 1.5rem; }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; font-size: 0.95rem; }
+    .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; }
+    .nav-links a:hover { color: var(--primary); }
+
+    .lang-switch {
+      display: inline-flex;
+      align-items: center;
+      background: #f2eee5;
+      border: 1px solid #dfd9cb;
+      border-radius: 20px;
+      padding: 2px 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      user-select: none;
+    }
+    .lang-btn {
+      padding: 0.25rem 0.65rem;
+      border-radius: 14px;
+      color: #666;
+      transition: 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .header-section { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem 2rem 2rem; width: 100%; text-align: center; }
+    .page-title { font-size: 2.5rem; color: #1e3a29; margin-bottom: 0.6rem; letter-spacing: 1px; }
+    .page-subtitle { font-family: "Georgia", serif; font-style: italic; color: #7d827a; font-size: 1.15rem; margin-bottom: 1.2rem; }
+    .page-desc { max-width: 820px; margin: 0 auto; color: var(--text-sub); font-size: 1.05rem; line-height: 1.8; }
+
+    .classics-container { max-width: 1200px; margin: 2rem auto 0 auto; padding: 0 2rem; display: flex; flex-direction: column; gap: 2rem; width: 100%; }
+    
+    .classic-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 2.2rem 2.5rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.03);
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      transition: 0.2s;
+      position: relative;
+    }
+    .classic-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 28px rgba(0,0,0,0.06);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px dashed #e5dfd2;
+      padding-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+    }
+    .book-title-cn { font-size: 1.7rem; font-weight: 700; color: #1e3a29; margin-right: 0.8rem; }
+    .book-title-en { font-size: 1.05rem; color: #7a7a7a; font-style: italic; }
+    .badge-count { background: #f2eee5; color: var(--accent); padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
+
+    .meta-row { display: flex; gap: 2.5rem; font-size: 0.95rem; color: #5a574f; flex-wrap: wrap; }
+    .meta-item strong { color: var(--primary); }
+
+    .book-desc { font-size: 1.02rem; line-height: 1.85; color: #3d3d3d; text-align: justify; }
+
+    .links-footer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 1.2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #f4f1ea;
+    }
+    .ext-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.55rem 1.2rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .btn-cn {
+      background: #f4efe6;
+      color: #734822;
+      border: 1px solid #e2d7c5;
+    }
+    .btn-cn:hover { background: #e8ded0; }
+    .btn-en {
+      background: #eef4f0;
+      color: var(--primary);
+      border: 1px solid #c7dcd0;
+    }
+    .btn-en:hover { background: #dcece2; }
+
+    @media (max-width: 768px) {
+      .top-nav { padding: 0.8rem 1rem; }
+      .nav-links { display: none; }
+      .header-section { padding: 2rem 1rem 1rem 1rem; }
+      .page-title { font-size: 1.9rem; }
+      .page-desc { font-size: 0.92rem; }
+      .classics-container { padding: 0 1rem; gap: 1.5rem; }
+      .classic-card { padding: 1.5rem 1.2rem; }
+      .book-title-cn { font-size: 1.4rem; }
+      .meta-row { gap: 1rem; flex-direction: column; }
+      .links-footer { flex-direction: column; width: 100%; align-items: stretch; }
+      .ext-btn { justify-content: center; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="top-nav">
+    <div class="nav-left">
+      <a href="/" class="logo">🌿 <span data-i18n="brand">本草图谱</span> <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;">HerbAtlas</span></a>
+      <span style="color:#d0ccc0;">/</span>
+      <a href="/" class="back-btn" data-i18n="back_home">← 返回首页</a>
+    </div>
+
+    <div class="nav-right-wrap">
+      <ul class="nav-links">
+        <li><a href="/" data-i18n="nav_home">首页</a></li>
+        <li><a href="/herbs" data-i18n="nav_all">全部中药 (50味)</a></li>
+        <li><a href="/classics" style="color:var(--primary);font-weight:700;" data-i18n="nav_classics">本草典籍</a></li>
+      </ul>
+
+      <div class="lang-switch" id="langSwitch">
+        <span class="lang-btn active" id="btnZh">中</span>
+        <span class="lang-btn" id="btnEn">EN</span>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header-section">
+    <h1 class="page-title" data-i18n="page_title">中国著名用药典籍精选</h1>
+    <div class="page-subtitle">Classical Chinese Materia Medica & Herbal Pharmacopoeias</div>
+    <p class="page-desc" data-i18n="page_desc">
+      精选中国医学史上具有里程碑意义的本草药物学专著。所有典籍均具有学术界公认的现代中文标点整理本与正式发行的英文译本，展现中华本草学从汉代至清代两千年间的分类演进与药物认知。
+    </p>
+  </header>
+
+  <main class="classics-container">
+    {classics.map((item) => (
+      <article class="classic-card">
+        <div class="card-top">
+          <div>
+            <span class="book-title-cn" data-cn={item.title_cn} data-en={item.title_en}>{item.title_cn}</span>
+            <span class="book-title-en">{item.title_en}</span>
+          </div>
+          <span class="badge-count" data-cn={item.herbs_count} data-en={item.herbs_count}>{item.herbs_count}</span>
+        </div>
+
+        <div class="meta-row">
+          <div class="meta-item"><strong data-i18n="lbl_dynasty">时代</strong>：<span class="meta-dynasty" data-cn={item.dynasty_cn} data-en={item.dynasty_en}>{item.dynasty_cn}</span></div>
+          <div class="meta-item"><strong data-i18n="lbl_author">编修者</strong>：<span class="meta-author" data-cn={item.author_cn} data-en={item.author_en}>{item.author_cn}</span></div>
+        </div>
+
+        <p class="book-desc" data-cn={item.desc_cn} data-en={item.desc_en}>{item.desc_cn}</p>
+
+        <div class="links-footer">
+          <a href={item.cn_link} target="_blank" rel="noopener noreferrer" class="ext-btn btn-cn" data-i18n="link_cn">
+            📖 查阅中文古籍原典 (CText) ↗
+          </a>
+          <a href={item.en_link} target="_blank" rel="noopener noreferrer" class="ext-btn btn-en" data-i18n="link_en">
+            🌐 English Academic Reference ↗
+          </a>
+        </div>
+      </article>
+    ))}
+  </main>
+
+  <script>
+    const I18N_DICT = {
+      zh: {
+        brand: '本草图谱',
+        back_home: '← 返回首页',
+        nav_home: '首页',
+        nav_all: '全部中药 (50味)',
+        nav_classics: '本草典籍',
+        page_title: '中国著名用药典籍精选',
+        page_desc: '精选中国医学史上具有里程碑意义的本草药物学专著。所有典籍均具有学术界公认的现代中文标点整理本与正式发行的英文译本，展现中华本草学从汉代至清代两千年间的分类演进与药物认知。',
+        lbl_dynasty: '时代',
+        lbl_author: '编修者',
+        link_cn: '📖 查阅中文古籍原典 (CText) ↗',
+        link_en: '🌐 English Academic Reference ↗'
+      },
+      en: {
+        brand: 'HerbAtlas',
+        back_home: '← Back to Home',
+        nav_home: 'Home',
+        nav_all: 'All Herbs (50)',
+        nav_classics: 'Materia Medica',
+        page_title: 'Classical Chinese Materia Medica',
+        page_desc: 'Milestone pharmacopoeias in Chinese medical history. Each classic features recognized modern editions and official English translations, tracing two millennia of botanical taxonomy and pharmacological evolution.',
+        lbl_dynasty: 'Era',
+        lbl_author: 'Compiler',
+        link_cn: '📖 View Classical Chinese Source (CText) ↗',
+        link_en: '🌐 English Academic Reference ↗'
+      }
+    };
+
+    let currentLang = localStorage.getItem('site_lang') || 'zh';
+    const btnZh = document.getElementById('btnZh');
+    const btnEn = document.getElementById('btnEn');
+
+    function applyLang(lang) {
+      currentLang = lang;
+      localStorage.setItem('site_lang', lang);
+
+      if (btnZh) btnZh.classList.toggle('active', lang === 'zh');
+      if (btnEn) btnEn.classList.toggle('active', lang === 'en');
+
+      const dict = I18N_DICT[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict && dict[key]) el.innerHTML = dict[key];
+      });
+
+      document.querySelectorAll('.book-title-cn').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+      document.querySelectorAll('.meta-dynasty').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+      document.querySelectorAll('.meta-author').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+      document.querySelectorAll('.book-desc').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+    }
+
+    if (btnZh) btnZh.addEventListener('click', () => applyLang('zh'));
+    if (btnEn) btnEn.addEventListener('click', () => applyLang('en'));
+
+    applyLang(currentLang);
+  </script>
+</body>
+</html>
