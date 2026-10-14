@@ -1,0 +1,347 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+
+const jsonPath = path.resolve('./src/data/decoctions.json');
+const rawData = fs.readFileSync(jsonPath, 'utf-8');
+const decoctions = JSON.parse(rawData);
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <title>传统中药煎煮法度 · 本草图谱 HerbAtlas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="referrer" content="no-referrer" />
+  <style>
+    :root {
+      --primary: #2d5a3f;
+      --accent: #b25d38;
+      --bg: #f9f8f5;
+      --card-bg: #ffffff;
+      --text-main: #2b2b2b;
+      --text-sub: #5f5f5f;
+      --border: #e8e5de;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { width: 100%; overflow-x: hidden; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif; background: var(--bg); color: var(--text-main); padding-bottom: 5rem; }
+
+    .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 3rem; background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
+    .nav-left { display: flex; align-items: center; gap: 1.2rem; }
+    .logo { font-size: 1.25rem; font-weight: 700; color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 0.4rem; }
+    .back-btn { text-decoration: none; color: #5a6268; font-size: 0.95rem; font-weight: 500; }
+    .back-btn:hover { color: var(--primary); }
+
+    .nav-right-wrap { display: flex; align-items: center; gap: 1.5rem; }
+    .nav-links { display: flex; gap: 1.5rem; list-style: none; font-size: 0.95rem; }
+    .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; }
+    .nav-links a:hover { color: var(--primary); }
+
+    .lang-switch {
+      display: inline-flex;
+      align-items: center;
+      background: #f2eee5;
+      border: 1px solid #dfd9cb;
+      border-radius: 20px;
+      padding: 2px 4px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      user-select: none;
+    }
+    .lang-btn {
+      padding: 0.25rem 0.65rem;
+      border-radius: 14px;
+      color: #666;
+      transition: 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .header-box { max-width: 1200px; margin: 0 auto; padding: 3rem 2rem 1.5rem 2rem; text-align: center; }
+    .page-title { font-size: 2.4rem; color: #1e3a29; margin-bottom: 0.6rem; letter-spacing: 1px; }
+    .page-subtitle { font-family: "Georgia", serif; font-style: italic; color: #7d827a; font-size: 1.15rem; margin-bottom: 1.2rem; }
+    .page-desc { max-width: 820px; margin: 0 auto; color: var(--text-sub); font-size: 1.02rem; line-height: 1.8; }
+
+    .content-wrap { max-width: 1200px; margin: 2rem auto 0 auto; padding: 0 2rem; display: flex; flex-direction: column; gap: 2rem; }
+
+    .basic-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 2rem 2.5rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+    }
+    .basic-card h2 {
+      font-size: 1.4rem;
+      color: var(--primary);
+      margin-bottom: 1.2rem;
+      border-bottom: 1px dashed #e8e2d5;
+      padding-bottom: 0.6rem;
+    }
+    .basic-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+    .basic-item {
+      background: #faf8f5;
+      border: 1px solid #eee8df;
+      border-radius: 10px;
+      padding: 1.2rem;
+    }
+    .basic-item h3 { font-size: 1.05rem; color: #734822; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.4rem; }
+    .basic-item p { font-size: 0.92rem; color: #555; line-height: 1.6; }
+
+    .method-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 2rem 2.5rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.02);
+      transition: 0.2s;
+    }
+    .method-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.05); }
+
+    .method-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid #f2ede4;
+      padding-bottom: 0.8rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+    }
+    .method-name-cn { font-size: 1.6rem; font-weight: 700; color: #1e3a29; margin-right: 0.6rem; }
+    .method-name-en { font-size: 1.05rem; color: #7a7a7a; font-style: italic; }
+    .method-badge { background: #fdf2ea; color: var(--accent); padding: 0.25rem 0.75rem; border-radius: 6px; font-size: 0.82rem; font-weight: 600; border: 1px solid #fadbc7; }
+
+    .method-detail-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 0.8rem;
+      font-size: 0.96rem;
+      line-height: 1.7;
+    }
+    .detail-row strong { color: var(--primary); min-width: 90px; display: inline-block; }
+    .mechanism-box {
+      background: #fbf9f5;
+      border-left: 4px solid var(--primary);
+      padding: 0.8rem 1.2rem;
+      border-radius: 0 8px 8px 0;
+      margin-top: 0.4rem;
+      color: #444;
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 768px) {
+      .top-nav { padding: 0.8rem 1rem; flex-wrap: wrap; gap: 0.6rem; }
+      .nav-links { display: flex !important; gap: 0.5rem !important; font-size: 0.82rem !important; }
+      .nav-links a { padding: 0.2rem 0.45rem; border-radius: 4px; background: #f7f5ef; white-space: nowrap; }
+      .nav-right-wrap { width: 100%; justify-content: space-between; }
+      .header-box { padding: 2rem 1rem 1rem 1rem; }
+      .page-title { font-size: 1.8rem; }
+      .page-desc { font-size: 0.92rem; }
+      .content-wrap { padding: 0 1rem; gap: 1.5rem; }
+      .basic-card, .method-card { padding: 1.4rem 1.2rem; }
+      .method-name-cn { font-size: 1.35rem; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="top-nav">
+    <div class="nav-left">
+      <a href="/" class="logo">🌿 <span data-i18n="brand">本草图谱</span> <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;">HerbAtlas</span></a>
+      <span style="color:#d0ccc0;">/</span>
+      <a href="/" class="back-btn" data-i18n="back_home">← 返回首页</a>
+    </div>
+
+    <div class="nav-right-wrap">
+      <ul class="nav-links">
+        <li><a href="/" data-i18n="nav_home">首页</a></li>
+        <li><a href="/herbs" data-i18n="nav_all">全部中药 (50味)</a></li>
+        <li><a href="/classics" data-i18n="nav_classics">本草典籍</a></li>
+        <li><a href="/decoction" style="color:var(--primary);font-weight:700;" data-i18n="nav_decoct">煎药法度</a></li>
+      </ul>
+
+      <div class="lang-switch" id="langSwitch">
+        <span class="lang-btn active" id="btnZh">中</span>
+        <span class="lang-btn" id="btnEn">EN</span>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header-box">
+    <h1 class="page-title" data-i18n="page_title">中药传统煎煮法度与特殊用法</h1>
+    <div class="page-subtitle">Classical Decoction Protocols & Pharmacological Extraction</div>
+    <p class="page-desc" data-i18n="page_desc">
+      清代徐灵胎《医学源流论》载：“煎药之法，最宜深讲，药之效与不效，全在乎此。”根据药材质地、有效成分溶解性及毒理特性，遵循先煎、后下、包煎等特定法度，是释放药力与保障安全的关键。
+    </p>
+  </header>
+
+  <main class="content-wrap">
+    <!-- 通用标准规范 -->
+    <section class="basic-card">
+      <h2>🫖 <span data-i18n="sec_std_title">通用煎服四规制</span></h2>
+      <div class="basic-grid">
+        <div class="basic-item">
+          <h3>🏺 <span data-i18n="std_1_t">器具选择</span></h3>
+          <p data-i18n="std_1_c">首选砂锅、陶罐或养生玻璃壶；严禁使用铁锅、铝锅或铜锅，防止金属离子与鞣质、黄酮发生化学络合产生毒副沉淀。</p>
+        </div>
+        <div class="basic-item">
+          <h3>💧 <span data-i18n="std_2_t">煎前冷水浸泡</span></h3>
+          <p data-i18n="std_2_c">煎药前务必用常温冷水浸泡 30~60 分钟。切忌直接用开水下锅，防止药材表面植物蛋白瞬间凝固闭合毛孔，阻碍深层有效成分溶解。</p>
+        </div>
+        <div class="basic-item">
+          <h3>🔥 <span data-i18n="std_3_t">火候掌握法则</span></h3>
+          <p data-i18n="std_3_c">遵循“先武后文”准则。大火（武火）煮沸后，立即转小火（文火）保持微沸。解表芳香剂宜快煎少耗，滋补重浊剂宜文火慢煎。</p>
+        </div>
+        <div class="basic-item">
+          <h3>🥣 <span data-i18n="std_4_t">两煎压榨滤液</span></h3>
+          <p data-i18n="std_4_c">一般每剂复煎两次（头煎与二煎），两次药液趁热滤出后混合均匀，分早晚两次温服，最大化提取药效并平衡浓度。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 大特殊煎法详细解析 -->
+    <section>
+      <h2 style="font-size: 1.4rem; color: var(--primary); margin-bottom: 1.2rem; display:flex; align-items:center; gap:0.5rem;">
+        📜 <span data-i18n="sec_methods_title">七大临床特殊煎法全解</span>
+      </h2>
+      <div style="display:flex; flex-direction:column; gap:1.4rem;">
+        {decoctions.map((d: any) => (
+          <article class="method-card">
+            <div class="method-header">
+              <div>
+                <span class="method-name-cn" data-cn={d.name_cn} data-en={d.name_en}>{d.name_cn}</span>
+                <span class="method-name-en">{d.name_en}</span>
+              </div>
+              <span class="method-badge" data-cn={d.target_cn} data-en={d.target_en}>{d.target_cn}</span>
+            </div>
+
+            <div class="method-detail-grid">
+              <div class="detail-row">
+                <strong data-i18n="lbl_time">操作规程</strong>：
+                <span class="m-time" data-cn={d.time_cn} data-en={d.time_en}>{d.time_cn}</span>
+              </div>
+              <div class="detail-row">
+                <strong data-i18n="lbl_examples">代表药材</strong>：
+                <span class="m-ex" data-cn={d.examples_cn} data-en={d.examples_en}>{d.examples_cn}</span>
+              </div>
+              <div class="mechanism-box">
+                <strong data-i18n="lbl_mech">药理与制剂机理</strong>：
+                <span class="m-mech" data-cn={d.mechanism_cn} data-en={d.mechanism_en}>{d.mechanism_cn}</span>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-disclaimer-wrap" style="max-width: 1200px; margin: 4rem auto 1rem auto; padding: 1.5rem 2rem; border-top: 1px solid var(--border, #e8e5de); text-align: center; color: #8c8c8c; font-size: 0.85rem; line-height: 1.6;">
+    <a href="/disclaimer" style="text-decoration:none;" class="disclaimer-text" data-i18n="medical_disclaimer">
+      ⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。
+    </a>
+    <div style="margin-top: 0.8rem; font-size: 0.78rem; color: #aaa;">
+      © 2026 HerbAtlas · Open TCM Pharmacopoeia & Modern Research
+    </div>
+  </footer>
+
+  <script>
+    const I18N_DICT = {
+      zh: {
+        brand: '本草图谱',
+        back_home: '← 返回首页',
+        nav_home: '首页',
+        nav_all: '全部中药 (50味)',
+        nav_classics: '本草典籍',
+        nav_decoct: '煎药法度',
+        page_title: '中药传统煎煮法度与特殊用法',
+        page_desc: '清代徐灵胎《医学源流论》载：“煎药之法，最宜深讲，药之效与不效，全在乎此。”根据药材质地、有效成分溶解性及毒理特性，遵循先煎、后下、包煎等特定法度，是释放药力与保障安全的关键。',
+        sec_std_title: '通用煎服四规制',
+        std_1_t: '器具选择',
+        std_1_c: '首选砂锅、陶罐或养生玻璃壶；严禁使用铁锅、铝锅或铜锅，防止金属离子与鞣质、黄酮发生化学络合产生毒副沉淀。',
+        std_2_t: '煎前冷水浸泡',
+        std_2_c: '煎药前务必用常温冷水浸泡 30~60 分钟。切忌直接用开水下锅，防止药材表面植物蛋白瞬间凝固闭合毛孔，阻碍深层有效成分溶解。',
+        std_3_t: '火候掌握法则',
+        std_3_c: '遵循“先武后文”准则。大火（武火）煮沸后，立即转小火（文火）保持微沸。解表芳香剂宜快煎少耗，滋补重浊剂宜文火慢煎。',
+        std_4_t: '两煎压榨滤液',
+        std_4_c: '一般每剂复煎两次（头煎与二煎），两次药液趁热滤出后混合均匀，分早晚两次温服，最大化提取药效并平衡浓度。',
+        sec_methods_title: '七大临床特殊煎法全解',
+        lbl_time: '操作规程',
+        lbl_examples: '代表药材',
+        lbl_mech: '药理与制剂机理',
+        medical_disclaimer: '⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。'
+      },
+      en: {
+        brand: 'HerbAtlas',
+        back_home: '← Back to Home',
+        nav_home: 'Home',
+        nav_all: 'All Herbs (50)',
+        nav_classics: 'Materia Medica',
+        nav_decoct: 'Decoction Rules',
+        page_title: 'Decoction Protocols & Extraction Science',
+        page_desc: 'As classical master Xu Lingtai stated: "The art of decoction demands the deepest scrutiny; clinical efficacy hinges entirely upon it." Modulating heating protocols according to constituent solubility and toxicity is foundational to efficacy and safety.',
+        sec_std_title: 'Standard Preparation Principles',
+        std_1_t: 'Vessel Selection',
+        std_1_c: 'Clay pots, ceramic vessels, or borosilicate glass are preferred. Never use iron, aluminum, or copper pots to prevent trace metal precipitation with tannins and flavonoids.',
+        std_2_t: 'Cold Water Maceration',
+        std_2_c: 'Always soak herbs in ambient cold water for 30-60 minutes prior to heating. Never plunge herbs into boiling water, which denatures botanical surface proteins and obstructs internal extraction.',
+        std_3_t: 'Heat Regulation',
+        std_3_c: 'Bring to a vigorous boil over high heat, then immediately reduce to a gentle simmer. Diaphoretic aromatic formulas require brief boiling; rich tonics need extended slow simmering.',
+        std_4_t: 'Dual Extraction & Blending',
+        std_4_c: 'Each batch is typically decocted twice. The two strained liquid extracts must be blended homogeneously before dividing into morning and evening warm doses.',
+        sec_methods_title: 'Seven Clinical Special Decoction Methods',
+        lbl_time: 'Protocol',
+        lbl_examples: 'Representative Herbs',
+        lbl_mech: 'Pharmacological Mechanism',
+        medical_disclaimer: '⚠️ Disclaimer: For academic, educational, and research purposes only. Not intended to replace professional medical advice, diagnosis, or prescription. Do not self-medicate.'
+      }
+    };
+
+    let currentLang = localStorage.getItem('site_lang') || 'zh';
+    const btnZh = document.getElementById('btnZh');
+    const btnEn = document.getElementById('btnEn');
+
+    function applyLang(lang) {
+      currentLang = lang;
+      localStorage.setItem('site_lang', lang);
+
+      if (btnZh) btnZh.classList.toggle('active', lang === 'zh');
+      if (btnEn) btnEn.classList.toggle('active', lang === 'en');
+
+      const dict = I18N_DICT[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict && dict[key]) el.innerHTML = dict[key];
+      });
+
+      document.querySelectorAll('.method-name-cn').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+      document.querySelectorAll('.method-badge').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+      document.querySelectorAll('.m-time').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+      document.querySelectorAll('.m-ex').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+      document.querySelectorAll('.m-mech').forEach(el => {
+        el.innerText = lang === 'en' ? (el.getAttribute('data-en') || el.getAttribute('data-cn')) : el.getAttribute('data-cn');
+      });
+    }
+
+    if (btnZh) btnZh.addEventListener('click', () => applyLang('zh'));
+    if (btnEn) btnEn.addEventListener('click', () => applyLang('en'));
+
+    applyLang(currentLang);
+  </script>
+</body>
+</html>

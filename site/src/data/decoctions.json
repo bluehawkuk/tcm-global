@@ -1,0 +1,93 @@
+[
+  {
+    "id": "xianjian",
+    "name_cn": "先煎",
+    "name_en": "Decoct First (Pre-decoction)",
+    "target_cn": "矿石贝壳类、毒性药材",
+    "target_en": "Minerals, shells, and toxic herbs",
+    "time_cn": "先煎 15~30 分钟，有毒药材需 1~2 小时",
+    "time_en": "15-30 mins; toxic herbs require 1-2 hours",
+    "mechanism_cn": "矿石质地坚硬，有效成分难析出；毒性药材（如附子、乌头）通过长时间充分水解，使毒性生物碱裂解降毒。",
+    "mechanism_en": "Minerals and shells have dense physical structures requiring extended heating for extraction. For toxic herbs (e.g., Aconite), prolonged boiling hydrolyzes toxic diterpenoid alkaloids into non-toxic derivatives.",
+    "examples_cn": "石膏、生牡蛎、磁石、生龙骨、制附子",
+    "examples_en": "Gypsum, Oyster Shell, Magnetite, Dragon Bone, Prepared Aconite"
+  },
+  {
+    "id": "houxia",
+    "name_cn": "后下",
+    "name_en": "Add Later (Late-decoction)",
+    "target_cn": "含挥发油药材、久煎有效成分破坏药材",
+    "target_en": "Aromatic volatile herbs and heat-sensitive herbs",
+    "time_cn": "汤剂煎成前 5~10 分钟投入",
+    "time_en": "Add 5-10 minutes before extinguishing heat",
+    "mechanism_cn": "挥发性精油（如薄荷脑、按油精）易随水汽逸散；大黄等泻下成分久煎后蒽醌苷水解会导致泻下活性大幅降低。",
+    "mechanism_en": "Volatile essential oils evaporate rapidly under prolonged boiling. For herbs like Rhubarb, excessive heating breaks down sennosides, significantly diminishing purgative potency.",
+    "examples_cn": "薄荷、砂仁、肉豆蔻、生大黄、沉香",
+    "examples_en": "Peppermint, Amomum Fruit, Nutmeg, Raw Rhubarb, Agarwood"
+  },
+  {
+    "id": "baojian",
+    "name_cn": "包煎",
+    "name_en": "Decoct in Muslin Bag (Wrapped Decoction)",
+    "target_cn": "花粉粉末类、黏性药材、带细毛药材",
+    "target_en": "Powdery spores, mucilaginous seeds, and hairy leaves",
+    "time_cn": "装入纱布袋后与其他药材同煎",
+    "time_en": "Wrap in porous gauze and decoct concurrently",
+    "mechanism_cn": "微小粉末易漂浮浮于水面或粘底糊锅；细小绒毛若悬浮于汤液中，服用时极易刺激咽喉黏膜引发剧烈咳嗽。",
+    "mechanism_en": "Prevents buoyant powders from floating or scorching on the bottom, and stops tiny trichomes (hairs) from irritating the pharyngeal mucosa to trigger severe coughing.",
+    "examples_cn": "蒲黄、辛夷、旋覆花、车前子",
+    "examples_en": "Cattail Pollen, Magnolia Flower, Inula Flower, Plantago Seed"
+  },
+  {
+    "id": "lingjian",
+    "name_cn": "另煎 (另炖)",
+    "name_en": "Decoct Separately",
+    "target_cn": "贵重中药材",
+    "target_en": "Valuable and rare tonic herbs",
+    "time_cn": "单质单独文火慢煎 2~3 小时，药渣可再同煎",
+    "time_en": "Simmer separately for 2-3 hours; recombine residue",
+    "mechanism_cn": "避免贵重有效成分被其他大量粗纤维药渣吸附包裹造成药效浪费；独立萃取后将药汁兑入大锅汤药中调匀分服。",
+    "mechanism_en": "Prevents active saponins and polysaccharides from being nonspecifically adsorbed by the coarse insoluble fibers of common bulky herbs, ensuring maximal yield.",
+    "examples_cn": "人参、西洋参、羚羊角、鹿茸",
+    "examples_en": "Ginseng, American Ginseng, Antelope Horn, Deer Antler"
+  },
+  {
+    "id": "yanghua",
+    "name_cn": "烊化 (溶化)",
+    "name_en": "Melt by Heat (Dissolution)",
+    "target_cn": "胶质类、高粘度膏剂",
+    "target_en": "Gelatinous proteins and thick resin extracts",
+    "time_cn": "不入锅同煎，趁热兑入煎好的热药汁中搅拌溶化",
+    "time_en": "Dissolve directly into freshly strained hot decoction",
+    "mechanism_cn": "富含大量胶原蛋白与粘多糖，直接入锅极易迅速沉底结焦糊锅，并附着在其他草木药材表面阻碍正常成分煎出。",
+    "mechanism_en": "Rich in gelatinous proteins and mucilage that easily sediment and char against the heating vessel, hindering water penetration into other botanical constituents.",
+    "examples_cn": "阿胶、鹿角胶、龟甲胶、蜂蜜",
+    "examples_en": "Donkey-hide Gelatin (Ejiao), Deer Antler Gelatin, Tortoise Plastron Gelatin, Honey"
+  },
+  {
+    "id": "chongfu",
+    "name_cn": "冲服",
+    "name_en": "Take with Decoction (Direct Ingestion)",
+    "target_cn": "贵重散剂、受热成分破坏药材、难溶于水药材",
+    "target_en": "Precious powders, heat-labile substances, or water-insolubles",
+    "time_cn": "研极细粉末，用温热汤药或温开水直接送服",
+    "time_en": "Swallow ultra-fine powder washed down with warm decoction",
+    "mechanism_cn": "药物受热后有效成分易失活，或在水中溶解度极低且用量微小，研末直接冲服可保持 100% 生物活性。",
+    "mechanism_en": "Preserves thermo-labile compounds that degrade under boiling; also ensures total bioavailability for precious insoluble substances where minute dosages are critical.",
+    "examples_cn": "三七粉、麝香、牛黄、琥珀粉",
+    "examples_en": "Notoginseng Powder, Musk, Calculus Bovis, Amber Powder"
+  },
+  {
+    "id": "paofu",
+    "name_cn": "泡服 (焗服)",
+    "name_en": "Infuse with Boiling Water (Steeping)",
+    "target_cn": "质地疏松、花叶类轻清芳香药材",
+    "target_en": "Delicate, aromatic, and low-density floral herbs",
+    "time_cn": "置保温杯或盖碗中，冲入沸水闷泡 15~20 分钟",
+    "time_en": "Steep in boiling water with a sealed lid for 15-20 minutes",
+    "mechanism_cn": "芳香轻清药材气味轻灵，有效水溶性成分及精油经沸水短时间闷泡即可充分溶出，久煮反损其清散之性。",
+    "mechanism_en": "Delicate floral constituents release rapidly upon contact with freshly boiled water; boiling them impairs their subtle aromatic and dispersant properties.",
+    "examples_cn": "藏红花、番泻叶、胖大海、玫瑰花",
+    "examples_en": "Saffron, Senna Leaf, Boat-fruited Sterculia Seed, Rose Bud"
+  }
+]
