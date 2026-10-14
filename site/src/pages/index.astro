@@ -195,6 +195,7 @@ const featuredHerbs = herbs.slice(0, 8);
         <li><a href="/" style="color:var(--primary);font-weight:700;" data-i18n="nav_home">首页</a></li>
         <li><a href="/herbs" data-i18n="nav_all">全部中药 (50味)</a></li>
         <li><a href="/classics/" data-i18n="nav_classics">本草典籍</a></li>
+        <li><a href="/decoction" data-i18n="nav_decoct">煎药法度</a></li>
       </ul>
       
       <div class="lang-switch" id="langSwitch">
@@ -236,12 +237,32 @@ const featuredHerbs = herbs.slice(0, 8);
           <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom: 0.4rem;">
             <span style="font-size: 1.4rem;">📜</span>
             <span style="font-size: 1.25rem; font-weight: 700; letter-spacing: 1px;" data-i18n="banner_classics_title">中国八大著名本草用药典籍</span>
-            <span style="background: #b25d38; font-size: 0.72rem; padding: 0.15rem 0.5rem; border-radius: 12px; font-weight: 600;">8部传世巨著</span>
+            <span style="background: #b25d38; font-size: 0.72rem; padding: 0.15rem 0.5rem; border-radius: 12px; font-weight: 600;" data-i18n="banner_classics_badge">8部传世巨著</span>
           </div>
           <p style="color: #d1dfd6; font-size: 0.88rem; margin: 0; line-height: 1.5;" data-i18n="banner_classics_desc">张仲景、神农本草经、孙思邈千金食治、李时珍《本草纲目》等 · 权威中英双语原典索引</p>
         </div>
         <div style="font-size: 1.1rem; color: #f4d06f; font-weight: 700; white-space: nowrap; margin-left: 1rem;" data-i18n="banner_classics_btn">
           浏览典籍 →
+        </div>
+      </div>
+    </a>
+  </section>
+
+  
+  <!-- 煎药法度专属入口横幅 -->
+  <section class="section-wrap" style="margin-bottom: 2rem;">
+    <a href="/decoction" class="decoction-banner-link" style="text-decoration:none; display:block;">
+      <div style="background: linear-gradient(135deg, #2b3a4a 0%, #3e5066 100%); border-radius: 14px; padding: 1.6rem 2rem; color: #fff; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 8px 24px rgba(43,58,74,0.15); transition: transform 0.2s; border: 1px solid rgba(255,255,255,0.1);">
+        <div>
+          <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom: 0.4rem; flex-wrap: wrap;">
+            <span style="font-size: 1.4rem;">🫖</span>
+            <span style="font-size: 1.25rem; font-weight: 700; letter-spacing: 1px;" data-i18n="banner_decoct_title">中药传统煎煮法度与特殊用法</span>
+            <span style="background: #c27838; font-size: 0.72rem; padding: 0.15rem 0.5rem; border-radius: 12px; font-weight: 600;" data-i18n="banner_decoct_badge">临床提取指南</span>
+          </div>
+          <p style="color: #d2dbe5; font-size: 0.88rem; margin: 0; line-height: 1.5;" data-i18n="banner_decoct_desc">先煎、后下、包煎、另煎、烊化、冲服、泡服 · 七大特殊煎法机理与通用四规制</p>
+        </div>
+        <div style="font-size: 1.1rem; color: #f4d06f; font-weight: 700; white-space: nowrap; margin-left: 1rem;" data-i18n="banner_decoct_btn">
+          了解法度 →
         </div>
       </div>
     </a>
@@ -289,6 +310,12 @@ const featuredHerbs = herbs.slice(0, 8);
         medical_disclaimer: '⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。',
         brand: '本草图谱',
         banner_classics_title: '中国八大著名本草用药典籍',
+        nav_decoct: '煎药法度',
+        banner_classics_badge: '8部传世巨著',
+        banner_decoct_title: '中药传统煎煮法度与特殊用法',
+        banner_decoct_badge: '临床提取指南',
+        banner_decoct_desc: '先煎、后下、包煎、另煎、烊化、冲服、泡服 · 七大特殊煎法机理与通用四规制',
+        banner_decoct_btn: '了解法度 →',
         banner_classics_desc: '张仲景、神农本草经、孙思邈千金食治、李时珍《本草纲目》等 · 权威中英双语原典索引',
         banner_classics_btn: '浏览典籍 →',
         nav_home: '首页',
@@ -313,6 +340,12 @@ const featuredHerbs = herbs.slice(0, 8);
         medical_disclaimer: '⚠️ Disclaimer: For academic, educational, and research purposes only. Not intended to replace professional medical advice, diagnosis, or prescription. Do not self-medicate.',
         brand: 'HerbAtlas',
         banner_classics_title: 'Eight Classical Chinese Pharmacopoeias',
+        nav_decoct: 'Decoction Rules',
+        banner_classics_badge: '8 Masterpieces',
+        banner_decoct_title: 'Decoction Protocols & Extraction Science',
+        banner_decoct_badge: 'Clinical Extraction Guide',
+        banner_decoct_desc: 'Pre-decoct, late-decoct, wrapped, dissolved & separate simmer · 7 Extraction protocols',
+        banner_decoct_btn: 'Explore Decoction →',
         banner_classics_desc: 'From Zhang Zhongjing & Shennong to Sun Simiao & Li Shizhen · Bilingual Classical Editions',
         banner_classics_btn: 'Explore Classics →',
         nav_home: 'Home',
