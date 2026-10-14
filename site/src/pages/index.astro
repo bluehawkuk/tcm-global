@@ -286,6 +286,7 @@ const featuredHerbs = herbs.slice(0, 8);
 
     const I18N_DICT = {
       zh: {
+        medical_disclaimer: '⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。',
         brand: '本草图谱',
         banner_classics_title: '中国八大著名本草用药典籍',
         banner_classics_desc: '张仲景、神农本草经、孙思邈千金食治、李时珍《本草纲目》等 · 权威中英双语原典索引',
@@ -309,6 +310,7 @@ const featuredHerbs = herbs.slice(0, 8);
         no_res: '未检索到匹配的中药，请尝试搜索其他药名或拉丁学名。'
       },
       en: {
+        medical_disclaimer: '⚠️ Disclaimer: For academic, educational, and research purposes only. Not intended to replace professional medical advice, diagnosis, or prescription. Do not self-medicate.',
         brand: 'HerbAtlas',
         banner_classics_title: 'Eight Classical Chinese Pharmacopoeias',
         banner_classics_desc: 'From Zhang Zhongjing & Shennong to Sun Simiao & Li Shizhen · Bilingual Classical Editions',
@@ -432,5 +434,16 @@ const featuredHerbs = herbs.slice(0, 8);
       });
     }
   </script>
+
+  <!-- 全站底部免责声明 -->
+  <footer class="site-disclaimer-wrap" style="max-width: 1200px; margin: 4rem auto 1rem auto; padding: 1.5rem 2rem; border-top: 1px solid var(--border, #e8e5de); text-align: center; color: #8c8c8c; font-size: 0.85rem; line-height: 1.6;">
+    <div class="disclaimer-text" data-i18n="medical_disclaimer" style="display: inline-block; background: #fdfbf7; border: 1px solid #ebd9c8; padding: 0.6rem 1.2rem; border-radius: 8px; color: #a05a2c; font-weight: 500;">
+      ⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。
+    </div>
+    <div style="margin-top: 0.8rem; font-size: 0.78rem; color: #aaa;">
+      © 2026 HerbAtlas · Open TCM Pharmacopoeia & Modern Research
+    </div>
+  </footer>
+
 </body>
 </html>

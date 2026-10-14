@@ -345,6 +345,7 @@ const papers = herb.papers || [];
   <script>
     const I18N_DICT = {
       zh: {
+        medical_disclaimer: '⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。',
         brand: '本草图谱',
         back_catalogue: '← 返回中药名录',
         sub_slogan: '道地本草 · 学术实证体系',
@@ -373,6 +374,7 @@ const papers = herb.papers || [];
         sec_pubmed: 'PubMed 国际学术文献支持'
       },
       en: {
+        medical_disclaimer: '⚠️ Disclaimer: For academic, educational, and research purposes only. Not intended to replace professional medical advice, diagnosis, or prescription. Do not self-medicate.',
         brand: 'HerbAtlas',
         back_catalogue: '← Back to Catalogue',
         sub_slogan: 'Authentic Herbs · Evidence-Based System',
@@ -486,5 +488,16 @@ const papers = herb.papers || [];
 
     applyLang(currentLang);
   </script>
+
+  <!-- 全站底部免责声明 -->
+  <footer class="site-disclaimer-wrap" style="max-width: 1200px; margin: 4rem auto 1rem auto; padding: 1.5rem 2rem; border-top: 1px solid var(--border, #e8e5de); text-align: center; color: #8c8c8c; font-size: 0.85rem; line-height: 1.6;">
+    <div class="disclaimer-text" data-i18n="medical_disclaimer" style="display: inline-block; background: #fdfbf7; border: 1px solid #ebd9c8; padding: 0.6rem 1.2rem; border-radius: 8px; color: #a05a2c; font-weight: 500;">
+      ⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。
+    </div>
+    <div style="margin-top: 0.8rem; font-size: 0.78rem; color: #aaa;">
+      © 2026 HerbAtlas · Open TCM Pharmacopoeia & Modern Research
+    </div>
+  </footer>
+
 </body>
 </html>

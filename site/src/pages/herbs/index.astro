@@ -204,6 +204,7 @@ const allHerbs = Array.isArray(rawHerbs) ? rawHerbs : [];
 
     const I18N_DICT = {
       zh: {
+        medical_disclaimer: '⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。',
         brand: '本草图谱',
         back_home: '← 返回首页',
         page_title: '全部收录中药名录',
@@ -218,6 +219,7 @@ const allHerbs = Array.isArray(rawHerbs) ? rawHerbs : [];
         no_res: '未检索到与该关键词匹配的中药，请尝试搜索其他药名或功效。'
       },
       en: {
+        medical_disclaimer: '⚠️ Disclaimer: For academic, educational, and research purposes only. Not intended to replace professional medical advice, diagnosis, or prescription. Do not self-medicate.',
         brand: 'HerbAtlas',
         back_home: '← Back to Home',
         page_title: 'Complete Herbal Catalogue',
@@ -336,5 +338,16 @@ const allHerbs = Array.isArray(rawHerbs) ? rawHerbs : [];
       });
     }
   </script>
+
+  <!-- 全站底部免责声明 -->
+  <footer class="site-disclaimer-wrap" style="max-width: 1200px; margin: 4rem auto 1rem auto; padding: 1.5rem 2rem; border-top: 1px solid var(--border, #e8e5de); text-align: center; color: #8c8c8c; font-size: 0.85rem; line-height: 1.6;">
+    <div class="disclaimer-text" data-i18n="medical_disclaimer" style="display: inline-block; background: #fdfbf7; border: 1px solid #ebd9c8; padding: 0.6rem 1.2rem; border-radius: 8px; color: #a05a2c; font-weight: 500;">
+      ⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。
+    </div>
+    <div style="margin-top: 0.8rem; font-size: 0.78rem; color: #aaa;">
+      © 2026 HerbAtlas · Open TCM Pharmacopoeia & Modern Research
+    </div>
+  </footer>
+
 </body>
 </html>
