@@ -6,3 +6,8 @@ site/node_modules/
 site/.astro/
 site/dist/
 generate_data.py
+
+build_50_herbs.py
+temp/
+
+site/build_tcm_pipeline.py
