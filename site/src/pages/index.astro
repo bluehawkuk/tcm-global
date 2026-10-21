@@ -235,6 +235,75 @@ const featuredHerbs = herbs.slice(0, 8);
     }
 
     /* === 结束 === */
+  
+    /* === 首页移动端精细化排版重构 === */
+    @media (max-width: 768px) {
+      /* 1. 隐藏右侧/顶部竖条大图及插画容器 */
+      .hero-image, .hero-img-wrap, .hero-side, .hero-banner-img,
+      .hero-right, [class*="hero-image"], [class*="hero-banner"],
+      .hero-visual, .hero-art, .art-card {
+        display: none !important;
+      }
+
+      /* 确保左侧文字区域在手机端 100% 占满宽度 */
+      .hero-content, .hero-left, .hero-text {
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 1 1 100% !important;
+        padding-right: 0 !important;
+      }
+
+      /* 2. 隐藏 8 首页精选中药统计列 */
+      .hide-on-mobile,
+      .stat-item:nth-child(2),
+      .hero-stats > div:nth-child(2) {
+        display: none !important;
+      }
+      .hero-stats {
+        display: flex !important;
+        justify-content: space-around !important;
+        width: 100% !important;
+        gap: 1.5rem !important;
+      }
+
+      /* 3. 绿色典籍框重新排版：解除竖排，改为优雅水平横排流 */
+      .classics-banner, .classics-card, [class*="classics-card"], [class*="banner-green"] {
+        writing-mode: horizontal-tb !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        padding: 1.5rem 1.25rem !important;
+        border-radius: 16px !important;
+        text-align: left !important;
+      }
+      .classics-banner *, .classics-card * {
+        writing-mode: horizontal-tb !important;
+      }
+      .classics-banner h2, .classics-banner h3, .classics-card h2 {
+        font-size: 1.45rem !important;
+        letter-spacing: 0.5px !important;
+        margin-bottom: 0.5rem !important;
+        line-height: 1.4 !important;
+      }
+
+      /* 4. 药材列表支持一行显示 2 个卡片 */
+      .herb-grid, .grid, [class*="herb-grid"] {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 0.75rem !important;
+        width: 100% !important;
+      }
+      .herb-card, .card {
+        padding: 0.85rem 0.75rem !important;
+        margin: 0 !important;
+        width: 100% !important;
+      }
+      .herb-card h3 {
+        font-size: 1.05rem !important;
+      }
+    }
+    
+    /* === 首页结束 === */
   </style>
 </head>
 <body>
