@@ -24,19 +24,17 @@ const decoctions = JSON.parse(rawData);
       --border: #e8e5de;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { width: 100%; overflow-x: hidden; }
+    html, body { width: 100%; overflow-x: hidden; position: relative; }
     body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif; background: var(--bg); color: var(--text-main); padding-bottom: 5rem; }
 
+    /* 全站标准顶部导航 */
     .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 3rem; background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
     .nav-left { display: flex; align-items: center; gap: 1.2rem; }
-    .logo { font-size: 1.25rem; font-weight: 700; color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 0.4rem; }
-    .back-btn { text-decoration: none; color: #5a6268; font-size: 0.95rem; font-weight: 500; }
-    .back-btn:hover { color: var(--primary); }
-
-    .nav-right-wrap { display: flex; align-items: center; gap: 1.5rem; }
+    .logo { font-size: 1.35rem; font-weight: 700; color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 0.5rem; }
+    .nav-right-wrap { display: flex; align-items: center; gap: 1.8rem; }
     .nav-links { display: flex; gap: 1.5rem; list-style: none; font-size: 0.95rem; }
     .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; }
-    .nav-links a:hover { color: var(--primary); }
+    .nav-links a:hover, .nav-links a.active { color: var(--primary); font-weight: 700; }
 
     .lang-switch {
       display: inline-flex;
@@ -138,6 +136,7 @@ const decoctions = JSON.parse(rawData);
       font-size: 0.94rem;
     }
 
+    /* 移动端专属适配 */
     @media (max-width: 768px) {
       .top-nav {
         padding: 0.65rem 1rem 0.5rem 1rem !important;
@@ -168,9 +167,7 @@ const decoctions = JSON.parse(rawData);
         -webkit-overflow-scrolling: touch !important;
         padding-bottom: 2px !important;
       }
-      .nav-links::-webkit-scrollbar {
-        display: none !important;
-      }
+      .nav-links::-webkit-scrollbar { display: none; }
       .nav-links a {
         padding: 0.22rem 0.65rem !important;
         font-size: 0.82rem !important;
@@ -180,93 +177,55 @@ const decoctions = JSON.parse(rawData);
         flex-shrink: 0 !important;
       }
       .nav-links a.active {
-        background: var(--primary, #2d5a3f) !important;
+        background: var(--primary) !important;
         color: #fff !important;
       }
-      .lang-switch {
-        flex-shrink: 0 !important;
+
+      .header-box {
+        padding: 1.8rem 1rem 1rem 1rem !important;
       }
-    }
-
-    /* === 移动端视口溢出与图片竖条深度修复 === */
-    html, body {
-      width: 100% !important;
-      max-width: 100vw !important;
-      overflow-x: hidden !important;
-      position: relative !important;
-    }
-    *, *::before, *::after {
-      box-sizing: border-box !important;
-    }
-
-    /* 修复 Hero 图片平铺竖条与接缝 */
-    .hero, .hero-section, .hero-bg, header.about-header {
-      background-repeat: no-repeat !important;
-      background-size: cover !important;
-      background-position: center center !important;
-      width: 100% !important;
-      max-width: 100% !important;
-      overflow: hidden !important;
-    }
-    img {
-      max-width: 100% !important;
-      height: auto !important;
-      display: block !important;
-      object-fit: cover !important;
-    }
-
-    @media (max-width: 768px) {
-      .container, main, .main-wrap {
-        width: 100% !important;
-        max-width: 100vw !important;
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-        overflow-x: hidden !important;
+      .page-title {
+        font-size: 1.85rem !important;
+        line-height: 1.3 !important;
       }
-
-      /* 针对药材卡片与索引网格：手机端强制单列或自适应紧凑双列 */
-      .herb-grid, .grid, .method-grid, .grid-metrics {
+      .page-subtitle {
+        font-size: 1rem !important;
+      }
+      .page-desc {
+        font-size: 0.92rem !important;
+      }
+      .content-wrap {
+        padding: 0 1rem !important;
+        gap: 1.2rem !important;
+      }
+      .basic-card, .method-card {
+        padding: 1.25rem 1rem !important;
+        border-radius: 12px !important;
+      }
+      .basic-grid {
         grid-template-columns: 1fr !important;
         gap: 1rem !important;
-        width: 100% !important;
       }
-
-      /* 针对 About 页面卡片与作者简介 */
-      .section-block, .case-card {
-        padding: 1.25rem 1rem !important;
-        margin-bottom: 1.5rem !important;
-        width: 100% !important;
-      }
-      .profile-wrap {
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
-        gap: 1rem !important;
-      }
-      .about-title, .title {
-        font-size: 1.75rem !important;
-        line-height: 1.3 !important;
-        word-break: break-word !important;
+      .method-name-cn {
+        font-size: 1.35rem !important;
       }
     }
-
-    /* === 结束 === */
   </style>
 </head>
 <body>
+  <!-- 全站标准双层响应式主导航 -->
   <nav class="top-nav">
     <div class="nav-left">
-      <a href="/" class="logo">🌿 <span data-i18n="brand">本草图谱</span> <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;">HerbAtlas</span></a>
-      <span style="color:#d0ccc0;">/</span>
-      <a href="/" class="back-btn" data-i18n="back_home">← 返回首页</a>
+      <a href="/" class="logo">🌿 <span data-i18n="brand">本草图谱</span> <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;margin-left:0.3rem;">HerbAtlas</span></a>
     </div>
 
     <div class="nav-right-wrap">
       <ul class="nav-links">
         <li><a href="/" data-i18n="nav_home">首页</a></li>
         <li><a href="/herbs" data-i18n="nav_all">全部中药 (50味)</a></li>
-        <li><a href="/classics" data-i18n="nav_classics">本草典籍</a></li>
-        <li><a href="/decoction" style="color:var(--primary);font-weight:700;" data-i18n="nav_decoct">煎药法度</a></li>
+        <li><a href="/classics/" data-i18n="nav_classics">本草典籍</a></li>
+        <li><a href="/decoction" class="active" data-i18n="nav_decoct">煎药法度</a></li>
+        <li><a href="/about" data-i18n="nav_about">关于与科研</a></li>
       </ul>
 
       <div class="lang-switch" id="langSwitch">
@@ -357,13 +316,12 @@ const decoctions = JSON.parse(rawData);
     const I18N_DICT = {
       zh: {
         brand: '本草图谱',
-        back_home: '← 返回首页',
         nav_home: '首页',
         nav_all: '全部中药 (50味)',
         nav_classics: '本草典籍',
         nav_decoct: '煎药法度',
         nav_about: '关于与科研',
-                page_title: '中药传统煎煮法度与特殊用法',
+        page_title: '中药传统煎煮法度与特殊用法',
         page_desc: '清代徐灵胎《医学源流论》载：“煎药之法，最宜深讲，药之效与不效，全在乎此。”根据药材质地、有效成分溶解性及毒理特性，遵循先煎、后下、包煎等特定法度，是释放药力与保障安全的关键。',
         sec_std_title: '通用煎服四规制',
         std_1_t: '器具选择',
@@ -382,13 +340,12 @@ const decoctions = JSON.parse(rawData);
       },
       en: {
         brand: 'HerbAtlas',
-        back_home: '← Back to Home',
         nav_home: 'Home',
         nav_all: 'All Herbs (50)',
         nav_classics: 'Materia Medica',
         nav_decoct: 'Decoction Rules',
         nav_about: 'About & Research',
-                page_title: 'Decoction Protocols & Extraction Science',
+        page_title: 'Decoction Protocols & Extraction Science',
         page_desc: 'As classical master Xu Lingtai stated: "The art of decoction demands the deepest scrutiny; clinical efficacy hinges entirely upon it." Modulating heating protocols according to constituent solubility and toxicity is foundational to efficacy and safety.',
         sec_std_title: 'Standard Preparation Principles',
         std_1_t: 'Vessel Selection',
