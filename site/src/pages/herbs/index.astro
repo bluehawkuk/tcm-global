@@ -110,39 +110,55 @@ const allHerbs = Array.isArray(rawHerbs) ? rawHerbs : [];
     .tag-sm, :global(.tag-sm) { background: #f2eee5 !important; color: #5a574f !important; font-size: 0.75rem !important; padding: 0.2rem 0.5rem !important; border-radius: 4px !important; white-space: nowrap !important; }
 
     @media (max-width: 768px) {
-      .top-nav { padding: 0.9rem 1rem; }
-      .header-section { padding: 1.5rem 1rem 1rem 1rem; }
-      .page-title { font-size: 1.8rem; }
-      .page-desc { font-size: 0.9rem; margin-bottom: 1.2rem; }
-
-      .search-box { max-width: 100%; margin-bottom: 0.8rem; }
-      .search-input { padding: 0.85rem 1rem; font-size: 0.95rem; }
-
-      .section-wrap { padding: 0 0.8rem; }
-      .grid-header { margin-bottom: 1rem; }
-      .grid-title { font-size: 1.2rem; }
-
-      .herb-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-        gap: 0.6rem !important;
+      .top-nav {
+        padding: 0.65rem 1rem 0.5rem 1rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 0.55rem !important;
       }
-      .herb-item, :global(.herb-item) { padding: 1.2rem 0.5rem !important; border-radius: 10px !important; }
-      .herb-thumb, :global(.herb-thumb), :global(.herb-item img) {
-        width: 95px !important;
-        height: 95px !important;
-        min-width: 95px !important;
-        min-height: 95px !important;
-        max-width: 95px !important;
-        max-height: 95px !important;
-        margin-bottom: 0.6rem !important;
-        border-width: 2px !important;
+      .nav-left {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 100% !important;
       }
-      .herb-name, :global(.herb-name) { font-size: 1.15rem !important; }
-      .herb-en, :global(.herb-en) { font-size: 0.72rem !important; margin-bottom: 0.5rem !important; }
-      .herb-tags, :global(.herb-tags) { gap: 0.25rem !important; margin-bottom: 0.6rem !important; }
-      .tag-sm, :global(.tag-sm) { font-size: 0.68rem !important; padding: 0.15rem 0.35rem !important; }
+      .nav-right-wrap {
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        width: 100% !important;
+        overflow: hidden !important;
+      }
+      .nav-links {
+        display: flex !important;
+        gap: 0.45rem !important;
+        width: 100% !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        -webkit-overflow-scrolling: touch !important;
+        padding-bottom: 2px !important;
+      }
+      .nav-links::-webkit-scrollbar {
+        display: none !important;
+      }
+      .nav-links a {
+        padding: 0.22rem 0.65rem !important;
+        font-size: 0.82rem !important;
+        border-radius: 14px !important;
+        background: #f4efe6 !important;
+        display: inline-block !important;
+        flex-shrink: 0 !important;
+      }
+      .nav-links a.active {
+        background: var(--primary, #2d5a3f) !important;
+        color: #fff !important;
+      }
+      .lang-switch {
+        flex-shrink: 0 !important;
+      }
     }
-  </style>
+</style>
 </head>
 <body>
   <nav class="top-nav">

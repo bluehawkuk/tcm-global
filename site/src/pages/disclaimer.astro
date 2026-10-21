@@ -120,17 +120,55 @@
     .return-btn:hover { background: #224530; }
 
     @media (max-width: 768px) {
-      .top-nav { padding: 0.8rem 1rem; flex-wrap: wrap; gap: 0.6rem; }
-      .nav-links { display: flex !important; gap: 0.5rem !important; font-size: 0.82rem !important; }
-      .nav-links a { padding: 0.2rem 0.45rem; border-radius: 4px; background: #f7f5ef; white-space: nowrap; }
-      .nav-right-wrap { width: 100%; justify-content: space-between; }
-      .main-wrap { padding: 0 1rem; margin-top: 2rem; }
-      .page-title { font-size: 1.7rem; }
-      .statement-card { padding: 1.5rem 1.2rem; }
-      .statement-card h2 { font-size: 1.2rem; }
-      .highlight-banner { padding: 1.2rem; font-size: 0.95rem; }
+      .top-nav {
+        padding: 0.65rem 1rem 0.5rem 1rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 0.55rem !important;
+      }
+      .nav-left {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        width: 100% !important;
+      }
+      .nav-right-wrap {
+        display: flex !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        width: 100% !important;
+        overflow: hidden !important;
+      }
+      .nav-links {
+        display: flex !important;
+        gap: 0.45rem !important;
+        width: 100% !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        -webkit-overflow-scrolling: touch !important;
+        padding-bottom: 2px !important;
+      }
+      .nav-links::-webkit-scrollbar {
+        display: none !important;
+      }
+      .nav-links a {
+        padding: 0.22rem 0.65rem !important;
+        font-size: 0.82rem !important;
+        border-radius: 14px !important;
+        background: #f4efe6 !important;
+        display: inline-block !important;
+        flex-shrink: 0 !important;
+      }
+      .nav-links a.active {
+        background: var(--primary, #2d5a3f) !important;
+        color: #fff !important;
+      }
+      .lang-switch {
+        flex-shrink: 0 !important;
+      }
     }
-  </style>
+</style>
 </head>
 <body>
   <nav class="top-nav">
