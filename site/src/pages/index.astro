@@ -420,6 +420,63 @@ const featuredHerbs = herbs.slice(0, 8);
     }
     
     /* === 结束 === */
+  
+    /* === 终极实机样式修正 === */
+    @media (max-width: 768px) {
+      /* 彻底消灭右侧大图残余与黄色竖条 */
+      .hero-right, .hero-side, .hero-image, .hero-banner-img, 
+      [class*="hero-image"], [class*="hero-art"], [class*="art-card"],
+      .hero > div:last-child {
+        display: none !important;
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        opacity: 0 !important;
+      }
+      .hero-left, .hero-content, .hero > div:first-child {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-right: 0 !important;
+      }
+
+      /* 绿框典籍卡片：在手机端强制与蓝框完全对齐 */
+      a[href="/classics"] {
+        padding: 1.25rem 1rem !important;
+        flex-direction: row !important;
+      }
+      a[href="/classics"] h3 {
+        font-size: 1.15rem !important;
+      }
+
+      /* 药材卡片：限制图片尺寸，彻底不出框 */
+      .herb-grid, .grid {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 0.6rem !important;
+        width: 100% !important;
+      }
+      .herb-card, .card {
+        width: 100% !important;
+        box-sizing: border-box !important;
+        padding: 0.75rem 0.5rem !important;
+        border-radius: 12px !important;
+        overflow: hidden !important;
+      }
+      /* 强制把圆形图片缩小并水平居中，两边留足安全距离 */
+      .herb-card img, .card img,
+      .herb-card [class*="avatar"], .card [class*="avatar"],
+      .herb-card [class*="img"], .card [class*="img"] {
+        width: 76px !important;
+        height: 76px !important;
+        max-width: 76px !important;
+        max-height: 76px !important;
+        border-radius: 50% !important;
+        object-fit: cover !important;
+        margin: 0 auto 0.5rem auto !important;
+        display: block !important;
+      }
+    }
+
   </style>
 </head>
 <body>
@@ -454,7 +511,7 @@ const featuredHerbs = herbs.slice(0, 8);
 
       <div class="stats">
         <div><div class="stat-num">50+</div><div class="stat-label" data-i18n="stat_total">收录药材总数</div></div>
-        <div class="stat-featured"><div class="stat-num">8</div><div class="stat-label" data-i18n="stat_featured">首页精选中药</div></div>
+        
         <div><div class="stat-num">500+</div><div class="stat-label" data-i18n="stat_evidence">PubMed 实证研究</div></div>
       </div>
     </div>
