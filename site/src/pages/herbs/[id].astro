@@ -172,7 +172,71 @@ const papers = herb.papers || [];
         flex-shrink: 0 !important;
       }
     }
-</style>
+
+    /* === 移动端视口溢出与图片竖条深度修复 === */
+    html, body {
+      width: 100% !important;
+      max-width: 100vw !important;
+      overflow-x: hidden !important;
+      position: relative !important;
+    }
+    *, *::before, *::after {
+      box-sizing: border-box !important;
+    }
+
+    /* 修复 Hero 图片平铺竖条与接缝 */
+    .hero, .hero-section, .hero-bg, header.about-header {
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: center center !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      overflow: hidden !important;
+    }
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+      display: block !important;
+      object-fit: cover !important;
+    }
+
+    @media (max-width: 768px) {
+      .container, main, .main-wrap {
+        width: 100% !important;
+        max-width: 100vw !important;
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        overflow-x: hidden !important;
+      }
+
+      /* 针对药材卡片与索引网格：手机端强制单列或自适应紧凑双列 */
+      .herb-grid, .grid, .method-grid, .grid-metrics {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+        width: 100% !important;
+      }
+
+      /* 针对 About 页面卡片与作者简介 */
+      .section-block, .case-card {
+        padding: 1.25rem 1rem !important;
+        margin-bottom: 1.5rem !important;
+        width: 100% !important;
+      }
+      .profile-wrap {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        gap: 1rem !important;
+      }
+      .about-title, .title {
+        font-size: 1.75rem !important;
+        line-height: 1.3 !important;
+        word-break: break-word !important;
+      }
+    }
+
+    /* === 结束 === */
+  </style>
 </head>
 <body>
   <nav class="top-nav">
