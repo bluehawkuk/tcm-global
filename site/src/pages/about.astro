@@ -40,19 +40,29 @@
 
     .section-block { margin-bottom: 3rem; background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.02); }
     .section-title { font-size: 1.45rem; color: #1e3a29; margin-bottom: 1.2rem; display: flex; align-items: center; gap: 0.6rem; border-bottom: 2px solid var(--primary-light); padding-bottom: 0.6rem; }
-    .text-para { color: var(--text-sub); margin-bottom: 1.2rem; font-size: 1.02rem; text-align: justify; }
+    
+    /* 核心修复：改为自然居左对齐，开启合理断词，彻底消除英文单词间距拉扯 */
+    .text-para { 
+      color: var(--text-sub); 
+      margin-bottom: 1.2rem; 
+      font-size: 1.02rem; 
+      text-align: left; 
+      line-height: 1.8;
+      word-break: break-word;
+      hyphens: auto;
+    }
 
     .method-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
     .method-card { background: #faf9f6; border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; }
     .method-card h3 { font-size: 1.1rem; color: var(--primary); margin-bottom: 0.5rem; }
-    .method-card p { font-size: 0.92rem; color: #666; margin: 0; line-height: 1.6; }
+    .method-card p { font-size: 0.92rem; color: #666; margin: 0; line-height: 1.6; text-align: left; }
 
     .stack-list { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.2rem; }
     .stack-pill { background: #f0ede6; border: 1px solid #dfd8cb; border-radius: 8px; padding: 0.4rem 0.9rem; font-size: 0.88rem; font-family: ui-monospace, Menlo, Consolas, monospace; color: #333; }
 
     .profile-wrap { display: flex; gap: 2rem; align-items: flex-start; margin-top: 1.5rem; }
     .profile-avatar-box { width: 110px; height: 110px; border-radius: 50%; background: linear-gradient(135deg, var(--primary) 0%, #4a7c59 100%); display: flex; align-items: center; justify-content: center; font-size: 2.8rem; color: #fff; flex-shrink: 0; }
-    .profile-content { flex: 1; }
+    .profile-content { flex: 1; text-align: left; }
 
     /* 移动端专属适配 */
     @media (max-width: 768px) {
@@ -127,6 +137,12 @@
         align-items: center !important;
         text-align: center !important;
         gap: 1rem !important;
+      }
+      .profile-content {
+        text-align: center !important;
+      }
+      .text-para {
+        text-align: left !important;
       }
     }
   </style>
