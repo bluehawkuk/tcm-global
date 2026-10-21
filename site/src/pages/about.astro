@@ -15,16 +15,14 @@
       --text-main: #2b2b2b;
       --text-sub: #555555;
       --border: #e8e5de;
-      --code-bg: #2d3748;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html, body { width: 100%; overflow-x: hidden; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Segoe UI", Roboto, serif; background: var(--bg); color: var(--text-main); line-height: 1.8; padding-bottom: 5rem; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Segoe UI", Roboto, serif; background: var(--bg); color: var(--text-main); line-height: 1.8; padding-bottom: 5rem; }
 
-    /* 顶部导航 */
     .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 3rem; background: #fff; border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
     .nav-left { display: flex; align-items: center; gap: 1.2rem; }
-    .logo { font-size: 1.25rem; font-weight: 700; color: var(--primary); text-decoration: none; display: flex; align-items: center; gap: 0.4rem; }
+    .logo { font-size: 1.25rem; font-weight: 700; color: var(--primary); text-decoration: none; }
     .nav-right-wrap { display: flex; align-items: center; gap: 1.5rem; }
     .nav-links { display: flex; gap: 1.5rem; list-style: none; font-size: 0.95rem; }
     .nav-links a { text-decoration: none; color: var(--text-main); font-weight: 500; }
@@ -34,42 +32,35 @@
     .lang-btn { padding: 0.25rem 0.65rem; border-radius: 14px; color: #666; transition: 0.2s; }
     .lang-btn.active { background: var(--primary); color: #fff; font-weight: 600; }
 
-    /* 容器布局 */
     .container { max-width: 1000px; margin: 0 auto; padding: 3rem 2rem; }
-
-    /* 头部展示 */
     .about-header { border-bottom: 1px solid var(--border); padding-bottom: 2.5rem; margin-bottom: 3rem; }
     .about-tag { display: inline-block; background: var(--primary-light); color: var(--primary); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.82rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem; }
-    .about-title { font-size: 2.6rem; color: #1e3a29; line-height: 1.25; margin-bottom: 1rem; }
-    .about-subtitle { font-family: "Georgia", serif; font-style: italic; color: #6b7280; font-size: 1.25rem; line-height: 1.6; }
+    .about-title { font-size: 2.5rem; color: #1e3a29; line-height: 1.3; margin-bottom: 1rem; }
+    .about-subtitle { font-family: "Georgia", serif; font-style: italic; color: #6b7280; font-size: 1.2rem; line-height: 1.6; }
 
-    /* 章节通用样式 */
-    .section-block { margin-bottom: 3.5rem; background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.02); }
-    .section-title { font-size: 1.5rem; color: #1e3a29; margin-bottom: 1.2rem; display: flex; align-items: center; gap: 0.6rem; border-bottom: 2px solid var(--primary-light); padding-bottom: 0.6rem; }
+    .section-block { margin-bottom: 3rem; background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.02); }
+    .section-title { font-size: 1.45rem; color: #1e3a29; margin-bottom: 1.2rem; display: flex; align-items: center; gap: 0.6rem; border-bottom: 2px solid var(--primary-light); padding-bottom: 0.6rem; }
     .text-para { color: var(--text-sub); margin-bottom: 1.2rem; font-size: 1.02rem; text-align: justify; }
 
-    /* 网格与对比卡片 */
     .method-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
     .method-card { background: #faf9f6; border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; }
-    .method-card h3 { font-size: 1.1rem; color: var(--primary); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem; }
+    .method-card h3 { font-size: 1.1rem; color: var(--primary); margin-bottom: 0.5rem; }
     .method-card p { font-size: 0.92rem; color: #666; margin: 0; line-height: 1.6; }
 
-    /* 计算生物技术栈看板 */
     .stack-list { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.2rem; }
-    .stack-pill { background: #f0ede6; border: 1px solid #dfd8cb; border-radius: 8px; padding: 0.4rem 0.9rem; font-size: 0.88rem; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; color: #333; }
+    .stack-pill { background: #f0ede6; border: 1px solid #dfd8cb; border-radius: 8px; padding: 0.4rem 0.9rem; font-size: 0.88rem; font-family: ui-monospace, Menlo, Consolas, monospace; color: #333; }
 
-    /* 个人简介模块 */
     .profile-wrap { display: flex; gap: 2rem; align-items: flex-start; margin-top: 1.5rem; }
-    .profile-avatar-box { width: 120px; height: 120px; border-radius: 50%; background: linear-gradient(135deg, var(--primary) 0%, #4a7c59 100%); display: flex; align-items: center; justify-content: center; font-size: 3rem; color: #fff; flex-shrink: 0; box-shadow: 0 8px 20px rgba(45,90,63,0.2); }
+    .profile-avatar-box { width: 110px; height: 110px; border-radius: 50%; background: linear-gradient(135deg, var(--primary) 0%, #4a7c59 100%); display: flex; align-items: center; justify-content: center; font-size: 2.8rem; color: #fff; flex-shrink: 0; }
     .profile-content { flex: 1; }
 
     @media (max-width: 768px) {
       .top-nav { padding: 0.8rem 1rem; flex-wrap: wrap; gap: 0.6rem; }
-      .nav-links { display: flex !important; gap: 0.45rem !important; font-size: 0.82rem !important; }
+      .nav-links { gap: 0.45rem !important; font-size: 0.82rem !important; }
       .nav-links a { padding: 0.2rem 0.4rem; border-radius: 4px; background: #f7f5ef; white-space: nowrap; }
       .nav-right-wrap { width: 100%; justify-content: space-between; }
       .container { padding: 2rem 1rem; }
-      .about-title { font-size: 2rem; }
+      .about-title { font-size: 1.9rem; }
       .section-block { padding: 1.5rem; }
       .profile-wrap { flex-direction: column; align-items: center; text-align: center; }
     }
@@ -78,16 +69,16 @@
 <body>
   <nav class="top-nav">
     <div class="nav-left">
-      <a href="/" class="logo">🌿 <span data-i18n="brand">本草图谱</span> <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;">HerbAtlas</span></a>
+      <a href="/" class="logo">🌿 <span data-i18n="brand">本草图谱</span></a>
     </div>
 
     <div class="nav-right-wrap">
       <ul class="nav-links">
         <li><a href="/" data-i18n="nav_home">首页</a></li>
-        <li><a href="/herbs" data-i18n="nav_all">全部中药 (50味)</a></li>
+        <li><a href="/herbs" data-i18n="nav_all">全部中药</a></li>
         <li><a href="/classics" data-i18n="nav_classics">本草典籍</a></li>
         <li><a href="/decoction" data-i18n="nav_decoct">煎药法度</a></li>
-        <li><a href="/about"class="active" data-i18n="nav_about" data-i18n="nav_about">关于与科研</a></li>
+        <li><a href="/about" class="active" data-i18n="nav_about">关于与科研</a></li>
       </ul>
 
       <div class="lang-switch" id="langSwitch">
@@ -106,79 +97,70 @@
       </p>
     </header>
 
-    <!-- 1. 核心初心与研究动机 -->
+    <!-- 1. 初心与动机 -->
     <section class="section-block">
       <h2 class="section-title">
         <span>🔬</span>
         <span data-i18n="sec1_title">研究初心与学术驱动力 (Genesis & The "Why")</span>
       </h2>
       <p class="text-para" data-i18n="sec1_p1">
-        两千年来，中医药积累了庞大的临床验案与植物复方体系。然而在现代生物医学话语中，传统本草常因缺乏清晰的分子生物学机理与靶点通路而面临学术质疑；另一方面，古典文献中充满古朴的宏观哲学术语，难以与现代药理学家、临床医生有效对话。
+        两千年来，中医药积累了庞大的临床验案与复方体系。然而在现代生物医学语境中，传统经验常因缺乏分子生物学靶点机制而面临严谨性考验。
       </p>
       <p class="text-para" data-i18n="sec1_p2">
-        <strong>HerbAtlas（本草图谱）</strong>发源于一个明确的学术假设：传统中药的“整体多靶点调节”并非不可度量的玄学，而是复杂的植物次生代谢物对人体信号通路的网络化干预（Network Pharmacology）。本项目旨在通过建立结构化、可复现的中英双语本草知识本体库，打破古典经验与现代生物化学之间的壁垒。
+        <strong>HerbAtlas（本草图谱）</strong>旨在打破这种信息隔阂：将传统植物复方的多靶点协同效应，转化为现代计算生物学可量化、可验证的研究模型。
       </p>
     </section>
 
-    <!-- 2. 学术研究方法论与循证机制 -->
+    <!-- 2. 方法论 -->
     <section class="section-block">
       <h2 class="section-title">
         <span>🧬</span>
         <span data-i18n="sec2_title">循证筛选与知识本体方法论 (Methodology & Evidence Rigor)</span>
       </h2>
       <p class="text-para" data-i18n="sec2_desc">
-        我们为每味药材建立了严格的“古籍溯源 - 化学单体 - 分子靶点 - 临床验证”四级双向对齐标准：
+        我们为每味药材建立了严格的“古籍溯源 - 化学单体 - 分子靶点 - 临床文献”四级双向对齐标准：
       </p>
-
       <div class="method-grid">
         <div class="method-card">
-          <h3><span>📚</span> <span data-i18n="method1_h">原典文献严谨考据</span></h3>
-          <p data-i18n="method1_p">考证八大核心经典本草，规范道地性、植物学分类学名（Latin binomials）及经方炮制法度，杜绝同名异物。</p>
+          <h3 data-i18n="method1_h">📚 原典文献严谨考据</h3>
+          <p data-i18n="method1_p">考据八大核心经典本草，规范道地性、植物学分类学名及经方炮制法度，杜绝同名异物。</p>
         </div>
         <div class="method-card">
-          <h3><span>🧪</span> <span data-i18n="method2_h">分子与活性单体归纳</span></h3>
-          <p data-i18n="method2_p">提取明确化学母核的特征活性成分（如黄芪甲苷、人参皂苷、小檗碱），作为计算生物学特征分析的基石。</p>
+          <h3 data-i18n="method2_h">🧪 分子与活性单体归纳</h3>
+          <p data-i18n="method2_p">提取明确化学母核的特征活性成分（如黄芪甲苷、人参皂苷），作为计算生物学特征分析的基石。</p>
         </div>
         <div class="method-card">
-          <h3><span>📊</span> <span data-i18n="method3_h">同行评议文献对齐</span></h3>
-          <p data-i18n="method3_p">所有药理机制与安全警戒均锚定 PubMed / NCBI 期刊文献，排查假阳性结论，确保每一项论述均有现代文献支撑。</p>
+          <h3 data-i18n="method3_h">📊 同行评议文献对齐</h3>
+          <p data-i18n="method3_p">所有药理机制与安全警戒均锚定 PubMed / NCBI 期刊文献，排查假阳性，确保每一项论述均有现代文献支撑。</p>
         </div>
         <div class="method-card">
-          <h3><span>⚗️</span> <span data-i18n="method4_h">溶出动力学与煎煮理化</span></h3>
-          <p data-i18n="method4_p">结合先煎、后下、包煎等工艺，从配位水解、挥发性单萜热降解与胶体分散等理化角度解析提取机理。</p>
+          <h3 data-i18n="method4_h">⚗️ 溶出动力学与煎煮理化</h3>
+          <p data-i18n="method4_p">结合先煎、后下等特殊煎煮工艺，从水热溶解度与热降解动力学角度解析物理化学机制。</p>
         </div>
       </div>
     </section>
 
-    <!-- 3. 数据架构与计算工程实践 -->
+    <!-- 3. 技术栈 -->
     <section class="section-block">
       <h2 class="section-title">
         <span>💻</span>
         <span data-i18n="sec3_title">系统设计与数据工程架构 (Computational Architecture)</span>
       </h2>
-      <p class="text-para" data-i18n="sec3_p1">
-        作为一个面向科研学者与国际同行的学术工具，HerbAtlas 在软件架构上践行了“零多余负担、高性能、高可移植性”的工程标准：
-      </p>
-      <ul style="margin-left: 1.5rem; color: var(--text-sub); margin-bottom: 1.2rem; line-height: 1.8;">
-        <li data-i18n="sec3_li1"><strong>结构化数据本体 (JSON-based Knowledge Graph Schema)</strong>：将 50 味药材的基原、化学母核、归经与靶点构建为标准化 Schema，便于后续与 PubChem、TCMSP 等公共数据库直接对接。</li>
-        <li data-i18n="sec3_li2"><strong>极速轻量静态生成 (Astro Static Site Generation)</strong>：采用现代 Islands 架构，保障在严苛学术网络环境下实现毫秒级页面瞬时解析与卓越 SEO 表现。</li>
-        <li data-i18n="sec3_li3"><strong>原生国际化引擎 (Zero-dependency Bilingual Runtime)</strong>：通过标准化双向状态机管理英汉双语，实现专业学术术语（如 TCM Patterns 与 Pharmacological Targets）的无损跨语境切换。</li>
+      <ul style="margin-left: 1.5rem; color: var(--text-sub); line-height: 1.8;">
+        <li data-i18n="sec3_li1"><strong>结构化数据本体 (JSON-based Knowledge Graph Schema)</strong>：50味药材属性全面结构化，便于与 PubChem 等外部数据库接口联动。</li>
+        <li data-i18n="sec3_li2"><strong>极速轻量静态生成 (Astro Static Site Generation)</strong>：Island 架构实现高并发与零运行负担。</li>
+        <li data-i18n="sec3_li3"><strong>原生双语引擎 (Zero-dependency Bilingual Runtime)</strong>：标准化双向状态机管理英汉双语对照。</li>
       </ul>
-
-      <div style="margin-top: 1.5rem;">
-        <div style="font-size: 0.88rem; color: #888; font-weight: 600; margin-bottom: 0.5rem;" data-i18n="sec3_stack">TECHNICAL CORE:</div>
-        <div class="stack-list">
-          <span class="stack-pill">Astro (Island Architecture)</span>
-          <span class="stack-pill">Structured JSON Ontology</span>
-          <span class="stack-pill">PubMed ID & DOI Cross-indexing</span>
-          <span class="stack-pill">GitHub CI/CD Automation</span>
-          <span class="stack-pill">TypeScript / JavaScript</span>
-          <span class="stack-pill">Responsive Multi-viewport UI</span>
-        </div>
+      <div class="stack-list">
+        <span class="stack-pill">Astro (Island Architecture)</span>
+        <span class="stack-pill">Structured JSON Ontology</span>
+        <span class="stack-pill">PubMed / NCBI Cross-indexing</span>
+        <span class="stack-pill">GitHub Actions CI/CD</span>
+        <span class="stack-pill">TypeScript / JavaScript</span>
       </div>
     </section>
 
-    <!-- 4. 创作者档案 (申请者背景) -->
+    <!-- 4. 创作者档案 (高玄同 Tommy Gao) -->
     <section class="section-block">
       <h2 class="section-title">
         <span>👤</span>
@@ -187,21 +169,30 @@
       <div class="profile-wrap">
         <div class="profile-avatar-box">🧬</div>
         <div class="profile-content">
-          <h3 style="font-size: 1.35rem; color: #1e3a29; margin-bottom: 0.4rem; display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap;" data-i18n="creator_name"><span>高玄同</span><span style="font-size: 1.05rem; color: #666; font-weight: normal;">(Tommy Gao)</span><span style="font-size: 0.82rem; background: #eef4f0; color: #2d5a3f; padding: 0.15rem 0.5rem; border-radius: 10px; font-weight: 600;">Student Researcher</span></h3>
+          <h3 style="font-size: 1.35rem; color: #1e3a29; margin-bottom: 0.4rem; display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap;" data-i18n="creator_name">
+            <span>高玄同</span>
+            <span style="font-size: 1.05rem; color: #666; font-weight: normal;">(Tommy Gao)</span>
+            <span style="font-size: 0.82rem; background: #eef4f0; color: #2d5a3f; padding: 0.15rem 0.5rem; border-radius: 10px; font-weight: 600;">Student Researcher</span>
+          </h3>
           <p style="color: var(--primary); font-size: 0.92rem; font-weight: 600; margin-bottom: 0.8rem;" data-i18n="creator_focus">
             Focus: Molecular Biology · Bioinformatics · Drug Discovery & Natural Compounds
           </p>
-          <p class="text-para" style="margin-bottom: 0.8rem;" data-i18n="creator_bio">
+          <p class="text-para" style="margin-bottom: 1rem;" data-i18n="creator_bio">
             我是一名对生命科学、计算生物学与传统植物药理学怀有极大热情的学生研究者。开发 HerbAtlas 既是我的个人独立学术课题（Passion Project），也是我对“如何用现代计算工具赋能古老智慧”的持续探索。我致力于在本科及未来的科研生涯中，结合生物信息学、高通量筛选与分子动力学模拟，为天然产物的药物发现贡献青年视角。
           </p>
-          <div style="margin-top: 1rem; display: flex; gap: 1rem; font-size: 0.9rem;">
+          <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; font-size: 0.9rem;">
             <a href="https://github.com/tcm-global/HerbAtlas" target="_blank" style="color: var(--primary); font-weight: 600; text-decoration: none;">GitHub Repository ↗</a>
+            <span style="color: #ccc;">|</span>
+            <span data-i18n="creator_contact" style="color: var(--text-sub); display: inline-flex; align-items: center; gap: 0.35rem;">
+              <span>✉️ 联系方式:</span>
+              <a href="mailto:gao.xuantong@outlook.com" style="color: var(--primary); text-decoration: none; font-weight: 600;">gao.xuantong@outlook.com</a>
+            </span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 5. 未来演进路线图 -->
+    <!-- 5. 路线图 Phase 1-4 -->
     <section class="section-block" style="margin-bottom: 1rem;">
       <h2 class="section-title">
         <span>🚀</span>
@@ -219,123 +210,107 @@
     </section>
   </main>
 
-  <footer style="max-width: 1000px; margin: 3rem auto 1rem auto; padding: 1.5rem 2rem; border-top: 1px solid var(--border); text-align: center; color: #8c8c8c; font-size: 0.85rem; line-height: 1.6;">
-    <a href="/disclaimer" style="text-decoration:none; color:inherit;" data-i18n="medical_disclaimer">
-      ⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。
-    </a>
-    <div style="margin-top: 0.8rem; font-size: 0.78rem; color: #aaa;">
-      © 2026 HerbAtlas · Open TCM Pharmacopoeia & Biomedical Research
-    </div>
-  </footer>
-
   <script>
     const I18N_ABOUT = {
       zh: {
         brand: '本草图谱',
         nav_home: '首页',
-        nav_all: '全部中药 (50味)',
+        nav_all: '全部中药',
         nav_classics: '本草典籍',
         nav_decoct: '煎药法度',
         nav_about: '关于与科研',
-                header_tag: '计算生物学与系统生物医学学术项目',
+        header_tag: '计算生物学与系统生物医学学术项目',
         header_title: '重新注解古老本草：以计算生物学与现代循证医学为桥',
         header_subtitle: 'Demystifying Traditional Botany through Molecular Pharmacology, Structural Bioinformatics, and Evidence-based Rigor.',
         sec1_title: '研究初心与学术驱动力 (Genesis & The "Why")',
-        sec1_p1: '两千年来，中医药积累了庞大的临床验案与植物复方体系。然而在现代生物医学话语中，传统本草常因缺乏清晰的分子生物学机理与靶点通路而面临学术质疑；另一方面，古典文献中充满古朴的宏观哲学术语，难以与现代药理学家、临床医生有效对话。',
-        sec1_p2: 'HerbAtlas（本草图谱）发源于一个明确的学术假设：传统中药的“整体多靶点调节”并非不可度量的玄学，而是复杂的植物次生代谢物对人体信号通路的网络化干预（Network Pharmacology）。本项目旨在通过建立结构化、可复现的中英双语本草知识本体库，打破古典经验与现代生物化学之间的壁垒。',
+        sec1_p1: '两千年来，中医药积累了庞大的临床验案与复方体系。然而在现代生物医学语境中，传统经验常因缺乏分子生物学靶点机制而面临严谨性考验。',
+        sec1_p2: 'HerbAtlas（本草图谱）旨在打破这种信息隔阂：将传统植物复方的多靶点协同效应，转化为现代计算生物学可量化、可验证的研究模型。',
         sec2_title: '循证筛选与知识本体方法论 (Methodology & Evidence Rigor)',
-        sec2_desc: '我们为每味药材建立了严格的“古籍溯源 - 化学单体 - 分子靶点 - 临床验证”四级双向对齐标准：',
-        method1_h: '原典文献严谨考据',
-        method1_p: '考证八大核心经典本草，规范道地性、植物学分类学名（Latin binomials）及经方炮制法度，杜绝同名异物。',
-        method2_h: '分子与活性单体归纳',
-        method2_p: '提取明确化学母核的特征活性成分（如黄芪甲苷、人参皂苷、小檗碱），作为计算生物学特征分析的基石。',
-        method3_h: '同行评议文献对齐',
-        method3_p: '所有药理机制与安全警戒均锚定 PubMed / NCBI 期刊文献，排查假阳性结论，确保每一项论述均有现代文献支撑。',
-        method4_h: '溶出动力学与煎煮理化',
-        method4_p: '结合先煎、后下、包煎等工艺，从配位水解、挥发性单萜热降解与胶体分散等理化角度解析提取机理。',
+        sec2_desc: '我们为每味药材建立了严格的“古籍溯源 - 化学单体 - 分子靶点 - 临床文献”四级双向对齐标准：',
+        method1_h: '📚 原典文献严谨考据',
+        method1_p: '考据八大核心经典本草，规范道地性、植物学分类学名及经方炮制法度，杜绝同名异物。',
+        method2_h: '🧪 分子与活性单体归纳',
+        method2_p: '提取明确化学母核的特征活性成分（如黄芪甲苷、人参皂苷），作为计算生物学特征分析的基石。',
+        method3_h: '📊 同行评议文献对齐',
+        method3_p: '所有药理机制与安全警戒均锚定 PubMed / NCBI 期刊文献，排查假阳性，确保每一项论述均有现代文献支撑。',
+        method4_h: '⚗️ 溶出动力学与煎煮理化',
+        method4_p: '结合先煎、后下等特殊煎煮工艺，从水热溶解度与热降解动力学角度解析物理化学机制。',
         sec3_title: '系统设计与数据工程架构 (Computational Architecture)',
-        sec3_p1: '作为一个面向科研学者与国际同行的学术工具，HerbAtlas 在软件架构上践行了“零多余负担、高性能、高可移植性”的工程标准：',
-        sec3_li1: '结构化数据本体 (JSON-based Knowledge Graph Schema)：将 50 味药材的基原、化学母核、归经与靶点构建为标准化 Schema，便于后续与 PubChem、TCMSP 等公共数据库直接对接。',
-        sec3_li2: '极速轻量静态生成 (Astro Static Site Generation)：采用现代 Islands 架构，保障在严苛学术网络环境下实现毫秒级页面瞬时解析与卓越 SEO 表现。',
-        sec3_li3: '原生国际化引擎 (Zero-dependency Bilingual Runtime)：通过标准化双向状态机管理英汉双语，实现专业学术术语（如 TCM Patterns 与 Pharmacological Targets）的无损跨语境切换。',
-        sec3_stack: 'TECHNICAL CORE:',
+        sec3_li1: '结构化数据本体 (JSON-based Knowledge Graph Schema)：50味药材属性全面结构化，便于与 PubChem 等外部数据库接口联动。',
+        sec3_li2: '极速轻量静态生成 (Astro Static Site Generation)：Island 架构实现高并发与零运行负担。',
+        sec3_li3: '原生双语引擎 (Zero-dependency Bilingual Runtime)：标准化双向状态机管理英汉双语对照。',
         sec4_title: '创作者档案与学术兴趣 (The Creator / Researcher)',
-        creator_name: '高玄同 (Tommy Gao) <span style="font-size: 0.82rem; background: #eef4f0; color: #2d5a3f; padding: 0.15rem 0.5rem; border-radius: 10px; font-weight: 600; margin-left: 0.4rem;">独立青年研究者</span>',
+        creator_name: '高玄同 (Tommy Gao) <span style="font-size:0.82rem;background:#eef4f0;color:#2d5a3f;padding:0.15rem 0.5rem;border-radius:10px;font-weight:600;margin-left:0.4rem;">独立青年研究者</span>',
         creator_focus: 'Focus: Molecular Biology · Bioinformatics · Drug Discovery & Natural Compounds',
         creator_bio: '我是一名对生命科学、计算生物学与传统植物药理学怀有极大热情的学生研究者。开发 HerbAtlas 既是我的个人独立学术课题（Passion Project），也是我对“如何用现代计算工具赋能古老智慧”的持续探索。我致力于在本科及未来的科研生涯中，结合生物信息学、高通量筛选与分子动力学模拟，为天然产物的药物发现贡献青年视角。',
+        creator_contact: '<span>✉️ 联系方式:</span> <a href="mailto:gao.xuantong@outlook.com" style="color:var(--primary);text-decoration:none;font-weight:600;">gao.xuantong@outlook.com</a>',
         sec5_title: '项目演进与科研规划 (Research Roadmap)',
-        sec5_li0: '<strong>Phase 1 (基础本体构建与双向循证校验 · 已完成 / Current)</strong>：完成 50 味道地药材的结构化数据本体构建，考据八大经典本草，实现活性单体化学结构归纳、PubMed 期刊文献交叉验证及理化煎煮动力学解析。',
         sec5_desc: 'HerbAtlas 不是一个静态的课程作业，而是一个持续成长的开放科学计划：',
-        sec5_li1: 'Phase 2 (知识图谱与网络药理学)：引入 D3.js / Cytoscape 构建“药材-单体化合物-蛋白质靶点-疾病表型”的多层相互作用网络可视化。',
-        sec5_li2: 'Phase 3 (分子对接与微观模拟模块)：基于 AutoDock Vina 与公开蛋白质晶体结构（PDB），为精选单体添加小分子配体与疾病受体对接亲和力的初步计算分析。',
-        sec5_li3: 'Phase 4 (开源学术共同体协作)：向全球对天然药物学与民族植物学感兴趣的高中生及本科生开放 Pull Request 协作，共同扩充至 200+ 临床核心草药。',
-        medical_disclaimer: '⚠️ 免责声明：本站内容仅供学术科普与科研参考，不能替代执业医师诊断与处方，请勿自行用药。'
+        sec5_li0: '<strong>Phase 1 (基础本体构建与双向循证校验 · 已完成 / Current)</strong>：完成 50 味道地药材的结构化数据本体构建，考据八大经典本草，实现活性单体化学结构归纳、PubMed 期刊文献交叉验证及理化煎煮动力学解析。',
+        sec5_li1: '<strong>Phase 2 (知识图谱与网络药理学 · 推进中 / In Progress)</strong>：引入 D3.js / Cytoscape 构建“药材 - 单体化合物 - 蛋白质靶点 - 疾病表型”的多层相互作用网络可视化。',
+        sec5_li2: '<strong>Phase 3 (分子对接与微观模拟模块 · 规划中)</strong>：基于 AutoDock Vina 与公开蛋白质晶体结构（PDB），为精选单体添加小分子配体与疾病受体对接亲和力的初步计算分析。',
+        sec5_li3: '<strong>Phase 4 (开源学术共同体协作 · 远期愿景)</strong>：向全球对天然药物学与民族植物学感兴趣的青年研究者开放 Pull Request 协作，共同扩充至 200+ 临床核心草药。'
       },
       en: {
         brand: 'HerbAtlas',
         nav_home: 'Home',
-        nav_all: 'All Herbs (50)',
+        nav_all: 'All Herbs',
         nav_classics: 'Materia Medica',
         nav_decoct: 'Decoction Rules',
         nav_about: 'About & Research',
-                header_tag: 'Computational Biomedicine & Systems Biology Initiative',
+        header_tag: 'Computational Biomedicine & Systems Biology Initiative',
         header_title: 'Re-annotating Classical Botany through Computational Biomedicine',
         header_subtitle: 'Demystifying Traditional Botany through Molecular Pharmacology, Structural Bioinformatics, and Evidence-based Rigor.',
         sec1_title: 'Genesis & Scientific Motivation (The "Why")',
-        sec1_p1: 'For two millennia, traditional botanical medicine accumulated vast empirical documentation and multi-herb formulations. Yet in modern biomedical paradigms, traditional pharmacopoeias often encounter skepticism due to obscure molecular mechanisms and non-standardized terminology; conversely, ancient classical texts remain largely impenetrable to contemporary biochemists.',
-        sec1_p2: 'HerbAtlas was born from a rigorous hypothesis: traditional herbal synergism is not mysticism, but complex network interventions executed by bioactive secondary metabolites on human physiological signaling pathways. This initiative structures an open-access, bilingual botanical ontology that bridges classical empiricism with molecular pharmacology.',
+        sec1_p1: 'For two millennia, traditional medicine documented extensive empirical formulas. In modern biomedicine, these classical preparations need precise molecular target mapping to withstand rigorous peer evaluation.',
+        sec1_p2: 'HerbAtlas models multi-target natural synergism through scalable, structured computational biology systems, bridging ancient observations with biochemical rigor.',
         sec2_title: 'Methodology & Evidence Rigor',
         sec2_desc: 'Every catalogued herb undergoes a 4-tier bidirectional validation protocol: Canonical Text → Active Metabolite → Protein Target → Verified Clinical Literature.',
-        method1_h: 'Classical Pharmacological Philology',
-        method1_p: 'Corroborating records across 8 classical canons, ensuring taxonomic precision with Latin binomials, botanical authenticity, and processing standards.',
-        method2_h: 'Bioactive Compound Extraction',
-        method2_p: 'Isolating verified active compounds (e.g., Astragaloside IV, Ginsenosides, Berberine) as structural building blocks for downstream computational screening.',
-        method3_h: 'Peer-Reviewed Empirical Literature',
-        method3_p: 'All pharmacological claims, mechanisms, and toxicity warnings are tied to PubMed/NCBI citations, eliminating pseudoscientific assumptions.',
-        method4_h: 'Extraction Kinetics & Chemistry',
-        method4_p: 'Demystifying preparation rules (pre-decocting, late additions, wrapping) via coordination hydrolysis, thermal degradation kinetics, and colloid stabilization.',
+        method1_h: '📚 Canonical Textual Philology',
+        method1_p: 'Corroborating records across 8 classical canons, ensuring taxonomic precision with Latin binomials and processing standards.',
+        method2_h: '🧪 Bioactive Compound Identification',
+        method2_p: 'Isolating verified active compounds (e.g., Astragaloside IV, Ginsenosides) as structural building blocks for computational screening.',
+        method3_h: '📊 Peer-Reviewed Literature',
+        method3_p: 'All pharmacological claims and mechanisms are strictly anchored to PubMed/NCBI citations, eliminating pseudoscientific assertions.',
+        method4_h: '⚗️ Extraction Kinetics & Chemistry',
+        method4_p: 'Demystifying preparation rules (pre-decocting, late additions) through solubility thermodynamics and thermal degradation kinetics.',
         sec3_title: 'System Design & Computational Architecture',
-        sec3_p1: 'Engineered as a robust utility for researchers and international scholars, HerbAtlas adheres to lean, high-performance software principles:',
-        sec3_li1: 'Structured JSON Ontology: Catalogues 50 botanical entities into standardized schemas, prepared for automated ingestion into PubChem, UniProt, and TCMSP databases.',
+        sec3_li1: 'Structured JSON Ontology: Standardized schema across 50 botanical entities ready for algorithmic interoperability.',
         sec3_li2: 'Astro Island Static Site Generation: Zero-bloat static compilation guaranteeing sub-second page delivery across stringent campus network environments.',
         sec3_li3: 'Zero-Dependency Bilingual Engine: Robust dual-state dictionary orchestrating bidirectional translations between TCM syndromes and modern clinical terminology.',
-        sec3_stack: 'TECHNICAL CORE:',
         sec4_title: 'The Creator / Student Researcher Profile',
-        creator_name: 'Tommy (Xuantong) Gao <span style="font-size: 0.82rem; background: #eef4f0; color: #2d5a3f; padding: 0.15rem 0.5rem; border-radius: 10px; font-weight: 600; margin-left: 0.4rem;">Student Researcher & Lead Developer</span>',
+        creator_name: 'Tommy (Xuantong) Gao <span style="font-size:0.82rem;background:#eef4f0;color:#2d5a3f;padding:0.15rem 0.5rem;border-radius:10px;font-weight:600;margin-left:0.4rem;">Student Researcher & Lead Developer</span>',
         creator_focus: 'Focus: Molecular Biology · Bioinformatics · Drug Discovery & Natural Compounds',
         creator_bio: 'I am a student researcher driven by a deep fascination with life sciences, structural bioinformatics, and natural products pharmacology. HerbAtlas serves as both my independent passion project and an ongoing exploration into computational drug discovery. I look forward to advancing these investigations during my undergraduate studies through molecular docking, high-throughput pipelines, and network pharmacology.',
+        creator_contact: '<span>✉️ Contact:</span> <a href="mailto:gao.xuantong@outlook.com" style="color:var(--primary);text-decoration:none;font-weight:600;">gao.xuantong@outlook.com</a>',
         sec5_title: 'Research Roadmap & Future Horizons',
-        sec5_li0: '<strong>Phase 1 (Ontology Engineering & Bidirectional Evidence · Completed / Current)</strong>: Established structured JSON ontology for 50 classical herbs, corroborating canonical texts with active metabolites, PubMed peer-reviewed literature, and physicochemical extraction kinetics.',
         sec5_desc: 'HerbAtlas is conceived not as a static high school project, but as an evolving open-science initiative:',
-        sec5_li1: 'Phase 2 (Interaction Network Visualization): Incorporating D3.js and Cytoscape.js for interactive Herb-Compound-Target-Phenotype network mapping.',
-        sec5_li2: 'Phase 3 (Molecular Docking Pipelines): Integrating AutoDock Vina calculations against curated PDB target proteins to assess binding affinities of isolated constituents.',
-        sec5_li3: 'Phase 4 (Collaborative Peer Consortium): Opening peer-review pull requests to secondary and undergraduate natural product researchers globally, scaling to 200+ core herbs.',
-        medical_disclaimer: '⚠️ Disclaimer: For academic, educational, and research purposes only. Not intended to replace professional medical advice, diagnosis, or prescription. Do not self-medicate.'
+        sec5_li0: '<strong>Phase 1 (Ontology Engineering & Bidirectional Evidence · Completed / Current)</strong>: Established structured JSON ontology for 50 classical herbs, corroborating canonical texts with active metabolites, PubMed peer-reviewed literature, and physicochemical extraction kinetics.',
+        sec5_li1: '<strong>Phase 2 (Interaction Network Visualization · In Progress)</strong>: Incorporating D3.js and Cytoscape.js for interactive Herb-Compound-Target-Phenotype network mapping.',
+        sec5_li2: '<strong>Phase 3 (Molecular Docking Pipelines · Planned)</strong>: Integrating AutoDock Vina calculations against curated PDB target proteins to assess binding affinities of isolated constituents.',
+        sec5_li3: '<strong>Phase 4 (Collaborative Open Science Consortium · Long-term Vision)</strong>: Opening peer-review pull requests to secondary and undergraduate natural product researchers globally, scaling to 200+ core botanical species.'
       }
     };
 
-    let currentLang = localStorage.getItem('site_lang') || 'zh';
+    let curLang = localStorage.getItem('site_lang') || 'zh';
     const btnZh = document.getElementById('btnZh');
     const btnEn = document.getElementById('btnEn');
 
     function applyLang(lang) {
-      currentLang = lang;
+      curLang = lang;
       localStorage.setItem('site_lang', lang);
-
       if (btnZh) btnZh.classList.toggle('active', lang === 'zh');
       if (btnEn) btnEn.classList.toggle('active', lang === 'en');
-
-      const dict = I18N_ABOUT[lang];
+      const d = I18N_ABOUT[lang];
       document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        if (dict && dict[key]) el.innerHTML = dict[key];
+        const k = el.getAttribute('data-i18n');
+        if (d && d[k]) el.innerHTML = d[k];
       });
     }
 
     if (btnZh) btnZh.addEventListener('click', () => applyLang('zh'));
     if (btnEn) btnEn.addEventListener('click', () => applyLang('en'));
-
-    applyLang(currentLang);
+    applyLang(curLang);
   </script>
 </body>
 </html>
