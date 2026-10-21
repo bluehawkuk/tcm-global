@@ -41,7 +41,6 @@
     .section-block { margin-bottom: 3rem; background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; padding: 2.5rem; box-shadow: 0 4px 20px rgba(0,0,0,0.02); }
     .section-title { font-size: 1.45rem; color: #1e3a29; margin-bottom: 1.2rem; display: flex; align-items: center; gap: 0.6rem; border-bottom: 2px solid var(--primary-light); padding-bottom: 0.6rem; }
     
-    /* 核心修复：改为自然居左对齐，开启合理断词，彻底消除英文单词间距拉扯 */
     .text-para { 
       color: var(--text-sub); 
       margin-bottom: 1.2rem; 
@@ -60,7 +59,7 @@
     .stack-list { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.2rem; }
     .stack-pill { background: #f0ede6; border: 1px solid #dfd8cb; border-radius: 8px; padding: 0.4rem 0.9rem; font-size: 0.88rem; font-family: ui-monospace, Menlo, Consolas, monospace; color: #333; }
 
-    .profile-wrap { display: flex; gap: 2rem; align-items: flex-start; margin-top: 1.5rem; }
+    .profile-wrap { display: flex; gap: 2rem; align-items: flex-start; margin-top: 0.5rem; }
     .profile-avatar-box { width: 110px; height: 110px; border-radius: 50%; background: linear-gradient(135deg, var(--primary) 0%, #4a7c59 100%); display: flex; align-items: center; justify-content: center; font-size: 2.8rem; color: #fff; flex-shrink: 0; }
     .profile-content { flex: 1; text-align: left; }
 
@@ -178,70 +177,7 @@
       </p>
     </header>
 
-    <!-- 1. 初心与动机 -->
-    <section class="section-block">
-      <h2 class="section-title">
-        <span>🔬</span>
-        <span data-i18n="sec1_title">研究初心与学术驱动力 (Genesis & The "Why")</span>
-      </h2>
-      <p class="text-para" data-i18n="sec1_p1">
-        两千年来，中医药积累了庞大的临床验案与复方体系。然而在现代生物医学语境中，传统经验常因缺乏分子生物学靶点机制而面临严谨性考验。
-      </p>
-      <p class="text-para" data-i18n="sec1_p2">
-        <strong>HerbAtlas（本草图谱）</strong>旨在打破这种信息隔阂：将传统植物复方的多靶点协同效应，转化为现代计算生物学可量化、可验证的研究模型。
-      </p>
-    </section>
-
-    <!-- 2. 方法论 -->
-    <section class="section-block">
-      <h2 class="section-title">
-        <span>🧬</span>
-        <span data-i18n="sec2_title">循证筛选与知识本体方法论 (Methodology & Evidence Rigor)</span>
-      </h2>
-      <p class="text-para" data-i18n="sec2_desc">
-        我们为每味药材建立了严格的“古籍溯源 - 化学单体 - 分子靶点 - 临床文献”四级双向对齐标准：
-      </p>
-      <div class="method-grid">
-        <div class="method-card">
-          <h3 data-i18n="method1_h">📚 原典文献严谨考据</h3>
-          <p data-i18n="method1_p">考据八大核心经典本草，规范道地性、植物学分类学名及经方炮制法度，杜绝同名异物。</p>
-        </div>
-        <div class="method-card">
-          <h3 data-i18n="method2_h">🧪 分子与活性单体归纳</h3>
-          <p data-i18n="method2_p">提取明确化学母核的特征活性成分（如黄芪甲苷、人参皂苷），作为计算生物学特征分析的基石。</p>
-        </div>
-        <div class="method-card">
-          <h3 data-i18n="method3_h">📊 同行评议文献对齐</h3>
-          <p data-i18n="method3_p">所有药理机制与安全警戒均锚定 PubMed / NCBI 期刊文献，排查假阳性，确保每一项论述均有现代文献支撑。</p>
-        </div>
-        <div class="method-card">
-          <h3 data-i18n="method4_h">⚗️ 溶出动力学与煎煮理化</h3>
-          <p data-i18n="method4_p">结合先煎、后下等特殊煎煮工艺，从水热溶解度与热降解动力学角度解析物理化学机制。</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- 3. 技术栈 -->
-    <section class="section-block">
-      <h2 class="section-title">
-        <span>💻</span>
-        <span data-i18n="sec3_title">系统设计与数据工程架构 (Computational Architecture)</span>
-      </h2>
-      <ul style="margin-left: 1.5rem; color: var(--text-sub); line-height: 1.8;">
-        <li data-i18n="sec3_li1"><strong>结构化数据本体 (JSON-based Knowledge Graph Schema)</strong>：50味药材属性全面结构化，便于与 PubChem 等外部数据库接口联动。</li>
-        <li data-i18n="sec3_li2"><strong>极速轻量静态生成 (Astro Static Site Generation)</strong>：Island 架构实现高并发与零运行负担。</li>
-        <li data-i18n="sec3_li3"><strong>原生双语引擎 (Zero-dependency Bilingual Runtime)</strong>：标准化双向状态机管理英汉双语对照。</li>
-      </ul>
-      <div class="stack-list">
-        <span class="stack-pill">Astro (Island Architecture)</span>
-        <span class="stack-pill">Structured JSON Ontology</span>
-        <span class="stack-pill">PubMed / NCBI Cross-indexing</span>
-        <span class="stack-pill">GitHub Actions CI/CD</span>
-        <span class="stack-pill">TypeScript / JavaScript</span>
-      </div>
-    </section>
-
-    <!-- 4. 创作者档案 (高玄同 Tommy Gao) -->
+    <!-- 【已置顶】1. 创作者档案 (高玄同 Tommy Gao) -->
     <section class="section-block">
       <h2 class="section-title">
         <span>👤</span>
@@ -270,6 +206,69 @@
             </span>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- 2. 初心与动机 -->
+    <section class="section-block">
+      <h2 class="section-title">
+        <span>🔬</span>
+        <span data-i18n="sec1_title">研究初心与学术驱动力 (Genesis & The "Why")</span>
+      </h2>
+      <p class="text-para" data-i18n="sec1_p1">
+        两千年来，中医药积累了庞大的临床验案与复方体系。然而在现代生物医学语境中，传统经验常因缺乏分子生物学靶点机制而面临严谨性考验。
+      </p>
+      <p class="text-para" data-i18n="sec1_p2">
+        <strong>HerbAtlas（本草图谱）</strong>旨在打破这种信息隔阂：将传统植物复方的多靶点协同效应，转化为现代计算生物学可量化、可验证的研究模型。
+      </p>
+    </section>
+
+    <!-- 3. 方法论 -->
+    <section class="section-block">
+      <h2 class="section-title">
+        <span>🧬</span>
+        <span data-i18n="sec2_title">循证筛选与知识本体方法论 (Methodology & Evidence Rigor)</span>
+      </h2>
+      <p class="text-para" data-i18n="sec2_desc">
+        我们为每味药材建立了严格的“古籍溯源 - 化学单体 - 分子靶点 - 临床文献”四级双向对齐标准：
+      </p>
+      <div class="method-grid">
+        <div class="method-card">
+          <h3 data-i18n="method1_h">📚 原典文献严谨考据</h3>
+          <p data-i18n="method1_p">考据八大核心经典本草，规范道地性、植物学分类学名及经方炮制法度，杜绝同名异物。</p>
+        </div>
+        <div class="method-card">
+          <h3 data-i18n="method2_h">🧪 分子与活性单体归纳</h3>
+          <p data-i18n="method2_p">提取明确化学母核的特征活性成分（如黄芪甲苷、人参皂苷），作为计算生物学特征分析的基石。</p>
+        </div>
+        <div class="method-card">
+          <h3 data-i18n="method3_h">📊 同行评议文献对齐</h3>
+          <p data-i18n="method3_p">所有药理机制与安全警戒均锚定 PubMed / NCBI 期刊文献，排查假阳性，确保每一项论述均有现代文献支撑。</p>
+        </div>
+        <div class="method-card">
+          <h3 data-i18n="method4_h">⚗️ 溶出动力学与煎煮理化</h3>
+          <p data-i18n="method4_p">结合先煎、后下等特殊煎煮工艺，从水热溶解度与热降解动力学角度解析物理化学机制。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. 技术栈 -->
+    <section class="section-block">
+      <h2 class="section-title">
+        <span>💻</span>
+        <span data-i18n="sec3_title">系统设计与数据工程架构 (Computational Architecture)</span>
+      </h2>
+      <ul style="margin-left: 1.5rem; color: var(--text-sub); line-height: 1.8;">
+        <li data-i18n="sec3_li1"><strong>结构化数据本体 (JSON-based Knowledge Graph Schema)</strong>：50味药材属性全面结构化，便于与 PubChem 等外部数据库接口联动。</li>
+        <li data-i18n="sec3_li2"><strong>极速轻量静态生成 (Astro Static Site Generation)</strong>：Island 架构实现高并发与零运行负担。</li>
+        <li data-i18n="sec3_li3"><strong>原生双语引擎 (Zero-dependency Bilingual Runtime)</strong>：标准化双向状态机管理英汉双语对照。</li>
+      </ul>
+      <div class="stack-list">
+        <span class="stack-pill">Astro (Island Architecture)</span>
+        <span class="stack-pill">Structured JSON Ontology</span>
+        <span class="stack-pill">PubMed / NCBI Cross-indexing</span>
+        <span class="stack-pill">GitHub Actions CI/CD</span>
+        <span class="stack-pill">TypeScript / JavaScript</span>
       </div>
     </section>
 
@@ -303,6 +302,11 @@
         header_tag: '计算生物学与系统生物医学学术项目',
         header_title: '重新注解古老本草：以计算生物学与现代循证医学为桥',
         header_subtitle: 'Demystifying Traditional Botany through Molecular Pharmacology, Structural Bioinformatics, and Evidence-based Rigor.',
+        sec4_title: '创作者档案与学术兴趣 (The Creator / Researcher)',
+        creator_name: '高玄同 (Tommy Gao) <span style="font-size:0.82rem;background:#eef4f0;color:#2d5a3f;padding:0.15rem 0.5rem;border-radius:10px;font-weight:600;margin-left:0.4rem;">独立青年研究者</span>',
+        creator_focus: 'Focus: Molecular Biology · Bioinformatics · Drug Discovery & Natural Compounds',
+        creator_bio: '我是一名对生命科学、计算生物学与传统植物药理学怀有极大热情的学生研究者。开发 HerbAtlas 既是我的个人独立学术课题（Passion Project），也是我对“如何用现代计算工具赋能古老智慧”的持续探索。我致力于在本科及未来的科研生涯中，结合生物信息学、高通量筛选与分子动力学模拟，为天然产物的药物发现贡献青年视角。',
+        creator_contact: '<span>✉️ 联系方式:</span> <a href="mailto:gao.xuantong@outlook.com" style="color:var(--primary);text-decoration:none;font-weight:600;">gao.xuantong@outlook.com</a>',
         sec1_title: '研究初心与学术驱动力 (Genesis & The "Why")',
         sec1_p1: '两千年来，中医药积累了庞大的临床验案与复方体系。然而在现代生物医学语境中，传统经验常因缺乏分子生物学靶点机制而面临严谨性考验。',
         sec1_p2: 'HerbAtlas（本草图谱）旨在打破这种信息隔阂：将传统植物复方的多靶点协同效应，转化为现代计算生物学可量化、可验证的研究模型。',
@@ -320,11 +324,6 @@
         sec3_li1: '结构化数据本体 (JSON-based Knowledge Graph Schema)：50味药材属性全面结构化，便于与 PubChem 等外部数据库接口联动。',
         sec3_li2: '极速轻量静态生成 (Astro Static Site Generation)：Island 架构实现高并发与零运行负担。',
         sec3_li3: '原生双语引擎 (Zero-dependency Bilingual Runtime)：标准化双向状态机管理英汉双语对照。',
-        sec4_title: '创作者档案与学术兴趣 (The Creator / Researcher)',
-        creator_name: '高玄同 (Tommy Gao) <span style="font-size:0.82rem;background:#eef4f0;color:#2d5a3f;padding:0.15rem 0.5rem;border-radius:10px;font-weight:600;margin-left:0.4rem;">独立青年研究者</span>',
-        creator_focus: 'Focus: Molecular Biology · Bioinformatics · Drug Discovery & Natural Compounds',
-        creator_bio: '我是一名对生命科学、计算生物学与传统植物药理学怀有极大热情的学生研究者。开发 HerbAtlas 既是我的个人独立学术课题（Passion Project），也是我对“如何用现代计算工具赋能古老智慧”的持续探索。我致力于在本科及未来的科研生涯中，结合生物信息学、高通量筛选与分子动力学模拟，为天然产物的药物发现贡献青年视角。',
-        creator_contact: '<span>✉️ 联系方式:</span> <a href="mailto:gao.xuantong@outlook.com" style="color:var(--primary);text-decoration:none;font-weight:600;">gao.xuantong@outlook.com</a>',
         sec5_title: '项目演进与科研规划 (Research Roadmap)',
         sec5_desc: 'HerbAtlas 不是一个静态的课程作业，而是一个持续成长的开放科学计划：',
         sec5_li0: '<strong>Phase 1 (基础本体构建与双向循证校验 · 已完成 / Current)</strong>：完成 50 味道地药材的结构化数据本体构建，考据八大经典本草，实现活性单体化学结构归纳、PubMed 期刊文献交叉验证及理化煎煮动力学解析。',
@@ -342,6 +341,11 @@
         header_tag: 'Computational Biomedicine & Systems Biology Initiative',
         header_title: 'Re-annotating Classical Botany through Computational Biomedicine',
         header_subtitle: 'Demystifying Traditional Botany through Molecular Pharmacology, Structural Bioinformatics, and Evidence-based Rigor.',
+        sec4_title: 'The Creator / Student Researcher Profile',
+        creator_name: 'Tommy (Xuantong) Gao <span style="font-size:0.82rem;background:#eef4f0;color:#2d5a3f;padding:0.15rem 0.5rem;border-radius:10px;font-weight:600;margin-left:0.4rem;">Student Researcher & Lead Developer</span>',
+        creator_focus: 'Focus: Molecular Biology · Bioinformatics · Drug Discovery & Natural Compounds',
+        creator_bio: 'I am a student researcher driven by a deep fascination with life sciences, structural bioinformatics, and natural products pharmacology. HerbAtlas serves as both my independent passion project and an ongoing exploration into computational drug discovery. I look forward to advancing these investigations during my undergraduate studies through molecular docking, high-throughput pipelines, and network pharmacology.',
+        creator_contact: '<span>✉️ Contact:</span> <a href="mailto:gao.xuantong@outlook.com" style="color:var(--primary);text-decoration:none;font-weight:600;">gao.xuantong@outlook.com</a>',
         sec1_title: 'Genesis & Scientific Motivation (The "Why")',
         sec1_p1: 'For two millennia, traditional medicine documented extensive empirical formulas. In modern biomedicine, these classical preparations need precise molecular target mapping to withstand rigorous peer evaluation.',
         sec1_p2: 'HerbAtlas models multi-target natural synergism through scalable, structured computational biology systems, bridging ancient observations with biochemical rigor.',
@@ -359,11 +363,6 @@
         sec3_li1: 'Structured JSON Ontology: Standardized schema across 50 botanical entities ready for algorithmic interoperability.',
         sec3_li2: 'Astro Island Static Site Generation: Zero-bloat static compilation guaranteeing sub-second page delivery across stringent campus network environments.',
         sec3_li3: 'Zero-Dependency Bilingual Engine: Robust dual-state dictionary orchestrating bidirectional translations between TCM syndromes and modern clinical terminology.',
-        sec4_title: 'The Creator / Student Researcher Profile',
-        creator_name: 'Tommy (Xuantong) Gao <span style="font-size:0.82rem;background:#eef4f0;color:#2d5a3f;padding:0.15rem 0.5rem;border-radius:10px;font-weight:600;margin-left:0.4rem;">Student Researcher & Lead Developer</span>',
-        creator_focus: 'Focus: Molecular Biology · Bioinformatics · Drug Discovery & Natural Compounds',
-        creator_bio: 'I am a student researcher driven by a deep fascination with life sciences, structural bioinformatics, and natural products pharmacology. HerbAtlas serves as both my independent passion project and an ongoing exploration into computational drug discovery. I look forward to advancing these investigations during my undergraduate studies through molecular docking, high-throughput pipelines, and network pharmacology.',
-        creator_contact: '<span>✉️ Contact:</span> <a href="mailto:gao.xuantong@outlook.com" style="color:var(--primary);text-decoration:none;font-weight:600;">gao.xuantong@outlook.com</a>',
         sec5_title: 'Research Roadmap & Future Horizons',
         sec5_desc: 'HerbAtlas is conceived not as a static high school project, but as an evolving open-science initiative:',
         sec5_li0: '<strong>Phase 1 (Ontology Engineering & Bidirectional Evidence · Completed / Current)</strong>: Established structured JSON ontology for 50 classical herbs, corroborating canonical texts with active metabolites, PubMed peer-reviewed literature, and physicochemical extraction kinetics.',
