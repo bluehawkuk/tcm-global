@@ -22,9 +22,10 @@ const featuredHerbs = herbs.slice(0, 8);
       --border: #e8e5de;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { width: 100%; overflow-x: hidden; }
+    html, body { width: 100%; overflow-x: hidden; position: relative; }
     body { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", serif; background: var(--bg); color: var(--text-main); }
     
+    /* 顶部导航 */
     .top-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.1rem 3rem; background: #fff; border-bottom: 1px solid var(--border); }
     .logo { font-size: 1.35rem; font-weight: 700; color: var(--primary); display: flex; align-items: center; gap: 0.5rem; text-decoration: none; }
     .nav-right-wrap { display: flex; align-items: center; gap: 1.8rem; }
@@ -54,6 +55,7 @@ const featuredHerbs = herbs.slice(0, 8);
       font-weight: 600;
     }
     
+    /* 电脑端 Hero 区域 */
     .hero { display: grid; grid-template-columns: 1.15fr 1fr; padding: 4rem 3rem; max-width: 1300px; margin: 0 auto; align-items: center; gap: 3.5rem; width: 100%; }
     .hero-title { font-size: 3.2rem; color: #1e3a29; margin-bottom: 0.5rem; letter-spacing: 2px; line-height: 1.2; }
     .hero-subtitle { font-family: "Georgia", serif; font-style: italic; color: #7d827a; font-size: 1.3rem; margin-bottom: 1.5rem; }
@@ -71,425 +73,212 @@ const featuredHerbs = herbs.slice(0, 8);
     .hero-img { width: 100%; height: 420px; object-fit: cover; object-position: center; display: block; }
     .seal-text { position: absolute; right: 1.8rem; top: 1.8rem; writing-mode: vertical-rl; font-size: 1.05rem; letter-spacing: 4px; color: #fff; background: rgba(30,58,41,0.75); backdrop-filter: blur(4px); padding: 1.2rem 0.6rem; border-radius: 6px; border: 1px solid rgba(255,255,255,0.25); }
 
-    .section-wrap { max-width: 1300px; margin: 0 auto 4rem auto; padding: 0 3rem; width: 100%; }
+    /* 通用包裹层与卡片横幅 */
+    .section-wrap { max-width: 1300px; margin: 0 auto 3rem auto; padding: 0 3rem; width: 100%; }
+    .banner-container {
+      border-radius: 14px;
+      padding: 1.6rem 2rem;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: transform 0.2s;
+      border: 1px solid rgba(255,255,255,0.1);
+      width: 100%;
+    }
+    .banner-left { flex: 1; text-align: left; }
+    .banner-badge-title { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.4rem; flex-wrap: wrap; }
+    .banner-btn { font-size: 1.1rem; color: #f4d06f; font-weight: 700; white-space: nowrap; margin-left: 1rem; flex-shrink: 0; }
+
     .section-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem; }
     .section-title { font-size: 1.8rem; color: #1e3a29; letter-spacing: 1px; }
 
+    /* 电脑端 4 列中药网格 */
     .herb-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; width: 100%; }
 
     .herb-item * { pointer-events: none; }
-    .herb-item,
-    :global(.herb-item) {
-      background: #fff !important;
-      border-radius: 12px !important;
-      padding: 1.8rem 1.2rem !important;
-      border: 1px solid var(--border) !important;
-      text-decoration: none !important;
-      color: inherit !important;
-      text-align: center !important;
-      transition: 0.2s !important;
-      display: flex !important;
-      flex-direction: column !important;
-      align-items: center !important;
-      min-width: 0 !important;
-      cursor: pointer !important;
+    .herb-item {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.8rem 1.2rem;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      color: inherit;
+      text-align: center;
+      transition: 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 0;
+      cursor: pointer;
+      overflow: hidden;
     }
-    .herb-item:hover,
-    :global(.herb-item:hover) {
-      transform: translateY(-4px) !important;
-      box-shadow: 0 12px 28px rgba(0,0,0,0.06) !important;
-    }
-
-    .herb-thumb,
-    :global(.herb-thumb),
-    :global(.herb-item img) { 
-      width: 140px !important; 
-      height: 140px !important; 
-      min-width: 140px !important; 
-      min-height: 140px !important; 
-      max-width: 140px !important; 
-      max-height: 140px !important; 
-      border-radius: 50% !important; 
-      object-fit: cover !important; 
-      margin: 0 auto 1.2rem auto !important; 
-      border: 3px solid #f2eee5 !important; 
-      background: #fdfcf9 !important;
-      display: block !important;
+    .herb-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.06);
     }
 
-    .herb-name, :global(.herb-name) { font-size: 1.3rem !important; font-weight: 700 !important; margin-bottom: 0.2rem !important; }
-    .herb-en, :global(.herb-en) { font-size: 0.85rem !important; color: #8c8c8c !important; font-style: italic !important; margin-bottom: 0.8rem !important; word-break: break-word !important; }
-    .herb-tags, :global(.herb-tags) { display: flex !important; justify-content: center !important; gap: 0.4rem !important; flex-wrap: wrap !important; margin-bottom: 1rem !important; }
-    .tag-sm, :global(.tag-sm) { background: #f2eee5 !important; color: #5a574f !important; font-size: 0.75rem !important; padding: 0.2rem 0.5rem !important; border-radius: 4px !important; white-space: nowrap !important; }
+    .herb-thumb { 
+      width: 140px; 
+      height: 140px; 
+      border-radius: 50%; 
+      object-fit: cover; 
+      margin: 0 auto 1.2rem auto; 
+      border: 3px solid #f2eee5; 
+      background: #fdfcf9;
+      display: block;
+    }
 
+    .herb-name { font-size: 1.3rem; font-weight: 700; margin-bottom: 0.2rem; }
+    .herb-en { font-size: 0.85rem; color: #8c8c8c; font-style: italic; margin-bottom: 0.8rem; word-break: break-word; }
+    .herb-tags { display: flex; justify-content: center; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 1rem; }
+    .tag-sm { background: #f2eee5; color: #5a574f; font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 4px; white-space: nowrap; }
+
+    /* =========================================================
+       移动端专属响应式排版（彻底解决所有占位、错乱与出框）
+       ========================================================= */
     @media (max-width: 768px) {
       .top-nav {
-        padding: 0.65rem 1rem 0.5rem 1rem !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: stretch !important;
-        gap: 0.55rem !important;
+        padding: 0.65rem 1rem 0.5rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.55rem;
       }
       .nav-left {
-        display: flex !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
       }
       .nav-right-wrap {
-        display: flex !important;
-        justify-content: flex-start !important;
-        align-items: center !important;
-        width: 100% !important;
-        overflow: hidden !important;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        overflow: hidden;
       }
       .nav-links {
-        display: flex !important;
-        gap: 0.45rem !important;
-        width: 100% !important;
-        overflow-x: auto !important;
-        white-space: nowrap !important;
-        -webkit-overflow-scrolling: touch !important;
-        padding-bottom: 2px !important;
+        display: flex;
+        gap: 0.45rem;
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 2px;
       }
-      .nav-links::-webkit-scrollbar {
-        display: none !important;
-      }
+      .nav-links::-webkit-scrollbar { display: none; }
       .nav-links a {
-        padding: 0.22rem 0.65rem !important;
-        font-size: 0.82rem !important;
-        border-radius: 14px !important;
-        background: #f4efe6 !important;
-        display: inline-block !important;
-        flex-shrink: 0 !important;
+        padding: 0.22rem 0.65rem;
+        font-size: 0.82rem;
+        border-radius: 14px;
+        background: #f4efe6;
+        display: inline-block;
+        flex-shrink: 0;
       }
       .nav-links a.active {
-        background: var(--primary, #2d5a3f) !important;
+        background: var(--primary) !important;
         color: #fff !important;
       }
-      .lang-switch {
-        flex-shrink: 0 !important;
-      }
-    }
 
-    /* === 移动端视口溢出与图片竖条深度修复 === */
-    html, body {
-      width: 100% !important;
-      max-width: 100vw !important;
-      overflow-x: hidden !important;
-      position: relative !important;
-    }
-    *, *::before, *::after {
-      box-sizing: border-box !important;
-    }
-
-    /* 修复 Hero 图片平铺竖条与接缝 */
-    .hero, .hero-section, .hero-bg, header.about-header {
-      background-repeat: no-repeat !important;
-      background-size: cover !important;
-      background-position: center center !important;
-      width: 100% !important;
-      max-width: 100% !important;
-      overflow: hidden !important;
-    }
-    img {
-      max-width: 100% !important;
-      height: auto !important;
-      display: block !important;
-      object-fit: cover !important;
-    }
-
-    @media (max-width: 768px) {
-      .container, main, .main-wrap {
-        width: 100% !important;
-        max-width: 100vw !important;
-        padding-left: 1rem !important;
-        padding-right: 1rem !important;
-        overflow-x: hidden !important;
-      }
-
-      /* 针对药材卡片与索引网格：手机端强制单列或自适应紧凑双列 */
-      .herb-grid, .grid, .method-grid, .grid-metrics {
-        grid-template-columns: 1fr !important;
-        gap: 1rem !important;
+      /* 1. 彻底解决文字窄条：手机端取消双列 Grid，直接单列 100% 占满 */
+      .hero {
+        display: block !important;
+        padding: 2rem 1.25rem !important;
         width: 100% !important;
       }
-
-      /* 针对 About 页面卡片与作者简介 */
-      .section-block, .case-card {
-        padding: 1.25rem 1rem !important;
+      .hero-title {
+        font-size: 2.3rem !important;
+        line-height: 1.25 !important;
+      }
+      .hero-subtitle {
+        font-size: 1.1rem !important;
+        margin-bottom: 1rem !important;
+      }
+      .hero-desc {
+        font-size: 0.95rem !important;
         margin-bottom: 1.5rem !important;
-        width: 100% !important;
       }
-      .profile-wrap {
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
+      .search-box {
+        margin-bottom: 1.5rem !important;
+      }
+      /* 隐藏右侧大图及黄色竖条 */
+      .hero-img-box {
+        display: none !important;
+      }
+      /* 统计数据在手机端均分对齐 */
+      .stats {
+        display: flex !important;
+        justify-content: space-around !important;
         gap: 1rem !important;
-      }
-      .about-title, .title {
-        font-size: 1.75rem !important;
-        line-height: 1.3 !important;
-        word-break: break-word !important;
-      }
-    }
-
-    /* === 结束 === */
-  
-    /* === 首页移动端精细化排版重构 === */
-    @media (max-width: 768px) {
-      /* 1. 隐藏右侧/顶部竖条大图及插画容器 */
-      .hero-image, .hero-img-wrap, .hero-side, .hero-banner-img,
-      .hero-right, [class*="hero-image"], [class*="hero-banner"],
-      .hero-visual, .hero-art, .art-card {
-        display: none !important;
+        padding-top: 1.2rem !important;
       }
 
-      /* 确保左侧文字区域在手机端 100% 占满宽度 */
-      .hero-content, .hero-left, .hero-text {
-        width: 100% !important;
-        max-width: 100% !important;
-        flex: 1 1 100% !important;
-        padding-right: 0 !important;
+      /* 2. 绿框与蓝框卡片对齐：去除两边 3rem 挤压，自适应铺满 */
+      .section-wrap {
+        padding: 0 1.25rem !important;
+        margin-bottom: 1.5rem !important;
       }
-
-      /* 2. 隐藏 8 首页精选中药统计列 */
-      .hide-on-mobile,
-      .stat-item:nth-child(2),
-      .hero-stats > div:nth-child(2) {
-        display: none !important;
-      }
-      .hero-stats {
-        display: flex !important;
-        justify-content: space-around !important;
-        width: 100% !important;
-        gap: 1.5rem !important;
-      }
-
-      /* 3. 绿色典籍框重新排版：解除竖排，改为优雅水平横排流 */
-      .classics-banner, .classics-card, [class*="classics-card"], [class*="banner-green"] {
-        writing-mode: horizontal-tb !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
-        padding: 1.5rem 1.25rem !important;
-        border-radius: 16px !important;
-        text-align: left !important;
-      }
-      .classics-banner *, .classics-card * {
-        writing-mode: horizontal-tb !important;
-      }
-      .classics-banner h2, .classics-banner h3, .classics-card h2 {
-        font-size: 1.45rem !important;
-        letter-spacing: 0.5px !important;
-        margin-bottom: 0.5rem !important;
-        line-height: 1.4 !important;
-      }
-
-      /* 4. 药材列表支持一行显示 2 个卡片 */
-      .herb-grid, .grid, [class*="herb-grid"] {
-        display: grid !important;
-        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-        gap: 0.75rem !important;
-        width: 100% !important;
-      }
-      .herb-card, .card {
-        padding: 0.85rem 0.75rem !important;
-        margin: 0 !important;
-        width: 100% !important;
-      }
-      .herb-card h3 {
-        font-size: 1.05rem !important;
-      }
-    }
-    
-    /* === 首页结束 === */
-  
-    /* ======================================================
-       终极移动端真机修正 (对齐蓝框、解决出框、锁定两列)
-       ====================================================== */
-    @media (max-width: 768px) {
-      /* 1. 彻底隐藏 Hero 右侧所有残留大图/竖条 */
-      .hero-image, .hero-img-wrap, .hero-side, .hero-right,
-      [class*="hero-image"], [class*="hero-art"], .art-card {
-        display: none !important;
-      }
-      .hero-content, .hero-left {
-        width: 100% !important;
-        max-width: 100% !important;
-        padding-right: 0 !important;
-      }
-
-      /* 2. 统计数值：两端分布（已删除 8 这一项） */
-      .hero-stats {
-        display: flex !important;
-        justify-content: space-around !important;
-        width: 100% !important;
-        gap: 1.5rem !important;
-        margin-top: 1.5rem !important;
-      }
-
-      /* 3. 绿框典籍横幅：完全对齐蓝框煎药横幅的横排流式排版 */
-      .classics-banner, .classics-card, a[href="/classics"] {
-        writing-mode: horizontal-tb !important;
-        display: flex !important;
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
+      .banner-container {
         padding: 1.2rem 1.1rem !important;
-        border-radius: 14px !important;
-        text-decoration: none !important;
-        text-align: left !important;
+        flex-direction: row !important;
         gap: 0.8rem !important;
       }
-      .classics-banner *, .classics-card *, a[href="/classics"] * {
-        writing-mode: horizontal-tb !important;
+      .banner-badge-title span:nth-child(2) {
+        font-size: 1.05rem !important;
       }
-      /* 绿框左侧文字区 */
-      .classics-banner .content-left, .classics-card > div:first-child, a[href="/classics"] > div:first-child {
-        flex: 1 1 auto !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
+      .banner-left p {
+        font-size: 0.8rem !important;
       }
-      /* 绿框标题与标签 */
-      .classics-banner h2, .classics-banner h3, a[href="/classics"] h2, a[href="/classics"] h3 {
-        font-size: 1.15rem !important;
-        font-weight: 700 !important;
-        line-height: 1.35 !important;
-        margin: 0.3rem 0 !important;
-        color: #ffffff !important;
-        display: block !important;
-      }
-      /* 绿框右侧按钮 "浏览典籍 →" */
-      .classics-banner .action-btn, a[href="/classics"] .action-btn, a[href="/classics"] span:last-child {
-        flex-shrink: 0 !important;
+      .banner-btn {
         font-size: 0.92rem !important;
-        font-weight: 600 !important;
-        color: #f6d365 !important;
-        white-space: nowrap !important;
-        margin-top: 0 !important;
+        margin-left: 0.5rem !important;
       }
 
-      /* 4. 药材列表与图片彻底不出框 */
-      .herb-grid, .grid {
-        display: grid !important;
+      /* 3. 中药卡片：强制一行两个，植物图片缩小到 80px，彻底不出框 */
+      .herb-grid {
         grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
         gap: 0.65rem !important;
-        width: 100% !important;
-        box-sizing: border-box !important;
       }
-      .herb-card, .card {
-        width: 100% !important;
-        box-sizing: border-box !important;
-        padding: 0.85rem 0.6rem !important;
-        border-radius: 12px !important;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        text-align: center !important;
-        overflow: hidden !important;
+      .herb-item {
+        padding: 1rem 0.5rem !important;
       }
-      /* 约束圆形图片容器与 img 标签，严防溢出 */
-      .herb-card img, .card img,
-      .herb-card .herb-avatar, .card .herb-avatar,
-      .herb-card [class*="avatar"], .herb-card [class*="img-wrap"] {
-        width: 86px !important;
-        height: 86px !important;
-        max-width: 86px !important;
-        max-height: 86px !important;
-        border-radius: 50% !important;
-        object-fit: cover !important;
-        margin: 0 auto 0.6rem auto !important;
-        display: block !important;
-        flex-shrink: 0 !important;
+      .herb-thumb {
+        width: 80px !important;
+        height: 80px !important;
+        min-width: 80px !important;
+        max-width: 80px !important;
+        min-height: 80px !important;
+        max-height: 80px !important;
+        margin: 0 auto 0.8rem auto !important;
       }
-      .herb-card h3 {
-        font-size: 1.05rem !important;
-        margin: 0.2rem 0 !important;
+      .herb-name {
+        font-size: 1.1rem !important;
       }
-      .herb-card p {
-        font-size: 0.78rem !important;
-        line-height: 1.3 !important;
+      .herb-en {
+        font-size: 0.75rem !important;
+        margin-bottom: 0.5rem !important;
       }
-      .herb-card .tags, .herb-card [class*="tag"] {
-        font-size: 0.72rem !important;
+      .tag-sm {
+        font-size: 0.68rem !important;
+        padding: 0.15rem 0.35rem !important;
       }
     }
-    
-    /* === 结束 === */
-  
-    /* === 终极实机样式修正 === */
-    @media (max-width: 768px) {
-      /* 彻底消灭右侧大图残余与黄色竖条 */
-      .hero-right, .hero-side, .hero-image, .hero-banner-img, 
-      [class*="hero-image"], [class*="hero-art"], [class*="art-card"],
-      .hero > div:last-child {
-        display: none !important;
-        visibility: hidden !important;
-        width: 0 !important;
-        height: 0 !important;
-        opacity: 0 !important;
-      }
-      .hero-left, .hero-content, .hero > div:first-child {
-        width: 100% !important;
-        max-width: 100% !important;
-        padding-right: 0 !important;
-      }
-
-      /* 绿框典籍卡片：在手机端强制与蓝框完全对齐 */
-      a[href="/classics"] {
-        padding: 1.25rem 1rem !important;
-        flex-direction: row !important;
-      }
-      a[href="/classics"] h3 {
-        font-size: 1.15rem !important;
-      }
-
-      /* 药材卡片：限制图片尺寸，彻底不出框 */
-      .herb-grid, .grid {
-        display: grid !important;
-        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-        gap: 0.6rem !important;
-        width: 100% !important;
-      }
-      .herb-card, .card {
-        width: 100% !important;
-        box-sizing: border-box !important;
-        padding: 0.75rem 0.5rem !important;
-        border-radius: 12px !important;
-        overflow: hidden !important;
-      }
-      /* 强制把圆形图片缩小并水平居中，两边留足安全距离 */
-      .herb-card img, .card img,
-      .herb-card [class*="avatar"], .card [class*="avatar"],
-      .herb-card [class*="img"], .card [class*="img"] {
-        width: 76px !important;
-        height: 76px !important;
-        max-width: 76px !important;
-        max-height: 76px !important;
-        border-radius: 50% !important;
-        object-fit: cover !important;
-        margin: 0 auto 0.5rem auto !important;
-        display: block !important;
-      }
-    }
-
   </style>
 </head>
 <body>
   <nav class="top-nav">
-    <a href="/" class="logo">🌿 <span data-i18n="brand">本草图谱</span> <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;margin-left:0.3rem;">HerbAtlas</span></a>
+    <div class="nav-left">
+      <a href="/" class="logo">🌿 <span data-i18n="brand">本草图谱</span> <span style="font-size:0.8rem;color:#8c8c8c;font-weight:400;margin-left:0.3rem;">HerbAtlas</span></a>
+    </div>
     
     <div class="nav-right-wrap">
       <ul class="nav-links">
-        <li><a href="/" style="color:var(--primary);font-weight:700;" data-i18n="nav_home">首页</a></li>
+        <li><a href="/" class="active" data-i18n="nav_home">首页</a></li>
         <li><a href="/herbs" data-i18n="nav_all">全部中药 (50味)</a></li>
         <li><a href="/classics/" data-i18n="nav_classics">本草典籍</a></li>
         <li><a href="/decoction" data-i18n="nav_decoct">煎药法度</a></li>
-        <li><a href="/about"data-i18n="nav_about" data-i18n="nav_about">关于与科研</a></li>
+        <li><a href="/about" data-i18n="nav_about">关于与科研</a></li>
       </ul>
       
       <div class="lang-switch" id="langSwitch">
@@ -499,6 +288,7 @@ const featuredHerbs = herbs.slice(0, 8);
     </div>
   </nav>
 
+  <!-- Hero 介绍区 -->
   <section class="hero">
     <div>
       <h1 class="hero-title" data-i18n="hero_title">重新认识<br />中草药</h1>
@@ -511,57 +301,56 @@ const featuredHerbs = herbs.slice(0, 8);
 
       <div class="stats">
         <div><div class="stat-num">50+</div><div class="stat-label" data-i18n="stat_total">收录药材总数</div></div>
-        
         <div><div class="stat-num">500+</div><div class="stat-label" data-i18n="stat_evidence">PubMed 实证研究</div></div>
       </div>
     </div>
 
+    <!-- 电脑端展示，手机端 display:none -->
     <div class="hero-img-box">
       <img src="/images/hero_index.jpg" class="hero-img" alt="道地药材陈列" />
       <div class="seal-text" data-i18n="seal_text">道地药材 · 自然之力</div>
     </div>
   </section>
 
-  
-  <!-- 本草典籍专属入口横幅 -->
-  <section class="section-wrap" style="margin-bottom: 2rem;">
-    <a href="/classics/" class="classics-banner-link" style="text-decoration:none; display:block;">
-      <div style="background: linear-gradient(135deg, #1e3a29 0%, #2d5a3f 100%); border-radius: 14px; padding: 1.6rem 2rem; color: #fff; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 8px 24px rgba(45,90,63,0.15); transition: transform 0.2s; border: 1px solid rgba(255,255,255,0.1);">
-        <div>
-          <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom: 0.4rem;">
+  <!-- 本草典籍专属入口横幅 (绿框) -->
+  <section class="section-wrap">
+    <a href="/classics/" style="text-decoration:none; display:block;">
+      <div class="banner-container" style="background: linear-gradient(135deg, #1e3a29 0%, #2d5a3f 100%); box-shadow: 0 8px 24px rgba(45,90,63,0.15);">
+        <div class="banner-left">
+          <div class="banner-badge-title">
             <span style="font-size: 1.4rem;">📜</span>
             <span style="font-size: 1.25rem; font-weight: 700; letter-spacing: 1px;" data-i18n="banner_classics_title">中国八大著名本草用药典籍</span>
             <span style="background: #b25d38; font-size: 0.72rem; padding: 0.15rem 0.5rem; border-radius: 12px; font-weight: 600;" data-i18n="banner_classics_badge">8部传世巨著</span>
           </div>
           <p style="color: #d1dfd6; font-size: 0.88rem; margin: 0; line-height: 1.5;" data-i18n="banner_classics_desc">张仲景、神农本草经、孙思邈千金食治、李时珍《本草纲目》等 · 权威中英双语原典索引</p>
         </div>
-        <div style="font-size: 1.1rem; color: #f4d06f; font-weight: 700; white-space: nowrap; margin-left: 1rem;" data-i18n="banner_classics_btn">
+        <div class="banner-btn" data-i18n="banner_classics_btn">
           浏览典籍 →
         </div>
       </div>
     </a>
   </section>
 
-  
-  <!-- 煎药法度专属入口横幅 -->
-  <section class="section-wrap" style="margin-bottom: 2rem;">
-    <a href="/decoction" class="decoction-banner-link" style="text-decoration:none; display:block;">
-      <div style="background: linear-gradient(135deg, #2b3a4a 0%, #3e5066 100%); border-radius: 14px; padding: 1.6rem 2rem; color: #fff; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 8px 24px rgba(43,58,74,0.15); transition: transform 0.2s; border: 1px solid rgba(255,255,255,0.1);">
-        <div>
-          <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom: 0.4rem; flex-wrap: wrap;">
+  <!-- 煎药法度专属入口横幅 (蓝框) -->
+  <section class="section-wrap">
+    <a href="/decoction" style="text-decoration:none; display:block;">
+      <div class="banner-container" style="background: linear-gradient(135deg, #2b3a4a 0%, #3e5066 100%); box-shadow: 0 8px 24px rgba(43,58,74,0.15);">
+        <div class="banner-left">
+          <div class="banner-badge-title">
             <span style="font-size: 1.4rem;">🫖</span>
             <span style="font-size: 1.25rem; font-weight: 700; letter-spacing: 1px;" data-i18n="banner_decoct_title">中药传统煎煮法度与特殊用法</span>
             <span style="background: #c27838; font-size: 0.72rem; padding: 0.15rem 0.5rem; border-radius: 12px; font-weight: 600;" data-i18n="banner_decoct_badge">临床提取指南</span>
           </div>
           <p style="color: #d2dbe5; font-size: 0.88rem; margin: 0; line-height: 1.5;" data-i18n="banner_decoct_desc">先煎、后下、包煎、另煎、烊化、冲服、泡服 · 七大特殊煎法机理与通用四规制</p>
         </div>
-        <div style="font-size: 1.1rem; color: #f4d06f; font-weight: 700; white-space: nowrap; margin-left: 1rem;" data-i18n="banner_decoct_btn">
+        <div class="banner-btn" data-i18n="banner_decoct_btn">
           了解法度 →
         </div>
       </div>
     </a>
   </section>
 
+  <!-- 精选中药网格展示区 -->
   <section class="section-wrap" id="herbs">
     <div class="section-header">
       <div>
@@ -620,7 +409,6 @@ const featuredHerbs = herbs.slice(0, 8);
         hero_desc: '从传统智慧、植物科学到现代研究，用更清晰、可信的方式理解中草药，连接东方传统与现代健康生活。',
         search_ph: '在 50 种药材中即时检索（如：丹参、连翘、薄荷、枸杞）...',
         stat_total: '收录药材总数',
-        stat_featured: '首页精选中药',
         stat_evidence: 'PubMed 实证研究',
         seal_text: '道地药材 · 自然之力',
         grid_featured: '精选中草药',
@@ -637,7 +425,7 @@ const featuredHerbs = herbs.slice(0, 8);
         banner_classics_title: 'Eight Classical Chinese Pharmacopoeias',
         nav_decoct: 'Decoction Rules',
         nav_about: 'About & Research',
-                banner_classics_badge: '8 Masterpieces',
+        banner_classics_badge: '8 Masterpieces',
         banner_decoct_title: 'Decoction Protocols & Extraction Science',
         banner_decoct_badge: 'Clinical Extraction Guide',
         banner_decoct_desc: 'Pre-decoct, late-decoct, wrapped, dissolved & separate simmer · 7 Extraction protocols',
@@ -651,7 +439,6 @@ const featuredHerbs = herbs.slice(0, 8);
         hero_desc: 'Bridging ancient wisdom, botanical science, and modern evidence to understand herbal medicine with clarity and credibility.',
         search_ph: 'Search 50 herbs by name, Latin, or efficacy (e.g., Ginseng, Mint)...',
         stat_total: 'Herbs Catalogued',
-        stat_featured: 'Featured Herbs',
         stat_evidence: 'PubMed Studies',
         seal_text: 'Authentic Herbs · Natural Power',
         grid_featured: 'Featured Herbs',
