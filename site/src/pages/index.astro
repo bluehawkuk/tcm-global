@@ -7,6 +7,42 @@ const featuredHerbs = herbs.slice(0, 8);
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+
+<!-- Schema.org Academic & Project Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://herbatlas.net/#website",
+        "url": "https://herbatlas.net",
+        "name": "HerbAtlas",
+        "alternateName": "本草图谱",
+        "description": "An open-access computational pharmacopoeia connecting classical Materia Medica with structural bioinformatics and PubMed clinical evidence.",
+        "inLanguage": ["zh-CN", "en"]
+      },
+      {
+        "@type": "Person",
+        "@id": "https://herbatlas.net/#creator",
+        "name": "Tommy (Xuantong) Gao",
+        "alternateName": "高玄同",
+        "jobTitle": "Student Researcher & Lead Developer",
+        "url": "https://herbatlas.net/about",
+        "email": "mailto:gao.xuantong@outlook.com",
+        "knowsAbout": [
+          "Molecular Biology",
+          "Bioinformatics",
+          "Computational Pharmacopoeia",
+          "Traditional Chinese Medicine"
+        ]
+      }
+    ]
+  }
+  </script>
+
+
+
   <meta charset="UTF-8" />
   <title>本草图谱 · HerbAtlas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
