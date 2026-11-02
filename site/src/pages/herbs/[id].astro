@@ -21,19 +21,27 @@ const formulas = herb.formulas || [];
 const papers = herb.papers || [];
 const herbSchema = {
   "@context": "https://schema.org",
-  "@type": "MedicalEntity",
-  "name": herb.cn,
-  "alternateName": [herb.latin, herb.en_common].filter(Boolean),
-  "description": herb.quick_efficacy || herb.herb_slice_desc || "",
-  "image": herb.hero_img ? `https://herbatlas.net${herb.hero_img}` : undefined,
+  "@type": "MedicalWebPage",
+  "name": `${herb.cn} (${herb.latin}) · 本草全景图谱`,
   "url": `https://herbatlas.net/herbs/${herb.id}/`,
-  "study": (herb.papers || []).map((p: any) => ({
-    "@type": "MedicalStudy",
-    "name": p.title,
+  "description": herb.quick_efficacy || herb.herb_slice_desc || "",
+  "mainEntity": {
+    "@type": "Substance",
+    "name": herb.cn,
+    "alternateName": [herb.latin, herb.en_common].filter(Boolean),
+    "description": herb.quick_efficacy || "",
+    "image": herb.hero_img ? `https://herbatlas.net${herb.hero_img}` : undefined
+  },
+  "citation": (herb.papers || []).map((p: any) => ({
+    "@type": "ScholarlyArticle",
+    "headline": p.title,
     "url": p.url,
-    "sponsor": p.source
-  })),
-  "citation": (herb.papers || []).map((p: any) => p.title)
+    "datePublished": p.year ? String(p.year) : undefined,
+    "publisher": {
+      "@type": "Organization",
+      "name": p.source || "PubMed"
+    }
+  }))
 };
 
 ---
